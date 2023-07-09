@@ -1,0 +1,27 @@
+{
+    "display" : {
+        "icon" : {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/493-normal\"}"
+        },
+        "title" : {
+            "translate" : "advancements.arceus_capture.title"
+        },
+        "description" : {
+            "translate" : "advancements.arceus_capture.description"
+        },
+        "hidden": true
+    },
+    "parent" : "pixelmon:legendaries/legendary_capture_trigger",
+    "criteria" : {
+        "articuno_capture" : {
+            "trigger" : "pixelmon:legendary_capture_trigger",
+            "conditions" : {
+                "pokemon" : "arceus"
+            }
+        }
+    },
+  "rewards": {
+    "function": "johto:catch/arceus"
+  }
+}

@@ -1,0 +1,1 @@
+give @s filled_map{EntityTag:{Invisible:1b},display:{Name:'[{"text":"Town Map","italic":false,"color":"aqua"}]',Lore:['[{"text":"A map of the local area.","italic":false}]']},Enchantments:[{id:bane_of_arthropods,lvl:1}],HideFlags:37,map:78} 1

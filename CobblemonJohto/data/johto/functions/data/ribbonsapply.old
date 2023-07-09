@@ -1,0 +1,18 @@
+#/scoreboard objectives add RibbonsHave dummy
+
+#Assign a RibbonsHave score, identifying which Ribbons the Pokemon currently has
+#Assign a temporary tag that grants the Pokemon a Ribbon
+#Run this function
+
+#https://www.mathsisfun.com/combinatorics/combinations-permutations-calculator.html
+
+
+
+#Sets initial score depending on what ribbons Pokemon currently has
+scoreboard players set @s[type=cobblemon:pokemon] RibbonsHave 0 {ribbons:["NONE"]}
+scoreboard players set @s[type=cobblemon:pokemon] RibbonsHave 1 {ribbons:["CHAMPION"]}
+scoreboard players set @s[type=cobblemon:pokemon] RibbonsHave 2 {ribbons:["KANTO_CHAMPION"]}
+scoreboard players set @s[type=cobblemon:pokemon] RibbonsHave 3 {ribbons:["CHAMPION","KANTO_CHAMPION"]}
+
+#Gives ribbon based on score and tag
+entitydata @s[type=cobblemon:pokemon,score_RibbonsHave_min=1,score_RibbonsHave=1,tag=KantoRibbonGive] {ribbons:["CHAMPION","KANTO_CHAMPION"]}

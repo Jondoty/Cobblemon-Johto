@@ -1,0 +1,28 @@
+{
+    "display" : {
+        "icon" : {
+            "item" : "pixelmon:pixelmon_sprite",
+            "nbt" : "{\"SpriteName\":\"pixelmon:sprites/pokemon/385\"}"
+        },
+        "title" : {
+            "translate" : "advancements.jirachi_capture.title"
+        },
+        "description" : {
+            "translate" : "advancements.jirachi_capture.description"
+        },
+        "hidden": true,
+        "announce_to_chat": false
+    },
+    "parent" : "pixelmon:legendaries/legendary_capture_trigger",
+    "criteria" : {
+        "jirachi_capture" : {
+            "trigger" : "pixelmon:legendary_capture_trigger",
+            "conditions" : {
+                "pokemon" : "jirachi"
+            }
+        }
+    },
+  "rewards": {
+    "function": "johto:catch/jirachi"
+  }
+}
