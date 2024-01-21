@@ -9,27 +9,6 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "2-4",
-            "weight": 85,
-            "condition": {
-                "canSeeSky": true,
-                "neededNearbyBlocks": [
-                    "minecraft:grass"
-                ],
-                "timeRange": "night",
-                "minX": -623,
-                "maxX": -324,
-                "minZ": -583,
-                "maxZ": -477
-            }
-        },
-
-        {
-            "id": "hoothoot-2",
-            "pokemon": "hoothoot",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
             "level": "3-4",
             "weight": 30,
             "condition": {
@@ -43,13 +22,13 @@
         },
 
         {
-            "id": "hoothoot-3",
+            "id": "hoothoot-1",
             "pokemon": "hoothoot",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "3-5",
-            "weight": 20,
+            "weight": 30,
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -59,5 +38,5 @@
                 "minX": -245, "maxX": -63, "minZ": -161, "maxZ": -117
             }
         }
-    ]
+      ]
 }

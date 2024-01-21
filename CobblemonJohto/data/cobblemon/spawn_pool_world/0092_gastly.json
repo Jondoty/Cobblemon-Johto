@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "gastly-1",
+          "pokemon": "gastly",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "5-6",
+          "weight": 85,
+          "condition": {
+              "canSeeSky": false,
+              "timeRange": "night",
+              "minX": 45, "maxX": 74, "minY": 83, "maxY": 110, "minZ": 5, "maxZ": 34
+          }
+        }
+    ]
+}

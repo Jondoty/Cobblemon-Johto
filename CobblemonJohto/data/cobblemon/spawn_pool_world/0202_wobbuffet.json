@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "wobbuffet-1",
+            "pokemon": "wobbuffet",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-25",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -437, "maxX": -280, "minZ": -10, "maxZ": 128
+            }
+        }
+    ]
+}

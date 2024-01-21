@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "ekans-1",
+          "pokemon": "ekans",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "4-6",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
+          }
+      },
+
+      {
+          "id": "ekans-2",
+          "pokemon": "ekans",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "6-8",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688
+          }
+      }
+    ]
+}

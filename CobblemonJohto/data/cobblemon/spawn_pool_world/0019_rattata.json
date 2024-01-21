@@ -16,7 +16,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "morning,dusk,day",
+                "timeRange": "morning,evening,day",
                 "minX": -623,
                 "maxX": -324,
                 "minZ": -583,
@@ -24,7 +24,7 @@
             }
         },
         {
-            "id": "rattata-1",
+            "id": "rattata-2",
             "pokemon": "rattata",
             "type": "pokemon",
             "context": "grounded",
@@ -41,6 +41,181 @@
                 "maxX": -324,
                 "minZ": -583,
                 "maxZ": -477
+            }
+        },
+
+        {
+            "id": "rattata-3",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-4",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "night",
+                "minX": -263, "maxX": -137, "minZ": -458, "maxZ": -188
+            }
+        },
+
+        {
+            "id": "rattata-4",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-5",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "night",
+                "minX": -245, "maxX": -63, "minZ": -161, "maxZ": -117
+            }
+        },
+
+        {
+            "id": "rattata-5",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-6",
+            "weight": 100,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "morning, evening, day",
+                "minX": 45, "maxX": 74, "minY": 83, "maxY": 110, "minZ": 5, "maxZ": 34
+            }
+        },
+        {
+            "id": "rattata-6",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-6",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 45, "maxX": 74, "minY": 83, "maxY": 110, "minZ": 5, "maxZ": 34
+            }
+        },
+
+        {
+            "id": "rattata-7",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-6",
+            "weight": 35,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "morning, evening",
+                "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
+            }
+        },
+        {
+            "id": "rattata-8",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-6",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "day",
+                "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
+            }
+        },
+
+        {
+            "id": "rattata-9",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-7",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
+            }
+        },
+        {
+            "id": "rattata-10",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-9",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
+            }
+        },
+        {
+            "id": "rattata-11",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-23",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585
+            }
+        },
+
+        {
+            "id": "rattata-12",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "morning, evening",
+                "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688
+            }
+        },
+        {
+            "id": "rattata-13",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 45,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "day",
+                "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688
             }
         }
     ]

@@ -1,0 +1,84 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "quagsire-1",
+          "pokemon": "quagsire",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "4-6",
+          "weight": 30.0,
+          "condition": {
+              "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
+          }
+      },
+
+      {
+          "id": "quagsire-2",
+          "pokemon": "quagsire",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "5-6",
+          "weight": 40.0,
+          "condition": {
+              "minX": 183, "maxX": 256, "minZ": -231, "maxZ": -103
+          }
+      },
+
+      {
+          "id": "quagsire-2",
+          "pokemon": "quagsire",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "4-7",
+          "weight": 40.0,
+          "condition": {
+              "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
+          }
+      },
+      {
+          "id": "quagsire-2",
+          "pokemon": "quagsire",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "4-7",
+          "weight": 40.0,
+          "condition": {
+              "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
+          }
+      },
+      {
+          "id": "quagsire-2",
+          "pokemon": "quagsire",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "10-25",
+          "weight": 30.0,
+          "condition": {
+              "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585
+          }
+      }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "onix-1",
+          "pokemon": "onix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "4-7",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": false,
+              "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
+          }
+      },
+      {
+          "id": "onix-2",
+          "pokemon": "onix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "6-9",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": false,
+              "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
+          }
+      },
+      {
+          "id": "onix-3",
+          "pokemon": "onix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "20-23",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": false,
+              "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585
+          }
+      }
+    ]
+}

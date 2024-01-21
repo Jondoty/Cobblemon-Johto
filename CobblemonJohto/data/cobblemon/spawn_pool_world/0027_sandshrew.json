@@ -1,0 +1,33 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "sandshrew-11",
+          "pokemon": "sandshrew",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "4-7",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": false,
+              "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
+          }
+      },
+      {
+          "id": "sandshrew-11",
+          "pokemon": "sandshrew",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "6-9",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": false,
+              "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
+          }
+      }
+    ]
+}

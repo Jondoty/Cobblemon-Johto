@@ -1,0 +1,57 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "poliwag-1",
+            "pokemon": "poliwag",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "3-5",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -243, "maxX": -223, "minZ": -413, "maxZ": -381
+            }
+        },
+
+        {
+            "id": "poliwag-2",
+            "pokemon": "poliwag",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "3-5",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -177, "maxX": -121, "minZ": -108, "maxZ": -76
+            }
+        },
+
+        {
+            "id": "poliwag-3",
+            "pokemon": "poliwag",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "5-6",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -6, "maxX": 139, "minZ": -64, "maxZ": 41
+            }
+        }
+    ]
+}

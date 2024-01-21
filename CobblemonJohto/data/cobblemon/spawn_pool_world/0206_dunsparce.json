@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "geodude-1",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -418, "maxX": -206, "minZ": -191, "maxZ": -11
+            }
+        }
+    ]
+}

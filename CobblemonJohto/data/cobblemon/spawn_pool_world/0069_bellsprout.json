@@ -1,0 +1,58 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "bellsprout-1",
+          "pokemon": "bellsprout",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "3-5",
+          "weight": 20,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -245, "maxX": -63, "minZ": -161, "maxZ": -117
+          }
+      },
+
+      {
+          "id": "bellsprout-2",
+          "pokemon": "bellsprout",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "4-6",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "timeRange": "morning, evening, day",
+              "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
+          }
+      },
+      {
+          "id": "bellsprout-3",
+          "pokemon": "bellsprout",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "4-6",
+          "weight": 20,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "timeRange": "night",
+              "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
+          }
+      }
+    ]
+}

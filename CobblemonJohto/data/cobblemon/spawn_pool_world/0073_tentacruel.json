@@ -15,7 +15,6 @@
             "level": "1-3",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
                 "minX": -898, "maxX": -747, "minZ": -560, "maxZ": -483
             }
         },
@@ -31,8 +30,39 @@
             "level": "3-5",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
                 "minX": -191, "maxX": -79, "minZ": -589, "maxZ": -485
+            }
+        },
+
+        {
+            "id": "tentacruel-3",
+            "pokemon": "tentacruel",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "4-6",
+            "weight": 10.0,
+            "condition": {
+                "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
+            }
+        },
+
+        {
+            "id": "tentacruel-4",
+            "pokemon": "tentacruel",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 10.0,
+            "condition": {
+                "minX": 79, "maxX": 225, "minY": 0, "maxY": 25, "minZ": -880, "maxZ": -585
             }
         }
     ]

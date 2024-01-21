@@ -1,0 +1,63 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "slowpoke-1",
+          "pokemon": "slowpoke",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "5-8",
+          "weight": 15,
+          "condition": {
+              "canSeeSky": false,
+              "minX": 231, "maxX": 327, "minY": 36, "maxY": 54, "minZ": -731, "maxZ": -647
+          }
+      },
+      {
+          "id": "slowpoke-2",
+          "pokemon": "slowpoke",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "19-23",
+          "weight": 15,
+          "condition": {
+              "minX": 231, "maxX": 327, "minY": 16, "maxY": 35, "minZ": -731, "maxZ": -647
+          }
+      },
+
+      {
+          "id": "slowpoke-3",
+          "pokemon": "slowpoke",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "5-8",
+          "weight": 100,
+          "condition": {
+              "minX": 231, "maxX": 327, "minY": 36, "maxY": 54, "minZ": -731, "maxZ": -647
+          }
+      },
+      {
+          "id": "slowpoke-4",
+          "pokemon": "slowpoke",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "19-23",
+          "weight": 15,
+          "condition": {
+              "minX": 231, "maxX": 327, "minY": 16, "maxY": 35, "minZ": -731, "maxZ": -647
+          }
+      }
+    ]
+}

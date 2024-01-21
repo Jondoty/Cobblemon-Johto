@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "natu-1",
+          "pokemon": "natu",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "18-24",
+          "weight": 90,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 254, "maxX": 273, "minZ": -213, "maxZ": -169
+          }
+      }
+    ]
+}

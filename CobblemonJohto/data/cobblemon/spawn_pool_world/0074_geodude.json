@@ -1,0 +1,74 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "geodude-1",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 60,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -418, "maxX": -206, "minZ": -191, "maxZ": -11
+            }
+        },
+
+        {
+            "id": "geodude-2",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-25",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -437, "maxX": -280, "minZ": -10, "maxZ": 128
+            }
+        },
+
+        {
+            "id": "geodude-3",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-7",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
+            }
+        },
+        {
+            "id": "geodude-4",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-9",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
+            }
+        },
+        {
+            "id": "geodude-5",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-23",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585
+            }
+        }
+    ]
+}

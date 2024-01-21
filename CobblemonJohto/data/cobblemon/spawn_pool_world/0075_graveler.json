@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "graveler-1",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-25",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -437, "maxX": -280, "minZ": -10, "maxZ": 128
+            }
+        }
+    ]
+}

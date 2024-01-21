@@ -1,0 +1,48 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "golbat-1",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-25",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -437, "maxX": -280, "minZ": -10, "maxZ": 128
+            }
+        },
+
+        {
+            "id": "golbat-2",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-23",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585
+            }
+        },
+
+        {
+            "id": "golbat-3",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-23",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 231, "maxX": 327, "minY": 16, "maxY": 35, "minZ": -731, "maxZ": -647
+            }
+        }
+    ]
+}

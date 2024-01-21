@@ -4,58 +4,54 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "hoothoot-1",
-            "pokemon": "hoothoot",
+            "id": "weedle-1",
+            "pokemon": "weedle",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "2-4",
-            "weight": 85,
+            "level": "3-4",
+            "weight": 50,
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "night",
-                "minX": -623,
-                "maxX": -324,
-                "minZ": -583,
-                "maxZ": -477
+                "timeRange": "morning, evening",
+                "minX": -263, "maxX": -137, "minZ": -458, "maxZ": -188
             }
         },
-
         {
-            "id": "hoothoot-2",
-            "pokemon": "hoothoot",
+            "id": "weedle-2",
+            "pokemon": "weedle",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "3-4",
+            "weight": 35,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "morning, evening",
+                "minX": -263, "maxX": -137, "minZ": -458, "maxZ": -188
+            }
+        },
+
+        {
+            "id": "weedle-3",
+            "pokemon": "weedle",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-5",
             "weight": 30,
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "night",
-                "minX": -263, "maxX": -137, "minZ": -458, "maxZ": -188
-            }
-        },
-
-        {
-            "id": "hoothoot-3",
-            "pokemon": "hoothoot",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "3-5",
-            "weight": 20,
-            "condition": {
-                "canSeeSky": true,
-                "neededNearbyBlocks": [
-                    "minecraft:grass"
-                ],
-                "timeRange": "night",
+                "timeRange": "morning, evening, day",
                 "minX": -245, "maxX": -63, "minZ": -161, "maxZ": -117
             }
         }

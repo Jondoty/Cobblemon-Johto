@@ -1,0 +1,137 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zubat-1",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-4",
+            "weight": 39,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -418, "maxX": -206, "minZ": -191, "maxZ": -11
+            }
+        },
+
+        {
+            "id": "zubat-2",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-25",
+            "weight": 23,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -437, "maxX": -280, "minZ": -10, "maxZ": 128
+            }
+        },
+
+        {
+            "id": "zubat-3",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-6",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "morning, evening, night",
+                "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
+            }
+        },
+
+        {
+            "id": "zubat-4",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-7",
+            "weight": 25,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
+            }
+        },
+        {
+            "id": "zubat-5",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-9",
+            "weight": 25,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
+            }
+        },
+        {
+            "id": "zubat-6",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-23",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585
+            }
+        },
+
+        {
+            "id": "zubat-7",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "6-8",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "morning, evening, night",
+                "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688
+            }
+        },
+
+        {
+            "id": "zubat-8",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-8",
+            "weight": 85,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 231, "maxX": 327, "minY": 36, "maxY": 54, "minZ": -731, "maxZ": -647
+            }
+        },
+        {
+            "id": "zubat-9",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "19-23",
+            "weight": 80,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 231, "maxX": 327, "minY": 16, "maxY": 35, "minZ": -731, "maxZ": -647
+            }
+        }
+    ]
+}
