@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "raticate-1",
+          "pokemon": "rattata",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "13-16",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292
+          }
+      },
+
+      {
+          "id": "raticate-1",
+          "pokemon": "rattata",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "13-16",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 704, "maxX": 822, "minZ": 57, "maxZ": 296
+          }
+      }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "magmar-1",
+          "pokemon": "magmar",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "14-16",
+          "weight": 5,
+          "condition": {
+              "timeRange": "twilight, night",
+              "minX": 432, "maxX": 452, "minY": 56, "maxY": 62, "minZ": 309, "maxZ": 329
+          }
+      },
+      {
+          "id": "magmar-2",
+          "pokemon": "magmar",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "14-16",
+          "weight": 10,
+          "condition": {
+              "timeRange": "day",
+              "minX": 432, "maxX": 452, "minY": 56, "maxY": 62, "minZ": 309, "maxZ": 329
+          }
+      }
+    ]
+}

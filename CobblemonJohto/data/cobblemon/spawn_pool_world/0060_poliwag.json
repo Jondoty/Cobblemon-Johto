@@ -52,6 +52,23 @@
                 "canSeeSky": true,
                 "minX": -6, "maxX": 139, "minZ": -64, "maxZ": 41
             }
+        },
+
+        {
+            "id": "poliwag-4",
+            "pokemon": "poliwag",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "12-15",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": 318, "maxX": 354, "minZ": 249, "maxZ": 276
+            }
         }
     ]
 }

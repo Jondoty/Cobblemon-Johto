@@ -1,0 +1,76 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "growlithe-1",
+          "pokemon": "growlithe",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-15",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "twilight, night",
+              "minX": 371, "maxX": 406, "minZ": -46, "maxZ": -27
+          }
+      },
+      {
+          "id": "growlithe-2",
+          "pokemon": "growlithe",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-15",
+          "weight": 15,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "day",
+              "minX": 371, "maxX": 406, "minZ": -46, "maxZ": -27
+          }
+      },
+
+      {
+          "id": "growlithe-3",
+          "pokemon": "growlithe",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-15",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "twilight, night",
+              "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135
+          }
+      },
+      {
+          "id": "growlithe-4",
+          "pokemon": "growlithe",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-15",
+          "weight": 15,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "day",
+              "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135
+          }
+      }
+    ]
+}

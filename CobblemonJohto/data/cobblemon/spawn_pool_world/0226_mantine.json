@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mantine-1",
+            "pokemon": "mantine",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": 870, "maxX": 1144, "minZ": -532, "maxZ": -227
+            }
+        }
+    ]
+}

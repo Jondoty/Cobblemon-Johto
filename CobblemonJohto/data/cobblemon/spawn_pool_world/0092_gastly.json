@@ -16,6 +16,21 @@
               "timeRange": "night",
               "minX": 45, "maxX": 74, "minY": 83, "maxY": 110, "minZ": 5, "maxZ": 34
           }
+        },
+
+        {
+            "id": "gastly-2",
+            "pokemon": "gastly",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-24",
+            "weight": 80,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 240, "maxX": 273, "minY": 70, "maxY": 112, "minZ": 297, "maxZ": 330
+          }
         }
     ]
 }

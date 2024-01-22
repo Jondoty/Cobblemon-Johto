@@ -52,6 +52,23 @@
                 "canSeeSky": true,
                 "minX": -6, "maxX": 139, "minZ": -64, "maxZ": 41
             }
+        },
+
+        {
+            "id": "poliwhirl-5",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "12-15",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": 318, "maxX": 354, "minZ": 249, "maxZ": 276
+            }
         }
     ]
 }

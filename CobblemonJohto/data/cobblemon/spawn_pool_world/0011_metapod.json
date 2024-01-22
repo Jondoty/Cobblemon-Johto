@@ -86,6 +86,26 @@
                 "timeRange": "twilight, day",
                 "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584
             }
+        },
+
+        {
+            "id": "metapod-6",
+            "pokemon": "metapod",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-14",
+            "weight": 15,
+            "condition": {
+              "neededNearbyBlocks": [
+                  "minecraft:grass",
+                  "minecraft:tall_grass"
+              ],
+              "timeRange": "day",
+                "canSeeSky": true,
+                "timeRange": "twilight, day",
+                "minX": 465, "maxX": 621, "minZ": -57, "maxZ": 135
+            }
         }
     ]
 }

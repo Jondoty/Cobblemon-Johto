@@ -64,6 +64,105 @@
             "condition": {
                 "minX": 79, "maxX": 225, "minY":0, "maxY": 25, "minZ": -880, "maxZ": -585
             }
+        },
+
+        {
+            "id": "tentacool-5",
+            "pokemon": "tentacool",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "10-13",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": 417, "maxX": 514, "minZ": -727, "maxZ": -510
+            }
+        },
+
+        {
+            "id": "tentacool-6",
+            "pokemon": "tentacool",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "13-17",
+            "weight": 90.0,
+            "condition": {
+                "minX": 638, "maxX": 870, "minZ": -206, "maxZ": 11
+            }
+        },
+
+        {
+            "id": "tentacool-7",
+            "pokemon": "tentacool",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 90.0,
+            "condition": {
+                "minX": 870, "maxX": 982, "minZ": -226, "maxZ": -48
+            }
+        },
+
+        {
+            "id": "tentacool-8",
+            "pokemon": "tentacool",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 60.0,
+            "condition": {
+                "minX": 870, "maxX": 1144, "minZ": -532, "maxZ": -227
+            }
+        },
+
+        {
+            "id": "tentacool-9",
+            "pokemon": "tentacool",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 60.0,
+            "condition": {
+                "canSeeSky": false,
+                "minX": 1104, "maxX": 1376, "minY": 80, "maxY": 100, "minZ": 95, "maxZ": 309
+            }
+        },
+
+        {
+            "id": "tentacool-10",
+            "pokemon": "tentacool",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": 1145, "maxX": 1273, "minZ": -508, "maxZ": -286
+            }
         }
     ]
 }

@@ -18,6 +18,23 @@
                 "canSeeSky": false,
               "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584
           }
+      },
+
+      {
+          "id": "golduck-2",
+          "pokemon": "golduck",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "12-14",
+          "weight": 10.0,
+          "condition": {
+                "canSeeSky": true,
+              "minX": 488, "maxX": 509, "minZ": -248, "maxZ": -200
+          }
       }
     ]
 }

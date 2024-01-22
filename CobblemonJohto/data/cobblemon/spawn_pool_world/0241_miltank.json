@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "miltank-1",
+          "pokemon": "miltank",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "13-16",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292
+          }
+      },
+
+      {
+          "id": "miltank-2",
+          "pokemon": "miltank",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "13-16",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 704, "maxX": 822, "minZ": 57, "maxZ": 296
+          }
+      }
+    ]
+}

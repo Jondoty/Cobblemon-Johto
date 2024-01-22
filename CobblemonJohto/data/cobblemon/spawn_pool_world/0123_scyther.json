@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "scyther-1",
+          "pokemon": "scyther",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-14",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass",
+                  "minecraft:tall_grass"
+              ],
+              "minX": 465, "maxX": 621, "minZ": -57, "maxZ": 135
+          }
+      }
+    ]
+}
