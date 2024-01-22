@@ -9,3 +9,25 @@ Unown
 Sunkern
 Heracross
 Mantine
+Girafarig
+Marill
+Delibird
+Skarmory
+
+
+
+"day" — (23460 - 12541) 5:30AM-6:30PM
+"twilight" — (11834 - 13701, 22300 - 166) 6:00PM-8:00PM/4:00AM-6:00AM
+"night" — (12542 - 23459) 6:30PM-5:30AM
+
+
+"any" — (0 - 23999) 6:00AM-6:00AM
+"day" — (23460 - 12541) 5:30AM-6:30PM
+"night" — (12542 - 23459) 6:30PM-5:30AM
+"noon" — (5000 - 6999) 11:00AM-1:00PM
+"midnight" — (17000 - 18999) 11:00PM-1:00AM
+"dawn" — (22300 - 166) 4:00AM-6:00AM
+"dusk" — (11834 - 13701) 6:00PM-8:00PM
+"twilight" — (11834 - 13701, 22300 - 166) 6:00PM-8:00PM/4:00AM-6:00AM
+"morning" — (0 - 4999) 6:00AM-11:00AM
+"afternoon" — (7000 - 12039) 1:00PM-6:00PM

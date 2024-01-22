@@ -53,6 +53,23 @@
                 "timeRange": "night",
               "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
           }
+      },
+
+      {
+          "id": "bellsprout-4",
+          "pokemon": "bellsprout",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "22-26",
+          "weight": 20,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -406, "maxX": -351, "minZ": 177, "maxZ": 202
+          }
       }
     ]
 }

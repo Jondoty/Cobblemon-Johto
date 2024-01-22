@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "teddiursa-1",
+            "pokemon": "teddiursa",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "23-27",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "minX": -650, "maxX": -535, "minZ": -298, "maxZ": 95
+            }
+        }
+    ]
+}

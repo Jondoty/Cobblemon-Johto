@@ -36,6 +36,58 @@
                 "timeRange": "night",
               "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
           }
+      },
+
+      {
+          "id": "mareep-3",
+          "pokemon": "mareep",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "14-16",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -59, "maxX": -4, "minZ": 154, "maxZ": 177
+          }
+      },
+
+      {
+          "id": "mareep-4",
+          "pokemon": "mareep",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "15-17",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "timeRange": "twilight, day",
+              "minX": -224, "maxX": -79, "minZ": 303, "maxZ": 523
+          }
+      },
+      {
+          "id": "mareep-5",
+          "pokemon": "mareep",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "15-17",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "timeRange": "night",
+              "minX": -224, "maxX": -79, "minZ": 303, "maxZ": 523
+          }
       }
     ]
 }

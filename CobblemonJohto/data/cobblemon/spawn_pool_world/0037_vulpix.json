@@ -71,6 +71,41 @@
               "timeRange": "day",
               "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135
           }
+      },
+
+      {
+          "id": "vulpix-5",
+          "pokemon": "vulpix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "21-24",
+          "weight": 9,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "twilight, day",
+              "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248
+          }
+      },
+      {
+          "id": "vulpix-6",
+          "pokemon": "vulpix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "21-24",
+          "weight": 20,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "night",
+              "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248
+          }
       }
     ]
 }

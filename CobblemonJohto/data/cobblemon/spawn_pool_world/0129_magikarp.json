@@ -18,6 +18,91 @@
                 "canSeeSky": false,
                 "minX": -418, "maxX": -206, "minZ": -191, "maxZ": -11
             }
+        },
+
+        {
+            "id": "magikarp-2",
+            "pokemon": "magikarp",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "15-17",
+            "weight": 100.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -131, "maxX": -109, "minZ": 361, "maxZ": 476
+            }
+        },
+
+        {
+            "id": "magikarp-3",
+            "pokemon": "magikarp",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "10-20",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -251, "maxX": -86, "minZ": 575, "maxZ": 724
+            }
+        },
+
+        {
+            "id": "magikarp-4",
+            "pokemon": "magikarp",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "2-30",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -687, "maxX": -604, "minZ": 254, "maxZ": 324
+            }
+        },
+
+        {
+            "id": "magikarp-5",
+            "pokemon": "magikarp",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "6-20",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -744, "maxX": -583, "minZ": 507, "maxZ": 654
+            }
+        },
+
+        {
+            "id": "magikarp-6",
+            "pokemon": "magikarp",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "2-25",
+            "weight": 100.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -629, "maxX": -604, "minZ": -325, "maxZ": -300
+            }
         }
     ]
 }

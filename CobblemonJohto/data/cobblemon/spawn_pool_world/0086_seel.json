@@ -28,6 +28,23 @@
               "canSeeSky": false,
               "minX": 1219, "maxX": 1270, "minY": 25, "maxY": 39, "minZ": 164, "maxZ": 197
           }
+      },
+
+      {
+          "id": "seel-3",
+          "pokemon": "seel",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "15-25",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "minX": 1219, "maxX": 1270, "minY": 25, "maxY": 39, "minZ": 164, "maxZ": 197
+          }
       }
     ]
 }

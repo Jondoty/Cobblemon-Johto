@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "mankey-15",
+          "pokemon": "mankey",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "14-16",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -59, "maxX": -4, "minZ": 154, "maxZ": 177
+          }
+      }
+    ]
+}

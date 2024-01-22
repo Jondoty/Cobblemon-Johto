@@ -19,6 +19,59 @@
               "timeRange": "twilight, day",
               "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688
           }
+      },
+
+      {
+          "id": "spearow-2",
+          "pokemon": "spearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "31-35",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 1406, "maxX": 1436, "minZ": -373, "maxZ": -349
+          }
+      },
+
+      {
+          "id": "spearow-3",
+          "pokemon": "spearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "14-16",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "twilight, day",
+              "minX": -59, "maxX": -4, "minZ": 154, "maxZ": 177
+          }
+      },
+
+      {
+          "id": "spearow-4",
+          "pokemon": "spearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "2-4",
+          "weight": 35,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "twilight, day",
+              "minX": -521, "maxX": -409, "minZ": -468, "maxZ": -319
+          }
       }
     ]
 }

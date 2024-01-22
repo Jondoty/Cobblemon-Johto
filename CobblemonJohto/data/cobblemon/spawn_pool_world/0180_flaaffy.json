@@ -4,48 +4,47 @@
     "neededUninstalledMods": [],
     "spawns": [
       {
-          "id": "pidgeotto-1",
-          "pokemon": "pidgeotto",
+          "id": "flaaffy-1",
+          "pokemon": "flaaffy",
           "type": "pokemon",
           "context": "grounded",
           "bucket": "common",
-          "level": "12-15",
-          "weight": 5,
+          "level": "14-16",
+          "weight": 10,
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "day",
-              "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135
+              "minX": -59, "maxX": -4, "minZ": 154, "maxZ": 177
           }
       },
 
       {
-          "id": "pidgeotto-2",
-          "pokemon": "pidgeotto",
+          "id": "flaaffy-2",
+          "pokemon": "flaaffy",
           "type": "pokemon",
           "context": "grounded",
           "bucket": "common",
           "level": "15-17",
-          "weight": 25,
+          "weight": 30,
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight",
+              "timeRange": "twilight, night",
               "minX": -224, "maxX": -79, "minZ": 303, "maxZ": 523
           }
       },
       {
-          "id": "pidgeotto-3",
-          "pokemon": "pidgeotto",
+          "id": "flaaffy-3",
+          "pokemon": "flaaffy",
           "type": "pokemon",
           "context": "grounded",
           "bucket": "common",
           "level": "15-17",
-          "weight": 20,
+          "weight": 40,
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [

@@ -163,6 +163,23 @@
                 "canSeeSky": true,
                 "minX": 1145, "maxX": 1273, "minZ": -508, "maxZ": -286
             }
+        },
+
+        {
+            "id": "tentacool-11",
+            "pokemon": "tentacool",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 60.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": 1320, "maxX": 1695, "minZ": -521, "maxZ": -218
+            }
         }
     ]
 }
