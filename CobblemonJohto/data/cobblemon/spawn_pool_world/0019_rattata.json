@@ -90,7 +90,7 @@
             "weight": 100,
             "condition": {
                 "canSeeSky": false,
-                "timeRange": "morning, evening, day",
+                "timeRange": "twilight, day",
                 "minX": 45, "maxX": 74, "minY": 83, "maxY": 110, "minZ": 5, "maxZ": 34
             }
         },
@@ -122,7 +122,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "morning, evening",
+                "timeRange": "twilight",
                 "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
             }
         },
@@ -197,7 +197,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "morning, evening",
+                "timeRange": "twilight",
                 "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688
             }
         },

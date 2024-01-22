@@ -16,7 +16,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "morning, evening, day",
+                "timeRange": "twilight, day",
                 "minX": -623,
                 "maxX": -324,
                 "minZ": -583,

@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "psyduck-1",
+          "pokemon": "psyduck",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "5-8",
+          "weight": 90.0,
+          "condition": {
+                "canSeeSky": false,
+              "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584
+          }
+      }
+    ]
+}

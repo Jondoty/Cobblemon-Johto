@@ -51,7 +51,6 @@
           "condition": {
             "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
         }
-          }
       },
       {
           "id": "wooper-4",

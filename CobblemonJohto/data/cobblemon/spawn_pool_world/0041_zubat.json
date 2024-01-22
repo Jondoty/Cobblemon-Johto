@@ -44,7 +44,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "morning, evening, night",
+                "timeRange": "twilight, night",
                 "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
             }
         },
@@ -102,7 +102,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "morning, evening, night",
+                "timeRange": "twilight, night",
                 "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688
             }
         },
@@ -131,6 +131,35 @@
             "condition": {
                 "canSeeSky": false,
                 "minX": 231, "maxX": 327, "minY": 16, "maxY": 35, "minZ": -731, "maxZ": -647
+            }
+        },
+
+        {
+            "id": "zubat-10",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-6",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "twilight, day",
+                "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584
+            }
+        },
+        {
+            "id": "zubat-11",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-6",
+            "weight": 25,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584
             }
         }
     ]
