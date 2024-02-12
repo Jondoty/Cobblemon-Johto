@@ -288,6 +288,20 @@
                 "timeRange": "day",
                 "minX": -872, "maxX": -587, "maxY": 59, "minZ": 299, "maxZ": 469
             }
+        },
+
+        {
+            "id": "zubat-21",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "22-23",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -977, "maxX": -859, "minZ": -482, "maxZ": -420
+            }
         }
     ]
 }

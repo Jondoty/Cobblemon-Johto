@@ -46,6 +46,34 @@
                 ],
                 "minX": -650, "maxX": -535, "minZ": -298, "maxZ": 95
             }
+        },
+
+        {
+            "id": "graveler-4",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "41-45",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -1014, "maxX": -941, "maxY": 98, "minZ": 101, "maxZ": 232
+            }
+        },
+
+        {
+            "id": "graveler-5",
+            "pokemon": "graveler",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-36",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -1534, "maxX": -1320, "minY": 1, "maxY": 55, "minZ": 366, "maxZ": 546
+            }
         }
     ]
 }

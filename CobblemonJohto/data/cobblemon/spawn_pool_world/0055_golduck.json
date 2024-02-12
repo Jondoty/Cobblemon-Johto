@@ -35,6 +35,20 @@
                 "canSeeSky": true,
               "minX": 488, "maxX": 509, "minZ": -248, "maxZ": -200
           }
+      },
+
+      {
+          "id": "golduck-3",
+          "pokemon": "golduck",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "45-48",
+          "weight": 20.0,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364
+          }
       }
     ]
 }

@@ -180,6 +180,57 @@
                 "canSeeSky": true,
                 "minX": 1320, "maxX": 1695, "minZ": -521, "maxZ": -218
             }
+        },
+
+        {
+            "id": "tentacool-12",
+            "pokemon": "tentacool",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "15-20",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -1248, "maxX": -899, "minZ": -570, "maxZ": -497
+            }
+        },
+
+        {
+            "id": "tentacool-13",
+            "pokemon": "tentacool",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "25-30",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -1309, "maxX": -1249, "minZ": -570, "maxZ": -130
+            }
+        },
+
+        {
+            "id": "tentacool-14",
+            "pokemon": "tentacool",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "30-35",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328
+            }
         }
     ]
 }

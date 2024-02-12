@@ -4,28 +4,7 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sentret-1",
-            "pokemon": "sentret",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "2-4",
-            "weight": 40,
-            "condition": {
-                "canSeeSky": true,
-                "neededNearbyBlocks": [
-                    "minecraft:grass"
-                ],
-                "timeRange": "twilight, day",
-                "minX": -623,
-                "maxX": -324,
-                "minZ": -583,
-                "maxZ": -477
-            }
-        },
-
-        {
-            "id": "sentret-2",
+            "id": "furret-1",
             "pokemon": "sentret",
             "type": "pokemon",
             "context": "grounded",

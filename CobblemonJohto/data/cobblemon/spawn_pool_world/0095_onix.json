@@ -41,6 +41,34 @@
               "canSeeSky": false,
               "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585
           }
+      },
+
+      {
+          "id": "onix-4",
+          "pokemon": "onix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "41-45",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -1014, "maxX": -941, "maxY": 98, "minZ": 101, "maxZ": 232
+          }
+      },
+
+      {
+          "id": "onix-5",
+          "pokemon": "onix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "32-36",
+          "weight": 15,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -1534, "maxX": -1320, "minY": 1, "maxY": 55, "minZ": 366, "maxZ": 546
+          }
       }
     ]
 }

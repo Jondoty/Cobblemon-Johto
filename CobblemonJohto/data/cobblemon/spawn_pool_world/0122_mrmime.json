@@ -4,41 +4,37 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sentret-1",
-            "pokemon": "sentret",
+            "id": "mrmime-1",
+            "pokemon": "mrmime",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "2-4",
-            "weight": 40,
+            "level": "28-35",
+            "weight": 10,
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
-                "minX": -623,
-                "maxX": -324,
-                "minZ": -583,
-                "maxZ": -477
+                "timeRange": "day",
+                "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328
             }
         },
-
         {
-            "id": "sentret-2",
-            "pokemon": "sentret",
+            "id": "mrmime-2",
+            "pokemon": "mrmime",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "2-6",
-            "weight": 40,
+            "level": "28-35",
+            "weight": 5,
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
-                "minX": -1750, "maxX": -1637, "minZ": -257, "maxZ": -53
+                "timeRange": "twilight, night",
+                "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328
             }
         }
     ]

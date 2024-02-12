@@ -18,6 +18,58 @@
                 ],
                 "minX": -406, "maxX": -351, "minZ": 177, "maxZ": 202
             }
+        },
+
+        {
+            "id": "tangela-2",
+            "pokemon": "tangela",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "39-43",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84
+            }
+        },
+
+        {
+            "id": "tangela-3",
+            "pokemon": "tangela",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-35",
+            "weight": 95,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight, night",
+                "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328
+            }
+        },
+        {
+            "id": "tangela-4",
+            "pokemon": "tangela",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-35",
+            "weight": 90,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "day",
+                "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328
+            }
         }
     ]
 }

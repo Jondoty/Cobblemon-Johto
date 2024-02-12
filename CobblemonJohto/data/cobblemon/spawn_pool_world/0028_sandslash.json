@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "sandslash-1",
+          "pokemon": "sandslash",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "28-32",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -1088, "maxX": -1015, "minZ": -528, "maxZ": -482
+          }
+      },
+
+      {
+          "id": "sandslash-2",
+          "pokemon": "sandslash",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "28-32",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284
+          }
+      }
+    ]
+}

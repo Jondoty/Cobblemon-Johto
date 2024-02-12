@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "misdreavus-1",
+            "pokemon": "misdreavus",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45-48",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364
+            }
+        }
+    ]
+}

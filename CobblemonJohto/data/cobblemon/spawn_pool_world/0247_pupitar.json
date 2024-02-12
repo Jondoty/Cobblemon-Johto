@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "pupitar-1",
+            "pokemon": "pupitar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45-48",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364
+            }
+        }
+    ]
+}

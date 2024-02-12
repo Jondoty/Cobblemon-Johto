@@ -1,0 +1,77 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "doduo-1",
+          "pokemon": "doduo",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "28-32",
+          "weight": 50,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "twilight, day",
+              "minX": -1088, "maxX": -1015, "minZ": -528, "maxZ": -482
+          }
+      },
+
+      {
+          "id": "doduo-2",
+          "pokemon": "doduo",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "28-32",
+          "weight": 40,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "twilight, day",
+              "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284
+          }
+      },
+      {
+          "id": "doduo-3",
+          "pokemon": "doduo",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "28-32",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "night",
+              "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284
+          }
+      },
+
+      {
+          "id": "doduo-4",
+          "pokemon": "doduo",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "39-43",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "twilight, day",
+              "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84
+          }
+      }
+    ]
+}

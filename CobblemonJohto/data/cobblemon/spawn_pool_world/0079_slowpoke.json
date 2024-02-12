@@ -58,6 +58,35 @@
           "condition": {
               "minX": 231, "maxX": 327, "minY": 16, "maxY": 35, "minZ": -731, "maxZ": -647
           }
+      },
+
+      {
+          "id": "slowpoke-5",
+          "pokemon": "slowpoke",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "22-23",
+          "weight": 15,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -977, "maxX": -859, "minZ": -482, "maxZ": -420
+          }
+      },
+      {
+          "id": "slowpoke-5",
+          "pokemon": "slowpoke",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "20",
+          "weight": 30,
+          "condition": {
+              "minX": -977, "maxX": -859, "minZ": -482, "maxZ": -420
+          }
       }
     ]
 }

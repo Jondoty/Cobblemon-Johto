@@ -4,43 +4,26 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "teddiursa-1",
-            "pokemon": "teddiursa",
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "23-27",
-            "weight": 10,
-            "condition": {
-                "canSeeSky": true,
-                "neededNearbyBlocks": [
-                    "minecraft:grass"
-                ],
-                "minX": -650, "maxX": -535, "minZ": -298, "maxZ": 95
-            }
-        },
-
-        {
-            "id": "teddiursa-2",
-            "pokemon": "teddiursa",
+            "id": "larvitar-1",
+            "pokemon": "larvitar",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "41-45",
-            "weight": 10,
+            "weight": 5,
             "condition": {
                 "canSeeSky": false,
                 "minX": -1014, "maxX": -941, "maxY": 98, "minZ": 101, "maxZ": 232
             }
         },
         {
-            "id": "teddiursa-3",
-            "pokemon": "teddiursa",
+            "id": "larvitar-2",
+            "pokemon": "larvitar",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "45-48",
-            "weight": 10,
+            "weight": 5,
             "condition": {
                 "canSeeSky": false,
                 "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364

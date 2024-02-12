@@ -36,7 +36,7 @@
       },
 
       {
-          "id": "quagsire-2",
+          "id": "quagsire-3",
           "pokemon": "quagsire",
           "presets": [
               "underwater"
@@ -51,7 +51,7 @@
           }
       },
       {
-          "id": "quagsire-2",
+          "id": "quagsire-4",
           "pokemon": "quagsire",
           "presets": [
               "underwater"
@@ -66,7 +66,7 @@
           }
       },
       {
-          "id": "quagsire-2",
+          "id": "quagsire-5",
           "pokemon": "quagsire",
           "presets": [
               "underwater"
@@ -78,6 +78,71 @@
           "weight": 30.0,
           "condition": {
               "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585
+          }
+      },
+
+      {
+          "id": "quagsire-6",
+          "pokemon": "quagsire",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "28-32",
+          "weight": 50,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "night",
+              "minX": -1088, "maxX": -1015, "minZ": -528, "maxZ": -482
+          }
+      },
+
+      {
+          "id": "quagsire-7",
+          "pokemon": "quagsire",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "28-32",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "night",
+              "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284
+          }
+      },
+
+      {
+          "id": "quagsire-8",
+          "pokemon": "quagsire",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "45-48",
+          "weight": 35,
+          "condition": {
+              "canSeeSky": false,
+              "timeRange": "twilight, day",
+              "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364
+          }
+      },
+      {
+          "id": "quagsire-9",
+          "pokemon": "quagsire",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "45-48",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": false,
+              "timeRange": "night",
+              "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364
           }
       }
     ]

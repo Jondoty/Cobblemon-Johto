@@ -91,6 +91,42 @@
                 "canSeeSky": true,
                 "minX": -452, "maxX": -222, "minZ": 138, "maxZ": 234
             }
+        },
+
+        {
+            "id": "poliwag-6",
+            "pokemon": "poliwag",
+            "presets": [
+                "freshwater",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "35-45",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84
+            }
+        },
+
+        {
+            "id": "poliwag-7",
+            "pokemon": "poliwag",
+            "presets": [
+                "freshwater",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "5-10",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -1665, "maxX": -1442, "minZ": -22, "maxZ": 56
+            }
         }
     ]
 }

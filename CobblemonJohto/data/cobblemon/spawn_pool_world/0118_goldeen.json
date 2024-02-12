@@ -67,6 +67,40 @@
                 "canSeeSky": false,
                 "minX": -22, "maxX": 206, "minY": 27, "maxY": 42, "minZ": 217, "maxZ": 404
             }
+        },
+
+        {
+            "id": "goldeen-5",
+            "pokemon": "goldeen",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "20",
+            "weight": 60.0,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -977, "maxX": -859, "minZ": -482, "maxZ": -420
+            }
+        },
+
+        {
+            "id": "goldeen-6",
+            "pokemon": "goldeen",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "30-50",
+            "weight": 9.0,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364
+            }
         }
     ]
 }

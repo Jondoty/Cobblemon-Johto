@@ -91,6 +91,42 @@
                 "canSeeSky": true,
                 "minX": -452, "maxX": -222, "minZ": 138, "maxZ": 234
             }
+        },
+
+        {
+            "id": "poliwhirl-7",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "freshwater",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84
+            }
+        },
+
+        {
+            "id": "poliwhirl-8",
+            "pokemon": "poliwhirl",
+            "presets": [
+                "freshwater",
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "5-10",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -1665, "maxX": -1442, "minZ": -22, "maxZ": 56
+            }
         }
     ]
 }

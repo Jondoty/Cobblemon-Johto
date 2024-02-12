@@ -202,6 +202,24 @@
                 "timeRange": "day",
                 "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135
             }
+        },
+
+        {
+            "id": "pidgey-12",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-6",
+            "weight": 45,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight, day",
+                "minX": -1750, "maxX": -1637, "minZ": -257, "maxZ": -53
+            }
         }
     ]
 }
