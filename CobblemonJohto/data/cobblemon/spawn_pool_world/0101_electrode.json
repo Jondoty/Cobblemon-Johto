@@ -4,43 +4,44 @@
     "neededUninstalledMods": [],
     "spawns": [
       {
-          "id": "sandshrew-1",
-          "pokemon": "sandshrew",
+          "id": "electrode-1",
+          "pokemon": "electrode",
           "type": "pokemon",
           "context": "grounded",
           "bucket": "common",
-          "level": "4-7",
-          "weight": 30,
+          "level": "38-40",
+          "weight": 5,
           "condition": {
               "canSeeSky": false,
-              "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
-          }
-      },
-      {
-          "id": "sandshrew-2",
-          "pokemon": "sandshrew",
-          "type": "pokemon",
-          "context": "grounded",
-          "bucket": "common",
-          "level": "6-9",
-          "weight": 30,
-          "condition": {
-              "canSeeSky": false,
-              "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
+              "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
           }
       },
 
       {
-          "id": "sandshrew-3",
-          "pokemon": "sandshrew",
+          "id": "electrode-2",
+          "pokemon": "electrode",
           "type": "pokemon",
           "context": "grounded",
           "bucket": "common",
-          "level": "6-12",
-          "weight": 20,
+          "level": "40-42",
+          "weight": 5,
           "condition": {
               "canSeeSky": false,
-              "minX": -2261, "maxX": -2159, "minZ": 769, "maxZ": 853
+              "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897
+          }
+      },
+
+      {
+          "id": "electrode-3",
+          "pokemon": "electrode",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "45-47",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
           }
       }
     ]

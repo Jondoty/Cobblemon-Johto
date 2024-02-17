@@ -35,6 +35,23 @@
               ],
               "minX": 426, "maxX": 492, "minZ": -252, "maxZ": -94
           }
+      },
+
+      {
+          "id": "abra-3",
+          "pokemon": "abra",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-15",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614
+          }
       }
     ]
 }

@@ -10,7 +10,7 @@
                 "underwater"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "seafloor",
             "bucket": "common",
             "level": "14-16",
             "weight": 10.0,
@@ -27,7 +27,7 @@
                 "underwater"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "seafloor",
             "bucket": "common",
             "level": "14-16",
             "weight": 10.0,
@@ -43,7 +43,7 @@
                 "underwater"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "seafloor",
             "bucket": "common",
             "level": "10-15",
             "weight": 10.0,
@@ -59,7 +59,7 @@
                 "underwater"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "seafloor",
             "bucket": "common",
             "level": "10-15",
             "weight": 10.0,
@@ -76,7 +76,7 @@
                 "underwater"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "seafloor",
             "bucket": "common",
             "level": "20",
             "weight": 10.0,
@@ -93,13 +93,30 @@
                 "underwater"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "seafloor",
             "bucket": "common",
             "level": "30-50",
             "weight": 91.0,
             "condition": {
                 "canSeeSky": false,
                 "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364
+            }
+        },
+
+        {
+            "id": "seaking-7",
+            "pokemon": "seaking",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "seafloor",
+            "bucket": "common",
+            "level": "5-10",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -3338, "maxX": -2572, "minZ": 523, "maxZ": 1013
             }
         }
     ]

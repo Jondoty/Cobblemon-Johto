@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+{
+            "id": "persian-1",
+            "pokemon": "persian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 14,
+            "condition": {
+                "canSeeSky": false,
+              "timeRange": "twilight, day",
+                "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+            }
+        },
+        {
+            "id": "persian-2",
+            "pokemon": "persian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": false,
+              "timeRange": "night",
+                "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+            }
+        }
+    ]
+}

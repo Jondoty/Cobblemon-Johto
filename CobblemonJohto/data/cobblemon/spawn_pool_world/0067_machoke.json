@@ -15,6 +15,79 @@
                 "canSeeSky": false,
                 "minX": -22, "maxX": 206, "minY": 69, "maxY": 82, "minZ": 217, "maxZ": 565
             }
+        },
+
+        {
+            "id": "machoke-2",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 24,
+            "condition": {
+                "canSeeSky": false,
+              "timeRange": "twilight, day",
+                "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+            }
+        },
+        {
+            "id": "machoke-3",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 6,
+            "condition": {
+                "canSeeSky": false,
+              "timeRange": "night",
+                "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+            }
+        },
+
+        {
+            "id": "machoke-4",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-42",
+            "weight": 24,
+            "condition": {
+                "canSeeSky": false,
+              "timeRange": "twilight, day",
+                "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897
+            }
+        },
+        {
+            "id": "machoke-5",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-42",
+            "weight": 6,
+            "condition": {
+                "canSeeSky": false,
+              "timeRange": "night",
+                "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897
+            }
+        },
+
+        {
+            "id": "machoke-6",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45-47",
+            "weight": 6,
+            "condition": {
+                "canSeeSky": false,
+              "timeRange": "night",
+                "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
+            }
         }
     ]
 }

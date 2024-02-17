@@ -35,6 +35,40 @@
               ],
               "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284
           }
+      },
+
+      {
+          "id": "arbok-3",
+          "pokemon": "arbok",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "5-10",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -2211, "maxX": -1961, "minZ": 581, "maxZ": 690
+          }
+      },
+
+      {
+          "id": "arbok-4",
+          "pokemon": "arbok",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "5-10",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744
+          }
       }
     ]
 }

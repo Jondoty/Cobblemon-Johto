@@ -120,6 +120,25 @@
                 "timeRange": "day",
                 "minX": 465, "maxX": 621, "minZ": -57, "maxZ": 135
             }
+        },
+
+        {
+            "id": "weedle-8",
+            "pokemon": "weedle",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "neededNearbyBlocks": [
+                    "minecraft:grass",
+                    "minecraft:tall_grass"
+                ],
+                "timeRange": "twilight, day",
+                "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
+            }
         }
     ]
 }

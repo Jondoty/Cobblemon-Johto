@@ -101,10 +101,27 @@
                   "minecraft:grass",
                   "minecraft:tall_grass"
               ],
-              "timeRange": "day",
                 "canSeeSky": true,
                 "timeRange": "twilight, day",
                 "minX": 465, "maxX": 621, "minZ": -57, "maxZ": 135
+            }
+        },
+
+        {
+            "id": "metapod-7",
+            "pokemon": "metapod",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 30,
+            "condition": {
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "canSeeSky": false,
+                "timeRange": "twilight, day",
+                "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
             }
         }
     ]

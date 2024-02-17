@@ -153,6 +153,79 @@
                 "canSeeSky": false,
                 "minX": -1534, "maxX": -1320, "minY": 1, "maxY": 55, "minZ": 366, "maxZ": 546
             }
+        },
+
+        {
+            "id": "golbat-12",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "twilight, day",
+                "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+            }
+        },
+        {
+            "id": "golbat-13",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+            }
+        },
+
+        {
+            "id": "golbat-14",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-42",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "twilight, day",
+                "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897
+            }
+        },
+        {
+            "id": "golbat-15",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-42",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897
+            }
+        },
+
+        {
+            "id": "golbat-16",
+            "pokemon": "golbat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45-47",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
+            }
         }
     ]
 }

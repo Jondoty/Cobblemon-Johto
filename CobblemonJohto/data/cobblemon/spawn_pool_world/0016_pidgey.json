@@ -220,6 +220,129 @@
                 "timeRange": "twilight, day",
                 "minX": -1750, "maxX": -1637, "minZ": -257, "maxZ": -53
             }
+        },
+
+        {
+            "id": "pidgey-13",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight",
+                "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265
+            }
+        },
+        {
+            "id": "pidgey-14",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "day",
+                "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265
+            }
+        },
+
+        {
+            "id": "pidgey-15",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight",
+                "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530
+            }
+        },
+        {
+            "id": "pidgey-16",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "day",
+                "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530
+            }
+        },
+
+        {
+            "id": "pidgey-17",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight",
+                "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
+            }
+        },
+        {
+            "id": "pidgey-18",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "day",
+                "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
+            }
+        },
+
+        {
+            "id": "pidgey-19",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-15",
+            "weight": 15,
+            "condition": {
+                "canSeeSky": false,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight, day",
+                "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614
+            }
         }
     ]
 }

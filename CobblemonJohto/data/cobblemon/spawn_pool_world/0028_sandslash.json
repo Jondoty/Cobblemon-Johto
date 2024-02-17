@@ -35,6 +35,20 @@
               ],
               "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284
           }
+      },
+
+      {
+          "id": "sandslash-3",
+          "pokemon": "sandslash",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "6-12",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -2261, "maxX": -2159, "minZ": 769, "maxZ": 853
+          }
       }
     ]
 }

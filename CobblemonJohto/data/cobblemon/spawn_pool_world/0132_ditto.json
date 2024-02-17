@@ -3,55 +3,128 @@
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-      {
-          "id": "ditto-1",
-          "pokemon": "ditto",
-          "type": "pokemon",
-          "context": "grounded",
-          "bucket": "common",
-          "level": "10-13",
-          "weight": 5,
-          "condition": {
-              "canSeeSky": true,
-              "neededNearbyBlocks": [
-                  "minecraft:grass"
-              ],
-              "minX": 422, "maxX": 512, "minZ": -721, "maxZ": -488
-          }
-      },
+        {
+            "id": "ditto-1",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-13",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "minX": 422,
+                "maxX": 512,
+                "minZ": -721,
+                "maxZ": -488
+            }
+        },
+        {
+            "id": "ditto-2",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-14",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "minX": 426,
+                "maxX": 492,
+                "minZ": -252,
+                "maxZ": -94
+            }
+        },
+        {
+            "id": "ditto-3",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-35",
+            "weight": 41,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "minX": 1406,
+                "maxX": 1436,
+                "minZ": -373,
+                "maxZ": -349
+            }
+        },
+        {
+            "id": "ditto-4",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 11,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "twilight, day",
+                "minX": -2667,
+                "maxX": -2535,
+                "minY": 62,
+                "maxY": 71,
+                "minZ": 822,
+                "maxZ": 897
+            }
+        },
+        {
+            "id": "ditto-4",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": -2667,
+                "maxX": -2535,
+                "minY": 62,
+                "maxY": 71,
+                "minZ": 822,
+                "maxZ": 897
+            }
+        },
 
-      {
-          "id": "ditto-2",
-          "pokemon": "ditto",
-          "type": "pokemon",
-          "context": "grounded",
-          "bucket": "common",
-          "level": "12-14",
-          "weight": 4,
-          "condition": {
-              "canSeeSky": true,
-              "neededNearbyBlocks": [
-                  "minecraft:grass"
-              ],
-              "minX": 426, "maxX": 492, "minZ": -252, "maxZ": -94
-          }
-      },
+        {
+            "id": "ditto-5",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-42",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897
+            }
+        },
 
-      {
-          "id": "ditto-3",
-          "pokemon": "ditto",
-          "type": "pokemon",
-          "context": "grounded",
-          "bucket": "common",
-          "level": "31-35",
-          "weight": 41,
-          "condition": {
-              "canSeeSky": true,
-              "neededNearbyBlocks": [
-                  "minecraft:grass"
-              ],
-              "minX": 1406, "maxX": 1436, "minZ": -373, "maxZ": -349
-          }
-      }
+        {
+            "id": "ditto-6",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45-47",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
+            }
+        }
     ]
 }

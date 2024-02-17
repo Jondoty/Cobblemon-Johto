@@ -149,6 +149,78 @@
                 "timeRange": "night",
                 "minX": -1750, "maxX": -1637, "minZ": -257, "maxZ": -53
             }
+        },
+
+        {
+            "id": "hoothoot-8",
+            "pokemon": "hoothoot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "2-6",
+            "weight": 45,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "night",
+                "minX": -1750, "maxX": -1637, "minZ": -257, "maxZ": -53
+            }
+        },
+
+        {
+            "id": "hoothoot-9",
+            "pokemon": "hoothoot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "night",
+                "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265
+            }
+        },
+
+        {
+            "id": "hoothoot-10",
+            "pokemon": "hoothoot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 50,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "night",
+                "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530
+            }
+        },
+
+        {
+            "id": "hoothoot-11",
+            "pokemon": "hoothoot",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 80,
+            "condition": {
+                "canSeeSky": false,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "night",
+                "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
+            }
         }
     ]
 }

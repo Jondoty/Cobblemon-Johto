@@ -1,0 +1,35 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+{
+            "id": "primeape-1",
+            "pokemon": "primeape",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+              "timeRange": "twilight, day",
+                "minX": -22, "maxX": 206, "minY": 69, "maxY": 82, "minZ": 217, "maxZ": 565
+            }
+        },
+        {
+            "id": "primeape-2",
+            "pokemon": "primeape",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+              "timeRange": "night",
+                "minX": -22, "maxX": 206, "minY": 69, "maxY": 82, "minZ": 217, "maxZ": 565
+            }
+        }
+    ]
+}

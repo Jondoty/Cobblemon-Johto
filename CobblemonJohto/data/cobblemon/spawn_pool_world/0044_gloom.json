@@ -35,6 +35,23 @@
               ],
               "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248
           }
+      },
+
+      {
+          "id": "gloom-3",
+          "pokemon": "gloom",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-15",
+          "weight": 20,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614
+          }
       }
     ]
 }

@@ -1,0 +1,59 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "butterfree-1",
+            "pokemon": "butterfree",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight",
+                "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265
+            }
+        },
+        {
+            "id": "butterfree-2",
+            "pokemon": "butterfree",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight",
+                "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530
+            }
+        },
+
+        {
+            "id": "butterfree-3",
+            "pokemon": "butterfree",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight",
+                "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
+            }
+        }
+    ]
+}

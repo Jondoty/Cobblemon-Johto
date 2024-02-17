@@ -55,6 +55,41 @@
                 "timeRange": "twilight",
                 "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135
             }
+        },
+
+        {
+            "id": "ledyba-4",
+            "pokemon": "ledyba",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight",
+                "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265
+            }
+        },
+        {
+            "id": "ledyba-5",
+            "pokemon": "ledyba",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight",
+                "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530
+            }
         }
     ]
 }

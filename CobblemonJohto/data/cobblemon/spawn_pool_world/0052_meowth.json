@@ -71,6 +71,41 @@
               "timeRange": "night",
               "minX": 704, "maxX": 822, "minZ": 57, "maxZ": 296
           }
+      },
+
+      {
+          "id": "meowth-5",
+          "pokemon": "meowth",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-15",
+          "weight": 20,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "twilight, day",
+              "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614
+          }
+      },
+      {
+          "id": "meowth-6",
+          "pokemon": "meowth",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-15",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "night",
+              "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614
+          }
       }
     ]
 }

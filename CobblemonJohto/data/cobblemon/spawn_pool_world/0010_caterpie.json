@@ -137,6 +137,59 @@
                 "timeRange": "day",
                 "minX": 465, "maxX": 621, "minZ": -57, "maxZ": 135
             }
+        },
+
+        {
+            "id": "caterpie-9",
+            "pokemon": "caterpie",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight, day",
+                "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265
+            }
+        },
+        {
+            "id": "caterpie-10",
+            "pokemon": "caterpie",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight, day",
+                "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530
+            }
+        },
+
+        {
+            "id": "caterpie-11",
+            "pokemon": "caterpie",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-7",
+            "weight": 40,
+            "condition": {
+                "canSeeSky": false,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight, day",
+                "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
+            }
         }
     ]
 }

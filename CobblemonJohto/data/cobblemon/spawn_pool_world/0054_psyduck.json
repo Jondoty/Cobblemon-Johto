@@ -35,6 +35,40 @@
                 "canSeeSky": true,
               "minX": 488, "maxX": 509, "minZ": -248, "maxZ": -200
           }
+      },
+
+      {
+          "id": "psyduck-3",
+          "pokemon": "psyduck",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "35-40",
+          "weight": 90.0,
+          "condition": {
+                "canSeeSky": false,
+              "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+          }
+      },
+
+      {
+          "id": "psyduck-4",
+          "pokemon": "psyduck",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "35-40",
+          "weight": 90.0,
+          "condition": {
+                "canSeeSky": false,
+              "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
+          }
       }
     ]
 }

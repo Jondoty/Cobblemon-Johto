@@ -49,6 +49,40 @@
               "canSeeSky": false,
               "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364
           }
+      },
+
+      {
+          "id": "golduck-4",
+          "pokemon": "golduck",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "35-40",
+          "weight": 10.0,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+          }
+      },
+
+      {
+          "id": "golduck-5",
+          "pokemon": "golduck",
+          "presets": [
+              "underwater"
+          ],
+          "type": "pokemon",
+          "context": "submerged",
+          "bucket": "common",
+          "level": "35-40",
+          "weight": 10.0,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
+          }
       }
     ]
 }

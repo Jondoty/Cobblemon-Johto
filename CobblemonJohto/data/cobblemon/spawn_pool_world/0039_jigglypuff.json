@@ -1,0 +1,40 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "jigglypuff-1",
+          "pokemon": "jigglypuff",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "5-10",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -2211, "maxX": -1961, "minZ": 581, "maxZ": 690
+          }
+      },
+
+      {
+          "id": "jigglypuff-2",
+          "pokemon": "jigglypuff",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "5-10",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744
+          }
+      }
+    ]
+}
