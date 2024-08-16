@@ -56,7 +56,7 @@ tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Blue] add GymLeader
 
 #Adds Bicycle tag if player is riding on one
 tag @s[scores={MusicCooldown=0}] remove Bicycle
-execute at @e[type=pixelmon:bike] run tag @s[distance=..2,tag=!Bicycle] add Bicycle
+#execute at @e[type=pixelmon:bike] run tag @s[distance=..2,tag=!Bicycle] add Bicycle
 
 playsound bicycle record @s[tag=Bicycle,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[tag=Bicycle,scores={MusicCooldown=0}] MusicCooldown 93
@@ -383,7 +383,7 @@ scoreboard players set @s[x=1120,y=0,z=120,dx=245,dy=240,dz=280,scores={MusicCoo
 
 #Route 41
 playsound surfing record @s[x=870,y=0,z=-525,dx=281,dy=240,dz=44,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=870,y=0,z=-525,dx=281,dy=240,dz=44,scores={MusicCooldown=0}] MusicCooldown 156
+scoreboard players set @s[x=870,y=0,z=-525,dx=281,dy=240,dz=44,scores={MusicCooldown=0}] MusicCooldown 168
 
 
 #Spawn Lobby
@@ -453,7 +453,7 @@ scoreboard players set @s[x=-3088,y=0,z=80,dx=139,dy=100,dz=136,scores={MusicCoo
 
 #Whirl Islands Exterior
 playsound surfing record @s[x=870,y=0,z=-480,dx=281,dy=240,dz=199,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=870,y=0,z=-480,dx=281,dy=240,dz=199,scores={MusicCooldown=0}] MusicCooldown 156
+scoreboard players set @s[x=870,y=0,z=-480,dx=281,dy=240,dz=199,scores={MusicCooldown=0}] MusicCooldown 168
 
 
 #Cerulean Cave
@@ -500,7 +500,7 @@ scoreboard players set @s[x=-2513,y=0,z=-642,dx=225,dy=240,dz=187,scores={MusicC
 
 #Cinnabar Island surround area
 playsound surfing record @s[x=-1765,y=0,z=-969,dx=145,dy=240,dz=144,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1765,y=0,z=-969,dx=145,dy=240,dz=144,scores={MusicCooldown=0}] MusicCooldown 156
+scoreboard players set @s[x=-1765,y=0,z=-969,dx=145,dy=240,dz=144,scores={MusicCooldown=0}] MusicCooldown 168
 
 
 #Viridian City
@@ -683,17 +683,17 @@ scoreboard players set @s[x=-3354,y=0,z=-395,dx=92,dy=240,dz=684,scores={MusicCo
 
 #Route 21
 playsound surfing record @s[x=-1765,y=0,z=-824,dx=145,dy=240,dz=419,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1765,y=0,z=-824,dx=145,dy=240,dz=419,scores={MusicCooldown=0}] MusicCooldown 156
+scoreboard players set @s[x=-1765,y=0,z=-824,dx=145,dy=240,dz=419,scores={MusicCooldown=0}] MusicCooldown 168
 
 
 #Route 20
 playsound surfing record @s[x=-2479,y=60,z=-969,dx=713,dy=180,dz=138,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2479,y=60,z=-969,dx=713,dy=180,dz=138,scores={MusicCooldown=0}] MusicCooldown 156
+scoreboard players set @s[x=-2479,y=60,z=-969,dx=713,dy=180,dz=138,scores={MusicCooldown=0}] MusicCooldown 168
 
 
 #Route 19
 playsound surfing record @s[x=-2513,y=0,z=-975,dx=225,dy=240,dz=332,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2513,y=0,z=-975,dx=225,dy=240,dz=332,scores={MusicCooldown=0}] MusicCooldown 156
+scoreboard players set @s[x=-2513,y=0,z=-975,dx=225,dy=240,dz=332,scores={MusicCooldown=0}] MusicCooldown 168
 
 
 #Pokemon Mansion
