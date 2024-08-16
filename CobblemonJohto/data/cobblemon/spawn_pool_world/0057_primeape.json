@@ -3,7 +3,7 @@
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-{
+        {
             "id": "primeape-1",
             "pokemon": "primeape",
             "type": "pokemon",
@@ -13,8 +13,13 @@
             "weight": 20,
             "condition": {
                 "canSeeSky": false,
-              "timeRange": "twilight, day",
-                "minX": -22, "maxX": 206, "minY": 69, "maxY": 82, "minZ": 217, "maxZ": 565
+                "timeRange": "twilight, day",
+                "minX": -22,
+                "maxX": 206,
+                "minY": 69,
+                "maxY": 82,
+                "minZ": 217,
+                "maxZ": 565
             }
         },
         {
@@ -27,8 +32,32 @@
             "weight": 10,
             "condition": {
                 "canSeeSky": false,
-              "timeRange": "night",
-                "minX": -22, "maxX": 206, "minY": 69, "maxY": 82, "minZ": 217, "maxZ": 565
+                "timeRange": "night",
+                "minX": -22,
+                "maxX": 206,
+                "minY": 69,
+                "maxY": 82,
+                "minZ": 217,
+                "maxZ": 565
+            }
+        },
+        {
+            "id": "primeape-3",
+            "pokemon": "primeape",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 5,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "night",
+                "minX": -3316,
+                "maxX": -2902,
+                "minZ": 683,
+                "maxZ": 781
             }
         }
     ]

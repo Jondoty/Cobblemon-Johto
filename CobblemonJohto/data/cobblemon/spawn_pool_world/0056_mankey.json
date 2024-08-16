@@ -18,6 +18,23 @@
               ],
               "minX": -59, "maxX": -4, "minZ": 154, "maxZ": 177
           }
+      },
+
+      {
+          "id": "mankey-16",
+          "pokemon": "mankey",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "13-15",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -3316, "maxX": -2902, "minZ": 683, "maxZ": 781
+          }
       }
     ]
 }

@@ -562,6 +562,41 @@
                 "timeRange": "night",
                 "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744
             }
+        },
+
+        {
+            "id": "rattata-35",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "twilight, day",
+                "minX": -3316, "maxX": -2902, "minZ": 683, "maxZ": 781
+            }
+        },
+        {
+            "id": "rattata-36",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 70,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "night",
+                "minX": -3316, "maxX": -2902, "minZ": 683, "maxZ": 781
+            }
         }
     ]
 }

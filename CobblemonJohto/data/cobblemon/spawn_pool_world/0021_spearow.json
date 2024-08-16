@@ -126,6 +126,23 @@
               "timeRange": "twilight, day",
               "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744
           }
+      },
+
+      {
+          "id": "spearow-8",
+          "pokemon": "spearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "13-15",
+          "weight": 20,
+          "condition": {
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "twilight, day",
+              "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744
+          }
       }
     ]
 }
