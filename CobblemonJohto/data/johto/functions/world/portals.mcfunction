@@ -6,13 +6,13 @@ scoreboard players set @a[x=-517,y=64,z=193,distance=..5,scores={EscapeRope=1..}
 scoreboard players set @a[x=-614,y=50,z=333,distance=..10,scores={ER=5}] ER 5
 
 #Lobby to New Bark Town/Oak Welcome area
-scoreboard players set @a[x=-958,y=66,z=-366,dy=2,dz=1,tag=!Dialogue1] DialogueTrigger 1
-playsound door ambient @a[x=-958,y=66,z=-366,dy=2,dz=1,tag=!Dialogue1] ~ ~ ~ 100 1 1
-tp @a[x=-958,y=66,z=-366,dy=2,dz=1,tag=!Dialogue1] -970 65 -405
+#scoreboard players set @a[x=-958,y=66,z=-366,dy=2,dz=1,tag=!Dialogue1] DialogueTrigger 1
+#playsound door ambient @a[x=-958,y=66,z=-366,dy=2,dz=1,tag=!Dialogue1] ~ ~ ~ 100 1 1
+#tp @a[x=-958,y=66,z=-366,dy=2,dz=1,tag=!Dialogue1] -970 65 -405
 
-playsound door ambient @a[x=-958,y=66,z=-366,dy=2,dz=1,tag=Dialogue1] ~ ~ ~ 100 1 1
-scoreboard players set @a[x=-958,y=66,z=-366,dy=2,dz=1,tag=Dialogue1] click 1
-tp @a[x=-958,y=66,z=-366,dy=2,dz=1,tag=Dialogue1] -724 69 -491
+playsound door ambient @a[x=-958,y=66,z=-366,dy=2,dz=1] ~ ~ ~ 100 1 1
+scoreboard players set @a[x=-958,y=66,z=-366,dy=2,dz=1] click 1
+tp @a[x=-958,y=66,z=-366,dy=2,dz=1] -724 69 -491
 
 
 
@@ -54,13 +54,17 @@ tp @a[x=524,y=31,z=-249,dx=2,dy=2] 555 64 -346
 #Dragon's Den
 
 #Pre-badge
-tellraw @a[x=-654,y=64,z=331,dx=3,dy=3,tag=!Dialogue77] {"text":"Only those who have beaten Clair may enter!","italic":true,"color":"gray"}
-tp @a[x=-654,y=64,z=331,dx=3,dy=3,tag=!Dialogue77] ~ ~ ~-10
+#tellraw @a[x=-654,y=64,z=331,dx=3,dy=3,tag=!Dialogue77] {"text":"Only those who have beaten Clair may enter!","italic":true,"color":"gray"}
+#tp @a[x=-654,y=64,z=331,dx=3,dy=3,tag=!Dialogue77] ~ ~ ~-10
+
+#playsound door ambient @a[scores={TalkTime=0},x=-654,y=64,z=331,dx=3,dy=3,tag=Dialogue77] ~ ~ ~ 100 1 1
+#scoreboard players set @a[scores={TalkTime=0},x=-654,y=64,z=331,dx=3,dy=3,tag=Dialogue77] click 1
+#tp @a[scores={TalkTime=0},x=-654,y=64,z=331,dx=3,dy=3,tag=Dialogue77] -665 74 629 ~180 ~
 
 #Beaten Clair
-playsound door ambient @a[scores={TalkTime=0},x=-654,y=64,z=331,dx=3,dy=3,tag=Dialogue77] ~ ~ ~ 100 1 1
-scoreboard players set @a[scores={TalkTime=0},x=-654,y=64,z=331,dx=3,dy=3,tag=Dialogue77] click 1
-tp @a[scores={TalkTime=0},x=-654,y=64,z=331,dx=3,dy=3,tag=Dialogue77] -665 74 629 ~180 ~
+playsound door ambient @a[scores={TalkTime=0},x=-654,y=64,z=331,dx=3,dy=3] ~ ~ ~ 100 1 1
+scoreboard players set @a[scores={TalkTime=0},x=-654,y=64,z=331,dx=3,dy=3] click 1
+tp @a[scores={TalkTime=0},x=-654,y=64,z=331,dx=3,dy=3] -665 74 629 ~180 ~
 
 playsound door ambient @a[scores={TalkTime=0},x=-667,y=74,z=631,dx=3,dy=3] ~ ~ ~ 100 1 1
 scoreboard players set @a[scores={TalkTime=0},x=-667,y=74,z=631,dx=3,dy=3] click 1
@@ -170,9 +174,9 @@ tp @a[x=-978,y=76,z=342,dx=3,dy=3] -965 124 250
 
 
 #Tells player a message based on which items they hold
-tellraw @a[x=-1026,y=86,z=349,dx=3,dy=3,scores={PalkiaCD=0},nbt={Inventory:[{id:"pixelmon:lustrous_orb"}]}] ["",{"text":"Your Lustrous Orb is reacting to the alter!","color":"white","italic":true}]
-tellraw @a[x=-1026,y=86,z=349,dx=3,dy=3,scores={GiratinaCD=0},nbt={Inventory:[{id:"pixelmon:griseous_orb"}]}] ["",{"text":"Your Griseous Orb is reacting to the alter!","color":"white","italic":true}]
-tellraw @a[x=-1026,y=86,z=349,dx=3,dy=3,scores={DialgaCD=0},nbt={Inventory:[{id:"pixelmon:adamant_orb"}]}] ["",{"text":"Your Adamant Orb is reacting to the alter!","color":"white","italic":true}]
+#tellraw @a[x=-1026,y=86,z=349,dx=3,dy=3,scores={PalkiaCD=0},nbt={Inventory:[{id:"pixelmon:lustrous_orb"}]}] ["",{"text":"Your Lustrous Orb is reacting to the alter!","color":"white","italic":true}]
+#tellraw @a[x=-1026,y=86,z=349,dx=3,dy=3,scores={GiratinaCD=0},nbt={Inventory:[{id:"pixelmon:griseous_orb"}]}] ["",{"text":"Your Griseous Orb is reacting to the alter!","color":"white","italic":true}]
+#tellraw @a[x=-1026,y=86,z=349,dx=3,dy=3,scores={DialgaCD=0},nbt={Inventory:[{id:"pixelmon:adamant_orb"}]}] ["",{"text":"Your Adamant Orb is reacting to the alter!","color":"white","italic":true}]
 
 playsound door ambient @a[x=-1026,y=86,z=349,dx=3,dy=3] ~ ~ ~ 100 1 1
 tp @a[x=-1026,y=86,z=349,dx=3,dy=3] -944 175 196
@@ -231,13 +235,18 @@ tp @a[x=-795,y=65,z=529,dx=9,dy=5] 88 64 -64
 
 #--------------------------------------------------
 #Azalea Town
-tellraw @a[x=355,y=64,z=-762,dx=4,dy=4,tag=!Dialogue16,scores={TalkTime=0}] {"text":"Bugsy is away right now! Kurt should be watching the town.","italic":true}
-tp @a[x=355,y=64,z=-762,dx=4,dy=4,scores={Kurt=0..},tag=!Dialogue16] ~ ~ ~-5
+#tellraw @a[x=355,y=64,z=-762,dx=4,dy=4,tag=!Dialogue16,scores={TalkTime=0}] {"text":"Bugsy is away right now! Kurt should be watching the town.","italic":true}
+#tp @a[x=355,y=64,z=-762,dx=4,dy=4,scores={Kurt=0..},tag=!Dialogue16] ~ ~ ~-5
 
-playsound door ambient @a[x=355,y=64,z=-762,dx=4,dy=4,tag=Dialogue16,scores={TalkTime=0}] ~ ~ ~ 100 1 1
-tag @a[x=355,y=64,z=-762,dx=4,dy=4,tag=Dialogue16,scores={TalkTime=0}] remove GymVictory
-scoreboard players set @a[x=355,y=64,z=-762,dx=4,dy=4,tag=Dialogue16,scores={TalkTime=0}] click 1
-tp @a[x=355,y=64,z=-762,dx=4,dy=4,tag=Dialogue16,scores={TalkTime=0}] -855 65 530
+#playsound door ambient @a[x=355,y=64,z=-762,dx=4,dy=4,tag=Dialogue16,scores={TalkTime=0}] ~ ~ ~ 100 1 1
+#tag @a[x=355,y=64,z=-762,dx=4,dy=4,tag=Dialogue16,scores={TalkTime=0}] remove GymVictory
+#scoreboard players set @a[x=355,y=64,z=-762,dx=4,dy=4,tag=Dialogue16,scores={TalkTime=0}] click 1
+#tp @a[x=355,y=64,z=-762,dx=4,dy=4,tag=Dialogue16,scores={TalkTime=0}] -855 65 530
+
+playsound door ambient @a[x=355,y=64,z=-762,dx=4,dy=4,scores={TalkTime=0}] ~ ~ ~ 100 1 1
+tag @a[x=355,y=64,z=-762,dx=4,dy=4,scores={TalkTime=0}] remove GymVictory
+scoreboard players set @a[x=355,y=64,z=-762,dx=4,dy=4,scores={TalkTime=0}] click 1
+tp @a[x=355,y=64,z=-762,dx=4,dy=4,scores={TalkTime=0}] -855 65 530
 
 playsound door ambient @a[x=-859,y=65,z=529,dx=9,dy=5] ~ ~ ~ 100 1 1
 scoreboard players set @a[x=-859,y=65,z=529,dx=9,dy=5] click 1
@@ -305,14 +314,19 @@ playsound minecraft:flee ambient @a[x=-80,y=53,z=162,dx=1,dy=5,dz=1] ~ ~ ~ 1 1 1
 tp @a[x=-80,y=53,z=162,dx=1,dy=5,dz=1] -172 54 215 -90 -25
 
 #Pre-Rocket HQ
-tellraw @a[x=-128,y=64,z=155,dx=4,dy=3,dz=10,tag=!Dialogue64] {"text":"<Sightseer> Since you came this far take the time to do some sightseeing. You should check out the Lake of Rage right now."}
-execute at @a[x=-128,y=64,z=161,dx=4,dy=3,tag=!Dialogue64] run tp @a[x=-128,y=64,z=161,dx=4,dy=3,tag=!Dialogue64] ~ ~ ~-5
+#tellraw @a[x=-128,y=64,z=155,dx=4,dy=3,dz=10,tag=!Dialogue64] {"text":"<Sightseer> Since you came this far take the time to do some sightseeing. You should check out the Lake of Rage right now."}
+#execute at @a[x=-128,y=64,z=161,dx=4,dy=3,tag=!Dialogue64] run tp @a[x=-128,y=64,z=161,dx=4,dy=3,tag=!Dialogue64] ~ ~ ~-5
 
 #Post-Rocket HQ
-playsound door ambient @a[x=-128,y=64,z=161,dx=4,dy=3,tag=Dialogue64] ~ ~ ~ 100 1 1
-tag @a[x=-128,y=64,z=161,dx=4,dy=3,tag=Dialogue64] remove GymVictory
-scoreboard players set @a[x=-128,y=64,z=161,dx=4,dy=3,tag=Dialogue64] click 1
-tp @a[x=-128,y=64,z=161,dx=4,dy=3,tag=Dialogue64] -789 65 642
+#playsound door ambient @a[x=-128,y=64,z=161,dx=4,dy=3,tag=Dialogue64] ~ ~ ~ 100 1 1
+#tag @a[x=-128,y=64,z=161,dx=4,dy=3,tag=Dialogue64] remove GymVictory
+#scoreboard players set @a[x=-128,y=64,z=161,dx=4,dy=3,tag=Dialogue64] click 1
+#tp @a[x=-128,y=64,z=161,dx=4,dy=3,tag=Dialogue64] -789 65 642
+
+playsound door ambient @a[x=-128,y=64,z=161,dx=4,dy=3] ~ ~ ~ 100 1 1
+tag @a[x=-128,y=64,z=161,dx=4,dy=3] remove GymVictory
+scoreboard players set @a[x=-128,y=64,z=161,dx=4,dy=3] click 1
+tp @a[x=-128,y=64,z=161,dx=4,dy=3] -789 65 642
 
 #Exit
 playsound door ambient @a[x=-793,y=65,z=641,dx=9,dy=6] ~ ~ ~ 100 1 1
@@ -323,14 +337,19 @@ tp @a[x=-793,y=65,z=641,dx=9,dy=6] -126 64 160
 #--------------------------------------------------
 #Blackthorn City
 
-tellraw @a[x=-646,y=64,z=274,dx=4,dy=3,tag=!Dialogue72,scores={Cooldown=0}] {"text":"<Lass> I am sorry. Clair, our Gym Leader, entered the Dragon's Den behind the Gym. I have no idea when our Leader will return."}
-scoreboard players add @a[x=-646,y=64,z=274,dx=4,dy=3,tag=!Dialogue72] Cooldown 25
-tp @a[x=-646,y=64,z=274,dx=4,dy=3,tag=!Dialogue72] ~ ~ ~-5
+#tellraw @a[x=-646,y=64,z=274,dx=4,dy=3,tag=!Dialogue72,scores={Cooldown=0}] {"text":"<Lass> I am sorry. Clair, our Gym Leader, entered the Dragon's Den behind the Gym. I have no idea when our Leader will return."}
+#scoreboard players add @a[x=-646,y=64,z=274,dx=4,dy=3,tag=!Dialogue72] Cooldown 25
+#tp @a[x=-646,y=64,z=274,dx=4,dy=3,tag=!Dialogue72] ~ ~ ~-5
 
-playsound door ambient @a[x=-646,y=64,z=274,dx=4,dy=3,tag=Dialogue72] ~ ~ ~ 100 1 1
-tag @a[x=-646,y=64,z=274,dx=4,dy=3,tag=Dialogue72] remove GymVictory
-scoreboard players set @a[x=-646,y=64,z=274,dx=4,dy=3,tag=Dialogue72] click 1
-tp @a[x=-646,y=64,z=274,dx=4,dy=3,tag=Dialogue72] -854 65 642
+#playsound door ambient @a[x=-646,y=64,z=274,dx=4,dy=3,tag=Dialogue72] ~ ~ ~ 100 1 1
+#tag @a[x=-646,y=64,z=274,dx=4,dy=3,tag=Dialogue72] remove GymVictory
+#scoreboard players set @a[x=-646,y=64,z=274,dx=4,dy=3,tag=Dialogue72] click 1
+#tp @a[x=-646,y=64,z=274,dx=4,dy=3,tag=Dialogue72] -854 65 642
+
+playsound door ambient @a[x=-646,y=64,z=274,dx=4,dy=3] ~ ~ ~ 100 1 1
+tag @a[x=-646,y=64,z=274,dx=4,dy=3] remove GymVictory
+scoreboard players set @a[x=-646,y=64,z=274,dx=4,dy=3] click 1
+tp @a[x=-646,y=64,z=274,dx=4,dy=3] -854 65 642
 
 
 playsound door ambient @a[x=-858,y=65,z=641,dx=9,dy=6] ~ ~ ~ 100 1 1
@@ -560,13 +579,18 @@ scoreboard players set @a[x=452,y=64,z=-705,dx=3,dy=2] click 1
 tp @a[x=452,y=64,z=-705,dx=3,dy=2] 640 64 -640
 
 
-tellraw @a[x=638,y=64,z=-639,dx=3,dy=2,tag=!Bugsy] {"text":"You need to beat Bugsy!","italic":true,"color":"gray"}
-tp @a[x=638,y=64,z=-639,dx=3,dy=2,tag=!Bugsy] ~ ~ ~-5
+#tellraw @a[x=638,y=64,z=-639,dx=3,dy=2,tag=!Bugsy] {"text":"You need to beat Bugsy!","italic":true,"color":"gray"}
+#tp @a[x=638,y=64,z=-639,dx=3,dy=2,tag=!Bugsy] ~ ~ ~-5
 
-playsound door ambient @a[x=638,y=64,z=-639,dx=3,dy=2,tag=Bugsy] ~ ~ ~ 100 1 1
-scoreboard players set @a[x=638,y=64,z=-639,dx=3,dy=2,tag=Bugsy] EscapeRope 0
-scoreboard players set @a[x=638,y=64,z=-639,dx=3,dy=2,tag=Bugsy] click 1
-tp @a[x=638,y=64,z=-639,dx=3,dy=2,tag=Bugsy] 453 64 -704
+#playsound door ambient @a[x=638,y=64,z=-639,dx=3,dy=2,tag=Bugsy] ~ ~ ~ 100 1 1
+#scoreboard players set @a[x=638,y=64,z=-639,dx=3,dy=2,tag=Bugsy] EscapeRope 0
+#scoreboard players set @a[x=638,y=64,z=-639,dx=3,dy=2,tag=Bugsy] click 1
+#tp @a[x=638,y=64,z=-639,dx=3,dy=2,tag=Bugsy] 453 64 -704
+
+playsound door ambient @a[x=638,y=64,z=-639,dx=3,dy=2] ~ ~ ~ 100 1 1
+scoreboard players set @a[x=638,y=64,z=-639,dx=3,dy=2] EscapeRope 0
+scoreboard players set @a[x=638,y=64,z=-639,dx=3,dy=2] click 1
+tp @a[x=638,y=64,z=-639,dx=3,dy=2] 453 64 -704
 
 #--------------------------------------------------
 
@@ -697,24 +721,29 @@ tp @a[x=-744,y=49,z=302,dx=3,dy=3] -743 64 284
 
 #Victory Road Gate Entrance
 
-#Gym Badge check:
-tag @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=Falkner,tag=Bugsy,tag=Whitney,tag=Morty,tag=Chuck,tag=Jasmine,tag=Pryce,tag=Clair] add JohtoBadges
+##Gym Badge check:
+#tag @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=Falkner,tag=Bugsy,tag=Whitney,tag=Morty,tag=Chuck,tag=Jasmine,tag=Pryce,tag=Clair] add JohtoBadges
+#
+#tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!JohtoBadges] {"text":"You still need to beat the following Gym Leaders:","italic":true,"color":"gray"}
+#tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Falkner] {"text":"Falkner","italic":true,"color":"gray"}
+#tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Bugsy] {"text":"Bugsy","italic":true,"color":"gray"}
+#tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Whitney] {"text":"Whitney","italic":true,"color":"gray"}
+#tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Morty] {"text":"Morty","italic":true,"color":"gray"}
+#tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Chuck] {"text":"Chuck","italic":true,"color":"gray"}
+#tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Jasmine] {"text":"Jasmine","italic":true,"color":"gray"}
+#tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Pryce] {"text":"Pryce","italic":true,"color":"gray"}
+#tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Clair] {"text":"Clair","italic":true,"color":"gray"}
+#tp @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!JohtoBadges] ~ ~ ~-7
+#
+#playsound door ambient @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=JohtoBadges] ~ ~ ~ 100 1 1
+#scoreboard players set @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=JohtoBadges] EscapeRope 19
+#scoreboard players set @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=JohtoBadges] click 1
+#tp @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=JohtoBadges] -1432 19 377
 
-tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!JohtoBadges] {"text":"You still need to beat the following Gym Leaders:","italic":true,"color":"gray"}
-tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Falkner] {"text":"Falkner","italic":true,"color":"gray"}
-tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Bugsy] {"text":"Bugsy","italic":true,"color":"gray"}
-tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Whitney] {"text":"Whitney","italic":true,"color":"gray"}
-tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Morty] {"text":"Morty","italic":true,"color":"gray"}
-tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Chuck] {"text":"Chuck","italic":true,"color":"gray"}
-tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Jasmine] {"text":"Jasmine","italic":true,"color":"gray"}
-tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Pryce] {"text":"Pryce","italic":true,"color":"gray"}
-tellraw @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!Clair] {"text":"Clair","italic":true,"color":"gray"}
-tp @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=!JohtoBadges] ~ ~ ~-7
-
-playsound door ambient @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=JohtoBadges] ~ ~ ~ 100 1 1
-scoreboard players set @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=JohtoBadges] EscapeRope 19
-scoreboard players set @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=JohtoBadges] click 1
-tp @a[x=-1260,y=64,z=118,dx=3,dy=3,tag=JohtoBadges] -1432 19 377
+playsound door ambient @a[x=-1260,y=64,z=118,dx=3,dy=3] ~ ~ ~ 100 1 1
+scoreboard players set @a[x=-1260,y=64,z=118,dx=3,dy=3] EscapeRope 19
+scoreboard players set @a[x=-1260,y=64,z=118,dx=3,dy=3] click 1
+tp @a[x=-1260,y=64,z=118,dx=3,dy=3] -1432 19 377
 
 playsound door ambient @a[x=-1434,y=19,z=376,dx=3,dy=3] ~ ~ ~ 100 1 1
 scoreboard players set @a[x=-1434,y=19,z=376,dx=3,dy=3] EscapeRope 0
@@ -731,8 +760,8 @@ tp @a[x=-1328,y=64,z=115,dx=3,dy=3] -1448 51 533 ~180 ~0
 
 
 #Before Silver is defeated
-tellraw @a[x=-1450,y=51,z=534,dx=3,dy=3,tag=!Dialogue85,scores={TalkTime=0}] ["",{"text":"<"},{"text":"Silver","color":"red"},{"text":"> Come on, "},{"selector":"@p[x=-1450,y=51,z=534,dx=3,dy=3,tag=!Dialogue85,scores={TalkTime=0}]"},{"text":"! Let's battle!"}]
-tp @a[x=-1450,y=51,z=534,dx=3,dy=3,tag=!Dialogue85] ~ ~ ~-5
+#tellraw @a[x=-1450,y=51,z=534,dx=3,dy=3,tag=!Dialogue85,scores={TalkTime=0}] ["",{"text":"<"},{"text":"Silver","color":"red"},{"text":"> Come on, "},{"selector":"@p[x=-1450,y=51,z=534,dx=3,dy=3,tag=!Dialogue85,scores={TalkTime=0}]"},{"text":"! Let's battle!"}]
+#tp @a[x=-1450,y=51,z=534,dx=3,dy=3,tag=!Dialogue85] ~ ~ ~-5
 
 playsound door ambient @a[x=-1450,y=51,z=534,dx=3,dy=3] ~ ~ ~ 100 1 1
 scoreboard players set @a[x=-1450,y=51,z=534,dx=3,dy=3] EscapeRope 0

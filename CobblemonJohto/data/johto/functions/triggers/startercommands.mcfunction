@@ -21,13 +21,13 @@ scoreboard players set @s[scores={Deaths=1..},tag=InitialTags] Deaths 0
 tellraw @s ["",{"text":"Starting adventure...","italic":true,"color":"gray"}]
 
 #Gives starting items
-execute as @e[x=-801,y=64,z=-284,dy=3,type=armor_stand] run givemoney @a[tag=Temp] 2000
-execute as @e[x=-801,y=64,z=-284,dy=3,type=armor_stand] run completeallquests @s
-give @s written_book{pages:["{\"text\":\"Welcome to Pixelmon Johto!\\n\\nThis map contains the Johto and Kanto regions, and follows the story of Pokemon Gold, Silver, and Crystal, with events and elements from HeartGold/ SoulSilver and Let's Go Eevee/Pikachu.\"}","{\"text\":\"Throughout the regions, there are 16 gyms to fight and collect the badges of. \\n\\nWhen you have the eight badges from the Johto region, you can challenge the Elite Four and gain access to Kanto afterwards.\"}","{\"text\":\"After collecting all the badges from Kanto, the player gains access to Mt. Silver, with a trainer named Red being the final boss of the map.\"}","{\"text\":\"Items, trainers, and events are scattered around the regions to collect and battle, based off the main games.\\n\\nSearch every corner of the map, you never know what you might find!\"}"],title:"Pixelmon Johto",author:Jond,display:{Lore:["Info about the map!"]}}
-execute as @s run function johto:spawn/radio1
-give @s pixelmon:old_running_boots
-give @s pixelmon:white_poke_bag
-give @s pixelmon:blackbadgecase
+#execute as @e[x=-801,y=64,z=-284,dy=3,type=armor_stand] run givemoney @a[tag=Temp] 2000
+#execute as @e[x=-801,y=64,z=-284,dy=3,type=armor_stand] run completeallquests @s
+#give @s written_book{pages:["{\"text\":\"Welcome to Pixelmon Johto!\\n\\nThis map contains the Johto and Kanto regions, and follows the story of Pokemon Gold, Silver, and Crystal, with events and elements from HeartGold/ SoulSilver and Let's Go Eevee/Pikachu.\"}","{\"text\":\"Throughout the regions, there are 16 gyms to fight and collect the badges of. \\n\\nWhen you have the eight badges from the Johto region, you can challenge the Elite Four and gain access to Kanto afterwards.\"}","{\"text\":\"After collecting all the badges from Kanto, the player gains access to Mt. Silver, with a trainer named Red being the final boss of the map.\"}","{\"text\":\"Items, trainers, and events are scattered around the regions to collect and battle, based off the main games.\\n\\nSearch every corner of the map, you never know what you might find!\"}"],title:"Pixelmon Johto",author:Jond,display:{Lore:["Info about the map!"]}}
+#execute as @s run function johto:spawn/radio1
+#give @s pixelmon:old_running_boots
+#give @s pixelmon:white_poke_bag
+#give @s pixelmon:blackbadgecase
 
 
 #Sets Spawnpoint
