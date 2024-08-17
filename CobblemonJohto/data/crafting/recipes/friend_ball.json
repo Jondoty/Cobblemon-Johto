@@ -1,15 +1,27 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "###"
+        " t ",
+        "l r",
+        " b "
     ],
     "key": {
-        "#": {
-            "item": "pixelmon:green_apricorn"
+        "t": {
+            "item": "cobblemon:yellow_apricorn"
+        },
+        "l": {
+            "item": "cobblemon:green_apricorn"
+        },
+        "r": {
+            "item": "cobblemon:green_apricorn"
+        },
+        "b": {
+            "item": "cobblemon:red_apricorn"
         }
     },
-    "result": {
-        "item": "pixelmon:friend_ball",
-        "count": 6
+    "result":
+    {
+        "item": "cobblemon:friend_ball",
+        "count": 4
     }
 }

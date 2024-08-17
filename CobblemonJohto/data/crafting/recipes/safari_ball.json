@@ -7,21 +7,21 @@
     ],
     "key": {
         "t": {
-            "item": "cobblemon:red_apricorn"
+            "item": "cobblemon:yellow_apricorn"
         },
         "l": {
-            "item": "cobblemon:blue_apricorn"
+            "item": "cobblemon:green_apricorn"
         },
         "r": {
             "item": "cobblemon:green_apricorn"
         },
         "b": {
-            "item": "cobblemon:red_apricorn"
+            "item": "cobblemon:white_apricorn"
         }
     },
     "result":
     {
-        "item": "cobblemon:lure_ball",
+        "item": "cobblemon:safari_ball",
         "count": 4
     }
 }

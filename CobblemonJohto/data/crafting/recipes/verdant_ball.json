@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cobblemon:green_apricorn"
+        }
+    ],
+    "result": {
+        "item": "cobblemon:verdant_ball",
+        "count": 1
+    }
+}

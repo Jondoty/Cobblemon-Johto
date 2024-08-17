@@ -7,21 +7,21 @@
     ],
     "key": {
         "t": {
-            "item": "cobblemon:red_apricorn"
-        },
-        "l": {
-            "item": "cobblemon:blue_apricorn"
-        },
-        "r": {
             "item": "cobblemon:green_apricorn"
         },
+        "l": {
+            "item": "cobblemon:yellow_apricorn"
+        },
+        "r": {
+            "item": "cobblemon:yellow_apricorn"
+        },
         "b": {
-            "item": "cobblemon:red_apricorn"
+            "item": "cobblemon:green_apricorn"
         }
     },
     "result":
     {
-        "item": "cobblemon:lure_ball",
+        "item": "cobblemon:nest_ball",
         "count": 4
     }
 }

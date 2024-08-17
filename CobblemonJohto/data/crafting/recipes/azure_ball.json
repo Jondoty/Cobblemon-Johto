@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cobblemon:blue_apricorn"
+        }
+    ],
+    "result": {
+        "item": "cobblemon:azure_ball",
+        "count": 1
+    }
+}

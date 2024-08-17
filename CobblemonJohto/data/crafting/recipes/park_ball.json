@@ -10,18 +10,18 @@
             "item": "cobblemon:red_apricorn"
         },
         "l": {
-            "item": "cobblemon:blue_apricorn"
+            "item": "cobblemon:green_apricorn"
         },
         "r": {
             "item": "cobblemon:green_apricorn"
         },
         "b": {
-            "item": "cobblemon:red_apricorn"
+            "item": "cobblemon:green_apricorn"
         }
     },
     "result":
     {
-        "item": "cobblemon:lure_ball",
+        "item": "cobblemon:park_ball",
         "count": 4
     }
 }

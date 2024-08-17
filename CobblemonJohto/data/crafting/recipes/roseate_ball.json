@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "cobblemon:pink_apricorn"
+        }
+    ],
+    "result": {
+        "item": "cobblemon:roseate_ball",
+        "count": 1
+    }
+}

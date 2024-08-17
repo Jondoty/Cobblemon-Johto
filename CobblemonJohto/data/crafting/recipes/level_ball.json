@@ -1,15 +1,27 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "###"
+        " t ",
+        "l r",
+        " b "
     ],
     "key": {
-        "#": {
-            "item": "pixelmon:red_apricorn"
+        "t": {
+            "item": "cobblemon:black_apricorn"
+        },
+        "l": {
+            "item": "cobblemon:yellow_apricorn"
+        },
+        "r": {
+            "item": "cobblemon:pink_apricorn"
+        },
+        "b": {
+            "item": "cobblemon:red_apricorn"
         }
     },
-    "result": {
-        "item": "pixelmon:level_ball",
-        "count": 6
+    "result":
+    {
+        "item": "cobblemon:level_ball",
+        "count": 4
     }
 }

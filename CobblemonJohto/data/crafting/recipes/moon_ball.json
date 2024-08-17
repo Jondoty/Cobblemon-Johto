@@ -1,15 +1,27 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "###"
+        " t ",
+        "l r",
+        " b "
     ],
     "key": {
-        "#": {
-            "item": "pixelmon:yellow_apricorn"
+        "t": {
+            "item": "cobblemon:yellow_apricorn"
+        },
+        "l": {
+            "item": "cobblemon:blue_apricorn"
+        },
+        "r": {
+            "item": "cobblemon:black_apricorn"
+        },
+        "b": {
+            "item": "cobblemon:white_apricorn"
         }
     },
-    "result": {
-        "item": "pixelmon:moon_ball",
-        "count": 6
+    "result":
+    {
+        "item": "cobblemon:moon_ball",
+        "count": 4
     }
 }
