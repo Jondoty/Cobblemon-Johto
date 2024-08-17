@@ -154,7 +154,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -521, "maxX": -409, "minZ": -468, "maxZ": -319
             }
         },
@@ -187,6 +187,20 @@
             "condition": {
                 "canSeeSky": false,
                 "minX": -2261, "maxX": -2159, "minZ": 769, "maxZ": 853
+            }
+        },
+
+        {
+            "id": "geodude-14",
+            "pokemon": "geodude",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-13",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -3401, "maxX": -3191, "minY": 28, "maxY": 54, "minZ": 528, "maxZ": 701
             }
         }
     ]

@@ -13,7 +13,7 @@
             "weight": 5,
             "condition": {
                 "canSeeSky": false,
-                "timeRange": "twilight, night",
+                "timeRange": "dawn,dusk,night",
                 "minX": -872, "maxX": -587, "maxY": 59, "minZ": 299, "maxZ": 469
             }
         },
@@ -29,6 +29,20 @@
                 "canSeeSky": false,
                 "timeRange": "day",
                 "minX": -872, "maxX": -587, "maxY": 59, "minZ": 299, "maxZ": 469
+            }
+        },
+
+        {
+            "id": "jynx-3",
+            "pokemon": "jynx",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "34-40",
+            "weight": 12,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 24, "minZ": -889, "maxZ": -825
             }
         }
     ]

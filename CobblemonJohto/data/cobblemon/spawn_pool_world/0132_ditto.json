@@ -70,7 +70,7 @@
             "weight": 11,
             "condition": {
                 "canSeeSky": false,
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -2667,
                 "maxX": -2535,
                 "minY": 62,
@@ -124,6 +124,33 @@
             "condition": {
                 "canSeeSky": false,
                 "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
+            }
+        },
+
+        {
+            "id": "ditto-7",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "39-44",
+            "weight": 1,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826
+            }
+        },
+        {
+            "id": "ditto-8",
+            "pokemon": "ditto",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "39-44",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826
             }
         }
     ]

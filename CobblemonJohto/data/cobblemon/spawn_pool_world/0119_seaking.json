@@ -7,10 +7,10 @@
             "id": "seaking-1",
             "pokemon": "seaking",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "14-16",
             "weight": 10.0,
@@ -24,10 +24,10 @@
             "id": "seaking-2",
             "pokemon": "seaking",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "14-16",
             "weight": 10.0,
@@ -40,10 +40,10 @@
             "id": "seaking-3",
             "pokemon": "seaking",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "10-15",
             "weight": 10.0,
@@ -56,10 +56,10 @@
             "id": "seaking-4",
             "pokemon": "seaking",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "10-15",
             "weight": 10.0,
@@ -73,10 +73,10 @@
             "id": "seaking-5",
             "pokemon": "seaking",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "20",
             "weight": 10.0,
@@ -90,10 +90,10 @@
             "id": "seaking-6",
             "pokemon": "seaking",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "30-50",
             "weight": 91.0,
@@ -107,10 +107,10 @@
             "id": "seaking-7",
             "pokemon": "seaking",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "5-10",
             "weight": 10.0,

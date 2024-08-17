@@ -33,7 +33,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
               "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
           }
       },
@@ -85,7 +85,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
               "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614
           }
       },
@@ -104,6 +104,111 @@
               ],
                 "timeRange": "night",
               "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614
+          }
+      },
+
+      {
+          "id": "bellsprout-7",
+          "pokemon": "bellsprout",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "8-12",
+          "weight": 60,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "timeRange": "dawn,dusk",
+              "minX": -2724, "maxX": -2700, "minZ": 862, "maxZ": 930
+          }
+      },
+      {
+          "id": "bellsprout-8",
+          "pokemon": "bellsprout",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "8-12",
+          "weight": 35,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "timeRange": "day",
+              "minX": -2724, "maxX": -2700, "minZ": 862, "maxZ": 930
+          }
+      },
+
+      {
+          "id": "bellsprout-9",
+          "pokemon": "bellsprout",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "8-14",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "timeRange": "dawn,dusk,day",
+              "minX": -2856, "maxX": -2816, "minZ": 997, "maxZ": 1017
+          }
+      },
+      {
+          "id": "bellsprout-10",
+          "pokemon": "bellsprout",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "8-14",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "timeRange": "night",
+              "minX": -2856, "maxX": -2816, "minZ": 997, "maxZ": 1017
+          }
+      },
+
+      {
+          "id": "bellsprout-11",
+          "pokemon": "bellsprout",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-14",
+          "weight": 30,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "timeRange": "dawn,dusk,day",
+              "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235
+          }
+      },
+      {
+          "id": "bellsprout-12",
+          "pokemon": "bellsprout",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-14",
+          "weight": 20,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "timeRange": "night",
+              "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235
           }
       }
     ]

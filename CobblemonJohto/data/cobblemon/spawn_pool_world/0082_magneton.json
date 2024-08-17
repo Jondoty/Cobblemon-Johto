@@ -13,7 +13,7 @@
             "weight": 11,
             "condition": {
                 "canSeeSky": false,
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
                 "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
             }
         },

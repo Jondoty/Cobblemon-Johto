@@ -7,11 +7,10 @@
             "id": "poliwag-1",
             "pokemon": "poliwag",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "3-5",
             "weight": 90.0,
@@ -25,16 +24,14 @@
             "id": "poliwag-2",
             "pokemon": "poliwag",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "3-5",
             "weight": 90.0,
             "condition": {
-                "canSeeSky": true,
                 "minX": -177, "maxX": -121, "minZ": -108, "maxZ": -76
             }
         },
@@ -43,11 +40,10 @@
             "id": "poliwag-3",
             "pokemon": "poliwag",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "5-6",
             "weight": 90.0,
@@ -61,11 +57,10 @@
             "id": "poliwag-4",
             "pokemon": "poliwag",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "12-15",
             "weight": 90.0,
@@ -79,11 +74,10 @@
             "id": "poliwag-5",
             "pokemon": "poliwag",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "15-32",
             "weight": 90.0,
@@ -97,11 +91,10 @@
             "id": "poliwag-6",
             "pokemon": "poliwag",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "35-45",
             "weight": 90.0,
@@ -115,11 +108,10 @@
             "id": "poliwag-7",
             "pokemon": "poliwag",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "5-10",
             "weight": 90.0,
@@ -133,11 +125,10 @@
             "id": "poliwag-8",
             "pokemon": "poliwag",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "5-10",
             "weight": 90.0,

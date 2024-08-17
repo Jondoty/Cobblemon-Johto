@@ -21,7 +21,7 @@
       },
 
       {
-          "id": "magnemite-1",
+          "id": "magnemite-2",
           "pokemon": "magnemite",
           "type": "pokemon",
           "context": "grounded",
@@ -34,6 +34,38 @@
                   "minecraft:grass"
               ],
               "minX": 704, "maxX": 822, "minZ": 57, "maxZ": 296
+          }
+      },
+
+      {
+          "id": "magnemite-3",
+          "pokemon": "magnemite",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-14",
+          "weight": 10,
+          "condition": {
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235
+          }
+      },
+
+      {
+          "id": "magnemite-4",
+          "pokemon": "magnemite",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "14-16",
+          "weight": 20,
+          "condition": {
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -3176, "maxX": -2921, "minZ": -122, "maxZ": -5
           }
       }
     ]

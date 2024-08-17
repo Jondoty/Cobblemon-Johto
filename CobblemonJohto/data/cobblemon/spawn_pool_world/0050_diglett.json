@@ -18,6 +18,20 @@
                 ],
                 "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248
             }
+        },
+
+        {
+            "id": "diglett-2",
+            "pokemon": "diglett",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-29",
+            "weight": 90,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -3091, "maxX": -2945, "minY": 39, "maxY": 57, "minZ": 72, "maxZ": 222
+            }
         }
     ]
 }

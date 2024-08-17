@@ -55,20 +55,92 @@
       },
 
       {
-          "id": "fearow-3",
+          "id": "fearow-4",
           "pokemon": "fearow",
           "type": "pokemon",
           "context": "grounded",
           "bucket": "common",
-          "level": "13-5",
+          "level": "13-15",
           "weight": 5,
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": -3316, "maxX": -2902, "minZ": 683, "maxZ": 781
+          }
+      },
+
+      {
+          "id": "fearow-5",
+          "pokemon": "fearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "15-18",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "dawn,dusk,day",
+              "minX": -3319, "maxX": -3300, "minZ": 588, "maxZ": 626
+          }
+      },
+
+      {
+          "id": "fearow-6",
+          "pokemon": "fearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "26-30",
+          "weight": 40,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "dawn,dusk,day",
+              "minX": -2212, "maxX": -2182, "minZ": -580, "maxZ": -561
+          }
+      },
+
+      {
+          "id": "fearow-7",
+          "pokemon": "fearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "27-32",
+          "weight": 40,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "dawn,dusk,day",
+              "minX": -2094, "maxX": -2054, "minZ": 176, "maxZ": 238
+          }
+      },
+
+      {
+          "id": "fearow-8",
+          "pokemon": "fearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "27-30",
+          "weight": 40,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "dawn,dusk,day",
+              "minX": -2197, "maxX": -2145, "minZ": 338, "maxZ": 368
           }
       }
     ]

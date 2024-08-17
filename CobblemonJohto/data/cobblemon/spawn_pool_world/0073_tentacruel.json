@@ -7,10 +7,10 @@
             "id": "tentacruel-1",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "1-3",
             "weight": 10.0,
@@ -22,10 +22,10 @@
             "id": "tentacruel-2",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "3-5",
             "weight": 10.0,
@@ -38,10 +38,10 @@
             "id": "tentacruel-3",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "4-6",
             "weight": 10.0,
@@ -54,10 +54,10 @@
             "id": "tentacruel-4",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "10-25",
             "weight": 10.0,
@@ -70,10 +70,10 @@
             "id": "tentacruel-5",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "10-13",
             "weight": 10.0,
@@ -87,10 +87,10 @@
             "id": "tentacruel-6",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "13-17",
             "weight": 10.0,
@@ -104,10 +104,10 @@
             "id": "tentacruel-7",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "10-25",
             "weight": 10.0,
@@ -121,10 +121,10 @@
             "id": "tentacruel-8",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "15-25",
             "weight": 30.0,
@@ -138,10 +138,10 @@
             "id": "tentacruel-9",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "15-25",
             "weight": 10.0,
@@ -154,10 +154,10 @@
             "id": "tentacruel-10",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "15-25",
             "weight": 30.0,
@@ -171,10 +171,10 @@
             "id": "tentacruel-11",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "15-25",
             "weight": 10.0,
@@ -188,10 +188,10 @@
             "id": "tentacruel-12",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "15-20",
             "weight": 10.0,
@@ -205,10 +205,10 @@
             "id": "tentacruel-13",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "25-30",
             "weight": 10.0,
@@ -222,16 +222,118 @@
             "id": "tentacruel-14",
             "pokemon": "tentacruel",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "30-35",
             "weight": 10.0,
             "condition": {
                 "canSeeSky": true,
                 "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328
+            }
+        },
+
+        {
+            "id": "tentacruel-15",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-35",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2932, "maxX": -2647, "minZ": -226, "maxZ": 68
+            }
+        },
+
+        {
+            "id": "tentacruel-16",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "25-25",
+            "weight": 70.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -3352, "maxX": -3248, "minZ": -262, "maxZ": 272
+            }
+        },
+
+        {
+            "id": "tentacruel-16",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "10-20",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2229, "maxX": -1951, "minZ": -609, "maxZ": 301
+            }
+        },
+
+        {
+            "id": "tentacruel-17",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-35",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2479, "maxX": -2308, "minZ": -831, "maxZ": -651
+            }
+        },
+
+        {
+            "id": "tentacruel-17",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-35",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2479, "maxX": -1620, "minY": 59, "minZ": -969, "maxZ": -832
+            }
+        },
+
+        {
+            "id": "tentacruel-17",
+            "pokemon": "tentacruel",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-35",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2479, "maxX": -1620, "minZ": -969, "maxZ": -832
             }
         }
     ]

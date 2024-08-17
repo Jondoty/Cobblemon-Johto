@@ -1,0 +1,57 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "drowzee-1",
+          "pokemon": "drowzee",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "10-13",
+          "weight": 50,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 422, "maxX": 512, "minZ": -721, "maxZ": -488
+          }
+      },
+
+      {
+          "id": "drowzee-2",
+          "pokemon": "drowzee",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-14",
+          "weight": 20,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 426, "maxX": 492, "minZ": -252, "maxZ": -94
+          }
+      },
+
+      {
+          "id": "drowzee-3",
+          "pokemon": "drowzee",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "14-16",
+          "weight": 40,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -3176, "maxX": -2921, "minZ": -122, "maxZ": -5
+          }
+      }
+    ]
+}

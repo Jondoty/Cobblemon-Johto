@@ -27,7 +27,7 @@
             "weight": 24,
             "condition": {
                 "canSeeSky": false,
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
                 "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
             }
         },
@@ -56,7 +56,7 @@
             "weight": 24,
             "condition": {
                 "canSeeSky": false,
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
                 "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897
             }
         },
@@ -87,6 +87,20 @@
                 "canSeeSky": false,
               "timeRange": "night",
                 "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
+            }
+        },
+
+        {
+            "id": "machoke-7",
+            "pokemon": "machoke",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-13",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -3401, "maxX": -3191, "minY": 28, "maxY": 54, "minZ": 528, "maxZ": 701
             }
         }
     ]

@@ -231,6 +231,91 @@
                 "canSeeSky": true,
                 "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328
             }
+        },
+
+        {
+            "id": "tentacool-15",
+            "pokemon": "tentacool",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-35",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2932, "maxX": -2647, "minZ": -226, "maxZ": 68
+            }
+        },
+
+        {
+            "id": "tentacool-16",
+            "pokemon": "tentacool",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "10-20",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2229, "maxX": -1951, "minZ": -609, "maxZ": 301
+            }
+        },
+
+        {
+            "id": "tentacool-16",
+            "pokemon": "tentacool",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-35",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2479, "maxX": -2308, "minZ": -831, "maxZ": -651
+            }
+        },
+
+        {
+            "id": "tentacool-16",
+            "pokemon": "tentacool",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-35",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2479, "maxX": -1620, "minY": 59, "minZ": -969, "maxZ": -832
+            }
+        },
+
+        {
+            "id": "tentacool-17",
+            "pokemon": "tentacool",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-35",
+            "weight": 90.0,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2479, "maxX": -1620, "minZ": -969, "maxZ": -832
+            }
         }
     ]
 }

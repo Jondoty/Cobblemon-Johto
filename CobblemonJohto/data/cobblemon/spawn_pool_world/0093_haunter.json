@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "haunter-1",
+          "pokemon": "haunter",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "15-19",
+          "weight": 30,
+          "condition": {
+            "neededNearbyBlocks": [
+                "minecraft:grass"
+            ],
+              "timeRange": "night",
+              "minX": -3103, "maxX": -3034, "minZ": 293, "maxZ": 344
+          }
+        }
+    ]
+}

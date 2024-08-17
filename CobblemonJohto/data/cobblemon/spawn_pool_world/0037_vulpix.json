@@ -16,7 +16,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, night",
+              "timeRange": "dawn,dusk,night",
               "minX": 371, "maxX": 406, "minZ": -46, "maxZ": -27
           }
       },
@@ -51,7 +51,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, night",
+              "timeRange": "dawn,dusk,night",
               "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135
           }
       },
@@ -86,7 +86,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248
           }
       },
@@ -105,6 +105,58 @@
               ],
               "timeRange": "night",
               "minX": 1575, "maxX": 1618, "minZ": -296, "maxZ": -248
+          }
+      },
+
+      {
+          "id": "vulpix-7",
+          "pokemon": "vulpix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "15-19",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "dawn,dusk,day",
+              "minX": -3103, "maxX": -3034, "minZ": 293, "maxZ": 344
+          }
+      },
+      {
+          "id": "vulpix-8",
+          "pokemon": "vulpix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "15-19",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "night",
+              "minX": -3103, "maxX": -3034, "minZ": 293, "maxZ": 344
+          }
+      },
+
+      {
+          "id": "vulpix-9",
+          "pokemon": "vulpix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "15-19",
+          "weight": 20,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -2611, "maxX": -2570, "minZ": 349, "maxZ": 379
           }
       }
     ]

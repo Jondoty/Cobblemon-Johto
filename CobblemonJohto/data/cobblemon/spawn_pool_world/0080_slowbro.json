@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "slowbro-1",
+          "pokemon": "slowbro",
+          "presets": [
+              "water_surface"
+          ],
+          "type": "pokemon",
+          "context": "surface",
+          "bucket": "common",
+          "level": "30-40",
+          "weight": 10,
+          "condition": {
+              "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 32, "minZ": -889, "maxZ": -825
+          }
+      }
+    ]
+}

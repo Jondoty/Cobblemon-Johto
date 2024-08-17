@@ -7,10 +7,10 @@
             "id": "horsea-1",
             "pokemon": "horsea",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "15-25",
             "weight": 30.0,
@@ -23,10 +23,10 @@
             "id": "horsea-2",
             "pokemon": "horsea",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "15-25",
             "weight": 60.0,
@@ -34,6 +34,23 @@
                 "canSeeSky": false,
                 "minX": 1219, "maxX": 1270, "minY": 25, "maxY": 39, "minZ": 164, "maxZ": 197
         }
+      },
+
+      {
+          "id": "horsea-3",
+          "pokemon": "horsea",
+          "presets": [
+              "water_surface"
+          ],
+          "type": "pokemon",
+          "context": "surface",
+          "bucket": "common",
+          "level": "30-40",
+          "weight": 30.0,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 32, "minZ": -889, "maxZ": -825
       }
+    }
     ]
 }

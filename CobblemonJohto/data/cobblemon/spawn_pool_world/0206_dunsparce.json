@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "geodude-1",
-            "pokemon": "geodude",
+            "id": "dunsparce-1",
+            "pokemon": "dunsparce",
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",

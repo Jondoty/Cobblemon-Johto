@@ -1,0 +1,57 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "chansey-1",
+          "pokemon": "chansey",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "22-25",
+          "weight": 1,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -3290, "maxX": -3198, "minZ": -354, "maxZ": -258
+          }
+      },
+
+      {
+          "id": "chansey-2",
+          "pokemon": "chansey",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "23-26",
+          "weight": 1,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -2931, "maxX": -2899, "minZ": -427, "maxZ": -389
+          }
+      },
+
+      {
+          "id": "chansey-3",
+          "pokemon": "chansey",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "23-26",
+          "weight": 1,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -2847, "maxX": -2610, "minZ": -565, "maxZ": -533
+          }
+      }
+    ]
+}

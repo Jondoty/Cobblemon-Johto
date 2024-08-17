@@ -7,11 +7,10 @@
             "id": "poliwhirl-1",
             "pokemon": "poliwhirl",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "3-5",
             "weight": 10.0,
@@ -25,11 +24,10 @@
             "id": "poliwhirl-2",
             "pokemon": "poliwhirl",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "3-5",
             "weight": 10.0,
@@ -43,11 +41,10 @@
             "id": "poliwhirl-4",
             "pokemon": "poliwhirl",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "5-6",
             "weight": 10.0,
@@ -61,11 +58,10 @@
             "id": "poliwhirl-5",
             "pokemon": "poliwhirl",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "12-15",
             "weight": 10.0,
@@ -79,11 +75,10 @@
             "id": "poliwhirl-6",
             "pokemon": "poliwhirl",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "15-32",
             "weight": 10.0,
@@ -97,11 +92,10 @@
             "id": "poliwhirl-7",
             "pokemon": "poliwhirl",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "35-40",
             "weight": 10.0,
@@ -115,11 +109,10 @@
             "id": "poliwhirl-8",
             "pokemon": "poliwhirl",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "5-10",
             "weight": 10.0,
@@ -133,11 +126,10 @@
             "id": "poliwhirl-9",
             "pokemon": "poliwhirl",
             "presets": [
-                "freshwater",
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "5-10",
             "weight": 10.0,

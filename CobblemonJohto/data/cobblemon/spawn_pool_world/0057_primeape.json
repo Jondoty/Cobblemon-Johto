@@ -13,7 +13,7 @@
             "weight": 20,
             "condition": {
                 "canSeeSky": false,
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -22,
                 "maxX": 206,
                 "minY": 69,
@@ -58,6 +58,51 @@
                 "maxX": -2902,
                 "minZ": 683,
                 "maxZ": 781
+            }
+        },
+
+        {
+            "id": "primeape-4",
+            "pokemon": "primeape",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 14,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "dawn,dusk,day",
+                "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+            }
+        },
+        {
+            "id": "primeape-5",
+            "pokemon": "primeape",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "38-40",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": false,
+                "timeRange": "night",
+                "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+            }
+        },
+
+        {
+            "id": "primeape-6",
+            "pokemon": "primeape",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-15",
+            "weight": 5,
+            "condition": {
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+                "minX": -3316, "maxX": -2902, "minZ": 683, "maxZ": 781
             }
         }
     ]

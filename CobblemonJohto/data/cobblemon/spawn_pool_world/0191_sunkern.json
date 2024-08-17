@@ -14,11 +14,28 @@
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
-                    "minecraft:grass",
-                    "minecraft:tall_grass"
+                    "minecraft:grass"
                 ],
                 "timeRange": "day",
                 "minX": 465, "maxX": 621, "minZ": -57, "maxZ": 135
+            }
+        },
+
+        {
+            "id": "sunkern-2",
+            "pokemon": "sunkern",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-12",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "day",
+                "minX": -2724, "maxX": -2700, "minZ": 862, "maxZ": 930
             }
         }
     ]

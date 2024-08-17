@@ -90,7 +90,7 @@
             "weight": 100,
             "condition": {
                 "canSeeSky": false,
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": 45, "maxX": 74, "minY": 83, "maxY": 110, "minZ": 5, "maxZ": 34
             }
         },
@@ -122,7 +122,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight",
+                "timeRange": "dawn,dusk",
                 "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
             }
         },
@@ -197,7 +197,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight",
+                "timeRange": "dawn,dusk",
                 "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688
             }
         },
@@ -246,7 +246,7 @@
             "weight": 100,
             "condition": {
                 "canSeeSky": false,
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": 240, "maxX": 273, "minY": 70, "maxY": 112, "minZ": 297, "maxZ": 330
             }
         },
@@ -278,7 +278,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": 489, "maxX": 703, "minZ": 178, "maxZ": 292
             }
         },
@@ -313,7 +313,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": 704, "maxX": 822, "minZ": 57, "maxZ": 296
             }
         },
@@ -388,7 +388,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -521, "maxX": -409, "minZ": -468, "maxZ": -319
             }
         },
@@ -437,7 +437,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -1750, "maxX": -1637, "minZ": -257, "maxZ": -53
             }
         },
@@ -472,7 +472,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -1565, "maxX": -1408, "minZ": -1, "maxZ": 72
             }
         },
@@ -507,7 +507,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -2211, "maxX": -1961, "minZ": 581, "maxZ": 690
             }
         },
@@ -542,7 +542,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744
             }
         },
@@ -577,7 +577,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -3316, "maxX": -2902, "minZ": 683, "maxZ": 781
             }
         },
@@ -596,6 +596,67 @@
                 ],
                 "timeRange": "night",
                 "minX": -3316, "maxX": -2902, "minZ": 683, "maxZ": 781
+            }
+        },
+
+        {
+            "id": "rattata-37",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-16",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "minX": -3176, "maxX": -2921, "minZ": -122, "maxZ": -5
+            }
+        },
+
+        {
+            "id": "rattata-38",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-19",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": true,
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "minX": -2611, "maxX": -2570, "minZ": 349, "maxZ": 379
+            }
+        },
+
+        {
+            "id": "rattata-39",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "39-44",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826
+            }
+        },
+        {
+            "id": "rattata-40",
+            "pokemon": "rattata",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "39-44",
+            "weight": 20,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826
             }
         }
     ]

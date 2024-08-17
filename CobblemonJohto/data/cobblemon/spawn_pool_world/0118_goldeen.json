@@ -7,10 +7,10 @@
             "id": "goldeen-1",
             "pokemon": "goldeen",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "14-16",
             "weight": 90.0,
@@ -24,10 +24,10 @@
             "id": "goldeen-2",
             "pokemon": "goldeen",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "14-16",
             "weight": 90.0,
@@ -40,10 +40,10 @@
             "id": "goldeen-3",
             "pokemon": "goldeen",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "10-15",
             "weight": 90.0,
@@ -56,10 +56,10 @@
             "id": "goldeen-4",
             "pokemon": "goldeen",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "10-15",
             "weight": 90.0,
@@ -73,10 +73,10 @@
             "id": "goldeen-5",
             "pokemon": "goldeen",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "20",
             "weight": 60.0,
@@ -90,10 +90,10 @@
             "id": "goldeen-6",
             "pokemon": "goldeen",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "30-50",
             "weight": 9.0,
@@ -107,10 +107,10 @@
             "id": "goldeen-7",
             "pokemon": "goldeen",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "seafloor",
+            "context": "surface",
             "bucket": "common",
             "level": "5-10",
             "weight": 90.0,

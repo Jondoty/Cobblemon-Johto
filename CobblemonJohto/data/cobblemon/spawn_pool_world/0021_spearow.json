@@ -16,7 +16,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688
           }
       },
@@ -51,7 +51,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": -59, "maxX": -4, "minZ": 154, "maxZ": 177
           }
       },
@@ -69,7 +69,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": -521, "maxX": -409, "minZ": -468, "maxZ": -319
           }
       },
@@ -87,7 +87,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": -1565, "maxX": -1408, "minZ": -1, "maxZ": 72
           }
       },
@@ -105,7 +105,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": -2211, "maxX": -1961, "minZ": 581, "maxZ": 690
           }
       },
@@ -123,7 +123,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744
           }
       },
@@ -140,8 +140,59 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744
+          }
+      },
+
+      {
+          "id": "spearow-9",
+          "pokemon": "spearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "13-15",
+          "weight": 20,
+          "condition": {
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "dawn,dusk,day",
+              "minX": -3316, "maxX": -2902, "minZ": 683, "maxZ": 781
+          }
+      },
+
+      {
+          "id": "spearow-10",
+          "pokemon": "spearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "15-18",
+          "weight": 30,
+          "condition": {
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "dawn,dusk,day",
+              "minX": -3319, "maxX": -3300, "minZ": 588, "maxZ": 626
+          }
+      },
+
+      {
+          "id": "spearow-11",
+          "pokemon": "spearow",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "15-19",
+          "weight": 30,
+          "condition": {
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "timeRange": "dawn,dusk,day",
+              "minX": -2611, "maxX": -2570, "minZ": 349, "maxZ": 379
           }
       }
     ]

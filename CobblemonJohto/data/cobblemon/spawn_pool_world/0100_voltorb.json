@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "voltorb-1",
+          "pokemon": "voltorb",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "15-18",
+          "weight": 30,
+          "condition": {
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": -3319, "maxX": -3300, "minZ": 588, "maxZ": 626
+          }
+      }
+    ]
+}

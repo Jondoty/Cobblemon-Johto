@@ -28,8 +28,8 @@ execute if block 88 64 145 air run setblock 88 64 145 cobblemon:yellow_apricorn_
 execute if block -94 64 392 air run setblock -94 64 392 cobblemon:black_apricorn_sapling
 execute if block -257 64 203 air run setblock -257 64 203 cobblemon:red_apricorn_sapling
 execute if block -632 64 -328 air run setblock -632 64 -328 cobblemon:green_apricorn_sapling
-execute if block -471 65 -298 air run setblock -471 65 -298 cobblemon:green_apricorn_sapling
-execute if block -467 65 -302 air run setblock -467 65 -302 cobblemon:yellow_apricorn_sapling
+execute if block -471 64 -298 air run setblock -471 64 -298 cobblemon:green_apricorn_sapling
+execute if block -467 64 -302 air run setblock -467 64 -302 cobblemon:yellow_apricorn_sapling
 execute if block -1294 64 -270 air run setblock -1294 64 -270 cobblemon:blue_apricorn_sapling
 execute if block -1657 64 -71 air run setblock -1657 64 -71 cobblemon:black_apricorn_sapling
 execute if block -1740 64 434 air run setblock -1740 64 434 cobblemon:pink_apricorn_sapling
@@ -37,7 +37,7 @@ execute if block -1684 64 391 air run setblock -1684 64 391 cobblemon:green_apri
 execute if block -1765 64 695 air run setblock -1765 64 695 cobblemon:blue_apricorn_sapling
 execute if block -1759 64 695 air run setblock -1759 64 695 cobblemon:white_apricorn_sapling
 execute if block -3188 64 350 air run setblock -3188 64 350 cobblemon:yellow_apricorn_sapling
-execute if block -3156 65 -33 air run setblock -3156 65 -33 cobblemon:green_apricorn_sapling
+execute if block -3156 64 -33 air run setblock -3156 64 -33 cobblemon:green_apricorn_sapling
 execute if block -2365 64 -519 air run setblock -2365 64 -519 cobblemon:red_apricorn_sapling
 
 
@@ -358,10 +358,10 @@ fill -2900 64 -45 -2903 64 -45 minecraft:magenta_carpet
 fill -3051 59 86 -3048 59 86 minecraft:magenta_carpet
 fill -2280 64 290 -2284 64 290 minecraft:magenta_carpet
 fill -1102 64 641 -1095 64 641 minecraft:magenta_carpet
-
-
-
-
+fill -975 76 342 -978 76 342 minecraft:magenta_carpet
+fill -967 124 249 -963 124 249 minecraft:magenta_carpet
+fill -1023 86 349 -1026 86 349 minecraft:magenta_carpet
+fill -942 175 195 -945 175 195 minecraft:magenta_carpet
 
 
 

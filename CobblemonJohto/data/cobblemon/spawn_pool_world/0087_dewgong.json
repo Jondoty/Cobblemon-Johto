@@ -1,0 +1,33 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "dewgong-1",
+          "pokemon": "dewgong",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "31-36",
+          "weight": 24,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -2128, "maxX": -2022, "minY": 25, "maxY": 32, "minZ": -889, "maxZ": -825
+          }
+      },
+      {
+          "id": "dewgong-2",
+          "pokemon": "dewgong",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "34-40",
+          "weight": 24,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 24, "minZ": -889, "maxZ": -825
+          }
+      }
+    ]
+}

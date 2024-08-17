@@ -16,7 +16,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": -1088, "maxX": -1015, "minZ": -528, "maxZ": -482
           }
       },
@@ -34,7 +34,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": -1321, "maxX": -1216, "minZ": -482, "maxZ": -284
           }
       },
@@ -52,7 +52,7 @@
               "neededNearbyBlocks": [
                   "minecraft:grass"
               ],
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
               "minX": -1188, "maxX": -906, "minZ": -11, "maxZ": 84
           }
       }

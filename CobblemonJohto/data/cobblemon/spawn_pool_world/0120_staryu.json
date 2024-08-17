@@ -7,10 +7,10 @@
           "id": "staryu-1",
           "pokemon": "staryu",
           "presets": [
-              "underwater"
+              "water_surface"
           ],
           "type": "pokemon",
-          "context": "submerged",
+          "context": "surface",
           "bucket": "common",
           "level": "15-25",
           "weight": 10.0,

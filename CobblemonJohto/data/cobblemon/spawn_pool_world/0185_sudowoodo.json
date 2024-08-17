@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "sudowoodo-1",
+          "pokemon": "sudowoodo",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "12-15",
+          "weight": 7,
+          "condition": {
+              "canSeeSky": true,
+              "neededNearbyBlocks": [
+                  "minecraft:grass"
+              ],
+              "minX": 371, "maxX": 406, "minZ": -46, "maxZ": -27
+          }
+      }
+    ]
+}

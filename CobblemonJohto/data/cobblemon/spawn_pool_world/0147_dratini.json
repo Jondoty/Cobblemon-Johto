@@ -7,10 +7,10 @@
             "id": "dratini-1",
             "pokemon": "dratini",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "6-20",
             "weight": 10.0,

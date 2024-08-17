@@ -13,7 +13,7 @@
             "weight": 14,
             "condition": {
                 "canSeeSky": false,
-              "timeRange": "twilight, day",
+              "timeRange": "dawn,dusk,day",
                 "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
             }
         },
@@ -29,6 +29,20 @@
                 "canSeeSky": false,
               "timeRange": "night",
                 "minX": -2667, "maxX": -2535, "minY": 62, "maxY": 71, "minZ": 822, "maxZ": 897
+            }
+        },
+
+        {
+            "id": "persian-3",
+            "pokemon": "persian",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-19",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": true,
+                "minX": -2611, "maxX": -2570, "minZ": 349, "maxZ": 379
             }
         }
     ]

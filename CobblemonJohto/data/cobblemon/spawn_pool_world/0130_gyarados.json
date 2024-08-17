@@ -7,13 +7,13 @@
             "id": "gyarados-1",
             "pokemon": "gyarados",
             "presets": [
-                "underwater"
+                "water_surface"
             ],
             "type": "pokemon",
-            "context": "submerged",
+            "context": "surface",
             "bucket": "common",
             "level": "10-20",
-            "weight": 90.0,
+            "weight": 10.0,
             "condition": {
                 "canSeeSky": true,
                 "minX": -251, "maxX": -86, "minZ": 575, "maxZ": 724

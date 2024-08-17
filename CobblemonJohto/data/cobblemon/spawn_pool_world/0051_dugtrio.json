@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dugtrio-1",
+            "pokemon": "dugtrio",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-29",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -3091, "maxX": -2945, "minY": 39, "maxY": 57, "minZ": 72, "maxZ": 222
+            }
+        }
+    ]
+}

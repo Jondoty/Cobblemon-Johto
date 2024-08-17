@@ -1,0 +1,23 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "lapras-1",
+          "pokemon": "lapras",
+          "presets": [
+              "water_surface"
+          ],
+          "type": "pokemon",
+          "context": "surface",
+          "bucket": "common",
+          "level": "20-20",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": false,
+              "minX": 99, "maxX": 134, "minY": 10, "maxY": 25, "minZ": -865, "maxZ": -839
+          }
+      }
+    ]
+}

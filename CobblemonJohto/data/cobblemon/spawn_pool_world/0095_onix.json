@@ -69,6 +69,20 @@
               "canSeeSky": false,
               "minX": -1534, "maxX": -1320, "minY": 1, "maxY": 55, "minZ": 366, "maxZ": 546
           }
+      },
+
+      {
+          "id": "onix-6",
+          "pokemon": "onix",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "10-13",
+          "weight": 20,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -3401, "maxX": -3191, "minY": 28, "maxY": 54, "minZ": 528, "maxZ": 701
+          }
       }
     ]
 }

@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "marowak-1",
+          "pokemon": "marowak",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "10-13",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -3401, "maxX": -3191, "minY": 28, "maxY": 54, "minZ": 528, "maxZ": 701
+          }
+      }
+    ]
+}

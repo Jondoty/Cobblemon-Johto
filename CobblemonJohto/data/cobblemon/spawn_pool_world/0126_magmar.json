@@ -12,7 +12,7 @@
           "level": "14-16",
           "weight": 5,
           "condition": {
-              "timeRange": "twilight, night",
+              "timeRange": "dawn,dusk,night",
               "minX": 432, "maxX": 452, "minY": 56, "maxY": 62, "minZ": 309, "maxZ": 329
           }
       },
@@ -27,6 +27,33 @@
           "condition": {
               "timeRange": "day",
               "minX": 432, "maxX": 452, "minY": 56, "maxY": 62, "minZ": 309, "maxZ": 329
+          }
+      },
+
+      {
+          "id": "magmar-3",
+          "pokemon": "magmar",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "39-44",
+          "weight": 5,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826
+          }
+      },
+      {
+          "id": "magmar-4",
+          "pokemon": "magmar",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "39-44",
+          "weight": 10,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826
           }
       }
     ]

@@ -33,7 +33,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, night",
+                "timeRange": "dawn,dusk,night",
                 "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328
             }
         }

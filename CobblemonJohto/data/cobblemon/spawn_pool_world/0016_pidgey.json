@@ -36,7 +36,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight",
+                "timeRange": "dawn,dusk",
                 "minX": -623,
                 "maxX": -324,
                 "minZ": -583,
@@ -57,7 +57,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight",
+                "timeRange": "dawn,dusk",
                 "minX": -263, "maxX": -137, "minZ": -458, "maxZ": -188
             }
         },
@@ -92,7 +92,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": 426, "maxX": 492, "minZ": -252, "maxZ": -94
             }
         },
@@ -111,7 +111,7 @@
                     "minecraft:grass",
                     "minecraft:tall_grass"
                 ],
-                "timeRange": "twilight",
+                "timeRange": "dawn,dusk",
                 "minX": 465, "maxX": 621, "minZ": -57, "maxZ": 135
             }
         },
@@ -147,7 +147,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight",
+                "timeRange": "dawn,dusk",
                 "minX": 371, "maxX": 406, "minZ": -46, "maxZ": -27
             }
         },
@@ -182,7 +182,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight",
+                "timeRange": "dawn,dusk",
                 "minX": 313, "maxX": 400, "minZ": 29, "maxZ": 135
             }
         },
@@ -217,7 +217,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -1750, "maxX": -1637, "minZ": -257, "maxZ": -53
             }
         },
@@ -235,7 +235,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight",
+                "timeRange": "dawn,dusk",
                 "minX": -1700, "maxX": -1658, "minZ": 231, "maxZ": 265
             }
         },
@@ -270,7 +270,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight",
+                "timeRange": "dawn,dusk",
                 "minX": -1682, "maxX": -1639, "minZ": 484, "maxZ": 530
             }
         },
@@ -305,7 +305,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight",
+                "timeRange": "dawn,dusk",
                 "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
             }
         },
@@ -336,12 +336,62 @@
             "level": "12-15",
             "weight": 15,
             "condition": {
-                "canSeeSky": false,
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": -2775, "maxX": -2724, "minZ": 542, "maxZ": 614
+            }
+        },
+
+        {
+            "id": "pidgey-20",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "3-5",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "dawn,dusk,day",
+                "minX": -245, "maxX": -63, "minZ": -161, "maxZ": -117
+            }
+        },
+
+        {
+            "id": "pidgey-21",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "8-14",
+            "weight": 30,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "dawn,dusk,day",
+                "minX": -2856, "maxX": -2816, "minZ": 997, "maxZ": 1017
+            }
+        },
+
+        {
+            "id": "pidgey-22",
+            "pokemon": "pidgey",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "12-14",
+            "weight": 20,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:grass"
+                ],
+                "timeRange": "dawn,dusk,day",
+                "minX": -2816, "maxX": -2686, "minZ": 52, "maxZ": 235
             }
         }
     ]

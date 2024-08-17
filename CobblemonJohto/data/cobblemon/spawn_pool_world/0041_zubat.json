@@ -44,7 +44,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, night",
+                "timeRange": "dawn,dusk,night",
                 "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
             }
         },
@@ -102,7 +102,7 @@
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
-                "timeRange": "twilight, night",
+                "timeRange": "dawn,dusk,night",
                 "minX": 125, "maxX": 227, "minZ": -787, "maxZ": -688
             }
         },
@@ -144,7 +144,7 @@
             "weight": 5,
             "condition": {
                 "canSeeSky": false,
-                "timeRange": "twilight, day",
+                "timeRange": "dawn,dusk,day",
                 "minX": 538, "maxX": 688, "minZ": -778, "maxZ": -584
             }
         },
@@ -271,7 +271,7 @@
             "weight": 25,
             "condition": {
                 "canSeeSky": false,
-                "timeRange": "twilight, night",
+                "timeRange": "dawn,dusk,night",
                 "minX": -872, "maxX": -587, "maxY": 59, "minZ": 299, "maxZ": 469
             }
         },
@@ -352,6 +352,75 @@
                 "timeRange": "night",
                 "minX": -2584, "maxX": -2314, "minZ": 672, "maxZ": 744
             }
+        },
+
+        {
+            "id": "zubat-25",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-13",
+            "weight": 10,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -3401, "maxX": -3191, "minY": 28, "maxY": 54, "minZ": 528, "maxZ": 701
+            }
+        },
+
+        {
+            "id": "zubat-26",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-32",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -2128, "maxX": -2022, "minY": 50, "maxY": 57, "minZ": -889, "maxZ": -825
+            }
+        },
+        {
+            "id": "zubat-27",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "26-34",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -2128, "maxX": -2022, "minY": 43, "maxY": 49, "minZ": -889, "maxZ": -825
+            }
+        },
+        {
+            "id": "zubat-28",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "27-36",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -2128, "maxX": -2022, "minY": 33, "maxY": 42, "minZ": -889, "maxZ": -825
+            }
+        },
+        {
+            "id": "zubat-29",
+            "pokemon": "zubat",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "31-36",
+            "weight": 30,
+            "condition": {
+                "canSeeSky": false,
+                "minX": -2128, "maxX": -2022, "minY": 25, "maxY": 32, "minZ": -889, "maxZ": -825
+            }
         }
+
+
     ]
 }
