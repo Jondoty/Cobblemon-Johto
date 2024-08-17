@@ -5,6 +5,43 @@ fill -966 66 -373 -975 69 -368 air
 fill -975 69 -363 -970 66 -358 air
 fill -976 68 -360 -976 68 -362 minecraft:quartz_pillar[axis=z]
 
+
+#Apricorn trees
+execute if block -382 64 -491 air run setblock -382 64 -491 cobblemon:green_apricorn_sapling
+execute if block -171 64 -386 air run setblock -171 64 -386 cobblemon:green_apricorn_sapling
+execute if block -222 64 -196 air run setblock -222 64 -196 cobblemon:pink_apricorn_sapling
+execute if block -128 64 -105 air run setblock -128 64 -105 cobblemon:black_apricorn_sapling
+execute if block 110 64 -126 air run setblock 110 64 -126 cobblemon:yellow_apricorn_sapling
+execute if block 117 64 -767 air run setblock 117 64 -767 cobblemon:black_apricorn_sapling
+execute if block 112 64 -766 air run setblock 112 64 -766 cobblemon:pink_apricorn_sapling
+execute if block 379 64 -700 air run setblock 379 64 -700 cobblemon:white_apricorn_sapling
+execute if block 520 64 -213 air run setblock 520 64 -213 cobblemon:green_apricorn_sapling
+execute if block 416 64 -4 air run setblock 416 64 -4 cobblemon:blue_apricorn_sapling
+execute if block 346 64 107 air run setblock 346 64 107 cobblemon:red_apricorn_sapling
+execute if block 326 64 109 air run setblock 326 64 109 cobblemon:blue_apricorn_sapling
+execute if block 333 64 97 air run setblock 333 64 97 cobblemon:black_apricorn_sapling
+execute if block 633 64 224 air run setblock 633 64 224 cobblemon:white_apricorn_sapling
+execute if block 763 64 266 air run setblock 763 64 266 cobblemon:green_apricorn_sapling
+execute if block 94 64 146 air run setblock 94 64 146 cobblemon:pink_apricorn_sapling
+execute if block 98 64 145 air run setblock 98 64 145 cobblemon:green_apricorn_sapling
+execute if block 88 64 145 air run setblock 88 64 145 cobblemon:yellow_apricorn_sapling
+execute if block -94 64 392 air run setblock -94 64 392 cobblemon:black_apricorn_sapling
+execute if block -257 64 203 air run setblock -257 64 203 cobblemon:red_apricorn_sapling
+execute if block -632 64 -328 air run setblock -632 64 -328 cobblemon:green_apricorn_sapling
+execute if block -471 65 -298 air run setblock -471 65 -298 cobblemon:green_apricorn_sapling
+execute if block -467 65 -302 air run setblock -467 65 -302 cobblemon:yellow_apricorn_sapling
+execute if block -1294 64 -270 air run setblock -1294 64 -270 cobblemon:blue_apricorn_sapling
+execute if block -1657 64 -71 air run setblock -1657 64 -71 cobblemon:black_apricorn_sapling
+execute if block -1740 64 434 air run setblock -1740 64 434 cobblemon:pink_apricorn_sapling
+execute if block -1684 64 391 air run setblock -1684 64 391 cobblemon:green_apricorn_sapling
+execute if block -1765 64 695 air run setblock -1765 64 695 cobblemon:blue_apricorn_sapling
+execute if block -1759 64 695 air run setblock -1759 64 695 cobblemon:white_apricorn_sapling
+execute if block -3188 64 350 air run setblock -3188 64 350 cobblemon:yellow_apricorn_sapling
+execute if block -3156 65 -33 air run setblock -3156 65 -33 cobblemon:green_apricorn_sapling
+execute if block -2365 64 -519 air run setblock -2365 64 -519 cobblemon:red_apricorn_sapling
+
+
+
 #Daycare blocks
 execute if block 441 65 -574 air run setblock 441 65 -574 cobblemon:pasture[part=top,facing=east,waterlogged=false]
 execute if block 441 64 -574 air run setblock 441 64 -574 cobblemon:pasture[part=bottom,facing=east,waterlogged=false]
@@ -187,8 +224,8 @@ execute if block -262 64 -482 air run setblock -262 64 -482 cobblemon:pc[part=bo
 #New Bark Lab
 execute if block -674 64 -477 air run fill -674 64 -477 -674 64 -476 cobblemon:healing_machine[facing=east]
 
-execute if block -679 65 -471 air run setblock -679 65 -471 cobblemon:pc[part=top,facing=south]
-execute if block -679 64 -471 air run setblock -679 64 -471 cobblemon:pc[part=bottom,facing=south]
+setblock -679 65 -471 cobblemon:pc[part=top,facing=south]
+setblock -679 64 -471 cobblemon:pc[part=bottom,facing=south]
 
 
 #Victory Road House
