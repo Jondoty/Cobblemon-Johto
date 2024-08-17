@@ -6,12 +6,7 @@
 #temp to tp corrputed trainer into void
 #tp @e[x=-172.50,y=64.00,z=598.50,nbt=!{cobblemon:npc_trainer},distance=..4] ~ ~-1000 ~
 
-#---------------------
-#Runs infolist command for non-ops
-scoreboard players enable @a Info
-scoreboard players enable @a info
-execute as @a[scores={Info=1..}] run function tools:infolist
-execute as @a[scores={info=1..}] run function tools:infolist
+
 
 
 #---------------------
@@ -26,13 +21,7 @@ execute at @a as @e[distance=..10,type=item,nbt={Item:{id:"pixelmon:tree"}}] run
 execute at @a run execute as @e[tag=Despawn,distance=..10] run data merge entity @s {Lifespan:0,Age:0s}
 
 #---------------------
-#Time-based commands
 
-#Runs daily commands, sets time to armor stand based on game time
-execute store result score @e[x=-799,y=64,z=-284,dy=3,type=armor_stand] DayTime run time query daytime
-execute if entity @e[x=-799,y=64,z=-284,dy=3,type=armor_stand,scores={DayTime=18000..},tag=!DailyExecuted] run function johto:triggers/dailycommands
-execute if entity @e[x=-799,y=64,z=-284,dy=3,type=armor_stand,scores={DayTime=18000..},tag=!DailyExecuted] run tag @e[x=-799,y=64,z=-284,dy=3,type=armor_stand] add DailyExecuted
-tag @e[x=-799,y=64,z=-284,dy=3,type=armor_stand,scores={DayTime=..1000},tag=DailyExecuted] remove DailyExecuted
 
 #Gym Leader Rematches
 execute as @p[x=-2781,y=64,z=421,distance=..100,tag=AllGyms] run function johto:world/gymrematches/trainers
@@ -56,8 +45,6 @@ scoreboard players remove @a[scores={Cooldown=1..}] Cooldown 1
 scoreboard players operation @a CooldownWalk += @a[scores={CooldownSprint=1..}] CooldownSprint
 scoreboard players set @a[scores={CooldownSprint=1..}] CooldownSprint 0
 
-#Runs relog function if player is found with relog score
-execute as @a[scores={relog=1..}] run function johto:triggers/relog
 
 #If player selects a hat, puts hat back on
 execute as @a[nbt={SelectedItem:{id:"minecraft:iron_hoe",tag:{display:{Lore:['[{"text":"A hat given to you from","italic":false}]','[{"text":"your mother!","italic":false}]']}}}}] run function johto:triggers/hatstore
@@ -125,8 +112,7 @@ xp set @a[level=1..] 0 points
 execute as @a[nbt={SelectedItem:{id:"pixelmon:item_finder"}}] run function johto:world/itemfinder
 execute as @a[nbt={Inventory:[{Slot:-106b,id:"pixelmon:item_finder"}]}] run function johto:world/itemfinder
 
-#Runs Goldenrod Department Center Elevator
-execute if entity @a[x=438,y=63,z=-395,dx=3,dy=34,dz=3] run function johto:world/departmentelevator
+
 
 #Executes shiny particles over Shiny Pokemon
 execute at @a if entity @e[type=cobblemon:pokemon,nbt={palette:"shiny",Tame:0b},distance=50..] run execute at @e[nbt={palette:"shiny",Tame:0b},type=cobblemon:pokemon] run particle minecraft:dust 1 1 1 1 ~ ~1 ~ 0 10 0 0.5 50 force @a[distance=..50]
@@ -315,38 +301,7 @@ execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text"
 
 
 #-------------------------------------------------------------------------------------------------------------------------
-#Music-based commands
 
-
-#Music rate: 86 ticks per 60 seconds
-
-#Runs the click trigger if player uses Carrot on a Stick
-execute as @a[scores={click=1..},tag=TempDelay] run function johto:triggers/click
-tag @a[scores={click=1..},tag=!TempDelay] add TempDelay
-
-
-#####
-
-
-#Primary radio (off-hand and slot 2)
-#Slot 2
-execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:1b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'[{"text":"Radio","italic":false,"color":"aqua"}]'}}}]}] run function johto:world/radio
-
-#Offhand
-execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'[{"text":"Radio","italic":false,"color":"aqua"}]'}}}]}] run function johto:world/radio
-
-#Radio Stations
-execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:2b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'[{"text":"Radio","italic":false,"color":"aqua"}]'}}}]}] run function johto:world/radiostations
-execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:3b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'[{"text":"Radio","italic":false,"color":"aqua"}]'}}}]}] run function johto:world/radiostations
-execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:4b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'[{"text":"Radio","italic":false,"color":"aqua"}]'}}}]}] run function johto:world/radiostations
-execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:5b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'[{"text":"Radio","italic":false,"color":"aqua"}]'}}}]}] run function johto:world/radiostations
-execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:6b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'[{"text":"Radio","italic":false,"color":"aqua"}]'}}}]}] run function johto:world/radiostations
-execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:7b,id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'[{"text":"Radio","italic":false,"color":"aqua"}]'}}}]}] run function johto:world/radiostations
-
-
-
-#Removes a MusicCooldown score each refresh if present
-scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 
 
 
