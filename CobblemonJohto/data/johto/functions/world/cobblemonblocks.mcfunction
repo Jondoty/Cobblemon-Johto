@@ -5,6 +5,15 @@ fill -966 66 -373 -975 69 -368 air
 fill -975 69 -363 -970 66 -358 air
 fill -976 68 -360 -976 68 -362 minecraft:quartz_pillar[axis=z]
 
+#Elm's lab statues
+execute if block -684 65 -479 air run fill -684 66 -479 -690 65 -477 barrier
+fill -685 65 -478 -689 65 -478 air
+
+execute as @p[x=-682,y=64,z=-490,distance=..10] unless entity @e[x=-685,y=64,z=-478,dy=3] run summon cobblemon:pokemon -685 65 -478 {NoAI:1, EntityEffects: {}, Brain: {memories: {}}, HurtByTimestamp: 0, Sitting: 0b, Attributes: [{Base: 10.0d, Name: "minecraft:generic.max_health"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, ForcedAge: 0, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, InLove: 0, DeathTime: 0s, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, Pokemon: {Tradeable: 1b, valencian: 0b, PersistentData: {}, Gender: "FEMALE", HealingTimer: 60, Friendship: 70s, GmaxFactor: 0b, CaughtBall: "cobblemon:poke_ball", ScaleModifier: 1.0f, FormId: "normal", UUID: [I; -805296620, 1252149317, -1697989421, -1250655439], CobblemonVersion: "1.5.2", Species: "cobblemon:totodile", Shiny: 0b, PokemonData: [], Ability: {AbilityPriority: "LOWEST", AbilityName: "shielddust", AbilityForced: 0b, AbilityIndex: 0}, Nature: "cobblemon:lax", BenchedMoves: [], EVs: {}, PokemonOriginalTrainerType: "NONE", Health: 15s, TeraType: "cobblemon:bug", MoveSet: [{MoveName: "tackle", MovePP: 35, RaisedPPStages: 0}, {MoveName: "stringshot", MovePP: 40, RaisedPPStages: 0}], IVs: {defence: 27s, attack: 1s, hp: 4s, special_defence: 25s, special_attack: 10s, speed: 15s}, FaintedTimer: -1, DmaxLevel: 0, Evolutions: {Pending: {pending: [], progress: []}}, Experience: 27, Level: 3s}, Age: 0, Motion: [0.0d, -0.0784000015258789d, 0.0d], BehaviourFlags: 0b, Health: 10.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, PoseType: "STAND", Rotation: [-180.0f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Pos: [-153.5d, 64.0d, -204.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, HurtTime: 0s, CustomNameVisible: 1b}
+
+execute as @p[x=-682,y=64,z=-490,distance=..10] unless entity @e[x=-687,y=64,z=-478,dy=3] run summon cobblemon:pokemon -687 65 -478 {NoAI:1, EntityEffects: {}, Brain: {memories: {}}, HurtByTimestamp: 0, Sitting: 0b, Attributes: [{Base: 10.0d, Name: "minecraft:generic.max_health"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, ForcedAge: 0, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, InLove: 0, DeathTime: 0s, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, Pokemon: {Tradeable: 1b, valencian: 0b, PersistentData: {}, Gender: "FEMALE", HealingTimer: 60, Friendship: 70s, GmaxFactor: 0b, CaughtBall: "cobblemon:poke_ball", ScaleModifier: 1.0f, FormId: "normal", UUID: [I; -805296620, 1252149317, -1697989421, -1250655439], CobblemonVersion: "1.5.2", Species: "cobblemon:chikorita", Shiny: 0b, PokemonData: [], Ability: {AbilityPriority: "LOWEST", AbilityName: "shielddust", AbilityForced: 0b, AbilityIndex: 0}, Nature: "cobblemon:lax", BenchedMoves: [], EVs: {}, PokemonOriginalTrainerType: "NONE", Health: 15s, TeraType: "cobblemon:bug", MoveSet: [{MoveName: "tackle", MovePP: 35, RaisedPPStages: 0}, {MoveName: "stringshot", MovePP: 40, RaisedPPStages: 0}], IVs: {defence: 27s, attack: 1s, hp: 4s, special_defence: 25s, special_attack: 10s, speed: 15s}, FaintedTimer: -1, DmaxLevel: 0, Evolutions: {Pending: {pending: [], progress: []}}, Experience: 27, Level: 3s}, Age: 0, Motion: [0.0d, -0.0784000015258789d, 0.0d], BehaviourFlags: 0b, Health: 10.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, PoseType: "STAND", Rotation: [-180.0f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Pos: [-153.5d, 64.0d, -204.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, HurtTime: 0s, CustomNameVisible: 1b}
+
+execute as @p[x=-682,y=64,z=-490,distance=..10] unless entity @e[x=-689,y=64,z=-478,dy=3] run summon cobblemon:pokemon -689 65 -478 {NoAI:1, EntityEffects: {}, Brain: {memories: {}}, HurtByTimestamp: 0, Sitting: 0b, Attributes: [{Base: 10.0d, Name: "minecraft:generic.max_health"}, {Base: 0.699999988079071d, Name: "minecraft:generic.movement_speed"}], Invulnerable: 0b, FallFlying: 0b, ForcedAge: 0, PortalCooldown: 0, AbsorptionAmount: 0.0f, FallDistance: 0.0f, InLove: 0, DeathTime: 0s, HandDropChances: [0.085f, 0.085f], PersistenceRequired: 1b, Pokemon: {Tradeable: 1b, valencian: 0b, PersistentData: {}, Gender: "FEMALE", HealingTimer: 60, Friendship: 70s, GmaxFactor: 0b, CaughtBall: "cobblemon:poke_ball", ScaleModifier: 1.0f, FormId: "normal", UUID: [I; -805296620, 1252149317, -1697989421, -1250655439], CobblemonVersion: "1.5.2", Species: "cobblemon:cyndaquil", Shiny: 0b, PokemonData: [], Ability: {AbilityPriority: "LOWEST", AbilityName: "shielddust", AbilityForced: 0b, AbilityIndex: 0}, Nature: "cobblemon:lax", BenchedMoves: [], EVs: {}, PokemonOriginalTrainerType: "NONE", Health: 15s, TeraType: "cobblemon:bug", MoveSet: [{MoveName: "tackle", MovePP: 35, RaisedPPStages: 0}, {MoveName: "stringshot", MovePP: 40, RaisedPPStages: 0}], IVs: {defence: 27s, attack: 1s, hp: 4s, special_defence: 25s, special_attack: 10s, speed: 15s}, FaintedTimer: -1, DmaxLevel: 0, Evolutions: {Pending: {pending: [], progress: []}}, Experience: 27, Level: 3s}, Age: 0, Motion: [0.0d, -0.0784000015258789d, 0.0d], BehaviourFlags: 0b, Health: 10.0f, LeftHanded: 0b, Air: 300s, OnGround: 1b, PoseType: "STAND", Rotation: [-180.0f, 0.0f], HandItems: [{}, {}], ArmorDropChances: [0.085f, 0.085f, 0.085f, 0.085f], Pos: [-153.5d, 64.0d, -204.5d], Fire: -1s, ArmorItems: [{}, {}, {}, {}], CanPickUpLoot: 0b, HurtTime: 0s, CustomNameVisible: 1b}
 
 #Apricorn trees
 execute if block -382 64 -491 air run setblock -382 64 -491 cobblemon:green_apricorn_sapling
@@ -362,6 +371,180 @@ fill -975 76 342 -978 76 342 minecraft:magenta_carpet
 fill -967 124 249 -963 124 249 minecraft:magenta_carpet
 fill -1023 86 349 -1026 86 349 minecraft:magenta_carpet
 fill -942 175 195 -945 175 195 minecraft:magenta_carpet
+
+
+
+
+
+
+
+#https://minecraft-heads.com/custom-heads/head/89550-pokeball
+
+setblock -671 64 -485 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-671,y=64,z=-485,dy=2] run summon minecraft:interaction -670 64 -484 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -586 64 -484 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-586,y=64,z=-484,dy=2] run summon minecraft:interaction -586 64 -484 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -601 64 -538 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-601,y=64,z=-538,dy=2] run summon minecraft:interaction -601 64 -538 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -118 64 -500 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-118,y=64,z=-500,dy=2] run summon minecraft:interaction -118 64 -500 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -219 64 -445 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-219,y=64,z=-445,dy=2] run summon minecraft:interaction -219 64 -445 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -186 64 -288 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-186,y=64,z=-288,dy=2] run summon minecraft:interaction -186 64 -288 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -187 65 -387 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-187,y=65,z=-387,dy=2] run summon minecraft:interaction -187 65 -387 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -189 64 -368 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-189,y=64,z=-368,dy=2] run summon minecraft:interaction -189 64 -368 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -208 64 -90 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-208,y=64,z=-90,dy=2] run summon minecraft:interaction -208 64 -90 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -148 64 -153 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-148,y=64,z=-153,dy=2] run summon minecraft:interaction -148 64 -153 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -366 64 -172 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-366,y=64,z=-172,dy=2] run summon minecraft:interaction -366 64 -172 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -247 65 -196 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-247,y=65,z=-196,dy=2] run summon minecraft:interaction -247 65 -196 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -422 64 14 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-422,y=64,z=14,dy=2] run summon minecraft:interaction -422 64 14 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -235 64 -42 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-235,y=64,z=-42,dy=2] run summon minecraft:interaction -235 64 -42 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -243 64 -23 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-243,y=64,z=-23,dy=2] run summon minecraft:interaction -243 64 -23 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -387 64 -15 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-387,y=64,z=-15,dy=2] run summon minecraft:interaction -387 64 -15 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -393 64 -119 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-393,y=64,z=-119,dy=2] run summon minecraft:interaction -393 64 -119 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -313 69 103 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-313,y=69,z=103,dy=2] run summon minecraft:interaction -313 69 103 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -394 69 24 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-394,y=69,z=24,dy=2] run summon minecraft:interaction -394 69 24 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -324 64 119 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-324,y=64,z=119,dy=2] run summon minecraft:interaction -324 64 119 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -310 64 125 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-310,y=64,z=125,dy=2] run summon minecraft:interaction -310 64 125 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -393 64 -51 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-393,y=64,z=-51,dy=2] run summon minecraft:interaction -393 64 -51 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 52 64 -5 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=52,y=64,z=-5,dy=2] run summon minecraft:interaction 52 64 -5 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -13 64 -84 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-13,y=64,z=-84,dy=2] run summon minecraft:interaction -13 64 -84 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 167 64 33 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=167,y=64,z=33,dy=2] run summon minecraft:interaction 167 64 33 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock -17 64 13 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=-17,y=64,z=13,dy=2] run summon minecraft:interaction -17 64 13 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 46 64 20 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=46,y=64,z=20,dy=2] run summon minecraft:interaction 46 64 20 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 72 84 33 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=72,y=84,z=33,dy=2] run summon minecraft:interaction 72 84 33 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 69 104 7 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=69,y=104,z=7,dy=2] run summon minecraft:interaction 69 104 7 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 50 104 25 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=50,y=104,z=25,dy=2] run summon minecraft:interaction 50 104 25 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 83 64 -225 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=83,y=64,z=-225,dy=2] run summon minecraft:interaction 83 64 -225 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 123 64 -546 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=123,y=64,z=-546,dy=2] run summon minecraft:interaction 123 64 -546 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 129 64 -396 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=129,y=64,z=-396,dy=2] run summon minecraft:interaction 129 64 -396 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 172 64 -121 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=172,y=64,z=-121,dy=2] run summon minecraft:interaction 172 64 -121 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 193 64 -198 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=193,y=64,z=-198,dy=2] run summon minecraft:interaction 193 64 -198 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 222 64 -241 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=222,y=64,z=-241,dy=2] run summon minecraft:interaction 222 64 -241 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 226 64 -228 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=226,y=64,z=-228,dy=2] run summon minecraft:interaction 226 64 -228 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 198 52 -154 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=198,y=52,z=-154,dy=2] run summon minecraft:interaction 198 52 -154 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 205 52 -154 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=205,y=52,z=-154,dy=2] run summon minecraft:interaction 205 52 -154 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 201 44 -600 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=201,y=44,z=-600,dy=2] run summon minecraft:interaction 201 44 -600 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 141 44 -686 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=141,y=44,z=-686,dy=2] run summon minecraft:interaction 141 44 -686 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 203 44 -668 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=203,y=44,z=-668,dy=2] run summon minecraft:interaction 203 44 -668 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 162 44 -738 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=162,y=44,z=-738,dy=2] run summon minecraft:interaction 162 44 -738 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 141 44 -656 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=141,y=44,z=-656,dy=2] run summon minecraft:interaction 141 44 -656 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 181 44 -702 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=181,y=44,z=-702,dy=2] run summon minecraft:interaction 181 44 -702 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 143 28 -695 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=143,y=28,z=-695,dy=2] run summon minecraft:interaction 143 28 -695 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 182 28 -689 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=182,y=28,z=-689,dy=2] run summon minecraft:interaction 182 28 -689 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 147 28 -613 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=147,y=28,z=-613,dy=2] run summon minecraft:interaction 147 28 -613 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 119 17 -803 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=119,y=17,z=-803,dy=2] run summon minecraft:interaction 119 17 -803 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 95 13 -724 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=95,y=13,z=-724,dy=2] run summon minecraft:interaction 95 13 -724 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 159 13 -809 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=159,y=13,z=-809,dy=2] run summon minecraft:interaction 159 13 -809 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 153 17 -760 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=153,y=17,z=-760,dy=2] run summon minecraft:interaction 153 17 -760 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 309 64 -772 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute unless entity @e[x=309,y=64,z=-772,dy=2] run summon minecraft:interaction 309 64 -772 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+
+
+
+
+
+
 
 
 
