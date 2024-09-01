@@ -1,6 +1,9 @@
 #Runs cobblemon replacement blocks
 function johto:world/cobblemonblocks
 
+#Runs custom clickable loots
+execute as @a[tag=ItemLoot] run function johto:triggers/itemlootgive
+
 
 #Gives you starting items and commands
 execute as @a[tag=!InitialTags] run function johto:triggers/startercommands
@@ -67,6 +70,25 @@ scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 
 
 #-------------------------------------------------------------------------------------------------------------------------
+#Runs HMs/Important Items
+
+#Fly Map Refresh
+execute as @a[x=1169,y=252,z=619,distance=..40] run function johto:hms/flymap
+
+#HM Fly
+execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text":"HM02: Fly","italic":false,"color":"aqua"}]'}}}}] run scoreboard players set @s Fly 1
+execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text":"HM02: Fly","italic":false,"color":"aqua"}]'}}}}] run function johto:hms/fly
+execute as @a[scores={click=1..},nbt={SelectedItem:{tag:{display:{Name:'[{"text":"HM02: Fly","italic":false,"color":"aqua"}]'}}}}] run scoreboard players set @s click 0
+
+
+#Flash
+execute as @a[scores={Flash=1..}] run function johto:spawn/flashhm
+
+
+#Town Map
+team leave @a[team=black]
+execute as @a[nbt={SelectedItem:{id:"minecraft:filled_map",tag:{display:{Name:'[{"text":"Town Map","italic":false,"color":"aqua"}]'}}}}] run function johto:world/townmap
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:filled_map",tag:{display:{Name:'[{"text":"Town Map","italic":false,"color":"aqua"}]'}}}]}] run function johto:world/townmap
 
 
 #MusicTitles function, tracks player around map checking for new areas or music
@@ -75,3 +97,80 @@ execute as @a[scores={TalkTime=0}] run function johto:world/musictitles
 
 #Runs relog function if player is found with relog score
 execute as @a[scores={relog=1..}] run function johto:triggers/relog
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+#Unlocks Fly spots by visiting respective Pokemon Centers, sets spawnpoint if player dies
+scoreboard players set @a[x=-256,y=64,z=-489,distance=..5,scores={FlyCherrygrove=0}] FlyCherrygrove 1
+spawnpoint @a[x=-256,y=64,z=-489,distance=..5] -256 64 -489
+
+scoreboard players set @a[x=15,y=64,z=-106,distance=..5,scores={FlyViolet=0}] FlyViolet 1
+spawnpoint @a[x=15,y=64,z=-109,distance=..5] 15 64 -109
+
+scoreboard players set @a[x=330,y=64,z=-728,distance=..5,scores={FlyAzalea=0}] FlyAzalea 1
+spawnpoint @a[x=330,y=64,z=-728,distance=..5] 330 64 -728
+
+scoreboard players set @a[x=499,y=64,z=-424,distance=..5,scores={FlyGoldenrod=0}] FlyGoldenrod 1
+spawnpoint @a[x=499,y=64,z=-424,distance=..5] 499 64 -424
+
+scoreboard players set @a[x=341,y=64,z=186,distance=..5,scores={FlyEcruteak=0}] FlyEcruteak 1
+spawnpoint @a[x=341,y=64,z=183,distance=..5] 341 64 183
+
+scoreboard players set @a[x=791,y=65,z=-40,distance=..5,scores={FlyOlivine=0}] FlyOlivine 1
+spawnpoint @a[x=791,y=64,z=-41,distance=..5] 791 64 -41
+
+scoreboard players set @a[x=1186,y=65,z=-468,distance=..5,scores={FlyCianwood=0}] FlyCianwood 1
+spawnpoint @a[x=1186,y=64,z=-469,distance=..5] 1186 64 -469
+
+scoreboard players set @a[x=1617,y=88,z=-158,distance=..5,scores={FlySafari=0}] FlySafari 1
+spawnpoint @a[x=1617,y=88,z=-160,distance=..5] 1617 88 -160
+
+scoreboard players set @a[x=-177,y=64,z=162,distance=..5,scores={FlyMahogany=0}] FlyMahogany 1
+spawnpoint @a[x=-177,y=64,z=160,distance=..5] -177 64 160
+
+scoreboard players set @a[x=-154,y=63,z=533,dx=22,dy=5,dz=5,scores={FlyLake=0}] FlyLake 1
+
+scoreboard players set @a[x=-663,y=64,z=174,distance=..5,scores={FlyBlackthorn=0}] FlyBlackthorn 1
+spawnpoint @a[x=-663,y=64,z=171,distance=..5] -663 64 171
+
+scoreboard players set @a[x=-999,y=64,z=64,distance=..5,scores={FlySilver=0}] FlySilver 1
+spawnpoint @a[x=-999,y=64,z=62,distance=..5] -999 64 62
+
+scoreboard players set @a[x=-1258,y=64,z=15,distance=..5,scores={FlyVictory=0}] FlyVictory 1
+
+scoreboard players set @a[x=-1292,y=84,z=322,distance=..5,scores={FlyVictory=0}] FlyIndigo 1
+spawnpoint @a[x=-1292,y=84,z=322,distance=..5] -1292 84 322
+
+scoreboard players set @a[x=-1704,y=64,z=-899,distance=..5,scores={FlyCinnabar=0}] FlyCinnabar 1
+spawnpoint @a[x=-1704,y=64,z=-899,distance=..5] -1704 64 -899
+
+scoreboard players set @a[x=-1715,y=64,z=-321,distance=..15,scores={FlyPallet=0}] FlyPallet 1
+spawnpoint @a[x=-1715,y=64,z=-321,distance=..15] -1715 64 -321
+
+scoreboard players set @a[x=-1701,y=64,z=7,distance=..5,scores={FlyViridian=0}] FlyViridian 1
+spawnpoint @a[x=-1701,y=64,z=7,distance=..5] -1701 64 7
+
+scoreboard players set @a[x=-1660,y=64,z=602,distance=..5,scores={FlyPewter=0}] FlyPewter 1
+spawnpoint @a[x=-1660,y=64,z=602,distance=..5] -1660 64 602
+
+spawnpoint @a[x=-2165,y=64,z=749,distance=..5] -2165 64 749
+
+scoreboard players set @a[x=-2744,y=64,z=728,distance=..5,scores={FlyCerulean=0}] FlyCerulean 1
+spawnpoint @a[x=-2744,y=64,z=728,distance=..5] -2744 64 728
+
+scoreboard players set @a[x=-2405,y=64,z=-606,distance=..5,scores={FlyFuchsia=0}] FlyFuchsia 1
+spawnpoint @a[x=-2405,y=64,z=-608,distance=..5] -2405 64 -608
+
+scoreboard players set @a[x=-2714,y=64,z=8,distance=..5,scores={FlyVermilion=0}] FlyVermilion 1
+spawnpoint @a[x=-2714,y=64,z=8,distance=..5] -2714 64 8
+
+scoreboard players set @a[x=-2704,y=64,z=279,distance=..5,scores={FlySaffron=0}] FlySaffron 1
+spawnpoint @a[x=-2704,y=64,z=279,distance=..5] -2704 64 279
+
+scoreboard players set @a[x=-2460,y=64,z=375,distance=..5,scores={FlyCeladon=0}] FlyCeladon 1
+spawnpoint @a[x=-2460,y=64,z=375,distance=..5] -2460 64 375
+
+scoreboard players set @a[x=-3253,y=64,z=357,distance=..5,scores={FlyLavender=0}] FlyLavender 1
+spawnpoint @a[x=-3253,y=64,z=356,distance=..5] -3253 64 356
+
+spawnpoint @a[x=-3287,y=64,z=675,distance=..5] -3287 64 675

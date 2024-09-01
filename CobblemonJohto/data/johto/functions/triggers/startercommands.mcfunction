@@ -1,4 +1,5 @@
 #Sets Gamerules
+gamerule randomTickSpeed 100
 gamerule doDaylightCycle true
 difficulty peaceful
 team add default
@@ -29,6 +30,11 @@ tellraw @s ["",{"text":"Starting adventure...","italic":true,"color":"gray"}]
 #give @s pixelmon:white_poke_bag
 #give @s pixelmon:blackbadgecase
 
+give @s cobblemon:poke_ball 10
+function johto:spawn/radio4
+function johto:spawn/flyhm
+function johto:spawn/flashhm
+give @s cobblemon:potion 10
 
 #Sets Spawnpoint
 spawnpoint @s -723 69 -485
