@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "cobblemon:apricorn_sprouts"
+        }
+    ],
+    "result": {
+        "item": "cobblemon:potion",
+        "count": 1
+    }
+}
