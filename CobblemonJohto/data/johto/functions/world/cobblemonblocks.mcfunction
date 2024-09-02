@@ -381,170 +381,445 @@ fill -942 175 195 -945 175 195 minecraft:magenta_carpet
 #https://minecraft-heads.com/custom-heads/head/89550-pokeball
 
 setblock -671 64 -485 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-671,y=64,z=-485,dy=2] run summon minecraft:interaction -670 64 -484 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-671,y=64,z=-485,distance=..15] unless entity @e[x=-671,y=64,z=-485,dy=2,type=minecraft:interaction] run summon minecraft:interaction -670 64 -484 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -586 64 -484 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-586,y=64,z=-484,dy=2] run summon minecraft:interaction -586 64 -484 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-586,y=64,z=-484,distance=..15] unless entity @e[x=-586,y=64,z=-484,dy=2,type=minecraft:interaction] run summon minecraft:interaction -586 64 -484 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -601 64 -538 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-601,y=64,z=-538,dy=2] run summon minecraft:interaction -601 64 -538 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-601,y=64,z=-538,distance=..15] unless entity @e[x=-601,y=64,z=-538,dy=2,type=minecraft:interaction] run summon minecraft:interaction -601 64 -538 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -118 64 -500 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-118,y=64,z=-500,dy=2] run summon minecraft:interaction -118 64 -500 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-118,y=64,z=-500,distance=..15] unless entity @e[x=-118,y=64,z=-500,dy=2,type=minecraft:interaction] run summon minecraft:interaction -118 64 -500 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -219 64 -445 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-219,y=64,z=-445,dy=2] run summon minecraft:interaction -219 64 -445 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-219,y=64,z=-445,distance=..15] unless entity @e[x=-219,y=64,z=-445,dy=2,type=minecraft:interaction] run summon minecraft:interaction -219 64 -445 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -186 64 -288 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-186,y=64,z=-288,dy=2] run summon minecraft:interaction -186 64 -288 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-186,y=64,z=-288,distance=..15] unless entity @e[x=-186,y=64,z=-288,dy=2,type=minecraft:interaction] run summon minecraft:interaction -186 64 -288 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -187 65 -387 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-187,y=65,z=-387,dy=2] run summon minecraft:interaction -187 65 -387 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-187,y=65,z=-387,distance=..15] unless entity @e[x=-187,y=65,z=-387,dy=2,type=minecraft:interaction] run summon minecraft:interaction -187 65 -387 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -189 64 -368 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-189,y=64,z=-368,dy=2] run summon minecraft:interaction -189 64 -368 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-189,y=64,z=-368,distance=..15] unless entity @e[x=-189,y=64,z=-368,dy=2,type=minecraft:interaction] run summon minecraft:interaction -189 64 -368 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -208 64 -90 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-208,y=64,z=-90,dy=2] run summon minecraft:interaction -208 64 -90 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-208,y=64,z=-90,distance=..15] unless entity @e[x=-208,y=64,z=-90,dy=2,type=minecraft:interaction] run summon minecraft:interaction -208 64 -90 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -148 64 -153 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-148,y=64,z=-153,dy=2] run summon minecraft:interaction -148 64 -153 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-148,y=64,z=-153,distance=..15] unless entity @e[x=-148,y=64,z=-153,dy=2,type=minecraft:interaction] run summon minecraft:interaction -148 64 -153 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -366 64 -172 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-366,y=64,z=-172,dy=2] run summon minecraft:interaction -366 64 -172 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-366,y=64,z=-172,distance=..15] unless entity @e[x=-366,y=64,z=-172,dy=2,type=minecraft:interaction] run summon minecraft:interaction -366 64 -172 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -247 65 -196 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-247,y=65,z=-196,dy=2] run summon minecraft:interaction -247 65 -196 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-366,y=64,z=-172,distance=..15] unless entity @e[x=-366,y=64,z=-172,dy=2,type=minecraft:interaction] run summon minecraft:interaction -247 65 -196 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -422 64 14 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-422,y=64,z=14,dy=2] run summon minecraft:interaction -422 64 14 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-422,y=64,z=14,distance=..15] unless entity @e[x=-422,y=64,z=14,dy=2,type=minecraft:interaction] run summon minecraft:interaction -422 64 14 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -235 64 -42 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-235,y=64,z=-42,dy=2] run summon minecraft:interaction -235 64 -42 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-235,y=64,z=-42,distance=..15] unless entity @e[x=-235,y=64,z=-42,dy=2,type=minecraft:interaction] run summon minecraft:interaction -235 64 -42 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -243 64 -23 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-243,y=64,z=-23,dy=2] run summon minecraft:interaction -243 64 -23 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-243,y=64,z=-23,distance=..15] unless entity @e[x=-243,y=64,z=-23,dy=2,type=minecraft:interaction] run summon minecraft:interaction -243 64 -23 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -387 64 -15 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-387,y=64,z=-15,dy=2] run summon minecraft:interaction -387 64 -15 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-387,y=64,z=-15,distance=..15] unless entity @e[x=-387,y=64,z=-15,dy=2,type=minecraft:interaction] run summon minecraft:interaction -387 64 -15 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -393 64 -119 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-393,y=64,z=-119,dy=2] run summon minecraft:interaction -393 64 -119 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-393,y=64,z=-119,distance=..15] unless entity @e[x=-393,y=64,z=-119,dy=2,type=minecraft:interaction] run summon minecraft:interaction -393 64 -119 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -313 69 103 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-313,y=69,z=103,dy=2] run summon minecraft:interaction -313 69 103 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-313,y=69,z=103,distance=..15] unless entity @e[x=-313,y=69,z=103,dy=2,type=minecraft:interaction] run summon minecraft:interaction -313 69 103 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -394 69 24 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-394,y=69,z=24,dy=2] run summon minecraft:interaction -394 69 24 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-394,y=69,z=24,distance=..15] unless entity @e[x=-394,y=69,z=24,dy=2,type=minecraft:interaction] run summon minecraft:interaction -394 69 24 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -324 64 119 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-324,y=64,z=119,dy=2] run summon minecraft:interaction -324 64 119 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-324,y=64,z=119,distance=..15] unless entity @e[x=-324,y=64,z=119,dy=2,type=minecraft:interaction] run summon minecraft:interaction -324 64 119 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -310 64 125 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-310,y=64,z=125,dy=2] run summon minecraft:interaction -310 64 125 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-310,y=64,z=125,distance=..15] unless entity @e[x=-310,y=64,z=125,dy=2,type=minecraft:interaction] run summon minecraft:interaction -310 64 125 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -393 64 -51 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-393,y=64,z=-51,dy=2] run summon minecraft:interaction -393 64 -51 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-393,y=64,z=-51,distance=..15] unless entity @e[x=-393,y=64,z=-51,dy=2,type=minecraft:interaction] run summon minecraft:interaction -393 64 -51 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 52 64 -5 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=52,y=64,z=-5,dy=2] run summon minecraft:interaction 52 64 -5 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=52,y=64,z=-5,distance=..15] unless entity @e[x=52,y=64,z=-5,dy=2,type=minecraft:interaction] run summon minecraft:interaction 52 64 -5 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -13 64 -84 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-13,y=64,z=-84,dy=2] run summon minecraft:interaction -13 64 -84 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-13,y=64,z=-84,distance=..15] unless entity @e[x=-13,y=64,z=-84,dy=2,type=minecraft:interaction] run summon minecraft:interaction -13 64 -84 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 167 64 33 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=167,y=64,z=33,dy=2] run summon minecraft:interaction 167 64 33 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=167,y=64,z=33,distance=..15] unless entity @e[x=167,y=64,z=33,dy=2,type=minecraft:interaction] run summon minecraft:interaction 167 64 33 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -17 64 13 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=-17,y=64,z=13,dy=2] run summon minecraft:interaction -17 64 13 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-17,y=64,z=13,distance=..15] unless entity @e[x=-17,y=64,z=13,dy=2,type=minecraft:interaction] run summon minecraft:interaction -17 64 13 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 46 64 20 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=46,y=64,z=20,dy=2] run summon minecraft:interaction 46 64 20 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=46,y=64,z=20,distance=..15] unless entity @e[x=46,y=64,z=20,dy=2,type=minecraft:interaction] run summon minecraft:interaction 46 64 20 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 72 84 33 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=72,y=84,z=33,dy=2] run summon minecraft:interaction 72 84 33 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=72,y=84,z=33,distance=..15] unless entity @e[x=72,y=84,z=33,dy=2,type=minecraft:interaction] run summon minecraft:interaction 72 84 33 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 69 104 7 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=69,y=104,z=7,dy=2] run summon minecraft:interaction 69 104 7 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=69,y=104,z=7,distance=..15] unless entity @e[x=69,y=104,z=7,dy=2,type=minecraft:interaction] run summon minecraft:interaction 69 104 7 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 50 104 25 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=50,y=104,z=25,dy=2] run summon minecraft:interaction 50 104 25 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=50,y=104,z=25,distance=..15] unless entity @e[x=50,y=104,z=25,dy=2,type=minecraft:interaction] run summon minecraft:interaction 50 104 25 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 83 64 -225 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=83,y=64,z=-225,dy=2] run summon minecraft:interaction 83 64 -225 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=83,y=64,z=-225,distance=..15] unless entity @e[x=83,y=64,z=-225,dy=2,type=minecraft:interaction] run summon minecraft:interaction 83 64 -225 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 123 64 -546 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=123,y=64,z=-546,dy=2] run summon minecraft:interaction 123 64 -546 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=123,y=64,z=-546,distance=..15] unless entity @e[x=123,y=64,z=-546,dy=2,type=minecraft:interaction] run summon minecraft:interaction 123 64 -546 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 129 64 -396 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=129,y=64,z=-396,dy=2] run summon minecraft:interaction 129 64 -396 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=129,y=64,z=-396,distance=..15] unless entity @e[x=129,y=64,z=-396,dy=2,type=minecraft:interaction] run summon minecraft:interaction 129 64 -396 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 172 64 -121 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=172,y=64,z=-121,dy=2] run summon minecraft:interaction 172 64 -121 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=172,y=64,z=-121,distance=..15] unless entity @e[x=172,y=64,z=-121,dy=2,type=minecraft:interaction] run summon minecraft:interaction 172 64 -121 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 193 64 -198 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=193,y=64,z=-198,dy=2] run summon minecraft:interaction 193 64 -198 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=193,y=64,z=-198,distance=..15] unless entity @e[x=193,y=64,z=-198,dy=2,type=minecraft:interaction] run summon minecraft:interaction 193 64 -198 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 222 64 -241 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=222,y=64,z=-241,dy=2] run summon minecraft:interaction 222 64 -241 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=222,y=64,z=-241,distance=..15] unless entity @e[x=222,y=64,z=-241,dy=2,type=minecraft:interaction] run summon minecraft:interaction 222 64 -241 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 226 64 -228 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=226,y=64,z=-228,dy=2] run summon minecraft:interaction 226 64 -228 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=226,y=64,z=-228,distance=..15] unless entity @e[x=226,y=64,z=-228,dy=2,type=minecraft:interaction] run summon minecraft:interaction 226 64 -228 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 198 52 -154 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=198,y=52,z=-154,dy=2] run summon minecraft:interaction 198 52 -154 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=198,y=52,z=-154,distance=..15] unless entity @e[x=198,y=52,z=-154,dy=2,type=minecraft:interaction] run summon minecraft:interaction 198 52 -154 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 205 52 -154 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=205,y=52,z=-154,dy=2] run summon minecraft:interaction 205 52 -154 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=205,y=52,z=-154,distance=..15] unless entity @e[x=205,y=52,z=-154,dy=2,type=minecraft:interaction] run summon minecraft:interaction 205 52 -154 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 201 44 -600 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=201,y=44,z=-600,dy=2] run summon minecraft:interaction 201 44 -600 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=201,y=44,z=-600,distance=..15] unless entity @e[x=201,y=44,z=-600,dy=2,type=minecraft:interaction] run summon minecraft:interaction 201 44 -600 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 141 44 -686 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=141,y=44,z=-686,dy=2] run summon minecraft:interaction 141 44 -686 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=141,y=44,z=-686,distance=..15] unless entity @e[x=141,y=44,z=-686,dy=2,type=minecraft:interaction] run summon minecraft:interaction 141 44 -686 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 203 44 -668 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=203,y=44,z=-668,dy=2] run summon minecraft:interaction 203 44 -668 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=203,y=44,z=-668,distance=..15] unless entity @e[x=203,y=44,z=-668,dy=2,type=minecraft:interaction] run summon minecraft:interaction 203 44 -668 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 162 44 -738 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=162,y=44,z=-738,dy=2] run summon minecraft:interaction 162 44 -738 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=162,y=44,z=-738,distance=..15] unless entity @e[x=162,y=44,z=-738,dy=2,type=minecraft:interaction] run summon minecraft:interaction 162 44 -738 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 141 44 -656 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=141,y=44,z=-656,dy=2] run summon minecraft:interaction 141 44 -656 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=141,y=44,z=-656,distance=..15] unless entity @e[x=141,y=44,z=-656,dy=2,type=minecraft:interaction] run summon minecraft:interaction 141 44 -656 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 181 44 -702 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=181,y=44,z=-702,dy=2] run summon minecraft:interaction 181 44 -702 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=181,y=44,z=-702,distance=..15] unless entity @e[x=181,y=44,z=-702,dy=2,type=minecraft:interaction] run summon minecraft:interaction 181 44 -702 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 143 28 -695 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=143,y=28,z=-695,dy=2] run summon minecraft:interaction 143 28 -695 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=143,y=28,z=-695,distance=..15] unless entity @e[x=143,y=28,z=-695,dy=2,type=minecraft:interaction] run summon minecraft:interaction 143 28 -695 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 182 28 -689 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=182,y=28,z=-689,dy=2] run summon minecraft:interaction 182 28 -689 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=182,y=28,z=-689,distance=..15] unless entity @e[x=182,y=28,z=-689,dy=2,type=minecraft:interaction] run summon minecraft:interaction 182 28 -689 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 147 28 -613 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=147,y=28,z=-613,dy=2] run summon minecraft:interaction 147 28 -613 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=147,y=28,z=-613,distance=..15] unless entity @e[x=147,y=28,z=-613,dy=2,type=minecraft:interaction] run summon minecraft:interaction 147 28 -613 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 119 17 -803 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=119,y=17,z=-803,dy=2] run summon minecraft:interaction 119 17 -803 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=119,y=17,z=-803,distance=..15] unless entity @e[x=119,y=17,z=-803,dy=2,type=minecraft:interaction] run summon minecraft:interaction 119 17 -803 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 95 13 -724 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=95,y=13,z=-724,dy=2] run summon minecraft:interaction 95 13 -724 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=95,y=13,z=-724,distance=..15] unless entity @e[x=95,y=13,z=-724,dy=2,type=minecraft:interaction] run summon minecraft:interaction 95 13 -724 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 159 13 -809 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=159,y=13,z=-809,dy=2] run summon minecraft:interaction 159 13 -809 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=159,y=13,z=-809,distance=..15] unless entity @e[x=159,y=13,z=-809,dy=2,type=minecraft:interaction] run summon minecraft:interaction 159 13 -809 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 153 17 -760 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=153,y=17,z=-760,dy=2] run summon minecraft:interaction 153 17 -760 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=153,y=17,z=-760,distance=..15] unless entity @e[x=153,y=17,z=-760,dy=2,type=minecraft:interaction] run summon minecraft:interaction 153 17 -760 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock 309 64 -772 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute unless entity @e[x=309,y=64,z=-772,dy=2] run summon minecraft:interaction 309 64 -772 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=309,y=64,z=-772,distance=..15] unless entity @e[x=309,y=64,z=-772,dy=2,type=minecraft:interaction] run summon minecraft:interaction 309 64 -772 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
+setblock 246 39 -701 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=246,y=39,z=-701,distance=..15] unless entity @e[x=246,y=39,z=-701,dy=2,type=minecraft:interaction] run summon minecraft:interaction 246 39 -701 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
+setblock 259 43 -674 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=259,y=43,z=-674,distance=..15] unless entity @e[x=259,y=43,z=-674,dy=2,type=minecraft:interaction] run summon minecraft:interaction 259 43 -674 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
+setblock 298 39 -689 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=298,y=39,z=-689,distance=..15] unless entity @e[x=298,y=39,z=-689,dy=2,type=minecraft:interaction] run summon minecraft:interaction 298 39 -689 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
+setblock 297 39 -673 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=297,y=39,z=-673,distance=..15] unless entity @e[x=297,y=39,z=-673,dy=2,type=minecraft:interaction] run summon minecraft:interaction 297 39 -673 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
+setblock 301 29 -671 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=301,y=29,z=-671,distance=..15] unless entity @e[x=301,y=29,z=-671,dy=2,type=minecraft:interaction] run summon minecraft:interaction 301 29 -671 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
+setblock 549 64 -695 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=549,y=64,z=-695,distance=..15] unless entity @e[x=549,y=64,z=-695,dy=2,type=minecraft:interaction] run summon minecraft:interaction 549 64 -695 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
+setblock 638 64 -667 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=638,y=64,z=-667,distance=..15] unless entity @e[x=638,y=64,z=-667,dy=2,type=minecraft:interaction] run summon minecraft:interaction 638 64 -667 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 613 64 -677 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=613,y=64,z=-667,distance=..15] unless entity @e[x=613,y=64,z=-667,dy=2,type=minecraft:interaction] run summon minecraft:interaction 613 64 -677 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 570 64 -667 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=570,y=64,z=-667,distance=..15] unless entity @e[x=570,y=64,z=-667,dy=2,type=minecraft:interaction] run summon minecraft:interaction 570 64 -667 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 552 64 -625 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=552,y=64,z=-667,distance=..15] unless entity @e[x=552,y=64,z=-667,dy=2,type=minecraft:interaction] run summon minecraft:interaction 552 64 -625 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 587 64 -646 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=587,y=64,z=-646,distance=..15] unless entity @e[x=587,y=64,z=-646,dy=2,type=minecraft:interaction] run summon minecraft:interaction 587 64 -646 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 633 64 -687 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=633,y=64,z=-646,distance=..15] unless entity @e[x=633,y=64,z=-646,dy=2,type=minecraft:interaction] run summon minecraft:interaction 633 64 -687 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 606 64 -645 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=606,y=64,z=-645,distance=..15] unless entity @e[x=606,y=64,z=-645,dy=2,type=minecraft:interaction] run summon minecraft:interaction 606 64 -645 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 497 64 -506 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=497,y=64,z=-506,distance=..15] unless entity @e[x=497,y=64,z=-506,dy=2,type=minecraft:interaction] run summon minecraft:interaction 497 64 -506 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 489 64 -762 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=489,y=64,z=-762,distance=..15] unless entity @e[x=489,y=64,z=-762,dy=2,type=minecraft:interaction] run summon minecraft:interaction 489 64 -762 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 508 64 -762 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=508,y=64,z=-762,distance=..15] unless entity @e[x=508,y=64,z=-762,dy=2,type=minecraft:interaction] run summon minecraft:interaction 508 64 -762 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 521 64 -744 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=521,y=64,z=-744,distance=..15] unless entity @e[x=521,y=64,z=-744,dy=2,type=minecraft:interaction] run summon minecraft:interaction 521 64 -744 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 422 64 -459 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=422,y=64,z=-459,distance=..15] unless entity @e[x=422,y=64,z=-459,dy=2,type=minecraft:interaction] run summon minecraft:interaction 422 64 -459 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 513 55 -269 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=513,y=55,z=-269,distance=..15] unless entity @e[x=513,y=55,z=-269,dy=2,type=minecraft:interaction] run summon minecraft:interaction 513 55 -269 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 501 50 -273 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=501,y=50,z=-273,distance=..15] unless entity @e[x=501,y=50,z=-273,dy=2,type=minecraft:interaction] run summon minecraft:interaction 501 50 -273 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 512 47 -336 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=512,y=47,z=-336,distance=..15] unless entity @e[x=512,y=47,z=-336,dy=2,type=minecraft:interaction] run summon minecraft:interaction 512 47 -336 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 527 47 -324 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=527,y=47,z=-324,distance=..15] unless entity @e[x=527,y=47,z=-324,dy=2,type=minecraft:interaction] run summon minecraft:interaction 527 47 -324 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 487 38 -317 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=487,y=38,z=-317,distance=..15] unless entity @e[x=487,y=38,z=-317,dy=2,type=minecraft:interaction] run summon minecraft:interaction 487 38 -317 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 465 38 -290 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=465,y=38,z=-290,distance=..15] unless entity @e[x=465,y=38,z=-290,dy=2,type=minecraft:interaction] run summon minecraft:interaction 465 38 -290 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 451 38 -300 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=451,y=38,z=-300,distance=..15] unless entity @e[x=451,y=38,z=-300,dy=2,type=minecraft:interaction] run summon minecraft:interaction 451 38 -300 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 398 38 -292 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=398,y=38,z=-292,distance=..15] unless entity @e[x=398,y=38,z=-292,dy=2,type=minecraft:interaction] run summon minecraft:interaction 398 38 -292 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 382 47 -325 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=382,y=47,z=-325,distance=..15] unless entity @e[x=382,y=47,z=-325,dy=2,type=minecraft:interaction] run summon minecraft:interaction 382 47 -325 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 409 47 -331 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=409,y=47,z=-331,distance=..15] unless entity @e[x=409,y=47,z=-331,dy=2,type=minecraft:interaction] run summon minecraft:interaction 409 47 -331 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 381 47 -282 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=381,y=47,z=-282,distance=..15] unless entity @e[x=381,y=47,z=-282,dy=2,type=minecraft:interaction] run summon minecraft:interaction 381 47 -282 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 402 47 -304 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=402,y=47,z=-304,distance=..15] unless entity @e[x=402,y=47,z=-304,dy=2,type=minecraft:interaction] run summon minecraft:interaction 402 47 -304 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 426 47 -308 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=426,y=47,z=-308,distance=..15] unless entity @e[x=426,y=47,z=-308,dy=2,type=minecraft:interaction] run summon minecraft:interaction 426 47 -308 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 461 47 -303 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=461,y=47,z=-303,distance=..15] unless entity @e[x=461,y=47,z=-303,dy=2,type=minecraft:interaction] run summon minecraft:interaction 461 47 -303 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 487 64 -143 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=487,y=64,z=-143,distance=..15] unless entity @e[x=487,y=64,z=-143,dy=2,type=minecraft:interaction] run summon minecraft:interaction 487 64 -143 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 482 64 -267 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=482,y=64,z=-267,distance=..15] unless entity @e[x=482,y=64,z=-267,dy=2,type=minecraft:interaction] run summon minecraft:interaction 482 64 -267 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 512 65 -15 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=512,y=65,z=-15,distance=..15] unless entity @e[x=512,y=65,z=-15,dy=2,type=minecraft:interaction] run summon minecraft:interaction 512 65 -15 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 481 64 57 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=481,y=64,z=57,distance=..15] unless entity @e[x=481,y=64,z=57,dy=2,type=minecraft:interaction] run summon minecraft:interaction 481 64 57 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 590 64 -42 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=590,y=64,z=-42,distance=..15] unless entity @e[x=590,y=64,z=-42,dy=2,type=minecraft:interaction] run summon minecraft:interaction 590 64 -42 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 590 64 -42 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=590,y=64,z=-42,distance=..15] unless entity @e[x=590,y=64,z=-42,dy=2,type=minecraft:interaction] run summon minecraft:interaction 590 64 -42 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 553 64 -44 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=553,y=64,z=-44,distance=..15] unless entity @e[x=553,y=64,z=-44,dy=2,type=minecraft:interaction] run summon minecraft:interaction 553 64 -44 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 480 64 70 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=480,y=64,z=70,distance=..15] unless entity @e[x=480,y=64,z=70,dy=2,type=minecraft:interaction] run summon minecraft:interaction 480 64 70 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 406 64 19 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=406,y=64,z=19,distance=..15] unless entity @e[x=406,y=64,z=19,dy=2,type=minecraft:interaction] run summon minecraft:interaction 406 64 19 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 384 64 -8 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=384,y=64,z=-8,distance=..15] unless entity @e[x=384,y=64,z=-8,dy=2,type=minecraft:interaction] run summon minecraft:interaction 384 64 -8 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 312 64 251 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=312,y=64,z=251,distance=..15] unless entity @e[x=312,y=64,z=251,dy=2,type=minecraft:interaction] run summon minecraft:interaction 312 64 251 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 397 64 223 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=397,y=64,z=223,distance=..15] unless entity @e[x=397,y=64,z=223,dy=2,type=minecraft:interaction] run summon minecraft:interaction 397 64 223 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 431 64 306 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=431,y=64,z=306,distance=..15] unless entity @e[x=431,y=64,z=306,dy=2,type=minecraft:interaction] run summon minecraft:interaction 431 64 306 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 480 64 229 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=480,y=64,z=229,distance=..15] unless entity @e[x=480,y=64,z=229,dy=2,type=minecraft:interaction] run summon minecraft:interaction 480 64 229 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 270 78 299 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=270,y=78,z=299,distance=..15] unless entity @e[x=270,y=78,z=299,dy=2,type=minecraft:interaction] run summon minecraft:interaction 270 78 299 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 257 78 316 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=257,y=78,z=316,distance=..15] unless entity @e[x=257,y=78,z=316,dy=2,type=minecraft:interaction] run summon minecraft:interaction 257 78 316 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 247 85 309 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=247,y=85,z=309,distance=..15] unless entity @e[x=247,y=85,z=309,dy=2,type=minecraft:interaction] run summon minecraft:interaction 247 85 309 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 242 78 299 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=242,y=78,z=299,distance=..15] unless entity @e[x=242,y=78,z=299,dy=2,type=minecraft:interaction] run summon minecraft:interaction 242 78 299 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 272 85 305 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=272,y=85,z=305,distance=..15] unless entity @e[x=272,y=85,z=305,dy=2,type=minecraft:interaction] run summon minecraft:interaction 272 85 305 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 270 92 313 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=270,y=92,z=313,distance=..15] unless entity @e[x=270,y=92,z=313,dy=2,type=minecraft:interaction] run summon minecraft:interaction 270 92 313 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 257 92 311 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=257,y=92,z=311,distance=..15] unless entity @e[x=257,y=92,z=311,dy=2,type=minecraft:interaction] run summon minecraft:interaction 257 92 311 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 241 99 312 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=241,y=99,z=312,distance=..15] unless entity @e[x=241,y=99,z=312,dy=2,type=minecraft:interaction] run summon minecraft:interaction 241 99 312 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 263 99 304 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=263,y=99,z=304,distance=..15] unless entity @e[x=263,y=99,z=304,dy=2,type=minecraft:interaction] run summon minecraft:interaction 263 99 304 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 272 133 327 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=272,y=133,z=327,distance=..15] unless entity @e[x=272,y=133,z=327,dy=2,type=minecraft:interaction] run summon minecraft:interaction 272 133 327 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 244 106 327 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=244,y=106,z=327,distance=..15] unless entity @e[x=244,y=106,z=327,dy=2,type=minecraft:interaction] run summon minecraft:interaction 244 106 327 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 253 133 317 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=253,y=133,z=317,distance=..15] unless entity @e[x=253,y=133,z=317,dy=2,type=minecraft:interaction] run summon minecraft:interaction 253 133 317 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 246 133 327 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=246,y=133,z=327,distance=..15] unless entity @e[x=246,y=133,z=327,dy=2,type=minecraft:interaction] run summon minecraft:interaction 246 133 327 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 268 140 326 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=268,y=140,z=326,distance=..15] unless entity @e[x=268,y=140,z=326,dy=2,type=minecraft:interaction] run summon minecraft:interaction 268 140 326 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 432 64 319 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=432,y=64,z=319,distance=..15] unless entity @e[x=432,y=64,z=319,dy=2,type=minecraft:interaction] run summon minecraft:interaction 432 64 319 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 436 64 327 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=436,y=64,z=327,distance=..15] unless entity @e[x=436,y=64,z=327,dy=2,type=minecraft:interaction] run summon minecraft:interaction 436 64 327 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 443 64 322 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=443,y=64,z=322,distance=..15] unless entity @e[x=443,y=64,z=322,dy=2,type=minecraft:interaction] run summon minecraft:interaction 443 64 322 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 452 64 328 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=452,y=64,z=328,distance=..15] unless entity @e[x=452,y=64,z=328,dy=2,type=minecraft:interaction] run summon minecraft:interaction 452 64 328 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 445 64 320 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=445,y=64,z=320,distance=..15] unless entity @e[x=445,y=64,z=320,dy=2,type=minecraft:interaction] run summon minecraft:interaction 445 64 320 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 452 57 329 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=452,y=57,z=329,distance=..15] unless entity @e[x=452,y=57,z=329,dy=2,type=minecraft:interaction] run summon minecraft:interaction 452 57 329 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 654 64 210 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=654,y=64,z=210,distance=..15] unless entity @e[x=654,y=64,z=210,dy=2,type=minecraft:interaction] run summon minecraft:interaction 654 64 210 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 584 64 240 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=584,y=64,z=240,distance=..15] unless entity @e[x=584,y=64,z=240,dy=2,type=minecraft:interaction] run summon minecraft:interaction 584 64 240 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 798 64 270 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=798,y=64,z=270,distance=..15] unless entity @e[x=798,y=64,z=270,dy=2,type=minecraft:interaction] run summon minecraft:interaction 798 64 270 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 811 64 255 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=811,y=64,z=255,distance=..15] unless entity @e[x=811,y=64,z=255,dy=2,type=minecraft:interaction] run summon minecraft:interaction 811 64 255 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 740 64 25 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=740,y=64,z=25,distance=..15] unless entity @e[x=740,y=64,z=25,dy=2,type=minecraft:interaction] run summon minecraft:interaction 740 64 25 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 722 64 -172 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=722,y=64,z=-172,distance=..15] unless entity @e[x=722,y=64,z=-172,dy=2,type=minecraft:interaction] run summon minecraft:interaction 722 64 -172 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 685 64 -60 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=685,y=64,z=-60,distance=..15] unless entity @e[x=685,y=64,z=-60,dy=2,type=minecraft:interaction] run summon minecraft:interaction 685 64 -60 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 708 108 -46 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=708,y=108,z=-46,distance=..15] unless entity @e[x=708,y=108,z=-46,dy=2,type=minecraft:interaction] run summon minecraft:interaction 708 108 -46 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 699 108 -48 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=699,y=108,z=-48,distance=..15] unless entity @e[x=699,y=108,z=-48,dy=2,type=minecraft:interaction] run summon minecraft:interaction 699 108 -48 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 704 86 -33 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=704,y=86,z=-33,distance=..15] unless entity @e[x=704,y=86,z=-33,dy=2,type=minecraft:interaction] run summon minecraft:interaction 704 86 -33 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 694 119 -44 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=694,y=119,z=-44,distance=..15] unless entity @e[x=694,y=119,z=-44,dy=2,type=minecraft:interaction] run summon minecraft:interaction 694 119 -44 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 945 64 -66 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=945,y=64,z=-66,distance=..15] unless entity @e[x=945,y=64,z=-66,dy=2,type=minecraft:interaction] run summon minecraft:interaction 945 64 -66 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 864 64 21 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=864,y=64,z=21,distance=..15] unless entity @e[x=864,y=64,z=21,dy=2,type=minecraft:interaction] run summon minecraft:interaction 864 64 21 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1106 64 -469 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1106,y=64,z=-469,distance=..15] unless entity @e[x=1106,y=64,z=-469,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1106 64 -469 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1315 95 255 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1315,y=95,z=255,distance=..15] unless entity @e[x=1315,y=95,z=255,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1315 95 255 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1138 95 255 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1138,y=95,z=255,distance=..15] unless entity @e[x=1138,y=95,z=255,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1138 95 255 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1151 99 231 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1151,y=99,z=231,distance=..15] unless entity @e[x=1151,y=99,z=231,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1151 99 231 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1225 95 207 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1225,y=95,z=207,distance=..15] unless entity @e[x=1225,y=95,z=207,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1225 95 207 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1257 85 238 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1257,y=85,z=238,distance=..15] unless entity @e[x=1257,y=85,z=238,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1257 85 238 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1259 95 256 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1259,y=95,z=256,distance=..15] unless entity @e[x=1259,y=95,z=256,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1259 95 256 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1241 89 198 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1241,y=89,z=198,distance=..15] unless entity @e[x=1241,y=89,z=198,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1241 89 198 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1172 95 328 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1172,y=95,z=328,distance=..15] unless entity @e[x=1172,y=95,z=328,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1172 95 328 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1295 95 279 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1295,y=95,z=279,distance=..15] unless entity @e[x=1295,y=95,z=279,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1295 95 279 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1201 95 307 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1201,y=95,z=307,distance=..15] unless entity @e[x=1201,y=95,z=307,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1201 95 307 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1152 110 298 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1152,y=110,z=298,distance=..15] unless entity @e[x=1152,y=110,z=298,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1152 110 298 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1314 95 224 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1314,y=95,z=224,distance=..15] unless entity @e[x=1314,y=95,z=224,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1314 95 224 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1232 85 237 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1232,y=85,z=237,distance=..15] unless entity @e[x=1232,y=85,z=237,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1232 85 237 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+
+setblock 1264 64 -301 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
+execute as @a[x=1264,y=64,z=-301,distance=..15] unless entity @e[x=1264,y=64,z=-301,dy=2,type=minecraft:interaction] run summon minecraft:interaction 1264 64 -301 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 
 
