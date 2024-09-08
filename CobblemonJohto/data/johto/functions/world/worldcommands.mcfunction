@@ -98,6 +98,9 @@ execute as @a[scores={TalkTime=0}] run function johto:world/musictitles
 #Runs relog function if player is found with relog score
 execute as @a[scores={relog=1..}] run function johto:triggers/relog
 
+#Escape Ropes
+execute as @a[scores={EscapeRopeUse=1..}] run function johto:world/escaperope
+
 
 #-------------------------------------------------------------------------------------------------------------------------
 #Unlocks Fly spots by visiting respective Pokemon Centers, sets spawnpoint if player dies

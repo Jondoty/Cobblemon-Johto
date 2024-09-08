@@ -321,10 +321,6 @@ execute at @e[type=pixelmon:bike] run tag @a[distance=0..1,tag=!Bicycle] add Bic
 
 
 
-#Escape Ropes
-execute as @a[scores={EscapeRopeUse=1..}] run function johto:world/escaperope
-
-
 #Odd Egg item converts to Pixelmon dialogue
 tag @a[scores={TalkTime=0},nbt={Inventory:[{id:"minecraft:egg"}]},tag=Dialogue200] remove Dialogue200
 scoreboard players set @a[scores={TalkTime=0},nbt={Inventory:[{id:"minecraft:egg"}]},tag=!Dialogue200] DialogueTrigger 200
