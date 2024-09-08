@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "moltres-1",
+          "pokemon": "moltres",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "50",
+          "weight": 1.75,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364
+          }
+      }
+    ]
+}

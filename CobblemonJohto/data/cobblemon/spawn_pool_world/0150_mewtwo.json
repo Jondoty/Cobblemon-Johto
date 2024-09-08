@@ -1,0 +1,20 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+      {
+          "id": "mewtwo-1",
+          "pokemon": "mewtwo",
+          "type": "pokemon",
+          "context": "grounded",
+          "bucket": "common",
+          "level": "70",
+          "weight": 1,
+          "condition": {
+              "canSeeSky": false,
+              "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
+          }
+      }
+    ]
+}
