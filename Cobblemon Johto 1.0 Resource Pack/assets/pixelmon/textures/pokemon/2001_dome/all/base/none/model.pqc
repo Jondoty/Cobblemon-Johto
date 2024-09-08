@@ -1,0 +1,3 @@
+$body dome.bmd
+$anim idle dome.bmd
+$scale 0.5

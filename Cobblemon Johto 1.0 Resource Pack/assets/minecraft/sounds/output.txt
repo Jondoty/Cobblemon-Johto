@@ -1,0 +1,62 @@
+Folder PATH listing for volume Storinator
+Volume serial number is F4A0-6FD4
+F:.
+|   ampharos.ogg
+|   arceus.ogg
+|   articuno.ogg
+|   azureflute.ogg
+|   badge.ogg
+|   celebi.ogg
+|   chickorita.ogg
+|   cut.ogg
+|   cyndaquil.ogg
+|   dialga.ogg
+|   door.ogg
+|   egghatch.ogg
+|   entei.ogg
+|   farfetchd.ogg
+|   flee.ogg
+|   giratina.ogg
+|   groudon.ogg
+|   gyarados.ogg
+|   hooh.ogg
+|   kyogre.ogg
+|   lapras.ogg
+|   latias.ogg
+|   latios.ogg
+|   lugia.ogg
+|   lugiaspawn.ogg
+|   magnettrain.ogg
+|   mewtwo.ogg
+|   moltres.ogg
+|   output.txt
+|   palkia.ogg
+|   raikou.ogg
+|   rayquaza.ogg
+|   rockettransmission.ogg
+|   shiny.ogg
+|   snorlax.ogg
+|   suicune.ogg
+|   totodile.ogg
+|   unownstation.ogg
+|   zapdos.ogg
+|   
+\---mob
+    \---ghast
+            affectionate_scream.ogg
+            charge.ogg
+            death.ogg
+            fireball4.ogg
+            moan1.ogg
+            moan2.ogg
+            moan3.ogg
+            moan4.ogg
+            moan5.ogg
+            moan6.ogg
+            moan7.ogg
+            scream1.ogg
+            scream2.ogg
+            scream3.ogg
+            scream4.ogg
+            scream5.ogg
+            
