@@ -177,3 +177,25 @@ scoreboard players set @a[x=-3253,y=64,z=357,distance=..5,scores={FlyLavender=0}
 spawnpoint @a[x=-3253,y=64,z=356,distance=..5] -3253 64 356
 
 spawnpoint @a[x=-3287,y=64,z=675,distance=..5] -3287 64 675
+
+
+
+
+
+#Shiny Gyarados one-off
+
+scoreboard players set @a[x=-169,y=65,z=645,distance=..15,tag=!Dialogue49] DialogueTrigger 49
+
+execute as @a[scores={DialogueTrigger=49}] run particle cloud ~ ~ ~ 3 3 3 1 200
+execute at @a[scores={DialogueTrigger=49}] run pokespawn Gyarados shiny level=30
+execute as @a[scores={DialogueTrigger=49}] run playsound gyarados hostile @s ~ ~ ~ 1 1 1
+execute as @a[scores={DialogueTrigger=49}] run playsound shiny hostile @s ~ ~ ~ 1 1 1
+
+tag @a[scores={DialogueTrigger=49}] add Dialogue49
+scoreboard players set @a[scores={DialogueTrigger=1..},tag=Dialogue49] DialogueTrigger 0
+
+
+
+
+#
+

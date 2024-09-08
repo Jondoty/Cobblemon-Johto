@@ -1213,7 +1213,7 @@ execute as @s[scores={DialogueTrigger=49,TalkTime=1}] run particle cloud -167 62
 execute at @s[scores={DialogueTrigger=49,TalkTime=1}] run setblock -167 62 632 minecraft:water
 #Bugged, /pokebattle doesn't seem to work
 #execute as @s[scores={DialogueTrigger=49,TalkTime=1}] run pokebattle @s Gyarados,s,lvl:30,gr:7
-execute at @s[scores={DialogueTrigger=49,TalkTime=1}] run pokespawn Gyarados growth:6 shiny lvl:30
+execute at @s[scores={DialogueTrigger=49,TalkTime=1}] run pokespawn Gyarados shiny level=30
 execute as @s[scores={DialogueTrigger=49,TalkTime=1}] run playsound gyarados hostile @s ~ ~ ~ 1 1 1
 execute as @s[scores={DialogueTrigger=49,TalkTime=1}] run give @s pixelmon:red_scale{display:{Name:'[{"text":"Red Scale","italic":false,"color":"dark_red"}]',Lore:['[{"text":"A scale from the red Gyarados.","italic":false}]']}} 1
 execute as @s[scores={DialogueTrigger=49,TalkTime=2}] run playsound shiny hostile @s ~ ~ ~ 1 1 1
