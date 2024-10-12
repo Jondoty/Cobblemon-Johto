@@ -301,7 +301,6 @@
             "level": "3-7",
             "weight": 10,
             "condition": {
-                "canSeeSky": false,
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],
@@ -318,7 +317,6 @@
             "level": "3-7",
             "weight": 15,
             "condition": {
-                "canSeeSky": false,
                 "neededNearbyBlocks": [
                     "minecraft:grass"
                 ],

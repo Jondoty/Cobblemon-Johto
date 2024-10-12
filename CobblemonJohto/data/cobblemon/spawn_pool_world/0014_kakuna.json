@@ -120,7 +120,6 @@
                   "minecraft:grass",
                   "minecraft:tall_grass"
               ],
-                "canSeeSky": false,
                 "timeRange": "dawn,dusk,day",
                 "minX": -1710, "maxX": -1571, "minZ": 282, "maxZ": 448
             }

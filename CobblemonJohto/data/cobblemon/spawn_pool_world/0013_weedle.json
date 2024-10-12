@@ -131,7 +131,6 @@
             "level": "3-7",
             "weight": 40,
             "condition": {
-                "canSeeSky": false,
                 "neededNearbyBlocks": [
                     "minecraft:grass",
                     "minecraft:tall_grass"
