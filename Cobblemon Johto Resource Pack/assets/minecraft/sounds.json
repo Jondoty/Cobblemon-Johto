@@ -22,6 +22,7 @@
   "lapras": {"sounds": [{"name":"lapras", "stream": true}]},
   "latias": {"sounds": [{"name":"latias", "stream": true}]},
   "latios": {"sounds": [{"name":"latios", "stream": true}]},
+  "loot_obtained": {"sounds": [{"name":"loot_obtained", "stream": true}]},
   "lugia": {"sounds": [{"name":"lugia", "stream": true}]},
   "lugiaspawn": {"sounds": [{"name":"lugiaspawn", "stream": true}]},
   "magnettrain": {"sounds": [{"name":"magnettrain", "stream": true}]},
