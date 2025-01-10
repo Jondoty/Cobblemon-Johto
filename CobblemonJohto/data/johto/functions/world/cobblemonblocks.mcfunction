@@ -50,6 +50,22 @@ execute if block -3156 64 -33 air run setblock -3156 64 -33 cobblemon:green_apri
 execute if block -2365 64 -519 air run setblock -2365 64 -519 cobblemon:red_apricorn_sapling
 
 
+#Fossil Machines
+execute if block -1655 73 719 air run setblock -1655 74 719 cobblemon:monitor[facing=south]
+execute if block -1655 73 719 air run setblock -1656 73 719 cobblemon:restoration_tank[facing=south,part=bottom]
+execute if block -1655 73 719 air run setblock -1656 74 719 cobblemon:restoration_tank[facing=south,part=top]
+execute if block -1655 73 719 air run setblock -1655 73 719 cobblemon:fossil_analyzer[facing=south]
+
+execute if block -1647 73 719 air run setblock -1647 74 719 cobblemon:monitor[facing=south]
+execute if block -1647 73 719 air run setblock -1648 73 719 cobblemon:restoration_tank[facing=south,part=bottom]
+execute if block -1647 73 719 air run setblock -1648 74 719 cobblemon:restoration_tank[facing=south,part=top]
+execute if block -1647 73 719 air run setblock -1647 73 719 cobblemon:fossil_analyzer[facing=south]
+
+execute if block -1678 64 -871 air run setblock -1678 65 -871 cobblemon:monitor[facing=south]
+execute if block -1678 64 -871 air run setblock -1679 64 -871 cobblemon:restoration_tank[facing=south,part=bottom]
+execute if block -1678 64 -871 air run setblock -1679 65 -871 cobblemon:restoration_tank[facing=south,part=top]
+execute if block -1678 64 -871 air run setblock -1678 64 -871 cobblemon:fossil_analyzer[facing=south]
+
 
 #Daycare blocks
 execute if block 441 65 -574 air run setblock 441 65 -574 cobblemon:pasture[part=top,facing=east,waterlogged=false]
@@ -241,7 +257,11 @@ setblock -679 64 -471 cobblemon:pc[part=bottom,facing=south]
 execute if block -1293 64 -285 air run fill -1293 64 -285 -1293 64 -284 cobblemon:healing_machine[facing=east]
 
 
+#Battle Tower
+execute if block 904 64 73 air run fill 904 64 73 904 64 73 cobblemon:healing_machine
 
+execute if block 901 65 73 air run setblock 901 65 73 cobblemon:pc[part=top,facing=south]
+execute if block 901 64 73 air run setblock 901 64 73 cobblemon:pc[part=bottom,facing=south]
 
 
 
@@ -371,6 +391,7 @@ fill -975 76 342 -978 76 342 minecraft:magenta_carpet
 fill -967 124 249 -963 124 249 minecraft:magenta_carpet
 fill -1023 86 349 -1026 86 349 minecraft:magenta_carpet
 fill -942 175 195 -945 175 195 minecraft:magenta_carpet
+fill 811 64 16 807 64 16 minecraft:magenta_carpet
 
 
 
@@ -414,7 +435,7 @@ setblock -366 64 -172 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;162046
 execute as @a[x=-366,y=64,z=-172,distance=..15] unless entity @e[x=-366,y=64,z=-172,dy=2,type=minecraft:interaction] run summon minecraft:interaction -366 64 -172 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -247 65 -196 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
-execute as @a[x=-366,y=64,z=-172,distance=..15] unless entity @e[x=-366,y=64,z=-172,dy=2,type=minecraft:interaction] run summon minecraft:interaction -247 65 -196 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
+execute as @a[x=-247,y=64,z=-196,distance=..15] unless entity @e[x=-247,y=64,z=-196,dy=2,type=minecraft:interaction] run summon minecraft:interaction -247 65 -196 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
 
 setblock -422 64 14 minecraft:player_head[rotation=0]{SkullOwner:{Id:[I;1620469368,974799382,-1927819010,373990640],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTVmZWY4MTU1MDNiODZjZTljZDNiYTgxZTljOWE3OTI2ZGQ3ZTE3MjFjYTYyYjMwMGVlYjgyYmVkNDRjNTkzZCJ9fX0="}]}}} replace
 execute as @a[x=-422,y=64,z=14,distance=..15] unless entity @e[x=-422,y=64,z=14,dy=2,type=minecraft:interaction] run summon minecraft:interaction -422 64 14 {width:0.75,height:0.75,response:1,Tags:[ItemLoot]}
