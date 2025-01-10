@@ -1,0 +1,108 @@
+{
+  "hitbox": "player",
+  "presets": [
+
+  ],
+  "variation": {
+    "dirt": [
+      "clean",
+      "slightly_dirty",
+      "dirty",
+      "filthy"
+    ],
+    "net": {
+      "type": "weighted",
+      "options": [
+        {
+          "aspect": "green",
+          "weight": 10
+        },
+        {
+          "aspect": "blue",
+          "weight": 5
+        },
+        {
+          "aspect": "red",
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "config": [
+    {
+      "variableName": "challenge_cooldown",
+      "displayName": "Cooldown",
+      "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+      "type": "NUMBER",
+      "defaultValue": "5"
+    },
+    {
+      "variableName": "can_rechallenge",
+      "displayName": "Rechallenging",
+      "description": "This NPC can be battled multiple times.",
+      "type": "BOOLEAN",
+      "defaultValue": true
+    },
+    {
+      "variableName": "intro_text",
+      "displayName": "Intro Text",
+      "description": "The text that displays on the first page of the dialogue.",
+      "type": "TEXT",
+      "defaultValue": "Hello! I am a Cobblemon trainer. Would you like to challenge me?"
+    },
+    {
+      "variableName": "challenge_text",
+      "displayName": "Challenge Text",
+      "description": "The text that displays on the challenge option.",
+      "type": "TEXT",
+      "defaultValue": "Would you like to challenge me?"
+    },
+    {
+      "variableName": "challenge_accepted_text",
+      "displayName": "Accept Text",
+      "description": "The text that appears right before the challenge starts.",
+      "type": "TEXT",
+      "defaultValue": "Great! Let's battle!"
+    },
+    {
+      "variableName": "challenge_rejected_text",
+      "displayName": "Reject Text",
+      "description": "The text that appears when the player rejects the challenge.",
+      "type": "TEXT",
+      "defaultValue": "That's too bad. Maybe next time!"
+    },
+    {
+      "variableName": "challenge_cooldown_text",
+      "displayName": "Cooling Down Text",
+      "description": "The text that is displayed while the cooldown is in effect.",
+      "type": "TEXT",
+      "defaultValue": "I'm sorry, but I'm not ready for another battle yet. Please come back later."
+    }
+  ],
+  "names": [
+    "Red",
+    "Green",
+    "Blue",
+    "Yellow"
+  ],
+  "interaction": {
+    "type": "dialogue",
+    "dialogue": "cobblemon:npc-example"
+  },
+  "battleConfiguration": {
+    "canChallenge": true
+  },
+  "autoHealParty": false,
+  "skill": 5,
+  "party": {
+    "type": "simple",
+    "pokemon": [
+      "spiritomb level=100 held_item=cobblemon:sitrus_berry ability=pressure nature=jolly moves=darkpulse,shadowball,willowisp,suckerpunch hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 hp_ev=252 special_attack_ev=252 speed_ev=6",
+      "porygonz level=100 held_item=cobblemon:life_orb ability=adaptability nature=timid moves=hyperbeam,shadowball,icebeam,thunderbolt hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 hp_ev=6 special_attack_ev=252 speed_ev=252",
+      "togekiss level=100 held_item=cobblemon:leftovers ability=serenegrace nature=timid moves=airslash,dazzlinggleam,aurasphere,thunderwave hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 hp_ev=6 special_attack_ev=252 speed_ev=252",
+      "lucario level=100 held_item=cobblemon:focus_sash ability=innerfocus nature=jolly moves=closecombat,meteormash,earthquake,extremespeed hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 hp_ev=6 attack_ev=252 speed_ev=252",
+      "milotic level=100 held_item=cobblemon:flame_orb ability=marvelscale nature=bold moves=recover,mirrorcoat,icebeam,scald hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 hp_ev=252 defence_ev=252 special_attack_ev=6",
+      "garchomp level=100 held_item=cobblemon:yache_berry ability=roughskin nature=jolly moves=dragonclaw,earthquake,swordsdance,poisonjab hp_iv=31 attack_iv=31 defence_iv=31 special_attack_iv=31 special_defence_iv=31 speed_iv=31 hp_ev=6 attack_ev=252 speed_ev=252"
+    ]
+  }
+}

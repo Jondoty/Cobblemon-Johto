@@ -1,0 +1,38 @@
+{
+  "hitbox": "player",
+  "names": [
+    "AI Man"
+  ],
+  "presets": [
+    "cobblemon:battler_test",
+    "cobblemon:battler_commands",
+    "cobblemon:battler_cooldown",
+    "cobblemon:battler_scripts",
+    "cobblemon:stays_put"
+  ],
+  "canDespawn": false,
+  "ai": [
+    {
+      "type": "apply_presets",
+      "presets": [
+        "cobblemon:looks",
+        "cobblemon:floats",
+        "cobblemon:pauses_in_battle",
+        "cobblemon:cancels_battle_when_hurt_by_anything",
+        "cobblemon:uses_healing_machine",
+        "cobblemon:chats",
+        "cobblemon:panics_when_hurt_by_anything",
+        "cobblemon:panics"
+      ]
+    },
+    {
+      "type": "add_tasks_to_activity",
+      "activity": "idle",
+      "tasksByPriority": {
+        "0": [
+          "follow_walk_target"
+        ]
+      }
+    }
+  ]
+}

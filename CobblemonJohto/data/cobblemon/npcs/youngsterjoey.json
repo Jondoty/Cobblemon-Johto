@@ -1,0 +1,99 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:youngster",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ],
+        "net": {
+            "type": "weighted",
+            "options": [
+                {
+                    "aspect": "green",
+                    "weight": 10
+                },
+                {
+                    "aspect": "blue",
+                    "weight": 5
+                },
+                {
+                    "aspect": "red",
+                    "weight": 1
+                }
+            ]
+        }
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        },
+        {
+            "variableName": "intro_text",
+            "displayName": "Intro Text",
+            "description": "The text that displays on the first page of the dialogue.",
+            "type": "TEXT",
+            "defaultValue": "I just lost, so I'm trying to find more Pokémon. Wait! You look weak! Come on, let's battle!"
+        },
+        {
+            "variableName": "challenge_text",
+            "displayName": "Challenge Text",
+            "description": "The text that displays on the challenge option.",
+            "type": "TEXT",
+            "defaultValue": "Would you like to challenge me?"
+        },
+        {
+            "variableName": "challenge_accepted_text",
+            "displayName": "Accept Text",
+            "description": "The text that appears right before the challenge starts.",
+            "type": "TEXT",
+            "defaultValue": "Great! Let's battle!"
+        },
+        {
+            "variableName": "challenge_rejected_text",
+            "displayName": "Reject Text",
+            "description": "The text that appears when the player rejects the challenge.",
+            "type": "TEXT",
+            "defaultValue": "That's too bad. Maybe next time!"
+        },
+        {
+            "variableName": "challenge_cooldown_text",
+            "displayName": "Cooling Down Text",
+            "description": "The text that is displayed while the cooldown is in effect.",
+            "type": "TEXT",
+            "defaultValue": "I'm sorry, but I'm not ready for another battle yet. Please come back later."
+        }
+    ],
+    "names": [
+        "Youngster Joey"
+    ],
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:npc-example"
+    },
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Rattata level=4"
+        ]
+    }
+}
