@@ -1,7 +1,7 @@
 {
     "pack": {
-      "pack_format": 15,
-      "description": "Cobblemon Johto 1.0.0 commands!"
+      "pack_format": 48,
+      "description": "Cobblemon Johto 1.1.0 commands!"
     },
       "filter": {
         "block": [
