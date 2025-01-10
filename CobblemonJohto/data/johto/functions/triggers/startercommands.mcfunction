@@ -11,6 +11,9 @@ gamemode adventure @s[gamemode=survival]
 gamemode adventure @s[gamemode=creative]
 gamemode adventure @s[gamemode=spectator]
 
+effect give @a minecraft:speed infinite 1 true
+effect give @s minecraft:dolphins_grace infinite 1 true
+
 tag @s add Temp
 
 #tps player to lobby if they have a Deaths score and initial values (and thus glitched back into the spawn)
@@ -34,6 +37,7 @@ give @s cobblemon:poke_ball 10
 function johto:spawn/radio4
 function johto:spawn/flyhm
 function johto:spawn/flashhm
+function johto:spawn/townmap
 give @s cobblemon:potion 10
 
 #Sets Spawnpoint

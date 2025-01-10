@@ -10,7 +10,8 @@ tag @s remove PokemonMusicTalk
 #Resets Town Display title cooldowns
 scoreboard players set @s TownDisplay 0
 
-
+effect give @s minecraft:speed infinite 1 true
+effect give @s minecraft:dolphins_grace infinite 1 true
 
 
 
