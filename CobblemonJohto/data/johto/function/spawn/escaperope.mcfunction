@@ -1,1 +1,1 @@
-give @s ender_eye{display:{Lore:['[{"text":"A long and durable rope.","italic":false}]','[{"text":"Use it to escape instantly","italic":false}]','[{"text":"from a cave.","italic":false}]']}} 1
+give @s ender_eye[lore=['["",{"text":"A long and durable rope.","italic":false,"color":"#ce9178"}]','["",{"text":"Use it to escape instantly","italic":false,"color":"#ce9178"}]','["",{"text":"from a cave.","italic":false,"color":"#ce9178"}]']]
