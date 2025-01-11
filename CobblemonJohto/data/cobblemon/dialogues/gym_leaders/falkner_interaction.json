@@ -22,7 +22,9 @@
             "lines": [
                 "I'm Falkner, the Violet City Pokémon Gym Leader! "
             ],
-            "input": "q.dialogue.set_page('battle_prompt');"
+            "input": [
+            "q.dialogue.set_page('battle_prompt');"
+            ]
         },
         {
             "id": "battle_prompt",
@@ -37,7 +39,6 @@
                     {
                         "text": "§c⚔ Battle ⚔§r",
                         "value": "battle",
-                        "isSelectable": "q.player.data.flying_gym_defeated == false",
                         "action": "q.dialogue.set_page('battle_start');"
                     },
                     {
@@ -56,6 +57,7 @@
             ],
             "escapeAction": "0",
             "input": [
+                "q.player.run_command('scoreboard players set @s BattleStart 2');",
                 "q.dialogue.close();",
                 "v.battle = q.npc.start_battle(q.player);"
             ]
@@ -66,7 +68,10 @@
             "lines": [
                 "...For pity's sake! My dad's cherished bird Pokémon... But a defeat is a defeat."
             ],
-            "input": "q.dialogue.close();"
+            "input": [
+                "q.player.run_command('say hi' + q.player.username);",
+                "q.dialogue.close();"
+            ]
         }
     ]
 }
