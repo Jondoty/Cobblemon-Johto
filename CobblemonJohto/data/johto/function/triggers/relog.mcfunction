@@ -1,4 +1,7 @@
 
+#removes BattleStart score that mainly defines music
+scoreboard players set @s BattleStart 0
+
 #Resets Radio if player logs out while listening to music
 scoreboard players set @s click 1
 

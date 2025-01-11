@@ -45,7 +45,19 @@ execute as @a[scores={click=1..},tag=TempDelay] run function johto:triggers/clic
 tag @a[scores={click=1..},tag=!TempDelay] add TempDelay
 
 
-#####
+
+
+#Runs battle music and post-battle events
+
+#Battle start and music
+execute as @a[scores={BattleStart=1..,MusicCooldown=0},tag=BattleMusicCooldown] run tag @s remove BattleMusicCooldown
+execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function johto:triggers/battles/battlestart
+
+#Battle endings
+execute as @a[scores={BattleEnd=1..}] run function johto:triggers/battles/battleend
+
+
+
 
 
 #Primary radio (off-hand and slot 2)
@@ -68,15 +80,6 @@ execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:7b,co
 #Removes a MusicCooldown score each refresh if present
 scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 
-
-#Runs battle music and post-battle events
-
-#Battle start and music
-execute as @a[scores={BattleStart=1..,MusicCooldown=0},tag=BattleMusicCooldown] run tag @s remove BattleMusicCooldown
-execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function johto:triggers/battles/battlestart
-
-#Battle endings
-execute as @a[scores={BattleEnd=1..},tag=!BattleMusicCooldown] run function johto:triggers/battles/battleend
 
 #-------------------------------------------------------------------------------------------------------------------------
 #Runs HMs/Important Items

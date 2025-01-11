@@ -1,0 +1,85 @@
+{
+    "speakers": {
+        "npc": {
+            "name": {
+                "type": "expression",
+                "expression": "q.npc.name"
+            },
+            "face": "q.npc.face();"
+        },
+        "player": {
+            "face": "q.player.face();",
+            "name": {
+                "type": "expression",
+                "expression": "q.player.username"
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "I just lost, so I'm trying to find more Pokémon."
+            ],
+            "input": [             
+                "q.player.run_command('scoreboard players set @s BattleStart 2');",
+                "q.player.run_command('function johto:tools/forceclick');",
+                "q.dialogue.set_page('battle_prompt');"
+        ]
+            
+        },
+        {
+            "id": "battle_prompt",
+            "speaker": "npc",
+            "lines": [
+                "Wait! You look weak! Come on, let's battle!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "§c⚔ Battle ⚔§r",
+                        "value": "battle",
+                        "action": "q.dialogue.set_page('battle_start');"
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": [              
+                            "q.player.run_command('scoreboard players set @s BattleStart 0');",
+                            "q.player.run_command('function johto:tools/forceclick');",
+                            "q.dialogue.close();"]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "battle_start",
+            "speaker": "npc",
+            "lines": [
+                "Go, Rattata!"
+            ],
+            "escapeAction": "0",
+            "input": [
+                "q.player.run_command('scoreboard players set @s BattleStart 11');",
+                "q.player.run_command('function johto:tools/forceclick');",
+                "q.dialogue.close();",
+                "v.battle = q.npc.start_battle(q.player);"
+            ]
+        },
+        {
+            "id": "on_player_wins",
+            "speaker": "npc",
+            "lines": [
+                "Ack! I lost again! Doggone it! Do I have to have more Pokemon in order to battle better? No! I'm sticking with this one no matter what!"
+            ],
+            "escapeAction": "0",
+            "input": [                
+
+                "q.dialogue.close();"
+        ]
+        }
+    ]
+}
