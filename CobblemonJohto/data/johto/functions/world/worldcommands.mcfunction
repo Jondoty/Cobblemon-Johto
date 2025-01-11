@@ -69,6 +69,15 @@ execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:7b,id
 scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 
 
+#Runs battle music and post-battle events
+
+#Battle start and music
+execute as @a[scores={BattleStart=1..,MusicCooldown=0},tag=BattleMusicCooldown] run tag @s remove BattleMusicCooldown
+execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function johto:triggers/battles/battlestart
+
+#Battle endings
+execute as @a[scores={BattleEnd=1..},tag=!BattleMusicCooldown] run function johto:triggers/battles/battleend
+
 #-------------------------------------------------------------------------------------------------------------------------
 #Runs HMs/Important Items
 
