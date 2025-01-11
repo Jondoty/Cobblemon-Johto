@@ -1,0 +1,19 @@
+{
+  "name": "cobblemon:erika",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:trainer.geo",
+      "texture": "cobblemon:textures/npcs/standard/erika.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hasty"
+      ],
+      "poser": "cobblemon:standard"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+    "speakers": {
+        "npc": {
+            "name": {
+                "type": "expression",
+                "expression": "q.npc.name"
+            },
+            "face": "q.npc.face();"
+        },
+        "player": {
+            "face": "q.player.face();",
+            "name": {
+                "type": "expression",
+                "expression": "q.player.username"
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Welcome to the Pokémon League! Allow me to introduce myself. I am Will."
+            ],
+            "input": "q.dialogue.set_page('battle_prompt');"
+        },
+        {
+            "id": "battle_prompt",
+            "speaker": "npc",
+            "lines": [
+                "I have trained all around the world, making my Psychic-type Pokémon powerful. And, at last, I've been accepted into the Elite Four."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "§c⚔ Battle ⚔§r",
+                        "value": "battle",
+                        "isSelectable": "q.player.data.flying_gym_defeated == false",
+                        "action": "q.dialogue.set_page('battle_start');"
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": "q.dialogue.close();"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "battle_start",
+            "speaker": "npc",
+            "lines": [
+                "I can only keep getting better! Losing is not an option!"
+            ],
+            "escapeAction": "0",
+            "input": [
+                "q.dialogue.close();",
+                "v.battle = q.npc.start_battle(q.player);"
+            ]
+        },
+        {
+            "id": "post_defeat",
+            "speaker": "npc",
+            "lines": [
+                "Even though I was defeated, I won't change my course. I will continue battling until I stand above all Trainers!"
+            ],
+            "input": "q.dialogue.close();"
+        }
+    ]
+}

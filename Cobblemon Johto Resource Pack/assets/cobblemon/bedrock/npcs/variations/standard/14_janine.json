@@ -1,0 +1,19 @@
+{
+  "name": "cobblemon:janine",
+  "order": 14,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:trainer.geo",
+      "texture": "cobblemon:textures/npcs/standard/janine.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hasty"
+      ],
+      "poser": "cobblemon:standard"
+    }
+  ]
+}

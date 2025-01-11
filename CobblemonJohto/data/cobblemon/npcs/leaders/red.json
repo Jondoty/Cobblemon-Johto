@@ -1,0 +1,52 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:red",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:red_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Red"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Pikachu level=88 moves=volttackel,irontail,quickattack,thunderbolt",
+            "Lapras level=80 moves=bodyslam,brine,blizzard,psychic",
+            "Snorlax level=82 moves=shadowball,crunhc,blizzard,gigaimpact",
+            "Venusaur level=84 moves=frenzyplant,gigadrain,sludgebomb,sleeppowder",
+            "Charizard level=84 moves=blastburn,flareblitz,airslash,dragonpulse",
+            "Blastoise level=84 moves=hydrocannon,blizzard,flashcannon,focusblast"
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cobblemon:misty",
+  "order": 13,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:trainer.geo",
+      "texture": "cobblemon:textures/npcs/standard/misty.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hasty"
+      ],
+      "poser": "cobblemon:standard"
+    }
+  ]
+}

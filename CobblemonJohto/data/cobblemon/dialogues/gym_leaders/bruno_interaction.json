@@ -1,0 +1,72 @@
+{
+    "speakers": {
+        "npc": {
+            "name": {
+                "type": "expression",
+                "expression": "q.npc.name"
+            },
+            "face": "q.npc.face();"
+        },
+        "player": {
+            "face": "q.player.face();",
+            "name": {
+                "type": "expression",
+                "expression": "q.player.username"
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "I am Bruno of the Elite Four. I always train to the extreme because I believe in our potential. That is how we became strong."
+            ],
+            "input": "q.dialogue.set_page('battle_prompt');"
+        },
+        {
+            "id": "battle_prompt",
+            "speaker": "npc",
+            "lines": [
+                "Can you withstand our power? Hm? I see no fear in you. You look determined. Perfect for battle!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "§c⚔ Battle ⚔§r",
+                        "value": "battle",
+                        "isSelectable": "q.player.data.flying_gym_defeated == false",
+                        "action": "q.dialogue.set_page('battle_start');"
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": "q.dialogue.close();"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "battle_start",
+            "speaker": "npc",
+            "lines": [
+                "Ready? You will bow down to our overwhelming power! Hoo hah!"
+            ],
+            "escapeAction": "0",
+            "input": [
+                "q.dialogue.close();",
+                "v.battle = q.npc.start_battle(q.player);"
+            ]
+        },
+        {
+            "id": "post_defeat",
+            "speaker": "npc",
+            "lines": [
+                "Having lost, I have no right to say anything… Go face your next challenge!"
+            ],
+            "input": "q.dialogue.close();"
+        }
+    ]
+}

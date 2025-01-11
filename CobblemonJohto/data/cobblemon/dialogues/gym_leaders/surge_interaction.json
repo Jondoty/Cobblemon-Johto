@@ -1,0 +1,72 @@
+{
+    "speakers": {
+        "npc": {
+            "name": {
+                "type": "expression",
+                "expression": "q.npc.name"
+            },
+            "face": "q.npc.face();"
+        },
+        "player": {
+            "face": "q.player.face();",
+            "name": {
+                "type": "expression",
+                "expression": "q.player.username"
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Hey, kid! What do you think you're doing here? You won't live long in combat!"
+            ],
+            "input": "q.dialogue.set_page('battle_prompt');"
+        },
+        {
+            "id": "battle_prompt",
+            "speaker": "npc",
+            "lines": [
+                "Not with your puny power! I tell you, kid, electric Pokémon saved me during the war! They zapped my enemies into paralysis!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "§c⚔ Battle ⚔§r",
+                        "value": "battle",
+                        "isSelectable": "q.player.data.flying_gym_defeated == false",
+                        "action": "q.dialogue.set_page('battle_start');"
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": "q.dialogue.close();"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "battle_start",
+            "speaker": "npc",
+            "lines": [
+                "The same as I'll do to you!"
+            ],
+            "escapeAction": "0",
+            "input": [
+                "q.dialogue.close();",
+                "v.battle = q.npc.start_battle(q.player);"
+            ]
+        },
+        {
+            "id": "post_defeat",
+            "speaker": "npc",
+            "lines": [
+                "Now that's a shocker! You're the real deal, kid!"
+            ],
+            "input": "q.dialogue.close();"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:blaine",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:bblaine_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Blaine"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Magcargo level=54 moves=overheat,sunnyday,smog,rockslide",
+            "Magmar level=54 moves=thunderpunch,confuseray,overheat,sunnyday",
+            "Rapidash level=59 moves=quickattack,bounce,overheat,flareblitz"
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "speakers": {
+        "npc": {
+            "name": {
+                "type": "expression",
+                "expression": "q.npc.name"
+            },
+            "face": "q.npc.face();"
+        },
+        "player": {
+            "face": "q.player.face();",
+            "name": {
+                "type": "expression",
+                "expression": "q.player.username"
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Fufufufu... I'm sorry to disappoint you..."
+            ],
+            "input": "q.dialogue.set_page('battle_prompt');"
+        },
+        {
+            "id": "battle_prompt",
+            "speaker": "npc",
+            "lines": [
+                "I'm only joking! I'm the real deal! Janine of Fuchsia Gym, that's me!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "§c⚔ Battle ⚔§r",
+                        "value": "battle",
+                        "isSelectable": "q.player.data.flying_gym_defeated == false",
+                        "action": "q.dialogue.set_page('battle_start');"
+                    },
+                    {
+                        "text": "No",
+                        "value": "no",
+                        "action": "q.dialogue.close();"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "battle_start",
+            "speaker": "npc",
+            "lines": [
+                "I see... You have defeated Koga, my father and a member of the Elite Four, to come here."
+            ],
+            "escapeAction": "0",
+            "input": [
+                "q.dialogue.close();",
+                "v.battle = q.npc.start_battle(q.player);"
+            ]
+        },
+        {
+            "id": "post_defeat",
+            "speaker": "npc",
+            "lines": [
+                "I'm going to really apply myself and improve my skills. I want to become much better than both my father and you!"
+            ],
+            "input": "q.dialogue.close();"
+        }
+    ]
+}

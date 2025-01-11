@@ -1,0 +1,19 @@
+{
+  "name": "cobblemon:surge",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:trainer.geo",
+      "texture": "cobblemon:textures/npcs/standard/surge.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hasty"
+      ],
+      "poser": "cobblemon:standard"
+    }
+  ]
+}

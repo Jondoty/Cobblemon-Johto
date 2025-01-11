@@ -1,0 +1,51 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:will",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:will_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Will"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Xatu level=40 moves=uturn,mefirst,confuseray,psychic",
+            "Jynx level=41 moves=lovelykiss,doubleslap,icepunch,psychic",
+            "Slowbro level=41 moves=curse,amnesia,waterpulse,psychic",
+            "Exeggutor level=41 moves=reflect,hypnosis,eggbomb,psychic",
+            "Xatu level=42 moves=aerialace,ominouswave,confuseray,psychic"
+        ]
+    }
+}

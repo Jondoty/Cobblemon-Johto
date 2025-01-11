@@ -1,0 +1,19 @@
+{
+  "name": "cobblemon:red",
+  "order": 23,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:standard",
+      "model": "cobblemon:trainer.geo",
+      "texture": "cobblemon:textures/npcs/standard/red.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "hasty"
+      ],
+      "poser": "cobblemon:standard"
+    }
+  ]
+}

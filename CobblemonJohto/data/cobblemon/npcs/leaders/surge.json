@@ -1,0 +1,51 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:surge",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:surge_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Lt. Surge"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Raichu level=51 moves=thunderwave,shockwave,quickattack,doubleteam",
+            "Electrode level=47 moves=thunderwave,doubleteam,shockwave,lightscreen",
+            "Electrode level=47 moves=screech,doubleteam,selfdestruct,chargebeam",
+            "Magneton level=47 moves=supersonic,doubleteam,shockwave,mirrorshot",
+            "Electabuzz level=53 moves=quickattack,shockwave,lightscreen,lowkick"
+        ]
+    }
+}

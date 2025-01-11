@@ -1,0 +1,49 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:sabrina",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:sabrina_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Sabrina"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Espeon level=53 moves=calmmind,shadowball,psychic,skillswap",
+            "MrMime level=47 moves=mimic,lightscreen,psychic,skillswap",
+            "Alakazam level=47 moves=psychic,skillswap,reflect,energyball"
+        ]
+    }
+}

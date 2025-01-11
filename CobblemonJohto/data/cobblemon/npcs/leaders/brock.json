@@ -1,0 +1,51 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:brock",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:brock_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Brock"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Graveler level=51 moves=defensecurl,rollout,earthquake,rockslide",
+            "Rhyhorn level=51 moves=earthquake,sandstorm,scaryface,horndrill",
+            "Omastar level=53 moves=protect,spikecannon,ancientpower,brine",
+            "Kabutops level=52 moves=endure,gigadrain,aquajet,rockslide",
+            "Onix level=54 moves=screech,sandstorm,irontail,rockslide"
+        ]
+    }
+}

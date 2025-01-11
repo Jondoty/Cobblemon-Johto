@@ -1,0 +1,51 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:koga",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:koga_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Koga"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Ariados level=40 moves=spiderweb,batonpass,gigadrain,poisonjab",
+            "Forretress level=43 moves=swift,explosion,protect,toxicspikes",
+            "Muk level=42 moves=gunkshot,minimize,screech,toxic",
+            "Venomoth level=41 moves=psychic,gust,supersonic,toxic",
+            "Crobat level=44 moves=quickattack,wingattack,doubleteam,poisonfang"
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:janine",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:janine_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Janine"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Crobat level=47 moves=confuseray,screech,wingattack,supersonic",
+            "Weezing level=44 moves=sludgebomb,toxic,explosion,doublehit",
+            "Ariados level=47 moves=swagger,nightshade,poisonjab,pinmissile",
+            "Ariados level=47 moves=psychic,poisonjab,scaryface,pinmissile",
+            "Venomoth level=50 moves=doubleteam,psychic,sludgebomb,signalbeam"
+        ]
+    }
+}

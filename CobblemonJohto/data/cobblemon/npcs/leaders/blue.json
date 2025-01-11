@@ -1,0 +1,52 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:blue",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:blue_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Blue"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Exeggutor level=55 moves=leafstorm,psychic,hypnosis,trickroom",
+            "Arcanine level=58 moves=roar,dragonpulse,flareblitz,extremespeed",
+            "Rhydon level=58 moves=megahorn,stoneedge,thunderfang,earthquake",
+            "Gyarados level=52 moves=icefang,waterfall,dragondance,return",
+            "Machamp level=56 moves=dynamicpunch,earthquake,stoneedge,thunderpunch",
+            "Pidgeot level=60 moves=return,whirlwind,airslash,mirrormove"
+        ]
+    }
+}

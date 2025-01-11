@@ -1,0 +1,50 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:erika",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:erika_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Erika"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Jumpluff level=51 moves=leechseed,uturn,gigadrain,sunnyday",
+            "Tangela level=52 moves=ancientpower,wringout,gigadrain,sleeppowder",
+            "Victreebel level=56 moves=sunnyday,grassknot,leafstorm,razorleaf",
+            "Bellossom level=56 moves=sunnyday,solarbeam,gigadrain,synthesis"
+        ]
+    }
+}
