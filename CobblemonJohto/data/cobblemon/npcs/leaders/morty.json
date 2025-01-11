@@ -1,0 +1,50 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:morty",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:morty_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Morty"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Gastly level=21 moves=lick,spite,meanlook,curse",
+            "Haunter level=21 moves=hypnosis,dreameater,curse,nightmare",
+            "Gengar level=25 moves=hypnosis,shadowball,meanlook,suckerpunch",
+            "Haunter level=23 moves=curse,meanlook,suckerpunch,nightshade"
+        ]
+    }
+}

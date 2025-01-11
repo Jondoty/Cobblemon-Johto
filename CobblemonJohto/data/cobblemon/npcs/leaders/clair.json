@@ -1,0 +1,50 @@
+{
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:clair",
+    "presets": ["cobblemon:battle_npc"],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:clair_interaction"
+    },
+    "config": [
+        {
+            "variableName": "challenge_cooldown",
+            "displayName": "Cooldown",
+            "description": "How long in ticks the NPC will be un-challengable from that player's last challenge.",
+            "type": "NUMBER",
+            "defaultValue": "5"
+        },
+        {
+            "variableName": "can_rechallenge",
+            "displayName": "Rechallenging",
+            "description": "This NPC can be battled multiple times.",
+            "type": "BOOLEAN",
+            "defaultValue": true
+        }
+    ],
+    "names": [
+        "Clair"
+    ],
+    "battleConfiguration": {
+        "canChallenge": true
+    },
+    "autoHealParty": false,
+    "skill": 5,
+    "party": {
+        "type": "simple",
+        "pokemon": [
+            "Gyarados level=38 moves=bite,twister,dragonrage,dragonpulse",
+            "Dragonair level=38 moves=thunderwave,slam,aquatail,dragonpulse",
+            "Dragonair level=38 moves=thunderwave,slam,fireblast,dragonpulse",
+            "Kingdra level=41 moves=hydropump,smokescreen,hyperbeam,dragonpulse"
+        ]
+    }
+}
