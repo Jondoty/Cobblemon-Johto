@@ -1,0 +1,2 @@
+q.player.run_command('scoreboard players set @s BattleEnd 2');
+q.player.run_command('function johto:triggers/battles/battleend');

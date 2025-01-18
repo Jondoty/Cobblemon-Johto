@@ -28,7 +28,14 @@
             "description": "This NPC can be battled multiple times.",
             "type": "BOOLEAN",
             "defaultValue": true
-        }
+        },
+        {
+            "variableName": "on_player_wins",
+            "displayName": "npc.variable.on_player_wins.name",
+            "description": "npc.variable.on_player_wins.desc",
+            "type": "TEXT",
+            "defaultValue": "q.run_script('cobblemon:elitefour_defeated');"
+          }
     ],
     "names": [
         "Bruno"

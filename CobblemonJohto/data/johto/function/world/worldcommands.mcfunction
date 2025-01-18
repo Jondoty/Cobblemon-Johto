@@ -1,6 +1,11 @@
 #Runs cobblemon replacement blocks
 function johto:world/cobblemonblocks
 
+#Aligns and prevents NPCs from despawning, dying or knockback
+execute as @e[type=cobblemon:npc,nbt={PersistenceRequired:0b}] run effect give @s minecraft:resistance infinite 127 true
+execute as @e[type=cobblemon:npc,nbt={PersistenceRequired:0b}] run attribute @s minecraft:generic.knockback_resistance base set 100
+execute as @e[type=cobblemon:npc,nbt={PersistenceRequired:0b}] run data merge entity @s {Rotation:[180f,0.0f],PersistenceRequired:1b,Attributes:[{Name:"generic.knockback_resistance",Amount:1.0}]}
+
 #Runs custom clickable loots
 execute as @a[tag=ItemLoot] run function johto:triggers/itemlootgive
 
@@ -48,13 +53,13 @@ tag @a[scores={click=1..},tag=!TempDelay] add TempDelay
 
 
 #Runs battle music and post-battle events
+#Battle endings
+execute as @a[scores={BattleEnd=1..}] run function johto:triggers/battles/battleend
+
 
 #Battle start and music
 execute as @a[scores={BattleStart=1..,MusicCooldown=0},tag=BattleMusicCooldown] run tag @s remove BattleMusicCooldown
 execute as @a[scores={BattleStart=1..},tag=!BattleMusicCooldown] run function johto:triggers/battles/battlestart
-
-#Battle endings
-execute as @a[scores={BattleEnd=1..}] run function johto:triggers/battles/battleend
 
 
 
@@ -205,6 +210,96 @@ execute as @a[scores={DialogueTrigger=49}] run playsound shiny hostile @s ~ ~ ~ 
 
 tag @a[scores={DialogueTrigger=49}] add Dialogue49
 scoreboard players set @a[scores={DialogueTrigger=1..},tag=Dialogue49] DialogueTrigger 0
+
+
+
+#-------------------------------------------------------------------------------------------------------------------------
+#Road Blocks & World Blocks
+
+#Elite Four Gates
+#Will
+execute if block -1288 67 446 minecraft:air if entity @a[x=-1287,y=67,z=446,distance=..25] run clone -730 64 -328 -728 67 -328 -1289 67 446
+
+execute if block -1288 67 446 minecraft:quartz_pillar if entity @a[x=-1287,y=67,z=446,distance=..15,tag=Will] run playsound minecraft:entity.iron_golem.death ambient @a[x=-1287,y=67,z=446,distance=..15,tag=Will] ~ ~ ~ 1 1 1
+execute if block -1288 67 446 minecraft:quartz_pillar if entity @a[x=-1287,y=67,z=446,distance=..15,tag=Will] run scoreboard players set @a[x=-1287,y=67,z=446,distance=..15,tag=Will] Cooldown 10
+execute if block -1288 67 446 minecraft:quartz_pillar if entity @a[x=-1287,y=67,z=446,distance=..15,tag=Will] run fill -1287 67 446 -1289 70 446 air
+
+#Koga
+execute if block -1288 67 523 minecraft:air if entity @a[x=-1287,y=67,z=523,distance=..25] run clone -730 64 -328 -728 67 -328 -1289 67 523
+
+execute if block -1288 67 523 minecraft:quartz_pillar if entity @a[x=-1287,y=67,z=523,distance=..15,tag=Koga] run playsound minecraft:entity.iron_golem.death ambient @a[x=-1287,y=67,z=523,distance=..15,tag=Koga] ~ ~ ~ 1 1 1
+execute if block -1288 67 523 minecraft:quartz_pillar if entity @a[x=-1287,y=67,z=523,distance=..15,tag=Koga] run scoreboard players set @a[x=-1287,y=67,z=523,distance=..15,tag=Koga] Cooldown 10
+execute if block -1288 67 523 minecraft:quartz_pillar if entity @a[x=-1287,y=67,z=523,distance=..15,tag=Koga] run fill -1287 67 523 -1289 70 523 air
+
+#Bruno
+execute if block -1288 70 599 minecraft:air if entity @a[x=-1287,y=70,z=599,distance=..25] run clone -730 64 -328 -728 67 -328 -1289 70 599
+
+execute if block -1288 70 599 minecraft:quartz_pillar if entity @a[x=-1287,y=70,z=599,distance=..15,tag=Bruno] run playsound minecraft:entity.iron_golem.death ambient @a[x=-1287,y=70,z=599,distance=..15,tag=Bruno] ~ ~ ~ 1 1 1
+execute if block -1288 70 599 minecraft:quartz_pillar if entity @a[x=-1287,y=70,z=599,distance=..15,tag=Bruno] run scoreboard players set @a[x=-1287,y=70,z=599,distance=..15,tag=Bruno] Cooldown 10
+execute if block -1288 70 599 minecraft:quartz_pillar if entity @a[x=-1287,y=70,z=599,distance=..15,tag=Bruno] run fill -1287 70 599 -1289 73 599 air
+
+#Karen
+execute if block -1288 73 675 minecraft:air if entity @a[x=-1287,y=73,z=675,distance=..25] run clone -730 64 -328 -728 67 -328 -1289 73 675
+
+execute if block -1288 73 675 minecraft:quartz_pillar if entity @a[x=-1287,y=73,z=675,distance=..15,tag=Karen] run playsound minecraft:entity.iron_golem.death ambient @a[x=-1287,y=73,z=675,distance=..15,tag=Karen] ~ ~ ~ 1 1 1
+execute if block -1288 73 675 minecraft:quartz_pillar if entity @a[x=-1287,y=73,z=675,distance=..15,tag=Karen] run scoreboard players set @a[x=-1287,y=73,z=675,distance=..15,tag=Karen] Cooldown 10
+execute if block -1288 73 675 minecraft:quartz_pillar if entity @a[x=-1287,y=73,z=675,distance=..15,tag=Karen] run fill -1287 76 675 -1289 73 675 air
+
+#Lance
+execute if block -1288 78 750 minecraft:air if entity @a[x=-1292,y=77,z=744,dx=8,dy=5,dz=6] run clone -730 64 -328 -726 68 -328 -1290 78 750
+
+execute if block -1290 78 750 minecraft:quartz_pillar if entity @a[x=-1292,y=77,z=744,dx=8,dy=5,dz=6,tag=Lance] run playsound minecraft:entity.iron_golem.death ambient @a[x=-1293,y=77,z=738,dx=10,dy=5,dz=12,tag=Lance] ~ ~ ~ 1 1 1
+execute if block -1290 78 750 minecraft:quartz_pillar if entity @a[x=-1292,y=77,z=744,dx=8,dy=5,dz=6,tag=Lance] run scoreboard players set @a[x=-1293,y=77,z=738,dx=10,dy=5,dz=12,tag=Lance] Cooldown 30
+execute if block -1290 78 750 minecraft:quartz_pillar if entity @a[x=-1292,y=77,z=744,dx=8,dy=5,dz=6,tag=Lance] run fill -1290 78 750 -1286 82 750 air
+
+
+
+#REMATCH GATES
+
+#Will
+execute if block -1341 67 446 minecraft:air if entity @a[x=-1341,y=67,z=446,distance=..25] run clone -730 64 -328 -728 67 -328 -1342 67 446
+
+execute if block -1341 67 446 minecraft:quartz_pillar if entity @a[x=-1341,y=67,z=446,distance=..15,tag=Will] run playsound minecraft:entity.iron_golem.death ambient @a[x=-1341,y=67,z=446,distance=..15,tag=Will] ~ ~ ~ 1 1 1
+execute if block -1341 67 446 minecraft:quartz_pillar if entity @a[x=-1341,y=67,z=446,distance=..15,tag=Will] run scoreboard players set @a[x=-1341,y=67,z=446,distance=..15,tag=Will] Cooldown 10
+execute if block -1341 67 446 minecraft:quartz_pillar if entity @a[x=-1341,y=67,z=446,distance=..15,tag=Will] run fill -1342 67 446 -1340 70 446 air
+
+#Koga
+execute if block -1341 67 523 minecraft:air if entity @a[x=-1342,y=67,z=523,distance=..25] run clone -730 64 -328 -728 67 -328 -1342 67 523
+
+execute if block -1341 67 523 minecraft:quartz_pillar if entity @a[x=-1342,y=67,z=523,distance=..15,tag=Koga] run playsound minecraft:entity.iron_golem.death ambient @a[x=-1342,y=67,z=523,distance=..15,tag=Koga] ~ ~ ~ 1 1 1
+execute if block -1341 67 523 minecraft:quartz_pillar if entity @a[x=-1342,y=67,z=523,distance=..15,tag=Koga] run scoreboard players set @a[x=-1342,y=67,z=523,distance=..15,tag=Koga] Cooldown 10
+execute if block -1341 67 523 minecraft:quartz_pillar if entity @a[x=-1342,y=67,z=523,distance=..15,tag=Koga] run fill -1342 67 523 -1340 70 523 air
+
+#Bruno
+execute if block -1341 70 599 minecraft:air if entity @a[x=-1342,y=70,z=599,distance=..25] run clone -730 64 -328 -728 67 -328 -1342 70 599
+
+execute if block -1341 70 599 minecraft:quartz_pillar if entity @a[x=-1342,y=70,z=599,distance=..15,tag=Bruno] run playsound minecraft:entity.iron_golem.death ambient @a[x=-1342,y=70,z=599,distance=..15,tag=Bruno] ~ ~ ~ 1 1 1
+execute if block -1341 70 599 minecraft:quartz_pillar if entity @a[x=-1342,y=70,z=599,distance=..15,tag=Bruno] run scoreboard players set @a[x=-1342,y=70,z=599,distance=..15,tag=Bruno] Cooldown 10
+execute if block -1341 70 599 minecraft:quartz_pillar if entity @a[x=-1342,y=70,z=599,distance=..15,tag=Bruno] run fill -1342 70 599 -1340 73 599 air
+
+#Karen
+execute if block -1341 73 675 minecraft:air if entity @a[x=-1342,y=73,z=675,distance=..25] run clone -730 64 -328 -728 67 -328 -1342 73 675
+
+execute if block -1341 73 675 minecraft:quartz_pillar if entity @a[x=-1342,y=73,z=675,distance=..15,tag=Karen] run playsound minecraft:entity.iron_golem.death ambient @a[x=-1342,y=73,z=675,distance=..15,tag=Karen] ~ ~ ~ 1 1 1
+execute if block -1341 73 675 minecraft:quartz_pillar if entity @a[x=-1342,y=73,z=675,distance=..15,tag=Karen] run scoreboard players set @a[x=-1342,y=73,z=675,distance=..15,tag=Karen] Cooldown 10
+execute if block -1341 73 675 minecraft:quartz_pillar if entity @a[x=-1342,y=73,z=675,distance=..15,tag=Karen] run fill -1342 73 675 -1340 76 675 air
+
+#Lance
+execute if block -1341 78 750 minecraft:air if entity @a[x=-1345,y=77,z=744,dx=8,dy=5,dz=6] run clone -730 64 -328 -726 68 -328 -1343 78 750
+
+execute if block -1341 78 750 minecraft:quartz_pillar if entity @a[x=-1345,y=77,z=744,dx=8,dy=5,dz=6,tag=Lance] run playsound minecraft:entity.iron_golem.death ambient @a[x=-1341,y=78,z=750,distance=..5,tag=Lance] ~ ~ ~ 1 1 1
+execute if block -1341 78 750 minecraft:quartz_pillar if entity @a[x=-1345,y=77,z=744,dx=8,dy=5,dz=6,tag=Lance] run scoreboard players set @a[x=-1341,y=78,z=750,distance=..5,tag=Lance] Cooldown 30
+execute if block -1341 78 750 minecraft:quartz_pillar if entity @a[x=-1345,y=77,z=744,dx=8,dy=5,dz=6,tag=Lance] run fill -1343 78 750 -1339 82 750 air
+
+
+
+#Tps player from Rematched Hall of Fame to real Hall of Fame room
+execute at @a[x=-1354,y=77,z=751,dx=24,dy=10,dz=34] run clone -730 64 -328 -726 68 -328 -1343 78 750
+execute at @a[x=-1354,y=77,z=751,dx=24,dy=10,dz=34] run tp @a[x=-1354,y=77,z=751,dx=24,dy=10,dz=34] ~53 ~ ~
+
+
+
+
 
 
 

@@ -106,20 +106,13 @@ tp @a[x=194,y=43,z=-127,dx=3,dy=3] 207 64 -146
 
 
 #Pokemon League Elite Four Entrance
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue99
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue98
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue97
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue96
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue95
+tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Will
+tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Koga
+tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Bruno
+tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Karen
+tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Lance
 tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue94
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue93
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue92
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue91
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue90
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue89
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue88
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue87
-tag @a[x=-1283,y=84,z=353,dx=12,dy=5] remove Dialogue86
+
 
 #Non-Rematch Track
 playsound door ambient @a[x=-1283,y=84,z=353,dx=12,dy=5] ~ ~ ~ 100 1 1
@@ -373,19 +366,23 @@ tp @a[x=-959,y=65,z=641,dx=9,dy=6] -1651 64 646
 #Cerulean City
 
 #Cleared Gym
-tag @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=!Dialogue113] remove GymVictory
-tellraw @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=!Dialogue113] {"text":"A sign reads: \"Since Misty's out, we'll be away too.\" - Gym Trainers","italic":true}
-scoreboard players set @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=!Dialogue113] click 1
-tp @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=!Dialogue113] -1185 65 738
+#tag @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=!Dialogue113] remove GymVictory
+#tellraw @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=!Dialogue113] {"text":"A sign reads: \"Since Misty's out, we'll be away too.\" - Gym Trainers","italic":true}
+#scoreboard players set @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=!Dialogue113] click 1
+#tp @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=!Dialogue113] -1185 65 738
 
-
+#Real Gym
+#playsound door ambient @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=Dialogue113] ~ ~ ~ 100 1 1
+#tag @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=Dialogue113] remove GymVictory
+#scoreboard players set @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=Dialogue113] click 1
+#tp @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=Dialogue113] -1004 65 642
 
 
 #Real Gym
-playsound door ambient @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=Dialogue113] ~ ~ ~ 100 1 1
-tag @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=Dialogue113] remove GymVictory
-scoreboard players set @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=Dialogue113] click 1
-tp @a[x=-2788,y=64,z=722,dx=4,dy=3,tag=Dialogue113] -1004 65 642
+playsound door ambient @a[x=-2788,y=64,z=722,dx=4,dy=3] ~ ~ ~ 100 1 1
+tag @a[x=-2788,y=64,z=722,dx=4,dy=3] remove GymVictory
+scoreboard players set @a[x=-2788,y=64,z=722,dx=4,dy=3] click 1
+tp @a[x=-2788,y=64,z=722,dx=4,dy=3] -1004 65 642
 
 #Exit
 playsound door ambient @a[x=-1008,y=65,z=641,dx=9,dy=6] ~ ~ ~ 100 1 1

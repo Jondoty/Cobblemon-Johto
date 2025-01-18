@@ -57,7 +57,8 @@
             ],
             "escapeAction": "0",
             "input": [
-                "q.player.run_command('scoreboard players set @s BattleStart 2');",
+                "q.player.run_command('scoreboard players set @s BattleStart 12');",
+                "q.player.run_command('function johto:tools/forceclick');",
                 "q.dialogue.close();",
                 "v.battle = q.npc.start_battle(q.player);"
             ]

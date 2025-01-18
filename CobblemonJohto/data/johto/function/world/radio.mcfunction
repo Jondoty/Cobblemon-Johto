@@ -8,7 +8,7 @@ scoreboard players set @s[scores={MusicState=0},nbt={Inventory:[{tag:{display:{N
 scoreboard players set @s[scores={MusicState=0},nbt={Inventory:[{tag:{display:{Name:"Radio"}},Slot:-106b}]}] MusicState 1
 
 
-#Tags Legendary and Gym Leaders
+#Tags Legendary Pokemon
 execute at @s[type=player] run tag @e[distance=..15,type=cobblemon:pokemon,tag=!Legendary,nbt={ndex:384,OwnerUUID:""}] add Legendary
 execute at @s[type=player] run tag @e[distance=..15,type=cobblemon:pokemon,tag=!Legendary,nbt={ndex:380,OwnerUUID:""}] add Legendary
 execute at @s[type=player] run tag @e[distance=..15,type=cobblemon:pokemon,tag=!Legendary,nbt={ndex:243,OwnerUUID:""}] add Legendary
@@ -28,24 +28,6 @@ execute at @s[type=player] run tag @e[distance=..15,type=cobblemon:pokemon,tag=!
 execute at @s[type=player] run tag @e[distance=..15,type=cobblemon:pokemon,tag=!Legendary,nbt={ndex:483,OwnerUUID:""}] add Legendary
 execute at @s[type=player] run tag @e[distance=..15,type=cobblemon:pokemon,tag=!Legendary,nbt={ndex:487,OwnerUUID:""}] add Legendary
 execute at @s[type=player] run tag @e[distance=..15,type=cobblemon:pokemon,tag=!ArceusBattle,nbt={ndex:493,OwnerUUID:""}] add ArceusBattle
-
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Bugsy] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Whitney] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Jasmine] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Pryce] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Clair] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Chuck] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Falkner] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Morty] add GymLeader
-
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Brock] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Misty] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Surge] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Erika] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Sabrina] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Janine] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Blaine] add GymLeader
-tag @e[nbt=!{cobblemon:npc_trainer},tag=!GymLeader,name=Blue] add GymLeader
 
 
 
@@ -68,27 +50,27 @@ scoreboard players set @s[x=-1222,y=0,z=500,dx=470,dy=240,dz=342,scores={MusicCo
 
 
 #Kanto Gym Leaders
-execute at @e[x=-1220,y=60,z=633,dx=313,dy=100,dz=196,tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run playsound gymbattlekanto record @a[name=!Sabrina,tag=Temp,distance=..15,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-execute at @e[x=-1220,y=60,z=633,dx=313,dy=100,dz=196,tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run scoreboard players set @a[name=!Sabrina,tag=Temp,distance=..15,scores={MusicCooldown=0}] MusicCooldown 117
+#execute at @e[x=-1220,y=60,z=633,dx=313,dy=100,dz=196,tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run playsound gymbattlekanto record @a[name=!Sabrina,tag=Temp,distance=..15,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+#execute at @e[x=-1220,y=60,z=633,dx=313,dy=100,dz=196,tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run scoreboard players set @a[name=!Sabrina,tag=Temp,distance=..15,scores={MusicCooldown=0}] MusicCooldown 117
 
-execute at @e[x=-1220,y=60,z=633,dx=313,dy=100,dz=196,tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run playsound gymbattlekanto record @a[name=Sabrina,tag=Temp,x=-978,y=63,z=758,dx=19,dy=5,dz=15,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-execute at @e[x=-1220,y=60,z=633,dx=313,dy=100,dz=196,tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run scoreboard players set @a[name=Sabrina,tag=Temp,x=-978,y=63,z=758,dx=19,dy=5,dz=15,scores={MusicCooldown=0}] MusicCooldown 117
+#execute at @e[x=-1220,y=60,z=633,dx=313,dy=100,dz=196,tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run playsound gymbattlekanto record @a[name=Sabrina,tag=Temp,x=-978,y=63,z=758,dx=19,dy=5,dz=15,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+#execute at @e[x=-1220,y=60,z=633,dx=313,dy=100,dz=196,tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run scoreboard players set @a[name=Sabrina,tag=Temp,x=-978,y=63,z=758,dx=19,dy=5,dz=15,scores={MusicCooldown=0}] MusicCooldown 117
 
 
 
 #Gym Leader radius
-execute at @e[tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run playsound gymbattle record @a[tag=Temp,distance=..15,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-execute at @e[tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run scoreboard players set @a[tag=Temp,distance=..15,scores={MusicCooldown=0}] MusicCooldown 195
+#execute at @e[tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run playsound gymbattle record @a[tag=Temp,distance=..15,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+#execute at @e[tag=GymLeader,nbt=!{cobblemon:npc_trainer}] run scoreboard players set @a[tag=Temp,distance=..15,scores={MusicCooldown=0}] MusicCooldown 195
 
 
 
 #Silver Trainer Battle
-execute at @e[name=Silver,nbt=!{cobblemon:npc_trainer}] run playsound rivalbattle record @a[tag=Temp,distance=..15,scores={MusicCooldown=0,DialogueTrigger=0}] ~ ~ ~ 1 1 1
-execute at @e[name=Silver,nbt=!{cobblemon:npc_trainer}] run scoreboard players set @a[tag=Temp,distance=..15,scores={MusicCooldown=0,DialogueTrigger=0}] MusicCooldown 178
+#execute at @e[name=Silver,nbt=!{cobblemon:npc_trainer}] run playsound rivalbattle record @a[tag=Temp,distance=..15,scores={MusicCooldown=0,DialogueTrigger=0}] ~ ~ ~ 1 1 1
+#execute at @e[name=Silver,nbt=!{cobblemon:npc_trainer}] run scoreboard players set @a[tag=Temp,distance=..15,scores={MusicCooldown=0,DialogueTrigger=0}] MusicCooldown 178
 
 #Silver Chatting NPC
-execute at @e[name=Silver,nbt=!{cobblemon:npc_chatting}] run playsound rivaltalk record @a[tag=Temp,distance=..15,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-execute at @e[name=Silver,nbt=!{cobblemon:npc_chatting}] run scoreboard players set @a[tag=Temp,distance=..15,scores={MusicCooldown=0}] MusicCooldown 70
+#execute at @e[name=Silver,nbt=!{cobblemon:npc_chatting}] run playsound rivaltalk record @a[tag=Temp,distance=..15,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+#execute at @e[name=Silver,nbt=!{cobblemon:npc_chatting}] run scoreboard players set @a[tag=Temp,distance=..15,scores={MusicCooldown=0}] MusicCooldown 70
 
 
 
