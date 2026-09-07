@@ -84,6 +84,7 @@
                         "action": [
                             "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1');",
                             "q.run_command('execute as ' + q.player.username + ' run function johto:spawn/flyhm');",
+                            "q.run_command('execute as ' + q.player.username + ' run givetm fly @s[tag=!Dialogue43]');",
                             "q.run_command('execute as ' + q.player.username + ' run tag @s add Dialogue43');",
                             "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
                             "q.dialogue.close();"

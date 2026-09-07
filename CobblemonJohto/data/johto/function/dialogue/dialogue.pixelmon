@@ -100,30 +100,6 @@ tag @s[scores={DialogueTrigger=50,TalkTime=25..}] add Dialogue50
 #execute @a[x=349,y=63,z=-461,dx=239,dy=10,dz=194,tag=Dialogue72] run tp @e[x=560,y=63,z=-352,dy=3,nbt=!{cobblemon:npc_chatting}] -783 93 -242
 
 
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Radio Tower Post-Rocket Takeover gift
-#execute as @s[x=517,y=42,z=-267,distance=..5,score_TalkTime=0,tag=Dialogue72] run scoreboard players set @s[tag=!Dialogue75] DialogueTrigger 75
-
-tellraw @s[scores={DialogueTrigger=75,TalkTime=1}] {"text":"<Radio Worker> Thank you! You're my hero! This is a token of my appreciation."}
-execute as @s[scores={DialogueTrigger=75,TalkTime=4}] run give @s pixelmon:tm_gen2{tm:11}
-execute as @s[scores={DialogueTrigger=75,TalkTime=4}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
-
-tag @s[scores={DialogueTrigger=75,TalkTime=4..}] add Dialogue75
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Route 43 gate reward after beating Team Rocket in their HQ
-#execute as @s[x=-183,y=64,z=352,distance=..5,tag=Dialogue64] run scoreboard players set @s[tag=!Dialogue76] DialogueTrigger 76
-
-tellraw @s[scores={DialogueTrigger=76,TalkTime=1}] {"text":"<Officer Jenny> I got chased from my post by these thugs in black."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=10}] {"text":"<Officer Jenny> They left this behind. It makes me uncomfortable."}
-tellraw @s[scores={DialogueTrigger=76,TalkTime=19}] {"text":"<Officer Jenny> Could you take it away?"}
-execute as @s[scores={DialogueTrigger=76,TalkTime=22}] run give @s pixelmon:tm_gen2{tm:36}
-execute as @s[scores={DialogueTrigger=76,TalkTime=22}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
-
-tag @s[scores={DialogueTrigger=76,TalkTime=22..}] add Dialogue76
-
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Mr Pokémon giving an orb after the Elite Four
 #execute as @s[x=-255,y=63,z=-198,dx=20,dy=5,dz=8,score_DialogueTrigger=0,score_IP_min=1] run scoreboard players set @s[tag=!Dialogue102] DialogueTrigger 102

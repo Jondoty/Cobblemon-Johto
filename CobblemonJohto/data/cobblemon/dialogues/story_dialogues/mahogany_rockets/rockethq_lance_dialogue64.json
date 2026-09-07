@@ -90,6 +90,7 @@
                         "value": "next",
                         "action": [
                             "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1');",
+                            "q.run_command('execute as ' + q.player.username + ' run givetm whirlpool @s');",
                             "q.run_command('tag ' + q.player.username + ' add Whirlpool');",
                             "q.dialogue.set_page('page5');"
                         ]

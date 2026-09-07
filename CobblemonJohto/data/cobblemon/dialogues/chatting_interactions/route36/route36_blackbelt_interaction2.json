@@ -79,6 +79,7 @@
                         "text": "Close",
                         "value": "close",
                         "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run givetm rocksmash @s[tag=!RockSmash]');",
                             "q.run_command('execute as ' + q.player.username + ' run tag @s add RockSmash');",
                             "q.dialogue.close();"
                             ]

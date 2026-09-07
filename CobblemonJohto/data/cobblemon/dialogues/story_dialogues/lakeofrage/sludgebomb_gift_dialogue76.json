@@ -1,21 +1,25 @@
-{   
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');"
+    ],
+    "escapeAction": [],
     "speakers": {
         "npc": {
-          "name": "    ",
-          "face": {
-            "type": "artificial",
-            "modelType": "npc",
-            "identifier": "cobblemon:hiker",
-            "isLeftSide": true
-          }
+            "name": "Officer Jenny",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:officerjenny",
+                "isLeftSide": true
+            }
         }
-      },
-      "pages": [
+    },
+    "pages": [
         {
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "WROOOOOOOAR!"
+                "I got chased from my post by these thugs in black."
             ],
             "input": {
                 "type": "option",
@@ -33,7 +37,7 @@
             "id": "page2",
             "speaker": "npc",
             "lines": [
-                "PEOPLE RUN WHEN I ROAR!"
+                "They left this behind. It makes me uncomfortable."
             ],
             "input": {
                 "type": "option",
@@ -51,25 +55,7 @@
             "id": "page3",
             "speaker": "npc",
             "lines": [
-                "BUT YOU CAME LOOKING! THAT PLEASES ME!"
-            ],
-            "input": {
-                "type": "option",
-                "vertical": false,
-                "options": [
-                    {
-                        "text": "Next",
-                        "value": "next",
-                        "action": "q.dialogue.set_page('page4');"
-                    }
-                ]
-            }
-        },
-        {
-            "id": "page4",
-            "speaker": "npc",
-            "lines": [
-                "NOW TAKE THIS!"
+                "Could you take it away?"
             ],
             "input": {
                 "type": "option",
@@ -79,12 +65,15 @@
                         "text": "Close",
                         "value": "close",
                         "action": [
-                            "q.run_command('execute as ' + q.player.username + ' run function johto:triggers/itemlootgive');",
+                            "q.run_command('execute as ' + q.player.username + ' run givetm sludgebomb @s');",
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1');",
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue76');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
                             "q.dialogue.close();"
-                            ]
+                        ]
                     }
                 ]
             }
         }
-        ]
-    }
+    ]
+}

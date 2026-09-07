@@ -2712,8 +2712,276 @@ execute as @s[x=-1742,y=64,z=637,distance=..4,tag=!ItemLoot449,tag=GoldPick] run
 execute as @s[x=-1742,y=64,z=637,distance=..4,tag=!ItemLoot449,tag=SilverPick] run tag @s add ItemLoot449
 
 
+#TMs
+execute as @s[x=-316,y=64,z=12,distance=..4,tag=ItemLoot450] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-316,y=64,z=12,distance=..4,tag=!ItemLoot450] run givetm falseswipe @s
+execute as @s[x=-316,y=64,z=12,distance=..4,tag=!ItemLoot450] run tellraw @s {"text":"You found the TM False Swipe!","italic":true,"color":"gray"}
+execute as @s[x=-316,y=64,z=12,distance=..4,tag=!ItemLoot450] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-316,y=64,z=12,distance=..4,tag=!ItemLoot450] run tag @s add ItemLoot450
 
+execute as @s[x=109,y=64,z=-240,distance=..4,tag=ItemLoot451] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=109,y=64,z=-240,distance=..4,tag=!ItemLoot451] run givetm roar @s
+execute as @s[x=109,y=64,z=-240,distance=..4,tag=!ItemLoot451] run tellraw @s {"text":"You received the TM Roar!","italic":true,"color":"gray"}
+execute as @s[x=109,y=64,z=-240,distance=..4,tag=!ItemLoot451] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=109,y=64,z=-240,distance=..4,tag=!ItemLoot451] run tag @s add ItemLoot451
 
+execute as @s[x=210,y=28,z=-662,distance=..4,tag=ItemLoot452] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=210,y=28,z=-662,distance=..4,tag=!ItemLoot452] run givetm rocktomb @s
+execute as @s[x=210,y=28,z=-662,distance=..4,tag=!ItemLoot452] run tellraw @s {"text":"You found the TM Rock Tomb!","italic":true,"color":"gray"}
+execute as @s[x=210,y=28,z=-662,distance=..4,tag=!ItemLoot452] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=210,y=28,z=-662,distance=..4,tag=!ItemLoot452] run tag @s add ItemLoot452
+
+execute as @s[x=253,y=29,z=-677,distance=..4,tag=ItemLoot453] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=253,y=29,z=-677,distance=..4,tag=!ItemLoot453] run givetm raindance @s
+execute as @s[x=253,y=29,z=-677,distance=..4,tag=!ItemLoot453] run tellraw @s {"text":"You found the TM Rain Dance!","italic":true,"color":"gray"}
+execute as @s[x=253,y=29,z=-677,distance=..4,tag=!ItemLoot453] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=253,y=29,z=-677,distance=..4,tag=!ItemLoot453] run tag @s add ItemLoot453
+
+execute as @s[x=448,y=64,z=-692,distance=..4,tag=ItemLoot454] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=448,y=64,z=-692,distance=..4,tag=!ItemLoot454] run givetm taunt @s
+execute as @s[x=448,y=64,z=-692,distance=..4,tag=!ItemLoot454] run tellraw @s {"text":"You received the TM Taunt!","italic":true,"color":"gray"}
+execute as @s[x=448,y=64,z=-692,distance=..4,tag=!ItemLoot454] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=448,y=64,z=-692,distance=..4,tag=!ItemLoot454] run tag @s add ItemLoot454
+
+execute as @s[x=444,y=64,z=-525,distance=..4,tag=ItemLoot455] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=444,y=64,z=-525,distance=..4,tag=!ItemLoot455] run givetm embargo @s
+execute as @s[x=444,y=64,z=-525,distance=..4,tag=!ItemLoot455] run tellraw @s {"text":"You found the TM Embargo!","italic":true,"color":"gray"}
+execute as @s[x=444,y=64,z=-525,distance=..4,tag=!ItemLoot455] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=444,y=64,z=-525,distance=..4,tag=!ItemLoot455] run tag @s add ItemLoot455
+
+execute as @s[x=421,y=38,z=-301,distance=..4,tag=ItemLoot456] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=421,y=38,z=-301,distance=..4,tag=!ItemLoot456] run givetm sleeptalk @s
+execute as @s[x=421,y=38,z=-301,distance=..4,tag=!ItemLoot456] run tellraw @s {"text":"You found the TM Sleep Talk!","italic":true,"color":"gray"}
+execute as @s[x=421,y=38,z=-301,distance=..4,tag=!ItemLoot456] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=421,y=38,z=-301,distance=..4,tag=!ItemLoot456] run tag @s add ItemLoot456
+
+execute as @s[x=431,y=64,z=-222,distance=..4,tag=ItemLoot457] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=431,y=64,z=-222,distance=..4,tag=!ItemLoot457] run givetm payback @s
+execute as @s[x=431,y=64,z=-222,distance=..4,tag=!ItemLoot457] run tellraw @s {"text":"You found the TM Payback!","italic":true,"color":"gray"}
+execute as @s[x=431,y=64,z=-222,distance=..4,tag=!ItemLoot457] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=431,y=64,z=-222,distance=..4,tag=!ItemLoot457] run tag @s add ItemLoot457
+
+execute as @s[x=608,y=64,z=-29,distance=..4,tag=ItemLoot458] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=608,y=64,z=-29,distance=..4,tag=!ItemLoot458] run givetm dig @s
+execute as @s[x=608,y=64,z=-29,distance=..4,tag=!ItemLoot458] run tellraw @s {"text":"You found the TM Dig!","italic":true,"color":"gray"}
+execute as @s[x=608,y=64,z=-29,distance=..4,tag=!ItemLoot458] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=608,y=64,z=-29,distance=..4,tag=!ItemLoot458] run tag @s add ItemLoot458
+
+execute as @s[x=432,y=57,z=328,distance=..4,tag=ItemLoot459] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=432,y=57,z=328,distance=..4,tag=!ItemLoot459] run givetm taunt @s
+execute as @s[x=432,y=57,z=328,distance=..4,tag=!ItemLoot459] run tellraw @s {"text":"You found the TM Taunt!","italic":true,"color":"gray"}
+execute as @s[x=432,y=57,z=328,distance=..4,tag=!ItemLoot459] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=432,y=57,z=328,distance=..4,tag=!ItemLoot459] run tag @s add ItemLoot459
+
+execute as @s[x=801,y=64,z=264,distance=..4,tag=ItemLoot460] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=801,y=64,z=264,distance=..4,tag=!ItemLoot460] run givetm naturalgift @s
+execute as @s[x=801,y=64,z=264,distance=..4,tag=!ItemLoot460] run tellraw @s {"text":"You found the TM Natural Gift!","italic":true,"color":"gray"}
+execute as @s[x=801,y=64,z=264,distance=..4,tag=!ItemLoot460] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=801,y=64,z=264,distance=..4,tag=!ItemLoot460] run tag @s add ItemLoot460
+
+execute as @s[x=791,y=64,z=171,distance=..4,tag=ItemLoot461] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=791,y=64,z=171,distance=..4,tag=!ItemLoot461] run givetm drainpunch @s
+execute as @s[x=791,y=64,z=171,distance=..4,tag=!ItemLoot461] run tellraw @s {"text":"You found the TM Drain Punch!","italic":true,"color":"gray"}
+execute as @s[x=791,y=64,z=171,distance=..4,tag=!ItemLoot461] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=791,y=64,z=171,distance=..4,tag=!ItemLoot461] run tag @s add ItemLoot461
+
+execute as @s[x=687,y=64,z=-11,distance=..4,tag=ItemLoot462] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=687,y=64,z=-11,distance=..4,tag=!ItemLoot462] run givetm chargebeam @s
+execute as @s[x=687,y=64,z=-11,distance=..4,tag=!ItemLoot462] run tellraw @s {"text":"You found the TM Charge Beam!","italic":true,"color":"gray"}
+execute as @s[x=687,y=64,z=-11,distance=..4,tag=!ItemLoot462] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=687,y=64,z=-11,distance=..4,tag=!ItemLoot462] run tag @s add ItemLoot462
+
+execute as @s[x=711,y=108,z=-46,distance=..4,tag=ItemLoot463] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=711,y=108,z=-46,distance=..4,tag=!ItemLoot463] run givetm swagger @s
+execute as @s[x=711,y=108,z=-46,distance=..4,tag=!ItemLoot463] run tellraw @s {"text":"You found the TM Swagger!","italic":true,"color":"gray"}
+execute as @s[x=711,y=108,z=-46,distance=..4,tag=!ItemLoot463] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=711,y=108,z=-46,distance=..4,tag=!ItemLoot463] run tag @s add ItemLoot463
+
+execute as @s[x=883,y=64,z=-85,distance=..4,tag=ItemLoot464] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=883,y=64,z=-85,distance=..4,tag=!ItemLoot464] run givetm pluck @s
+execute as @s[x=883,y=64,z=-85,distance=..4,tag=!ItemLoot464] run tellraw @s {"text":"You found the TM Pluck!","italic":true,"color":"gray"}
+execute as @s[x=883,y=64,z=-85,distance=..4,tag=!ItemLoot464] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=883,y=64,z=-85,distance=..4,tag=!ItemLoot464] run tag @s add ItemLoot464
+
+execute as @s[x=-10,y=64,z=162,distance=..4,tag=ItemLoot465] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-10,y=64,z=162,distance=..4,tag=!ItemLoot465] run givetm shadowclaw @s
+execute as @s[x=-10,y=64,z=162,distance=..4,tag=!ItemLoot465] run tellraw @s {"text":"You found the TM Shadow Claw!","italic":true,"color":"gray"}
+execute as @s[x=-10,y=64,z=162,distance=..4,tag=!ItemLoot465] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-10,y=64,z=162,distance=..4,tag=!ItemLoot465] run tag @s add ItemLoot465
+
+execute as @s[x=-53,y=64,z=174,distance=..4,tag=ItemLoot466] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-53,y=64,z=174,distance=..4,tag=!ItemLoot466] run givetm strength @s
+execute as @s[x=-53,y=64,z=174,distance=..4,tag=!ItemLoot466] run tellraw @s {"text":"You found the TM Strength!","italic":true,"color":"gray"}
+execute as @s[x=-53,y=64,z=174,distance=..4,tag=!ItemLoot466] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-53,y=64,z=174,distance=..4,tag=!ItemLoot466] run tag @s add ItemLoot466
+
+execute as @s[x=77,y=79,z=445,distance=..4,tag=ItemLoot467] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=77,y=79,z=445,distance=..4,tag=!ItemLoot467] run givetm aerialace @s
+execute as @s[x=77,y=79,z=445,distance=..4,tag=!ItemLoot467] run tellraw @s {"text":"You found the TM Aerial Ace!","italic":true,"color":"gray"}
+execute as @s[x=77,y=79,z=445,distance=..4,tag=!ItemLoot467] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=77,y=79,z=445,distance=..4,tag=!ItemLoot467] run tag @s add ItemLoot467
+
+execute as @s[x=-163,y=45,z=185,distance=..4,tag=ItemLoot468] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-163,y=45,z=185,distance=..4,tag=!ItemLoot468] run givetm thief @s
+execute as @s[x=-163,y=45,z=185,distance=..4,tag=!ItemLoot468] run tellraw @s {"text":"You found the TM Thief!","italic":true,"color":"gray"}
+execute as @s[x=-163,y=45,z=185,distance=..4,tag=!ItemLoot468] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-163,y=45,z=185,distance=..4,tag=!ItemLoot468] run tag @s add ItemLoot468
+
+execute as @s[x=-136,y=34,z=204,distance=..4,tag=ItemLoot469] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-136,y=34,z=204,distance=..4,tag=!ItemLoot469] run givetm snatch @s
+execute as @s[x=-136,y=34,z=204,distance=..4,tag=!ItemLoot469] run tellraw @s {"text":"You found the TM Snatch!","italic":true,"color":"gray"}
+execute as @s[x=-136,y=34,z=204,distance=..4,tag=!ItemLoot469] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-136,y=34,z=204,distance=..4,tag=!ItemLoot469] run tag @s add ItemLoot469
+
+execute as @s[x=-232,y=64,z=733,distance=..4,tag=ItemLoot470] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-232,y=64,z=733,distance=..4,tag=!ItemLoot470] run givetm secretpower @s
+execute as @s[x=-232,y=64,z=733,distance=..4,tag=!ItemLoot470] run tellraw @s {"text":"You found the TM Secret Power!","italic":true,"color":"gray"}
+execute as @s[x=-232,y=64,z=733,distance=..4,tag=!ItemLoot470] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-232,y=64,z=733,distance=..4,tag=!ItemLoot470] run tag @s add ItemLoot470
+
+execute as @s[x=-73,y=65,z=731,distance=..4,tag=ItemLoot471] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-73,y=65,z=731,distance=..4,tag=!ItemLoot471] run givetm hiddenpower @s
+execute as @s[x=-73,y=65,z=731,distance=..4,tag=!ItemLoot471] run tellraw @s {"text":"You found the TM Hidden Power!","italic":true,"color":"gray"}
+execute as @s[x=-73,y=65,z=731,distance=..4,tag=!ItemLoot471] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-73,y=65,z=731,distance=..4,tag=!ItemLoot471] run tag @s add ItemLoot471
+
+execute as @s[x=-721,y=49,z=385,distance=..4,tag=ItemLoot472] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-721,y=49,z=385,distance=..4,tag=!ItemLoot472] run givetm waterfall @s
+execute as @s[x=-721,y=49,z=385,distance=..4,tag=!ItemLoot472] run tellraw @s {"text":"You found the TM Waterfall!","italic":true,"color":"gray"}
+execute as @s[x=-721,y=49,z=385,distance=..4,tag=!ItemLoot472] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-721,y=49,z=385,distance=..4,tag=!ItemLoot472] run tag @s add ItemLoot472
+
+execute as @s[x=-807,y=27,z=382,distance=..4,tag=ItemLoot473] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-807,y=27,z=382,distance=..4,tag=!ItemLoot473] run givetm avalanche @s
+execute as @s[x=-807,y=27,z=382,distance=..4,tag=!ItemLoot473] run tellraw @s {"text":"You found the TM Avalanche!","italic":true,"color":"gray"}
+execute as @s[x=-807,y=27,z=382,distance=..4,tag=!ItemLoot473] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-807,y=27,z=382,distance=..4,tag=!ItemLoot473] run tag @s add ItemLoot473
+
+execute as @s[x=-959,y=65,z=-509,distance=..4,tag=ItemLoot474] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-959,y=65,z=-509,distance=..4,tag=!ItemLoot474] run givetm sandstorm @s
+execute as @s[x=-959,y=65,z=-509,distance=..4,tag=!ItemLoot474] run tellraw @s {"text":"You found the TM Sandstorm!","italic":true,"color":"gray"}
+execute as @s[x=-959,y=65,z=-509,distance=..4,tag=!ItemLoot474] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-959,y=65,z=-509,distance=..4,tag=!ItemLoot474] run tag @s add ItemLoot474
+
+execute as @s[x=-1091,y=64,z=-546,distance=..4,tag=ItemLoot475] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-1091,y=64,z=-546,distance=..4,tag=!ItemLoot475] run givetm dragonclaw @s
+execute as @s[x=-1091,y=64,z=-546,distance=..4,tag=!ItemLoot475] run tellraw @s {"text":"You found the TM Dragon Claw!","italic":true,"color":"gray"}
+execute as @s[x=-1091,y=64,z=-546,distance=..4,tag=!ItemLoot475] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-1091,y=64,z=-546,distance=..4,tag=!ItemLoot475] run tag @s add ItemLoot475
+
+execute as @s[x=-1429,y=39,z=478,distance=..4,tag=ItemLoot476] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-1429,y=39,z=478,distance=..4,tag=!ItemLoot476] run givetm earthquake @s
+execute as @s[x=-1429,y=39,z=478,distance=..4,tag=!ItemLoot476] run tellraw @s {"text":"You found the TM Earthquake!","italic":true,"color":"gray"}
+execute as @s[x=-1429,y=39,z=478,distance=..4,tag=!ItemLoot476] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-1429,y=39,z=478,distance=..4,tag=!ItemLoot476] run tag @s add ItemLoot476
+
+execute as @s[x=-1437,y=39,z=466,distance=..4,tag=ItemLoot477] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-1437,y=39,z=466,distance=..4,tag=!ItemLoot477] run givetm darkpulse @s
+execute as @s[x=-1437,y=39,z=466,distance=..4,tag=!ItemLoot477] run tellraw @s {"text":"You found the TM Dark Pulse!","italic":true,"color":"gray"}
+execute as @s[x=-1437,y=39,z=466,distance=..4,tag=!ItemLoot477] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-1437,y=39,z=466,distance=..4,tag=!ItemLoot477] run tag @s add ItemLoot477
+
+execute as @s[x=-1095,y=64,z=60,distance=..4,tag=ItemLoot478] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-1095,y=64,z=60,distance=..4,tag=!ItemLoot478] run givetm steelwing @s
+execute as @s[x=-1095,y=64,z=60,distance=..4,tag=!ItemLoot478] run tellraw @s {"text":"You found the Steel Wing!","italic":true,"color":"gray"}
+execute as @s[x=-1095,y=64,z=60,distance=..4,tag=!ItemLoot478] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-1095,y=64,z=60,distance=..4,tag=!ItemLoot478] run tag @s add ItemLoot478
+
+execute as @s[x=-1166,y=64,z=56,distance=..4,tag=ItemLoot479] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-1166,y=64,z=56,distance=..4,tag=!ItemLoot479] run givetm flamethrower @s
+execute as @s[x=-1166,y=64,z=56,distance=..4,tag=!ItemLoot479] run tellraw @s {"text":"You found the Flamethrower!","italic":true,"color":"gray"}
+execute as @s[x=-1166,y=64,z=56,distance=..4,tag=!ItemLoot479] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-1166,y=64,z=56,distance=..4,tag=!ItemLoot479] run tag @s add ItemLoot479
+
+execute as @s[x=-979,y=64,z=209,distance=..4,tag=ItemLoot480] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-979,y=64,z=209,distance=..4,tag=!ItemLoot480] run givetm stealthrock @s
+execute as @s[x=-979,y=64,z=209,distance=..4,tag=!ItemLoot480] run tellraw @s {"text":"You found the Stealth Rock!","italic":true,"color":"gray"}
+execute as @s[x=-979,y=64,z=209,distance=..4,tag=!ItemLoot480] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-979,y=64,z=209,distance=..4,tag=!ItemLoot480] run tag @s add ItemLoot480
+
+execute as @s[x=-1622,y=64,z=8,distance=..4,tag=ItemLoot481] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-1622,y=64,z=8,distance=..4,tag=!ItemLoot481] run givetm dreameater @s
+execute as @s[x=-1622,y=64,z=8,distance=..4,tag=!ItemLoot481] run tellraw @s {"text":"You found the Dream Eater!","italic":true,"color":"gray"}
+execute as @s[x=-1622,y=64,z=8,distance=..4,tag=!ItemLoot481] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-1622,y=64,z=8,distance=..4,tag=!ItemLoot481] run tag @s add ItemLoot481
+
+execute as @s[x=-1701,y=64,z=307,distance=..4,tag=ItemLoot482] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-1701,y=64,z=307,distance=..4,tag=!ItemLoot482] run givetm psychup @s
+execute as @s[x=-1701,y=64,z=307,distance=..4,tag=!ItemLoot482] run tellraw @s {"text":"You found the Psych Up!","italic":true,"color":"gray"}
+execute as @s[x=-1701,y=64,z=307,distance=..4,tag=!ItemLoot482] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-1701,y=64,z=307,distance=..4,tag=!ItemLoot482] run tag @s add ItemLoot482
+
+execute as @s[x=-2783,y=61,z=786,distance=..4,tag=ItemLoot483] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-2783,y=61,z=786,distance=..4,tag=!ItemLoot483] run givetm dig @s
+execute as @s[x=-2783,y=61,z=786,distance=..4,tag=!ItemLoot483] run tellraw @s {"text":"You found the Dig!","italic":true,"color":"gray"}
+execute as @s[x=-2783,y=61,z=786,distance=..4,tag=!ItemLoot483] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-2783,y=61,z=786,distance=..4,tag=!ItemLoot483] run tag @s add ItemLoot483
+
+execute as @s[x=-3185,y=64,z=773,distance=..4,tag=ItemLoot484] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-3185,y=64,z=773,distance=..4,tag=!ItemLoot484] run givetm flashcannon @s
+execute as @s[x=-3185,y=64,z=773,distance=..4,tag=!ItemLoot484] run tellraw @s {"text":"You found the Flash Cannon!","italic":true,"color":"gray"}
+execute as @s[x=-3185,y=64,z=773,distance=..4,tag=!ItemLoot484] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-3185,y=64,z=773,distance=..4,tag=!ItemLoot484] run tag @s add ItemLoot484
+
+execute as @s[x=-3273,y=64,z=445,distance=..4,tag=ItemLoot485] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-3273,y=64,z=445,distance=..4,tag=!ItemLoot485] run givetm rockpolish @s
+execute as @s[x=-3273,y=64,z=445,distance=..4,tag=!ItemLoot485] run tellraw @s {"text":"You found the Rock Polish!","italic":true,"color":"gray"}
+execute as @s[x=-3273,y=64,z=445,distance=..4,tag=!ItemLoot485] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-3273,y=64,z=445,distance=..4,tag=!ItemLoot485] run tag @s add ItemLoot485
+
+execute as @s[x=-2980,y=64,z=343,distance=..4,tag=ItemLoot486] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-2980,y=64,z=343,distance=..4,tag=!ItemLoot486] run givetm torment @s
+execute as @s[x=-2980,y=64,z=343,distance=..4,tag=!ItemLoot486] run tellraw @s {"text":"You found the Torment!","italic":true,"color":"gray"}
+execute as @s[x=-2980,y=64,z=343,distance=..4,tag=!ItemLoot486] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-2980,y=64,z=343,distance=..4,tag=!ItemLoot486] run tag @s add ItemLoot486
+
+execute as @s[x=-2801,y=65,z=290,distance=..4,tag=ItemLoot487] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-2801,y=65,z=290,distance=..4,tag=!ItemLoot487] run givetm psychic @s
+execute as @s[x=-2801,y=65,z=290,distance=..4,tag=!ItemLoot487] run tellraw @s {"text":"You found the Psychic!","italic":true,"color":"gray"}
+execute as @s[x=-2801,y=65,z=290,distance=..4,tag=!ItemLoot487] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-2801,y=65,z=290,distance=..4,tag=!ItemLoot487] run tag @s add ItemLoot487
+
+execute as @s[x=-2703,y=64,z=92,distance=..4,tag=ItemLoot488] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-2703,y=64,z=92,distance=..4,tag=!ItemLoot488] run givetm silverwind @s
+execute as @s[x=-2703,y=64,z=92,distance=..4,tag=!ItemLoot488] run tellraw @s {"text":"You found the Silver Wind!","italic":true,"color":"gray"}
+execute as @s[x=-2703,y=64,z=92,distance=..4,tag=!ItemLoot488] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-2703,y=64,z=92,distance=..4,tag=!ItemLoot488] run tag @s add ItemLoot488
+
+execute as @s[x=-3161,y=64,z=-16,distance=..4,tag=ItemLoot489] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-3161,y=64,z=-16,distance=..4,tag=!ItemLoot489] run givetm grassknot @s
+execute as @s[x=-3161,y=64,z=-16,distance=..4,tag=!ItemLoot489] run tellraw @s {"text":"You found the Grass Knot!","italic":true,"color":"gray"}
+execute as @s[x=-3161,y=64,z=-16,distance=..4,tag=!ItemLoot489] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-3161,y=64,z=-16,distance=..4,tag=!ItemLoot489] run tag @s add ItemLoot489
+
+execute as @s[x=-2491,y=64,z=391,distance=..4,tag=ItemLoot490] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-2491,y=64,z=391,distance=..4,tag=!ItemLoot490] run givetm recycle @s
+execute as @s[x=-2491,y=64,z=391,distance=..4,tag=!ItemLoot490] run tellraw @s {"text":"You found the Recycle!","italic":true,"color":"gray"}
+execute as @s[x=-2491,y=64,z=391,distance=..4,tag=!ItemLoot490] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-2491,y=64,z=391,distance=..4,tag=!ItemLoot490] run tag @s add ItemLoot490
+
+execute as @s[x=-2408,y=64,z=-683,distance=..4,tag=ItemLoot491] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-2408,y=64,z=-683,distance=..4,tag=!ItemLoot491] run givetm brine @s
+execute as @s[x=-2408,y=64,z=-683,distance=..4,tag=!ItemLoot491] run tellraw @s {"text":"You found the Brine!","italic":true,"color":"gray"}
+execute as @s[x=-2408,y=64,z=-683,distance=..4,tag=!ItemLoot491] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-2408,y=64,z=-683,distance=..4,tag=!ItemLoot491] run tag @s add ItemLoot491
+
+execute as @s[x=-2054,y=21,z=-876,distance=..4,tag=ItemLoot492] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-2054,y=21,z=-876,distance=..4,tag=!ItemLoot492] run givetm icebeam @s
+execute as @s[x=-2054,y=21,z=-876,distance=..4,tag=!ItemLoot492] run tellraw @s {"text":"You found the Ice Beam!","italic":true,"color":"gray"}
+execute as @s[x=-2054,y=21,z=-876,distance=..4,tag=!ItemLoot492] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-2054,y=21,z=-876,distance=..4,tag=!ItemLoot492] run tag @s add ItemLoot492
+
+execute as @s[x=-2792,y=58,z=329,distance=..4,tag=ItemLoot493] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-2792,y=58,z=329,distance=..4,tag=!ItemLoot493] run givetm explosion @s
+execute as @s[x=-2792,y=58,z=329,distance=..4,tag=!ItemLoot493] run tellraw @s {"text":"You found the Explosion!","italic":true,"color":"gray"}
+execute as @s[x=-2792,y=58,z=329,distance=..4,tag=!ItemLoot493] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-2792,y=58,z=329,distance=..4,tag=!ItemLoot493] run tag @s add ItemLoot493
+
+execute as @s[x=-2647,y=75,z=859,distance=..4,tag=ItemLoot494] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
+execute as @s[x=-2647,y=75,z=859,distance=..4,tag=!ItemLoot494] run givetm thunderbolt @s
+execute as @s[x=-2647,y=75,z=859,distance=..4,tag=!ItemLoot494] run tellraw @s {"text":"You found the Thunderbolt!","italic":true,"color":"gray"}
+execute as @s[x=-2647,y=75,z=859,distance=..4,tag=!ItemLoot494] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @s[x=-2647,y=75,z=859,distance=..4,tag=!ItemLoot494] run tag @s add ItemLoot494
 
 
 

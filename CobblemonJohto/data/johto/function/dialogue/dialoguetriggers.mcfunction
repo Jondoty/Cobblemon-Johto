@@ -250,6 +250,14 @@ execute if block 502 43 -244 minecraft:iron_bars if entity @a[x=498,y=42,z=-246,
 execute if block 502 43 -244 minecraft:iron_bars if entity @a[x=498,y=42,z=-246,dx=9,dy=5,dz=10,tag=Dialogue69] run scoreboard players set @a[x=498,y=42,z=-246,dx=9,dy=5,dz=10,tag=Dialogue69,scores={Cooldown=0}] Cooldown 10
 execute if block 502 43 -244 minecraft:iron_bars if entity @a[x=498,y=42,z=-246,dx=9,dy=5,dz=10,tag=Dialogue69] run fill 502 43 -244 502 46 -239 minecraft:air
 
+#Post-takeover reward
+execute as @s[x=517,y=42,z=-267,distance=..5,tag=Dialogue72,tag=!Dialogue75] run opendialogue sunnyday_gift_dialogue75 @s
+
+#Officer Jenny post-rockets, Route 43
+execute as @s[x=-183,y=64,z=352,distance=..5,tag=Dialogue64,tag=!Dialogue76] run opendialogue sludgebomb_gift_dialogue76 @s
+
+
+#Dragon's Den Clair finding the fang
 execute as @s[x=-744,y=69,z=507,dx=162,dy=70,dz=147,tag=!Dialogue79,nbt={Inventory:[{id:"cobblemon:dragon_fang"}]}] run opendialogue dragonsden_clair_dialogue79 @s
 
 #Route 27 first steps into Kanto

@@ -85,6 +85,7 @@
                         "value": "close",
                         "action": [
                             "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1');",
+                            "q.run_command('execute as ' + q.player.username + ' run givetm surf @s[tag=!Surf]');",
                             "q.run_command('tag ' + q.player.username + ' add Surf');",
                             "q.run_command('tag ' + q.player.username + ' add Dialogue33');",
                             "q.run_command('tag ' + q.player.username + ' remove InDialogue');",

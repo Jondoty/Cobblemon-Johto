@@ -46,6 +46,88 @@
             "id": "page2",
             "speaker": "npc",
             "lines": [
+                "I'm sorry about this. Here, take this as my apology."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1');",
+                            "q.run_command('execute as ' + q.player.username + ' run givetm dragonpulse @s');",
+                            "q.dialogue.set_page('page3');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "That contains Dragon Pulse."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.dialogue.set_page('page4');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "npc",
+            "lines": [
+                "Well, Dragon Pulse is a kind of er... never mind!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.dialogue.set_page('page5');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "It's huge energy of some kind. If you don't want it, you don't have to take it."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.dialogue.set_page('page6');"
+                    ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "npc",
+            "lines": [
                 "So, you've collected all the Badges."
             ],
             "input": {
@@ -55,13 +137,13 @@
                     {
                         "text": "Next",
                         "value": "next",
-                        "action": "q.dialogue.set_page('page3');"
+                        "action": "q.dialogue.set_page('page7');"
                     }
                 ]
             }
         },
         {
-            "id": "page3",
+            "id": "page7",
             "speaker": "npc",
             "lines": [
                 "Your destination is the Pokémon League in Indigo Plateau."
@@ -74,14 +156,14 @@
                         "text": "Next",
                         "value": "next",
                         "action": [
-                        "q.dialogue.set_page('page4');"
+                        "q.dialogue.set_page('page8');"
                     ]
                     }
                 ]
             }
         },
         {
-            "id": "page3",
+            "id": "page8",
             "speaker": "npc",
             "lines": [
                 "Do you know how to get there?"
@@ -94,14 +176,14 @@
                         "text": "Next",
                         "value": "next",
                         "action": [
-                        "q.dialogue.set_page('page4');"
+                        "q.dialogue.set_page('page9');"
                     ]
                     }
                 ]
             }
         },
         {
-            "id": "page4",
+            "id": "page9",
             "speaker": "npc",
             "lines": [
                 "From here, go to New Bark Town. Then surf east."
@@ -114,14 +196,14 @@
                         "text": "Next",
                         "value": "next",
                         "action": [
-                        "q.dialogue.set_page('page5');"
+                        "q.dialogue.set_page('page10');"
                     ]
                     }
                 ]
             }
         },
         {
-            "id": "page5",
+            "id": "page10",
             "speaker": "npc",
             "lines": [
                 "The route there is very tough."
@@ -134,14 +216,14 @@
                         "text": "Next",
                         "value": "next",
                         "action": [
-                        "q.dialogue.set_page('page6');"
+                        "q.dialogue.set_page('page11');"
                     ]
                     }
                 ]
             }
         },
         {
-            "id": "page6",
+            "id": "page11",
             "speaker": "npc",
             "lines": [
                 "Don't you dare lose at the Pokémon League!"
@@ -154,14 +236,14 @@
                         "text": "Next",
                         "value": "next",
                         "action": [
-                        "q.dialogue.set_page('page7');"
+                        "q.dialogue.set_page('page12');"
                     ]
                     }
                 ]
             }
         },
         {
-            "id": "page7",
+            "id": "page12",
             "speaker": "npc",
             "lines": [
                 "If you do, I'll feel even worse about having lost to you!"

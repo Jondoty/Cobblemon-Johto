@@ -1,2 +1,3 @@
 give @s[tag=!ItemLoot372] carrot_on_a_stick[custom_name='["",{"text":"HM05: Flash","italic":false,"color":"aqua"}]',lore=['["",{"text":"Illuminates the user","italic":false,"color":"#ce9178"},{"text":"\'","italic":false,"color":"#d7ba7d"},{"text":"s vision","italic":false,"color":"#ce9178"}]','["",{"text":"for fifteen minutes.","italic":false,"color":"#ce9178"}]'],enchantment_glint_override=true,unbreakable={},custom_model_data=4]
+givetm flash @s[tag=!ItemLoot372]
 tag @s add ItemLoot372
