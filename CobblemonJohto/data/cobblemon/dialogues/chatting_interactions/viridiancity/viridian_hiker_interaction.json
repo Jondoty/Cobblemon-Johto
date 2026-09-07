@@ -69,7 +69,7 @@
             "id": "page4",
             "speaker": "npc",
             "lines": [
-                "This is spooky!"
+                "This is spooky! Here, you can have this TM."
             ],
             "input": {
                 "type": "option",
@@ -79,6 +79,7 @@
                         "text": "Close",
                         "value": "close",
                         "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run function johto:triggers/itemlootgive');",
                             "q.dialogue.close();"
                             ]
                     }

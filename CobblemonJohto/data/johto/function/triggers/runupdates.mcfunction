@@ -32,9 +32,7 @@ execute if entity @a[x=-1437,y=39,z=466,distance=..75] if block -1437 39 466 air
 execute if entity @a[x=-1095,y=64,z=60,distance=..75] if block -1095 64 60 air positioned -1095 64 60 run function johto:spawn/tmloot
 execute if entity @a[x=-1166,y=64,z=56,distance=..75] if block -1166 64 56 air positioned -1166 64 56 run function johto:spawn/tmloot
 execute if entity @a[x=-979,y=64,z=209,distance=..75] if block -979 64 209 air positioned -979 64 209 run function johto:spawn/tmloot
-execute if entity @a[x=-1622,y=64,z=8,distance=..75] if block -1622 64 8 air positioned -1622 64 8 run function johto:spawn/tmloot
 execute if entity @a[x=-1701,y=64,z=307,distance=..75] if block -1701 64 307 air positioned -1701 64 307 run function johto:spawn/tmloot
-execute if entity @a[x=-2783,y=61,z=786,distance=..75] if block -2783 61 786 air positioned -2783 61 786 run function johto:spawn/tmloot
 execute if entity @a[x=-3185,y=64,z=773,distance=..75] if block -3185 64 773 air positioned -3185 64 773 run function johto:spawn/tmloot
 execute if entity @a[x=-3273,y=64,z=445,distance=..75] if block -3273 64 445 air positioned -3273 64 445 run function johto:spawn/tmloot
 execute if entity @a[x=-2980,y=64,z=343,distance=..75] if block -2980 64 343 air positioned -2980 64 343 run function johto:spawn/tmloot
@@ -49,6 +47,7 @@ execute if entity @a[x=-1550,y=48,z=-837,distance=..75] if block -1550 48 -837 a
 execute if entity @a[x=-1549,y=48,z=-861,distance=..75] if block -1549 48 -861 air positioned -1549 48 -861 run function johto:spawn/tmloot
 execute if entity @a[x=-1524,y=54,z=-873,distance=..75] if block -1524 54 -873 air positioned -1524 54 -873 run function johto:spawn/tmloot
 execute if entity @a[x=-1509,y=36,z=-838,distance=..75] if block -1509 36 -838 air positioned -1509 36 -838 run function johto:spawn/tmloot
+execute if entity @a[x=-2703,y=64,z=92,distance=..75] if block -2703 64 92 air positioned -2703 64 92 run function johto:spawn/tmloot
 
 
 
