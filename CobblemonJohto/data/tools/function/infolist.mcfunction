@@ -1,5 +1,5 @@
 #Current Map Version
-tellraw @s {"text":"1) Map version: Cobblemon Johto 1.3.1"}
+tellraw @s {"text":"1) Map version: Cobblemon Johto 1.4.0"}
 
 #Adds a tag to track player between commands
 tag @s add infoverify
