@@ -3,6 +3,7 @@
         "c.npc.set_chatting();",
         "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
         "q.run_command('execute as ' + q.player.username + ' run function johto:tools/forceclick');",
+        "q.run_command('execute as ' + q.player.username + ' run givetm attract @s[tag=!Whitney]');",
         "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Whitney');",
         "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $2,280 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
         "q.run_command('scoreboard players add ' + q.player.username + ' Money 2280');"
@@ -86,13 +87,73 @@
                     {
                         "text": "Next",
                         "value": "next",
-                        "action": "q.dialogue.set_page('page5');"
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only johto:badges/badge3');",
+                            "q.dialogue.set_page('page5');"
+                        ]
                     }
                 ]
             }
         },
         {
             "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "Oh, you can have this, too!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1');",
+                            "q.dialogue.set_page('page6');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "npc",
+            "lines": [
+                "It's Attract! It makes full use of a Pokémon's charm."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page7');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "npc",
+            "lines": [
+                "Isn't it just perfect for a cutie like me?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page8');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
             "speaker": "npc",
             "lines": [
                 "Ah, that was a good cry! Come for a visit again! Bye-bye!"
@@ -105,7 +166,6 @@
                         "text": "Close",
                         "value": "close",
                         "action": [
-                            "q.run_command('execute as ' + q.player.username + ' run advancement grant @s only johto:badges/badge3');",
                             "q.dialogue.close();"
                         ]
                     }

@@ -3,6 +3,7 @@
         "c.npc.set_chatting();",
         "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
         "q.run_command('execute as ' + q.player.username + ' run function johto:tools/forceclick');",
+        "q.run_command('execute as ' + q.player.username + ' run givetm overheat @s[tag=!Blaine]');",
         "q.run_command('execute as ' + q.player.username + ' run tag ' + q.player.username + ' add Blaine');",
         "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $7,080 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
         "q.run_command('scoreboard players add ' + q.player.username + ' Money 7080');"
@@ -41,7 +42,7 @@
             "id": "page2",
             "speaker": "npc",
             "lines": [
-                "Take this Volcano Badge! "
+                "Take this Volcano Badge!"
             ],
             "input": {
                 "type": "option",
@@ -62,7 +63,7 @@
             "id": "page3",
             "speaker": "npc",
             "lines": [
-                "I did lose this time, but I'm going to win next time. "
+                "Here, I will give you this, too. It's called Overheat!"
             ],
             "input": {
                 "type": "option",
@@ -71,7 +72,10 @@
                     {
                         "text": "Next",
                         "value": "next",
-                        "action": "q.dialogue.set_page('page4');"
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1');",
+                            "q.dialogue.set_page('page4');"
+                        ]
                     }
                 ]
             }
@@ -80,7 +84,7 @@
             "id": "page4",
             "speaker": "npc",
             "lines": [
-                "When I rebuild my Cinnabar Gym, we have to hold a rematch."
+                "It has a slight drawback, but it's powerful and well worth it!"
             ],
             "input": {
                 "type": "option",
@@ -96,6 +100,42 @@
         },
         {
             "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "I did lose this time, but I'm going to win next time."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page6');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "npc",
+            "lines": [
+                "When I rebuild my Cinnabar Gym, we have to hold a rematch."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page7');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
             "speaker": "npc",
             "lines": [
                 "My Fire-type Pokémon will be even stronger! Just you watch!"
