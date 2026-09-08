@@ -15,7 +15,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "How'd you like my Moomoo Milk?"
+                "Our milk even goes out to Kanto."
             ],
             "input": {
                 "type": "option",
@@ -33,7 +33,7 @@
             "id": "page2",
             "speaker": "npc",
             "lines": [
-                "It's my pride and joy, there."
+                "So if our own Miltank won't give us any milk, we're in trouble."
             ],
             "input": {
                 "type": "option",

@@ -1,0 +1,59 @@
+{  
+    "hitbox": "player",
+    "resourceIdentifier": "cobblemon:shopman",
+    "presets": [],
+    "variation": {
+        "dirt": [
+            "clean",
+            "slightly_dirty",
+            "dirty",
+            "filthy"
+        ]
+    },
+    "interaction": {
+        "type": "dialogue",
+        "dialogue": "cobblemon:goldenrod_shop6_interaction"
+    },
+        "name": "Department Clerk",
+        "party": {
+        "type": "simple",
+        "pokemon": [
+            "Ditto level=5"
+        ]
+    },
+    "battleConfiguration": {
+        "canChallenge": false
+    },
+    "autoHealParty": true,
+    "isMovable": false,  
+    "isLeashable": false,
+    "allowProjectileHits": false,
+    "isInvulnerable": true, 
+    "canDespawn": false,
+    "skill": 5,
+    "ai": [
+
+        {
+            "type": "add_tasks_to_activity",
+            "activity": "core",
+            "tasksByPriority": {
+                "0": [
+                    "look_at_target",
+                    "stay_afloat"
+                ]
+            }
+        },
+        {
+            "type": "add_tasks_to_activity",
+            "activity": "idle",
+            "tasksByPriority": {
+                "0": [
+                    "look_at_target"
+                ],
+                "1": [
+                    "look_at_entities"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "initializationAction": [
+        "q.run_command('team join shops ' + q.player.username + '');"
+    ],
+    "escapeAction": [
+        "q.run_command('team join default ' + q.player.username + '');",
+        "q.dialogue.close();"
+    ],
+    "names": [
+        "Moomoo Rancher"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Moomoo Rancher",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:oldlady",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting1",
+            "speaker": "npc",
+            "lines": [
+                "How'd you like my Moomoo Milk? It's my pride and joy, there."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('greeting2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "greeting2",
+            "speaker": "npc",
+            "lines": [
+                "Give it to Pokémon to clear any stat changes in battle! I'll give it to ya fer just $500."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 182');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "No Thanks",
+                        "value": "nothanks",
+                        "action": "q.dialogue.set_page('end');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "buyend",
+            "speaker": "npc",
+            "lines": [
+                "Here ya go! Drink up'n enjoy!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('team join default ' + q.player.username + '');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "end",
+            "speaker": "npc",
+            "lines": [
+                "You don't want it? Come again, hear?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('team join default ' + q.player.username + '');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

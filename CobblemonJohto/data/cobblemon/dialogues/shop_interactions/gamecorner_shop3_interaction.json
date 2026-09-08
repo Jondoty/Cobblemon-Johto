@@ -1,0 +1,544 @@
+{
+    "initializationAction": [
+        "q.run_command('team join Coins ' + q.player.username + '');"
+    ],
+    "escapeAction": [
+        "q.run_command('team join default ' + q.player.username + '');",
+        "q.dialogue.close();"
+    ],
+    "names": [
+        "Game Corner Clerk"
+    ],
+    "speakers": {
+        "npc": {
+            "name": "Game Corner Clerk",
+            "face": {
+                "type": "artificial",
+                "modelType": "npc",
+                "identifier": "cobblemon:shopman",
+                "isLeftSide": true
+            }
+        }
+    },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+               "We exchange your Coins for prizes."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": "q.dialogue.set_page('buy1');"
+                    },
+                    {
+                        "text": "No Thanks",
+                        "value": "nothanks",
+                        "action": "q.dialogue.set_page('end');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "buy1",
+            "speaker": "npc",
+            "lines": [
+                "Which prize would you like?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": true,
+                "options": [
+                    {
+                        "text": "Substitute TM (1000c)",
+                        "value": "substitute",
+                        "action": "q.dialogue.set_page('picksubstitute');"
+                    },
+                    {
+                        "text": "Swords Dance TM (2000c)",
+                        "value": "swordsdance",
+                        "action": "q.dialogue.set_page('pickswordsdance');"
+                    },
+                    {
+                        "text": "Rest TM (3000c)",
+                        "value": "rest",
+                        "action": "q.dialogue.set_page('pickrest');"
+                    },
+                    {
+                        "text": "Ice Beam TM (5000c)",
+                        "value": "icebeam",
+                        "action": "q.dialogue.set_page('pickicebeam');"
+                    },
+                    {
+                        "text": "Page 2 >>",
+                        "value": "page2",
+                        "action": "q.dialogue.set_page('buy2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "buy2",
+            "speaker": "npc",
+            "lines": [
+                "Which prize would you like?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": true,
+                "options": [
+                    {
+                        "text": "Thunderbolt TM (5000c)",
+                        "value": "thunderbolt",
+                        "action": "q.dialogue.set_page('pickthunderbolt');"
+                    },
+                    {
+                        "text": "Flamethrower TM (5000c)",
+                        "value": "flamethrower",
+                        "action": "q.dialogue.set_page('pickflamethrower');"
+                    },
+                    {
+                        "text": "Endure TM (1000c)",
+                        "value": "endure",
+                        "action": "q.dialogue.set_page('pickendure');"
+                    },
+                    {
+                        "text": "Double Team TM (2000c)",
+                        "value": "doubleteam",
+                        "action": "q.dialogue.set_page('pickdoubleteam');"
+                    },
+                    {
+                        "text": "Page 3 >>",
+                        "value": "page3",
+                        "action": "q.dialogue.set_page('buy3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "buy3",
+            "speaker": "npc",
+            "lines": [
+                "Which prize would you like?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": true,
+                "options": [
+                    {
+                        "text": "Hidden Power TM (2500c)",
+                        "value": "hiddenpower",
+                        "action": "q.dialogue.set_page('pickhiddenpower');"
+                    },
+                    {
+                        "text": "Psychic TM (5000c)",
+                        "value": "psychic",
+                        "action": "q.dialogue.set_page('pickpsychic');"
+                    },
+                    {
+                        "text": "Gyro Ball TM (5000c)",
+                        "value": "gyroball",
+                        "action": "q.dialogue.set_page('pickgyroball');"
+                    },
+                    {
+                        "text": "Giga Impact TM (7500c)",
+                        "value": "gigaimpact",
+                        "action": "q.dialogue.set_page('pickgigaimpact');"
+                    },
+                    {
+                        "text": "Page 3 >>",
+                        "value": "page3",
+                        "action": "q.dialogue.set_page('buy3');"
+                    }
+                ]
+            }
+        },
+
+
+        {
+            "id": "picksubstitute",
+            "speaker": "npc",
+            "lines": [
+                "The user creates a substitute for itself using some of its own HP. The substitute serves as the user's decoy."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 267');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickswordsdance",
+            "speaker": "npc",
+            "lines": [
+                "A frenetic dance to uplift the fighting spirit. This sharply boosts the user's Attack stat."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 268');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickrest",
+            "speaker": "npc",
+            "lines": [
+                "The user goes to sleep for two turns. This fully restores the user's HP and cures any status conditions."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 269');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickicebeam",
+            "speaker": "npc",
+            "lines": [
+                "The target is struck with an icy-cold beam of energy. This may also leave the target frozen."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 271');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickthunderbolt",
+            "speaker": "npc",
+            "lines": [
+                "The user attacks the target with a strong electric blast. This may also leave the target with paralysis."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 272');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickflamethrower",
+            "speaker": "npc",
+            "lines": [
+                "The target is scorched with an intense blast of fire. This may also leave the target with a burn."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 270');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickendure",
+            "speaker": "npc",
+            "lines": [
+                "The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 273');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickdoubleteam",
+            "speaker": "npc",
+            "lines": [
+                "By moving rapidly, the user makes illusory copies of itself to boost its evasiveness."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 274');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickhiddenpower",
+            "speaker": "npc",
+            "lines": [
+                "A unique attack that varies in type depending on the Pokémon using it."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 275');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickpsychic",
+            "speaker": "npc",
+            "lines": [
+                "The target is hit with a strong telekinetic force to inflict damage. This may also lower the target's Sp. Def stat."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 276');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickgyroball",
+            "speaker": "npc",
+            "lines": [
+                "The user tackles the target with a high-speed spin. The slower the user is than the target, the greater the move's power."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 277');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "pickgigaimpact",
+            "speaker": "npc",
+            "lines": [
+                "The user charges at the target using every bit of its power. The user can't move on the next turn."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Buy",
+                        "value": "buy",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' TriggerCommand 278');",
+                            "q.dialogue.set_page('buyend');"
+                        ]
+                    },
+                    {
+                        "text": "Go Back",
+                        "value": "goback",
+                        "action": [
+                            "q.dialogue.set_page('buy1');"
+                        ]
+                    }
+                ]
+            }
+        },
+
+
+        {
+            "id": "buyend",
+            "speaker": "npc",
+            "lines": [
+                "Here you are! Thank you!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('team join default ' + q.player.username + '');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "end",
+            "speaker": "npc",
+            "lines": [
+                "Please come again!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('team join default ' + q.player.username + '');",
+                            "q.dialogue.close();"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

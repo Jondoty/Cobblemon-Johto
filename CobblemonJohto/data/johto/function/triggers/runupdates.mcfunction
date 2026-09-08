@@ -50,12 +50,26 @@ execute if entity @a[x=-1509,y=36,z=-838,distance=..75] if block -1509 36 -838 a
 execute if entity @a[x=-2703,y=64,z=92,distance=..75] if block -2703 64 92 air positioned -2703 64 92 run function johto:spawn/tmloot
 
 
+#New entities
+execute if entity @a[x=490,y=64,z=-376,distance=..50] unless entity @e[x=490,y=64,z=-376,dy=3,type=cobblemon:npc] run npcspawnat 490 64 -376 gamecorner_shop3
+execute if entity @a[x=462,y=88,z=-406,distance=..50] unless entity @e[x=462,y=88,z=-406,dy=3,type=cobblemon:npc] run npcspawnat 462 88 -406 goldenrod_shop6
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless entity @e[x=886,y=64,z=77,dy=3,type=cobblemon:npc] run npcspawnat 886 64 77 battletower_shop7
+execute if entity @a[x=883,y=64,z=77,distance=..50] unless entity @e[x=883,y=64,z=77,dy=3,type=cobblemon:npc] run npcspawnat 883 64 77 battletower_shop8
+execute if entity @a[x=785,y=64,z=268,distance=..50] unless entity @e[x=785,y=64,z=268,dy=3,type=cobblemon:npc] run npcspawnat 785 64 268 moomoo_shop
 
 
-
-
-
-
+#Blocks
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run setblock 887 64 76 minecraft:redstone_lamp[lit=true]
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run setblock 882 64 76 minecraft:redstone_lamp[lit=true]
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run setblock 887 63 76 minecraft:redstone_block
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run setblock 882 63 76 minecraft:redstone_block
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run fill 886 64 76 883 64 76 minecraft:white_stained_glass_pane[east=true,west=true]
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run fill 882 65 76 887 65 76 minecraft:lime_carpet
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run fill 882 64 78 882 64 77 minecraft:white_stained_glass_pane[north=true,south=true]
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run fill 887 64 78 887 64 77 minecraft:white_stained_glass_pane[north=true,south=true]
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run fill 887 65 78 887 65 77 minecraft:lime_carpet
+execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run fill 882 65 78 882 65 77 minecraft:lime_carpet
+execute if entity @a[x=886,y=64,z=77,distance=..50] run setblock 885 64 78 air
 
 
 
