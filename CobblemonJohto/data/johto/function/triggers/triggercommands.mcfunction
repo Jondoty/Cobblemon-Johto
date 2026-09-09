@@ -1267,6 +1267,125 @@ execute as @a[scores={TriggerCommand=295,Money=5500..}] run givetm blizzard @s
 execute as @a[scores={TriggerCommand=295,Money=5500..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
 execute as @a[scores={TriggerCommand=295,Money=5500..}] run scoreboard players remove @s Money 5500
 
+#-----------------------------
+#Frustration
+execute as @a[scores={TriggerCommand=296,Money=..999}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=296,Money=..999}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=296,Money=1000..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=296,Money=1000..}] run givetm frustration @s
+execute as @a[scores={TriggerCommand=296,Money=1000..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=296,Money=1000..}] run scoreboard players remove @s Money 1000
+
+#-----------------------------
+#Return
+execute as @a[scores={TriggerCommand=297,Money=..999}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=297,Money=..999}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=297,Money=1000..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=297,Money=1000..}] run givetm return @s
+execute as @a[scores={TriggerCommand=297,Money=1000..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=297,Money=1000..}] run scoreboard players remove @s Money 1000
+
+#-----------------------------
+#Swagger
+execute as @a[scores={TriggerCommand=298,Money=..1499}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=298,Money=..1499}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=298,Money=1500..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=298,Money=1500..}] run givetm swagger @s
+execute as @a[scores={TriggerCommand=298,Money=1500..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=298,Money=1500..}] run scoreboard players remove @s Money 1500
+
+#-----------------------------
+#Captivate
+execute as @a[scores={TriggerCommand=299,Money=..1499}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=299,Money=..1499}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=299,Money=1500..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=299,Money=1500..}] run givetm captivate @s
+execute as @a[scores={TriggerCommand=299,Money=1500..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=299,Money=1500..}] run scoreboard players remove @s Money 1500
+
+#-----------------------------
+#Taunt
+execute as @a[scores={TriggerCommand=300,Money=..1499}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=300,Money=..1499}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=300,Money=1500..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=300,Money=1500..}] run givetm taunt @s
+execute as @a[scores={TriggerCommand=300,Money=1500..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=300,Money=1500..}] run scoreboard players remove @s Money 1500
+
+#-----------------------------
+#Torment
+execute as @a[scores={TriggerCommand=301,Money=..1499}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=301,Money=..1499}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=301,Money=1500..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=301,Money=1500..}] run givetm torment @s
+execute as @a[scores={TriggerCommand=301,Money=1500..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=301,Money=1500..}] run scoreboard players remove @s Money 1500
+
+#-----------------------------
+#Safeguard
+execute as @a[scores={TriggerCommand=302,Money=..1999}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=302,Money=..1999}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=302,Money=2000..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=302,Money=2000..}] run givetm safeguard @s
+execute as @a[scores={TriggerCommand=302,Money=2000..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=302,Money=2000..}] run scoreboard players remove @s Money 2000
+
+#-----------------------------
+#Dig
+execute as @a[scores={TriggerCommand=303,Money=..1999}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=303,Money=..1999}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=303,Money=2000..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=303,Money=2000..}] run givetm dig @s
+execute as @a[scores={TriggerCommand=303,Money=2000..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=303,Money=2000..}] run scoreboard players remove @s Money 2000
+
+#-----------------------------
+#Stealth Rock
+execute as @a[scores={TriggerCommand=304,Money=..1999}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=304,Money=..1999}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=304,Money=2000..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=304,Money=2000..}] run givetm stealthrock @s
+execute as @a[scores={TriggerCommand=304,Money=2000..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=304,Money=2000..}] run scoreboard players remove @s Money 2000
+
+#-----------------------------
+#Brine
+execute as @a[scores={TriggerCommand=305,Money=..2999}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=305,Money=..2999}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=305,Money=3000..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=305,Money=3000..}] run givetm brine @s
+execute as @a[scores={TriggerCommand=305,Money=3000..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=305,Money=3000..}] run scoreboard players remove @s Money 3000
+
+#-----------------------------
+#Avalanche
+execute as @a[scores={TriggerCommand=306,Money=..2999}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=306,Money=..2999}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=306,Money=3000..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=306,Money=3000..}] run givetm avalanche @s
+execute as @a[scores={TriggerCommand=306,Money=3000..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=306,Money=3000..}] run scoreboard players remove @s Money 3000
+
+#-----------------------------
+#Dark Pulse
+execute as @a[scores={TriggerCommand=307,Money=..2999}] run tellraw @s {"text":"You don't have enough money for that!","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=307,Money=..2999}] run scoreboard players set @s TriggerCommand 0
+
+execute as @a[scores={TriggerCommand=307,Money=3000..}] run tellraw @s {"text":"You put the item in your inventory.","italic":true,"color":"gray"}
+execute as @a[scores={TriggerCommand=307,Money=3000..}] run givetm darkpulse @s
+execute as @a[scores={TriggerCommand=307,Money=3000..}] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
+execute as @a[scores={TriggerCommand=307,Money=3000..}] run scoreboard players remove @s Money 3000
 
 
 #-----------------------------

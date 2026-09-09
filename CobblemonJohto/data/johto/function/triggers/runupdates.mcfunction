@@ -56,7 +56,7 @@ execute if entity @a[x=462,y=88,z=-406,distance=..50] unless entity @e[x=462,y=8
 execute if entity @a[x=886,y=64,z=77,distance=..50] unless entity @e[x=886,y=64,z=77,dy=3,type=cobblemon:npc] run npcspawnat 886 64 77 battletower_shop7
 execute if entity @a[x=883,y=64,z=77,distance=..50] unless entity @e[x=883,y=64,z=77,dy=3,type=cobblemon:npc] run npcspawnat 883 64 77 battletower_shop8
 execute if entity @a[x=785,y=64,z=268,distance=..50] unless entity @e[x=785,y=64,z=268,dy=3,type=cobblemon:npc] run npcspawnat 785 64 268 moomoo_shop
-
+execute if entity @a[x=-2302,y=77,z=373,distance=..50] unless entity @e[x=-2302,y=77,z=373,dy=3,type=cobblemon:npc] run npcspawnat -2302 77 373 celadon_shop3
 
 #Blocks
 execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run setblock 887 64 76 minecraft:redstone_lamp[lit=true]
