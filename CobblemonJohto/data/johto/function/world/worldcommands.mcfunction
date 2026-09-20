@@ -193,6 +193,14 @@ execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:7b,co
 execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] run function johto:world/radio
 
 
+#Starts Surfing music
+execute as @a at @s[tag=!SurfMusic] on vehicle if predicate johto:near_water on passengers run function johto:tools/forceclick
+execute as @a at @s[tag=!SurfMusic] on vehicle if predicate johto:near_water on passengers run tag @s add SurfMusic
+
+#Stops Surfing music if players dismounts a mount
+execute as @a at @s[tag=SurfMusic] unless predicate johto:near_water run function johto:tools/forceclick
+execute as @a at @s[tag=SurfMusic] unless predicate johto:near_water run tag @s remove SurfMusic
+
 #Removes a MusicCooldown score each refresh if present
 scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
 

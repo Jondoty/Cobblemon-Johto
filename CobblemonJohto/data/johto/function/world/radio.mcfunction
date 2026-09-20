@@ -19,6 +19,15 @@ execute as @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_name":'{"
 execute as @s[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_name":'{"extra":[{"color":"red","italic":false,"text":"Bicycle"}],"text":""}'}}]}] run scoreboard players set @s[scores={MusicCooldown=0}] MusicCooldown 93
 
 
+#Riding a Pokemon in the water
+playsound surfing record @s[tag=SurfMusic,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[tag=SurfMusic,scores={MusicCooldown=0}] MusicCooldown 168
+
+execute as @a at @s[scores={MusicCooldown=0}] on vehicle if predicate johto:near_water on passengers run playsound surfing record @s ~ ~ ~ 1 1 1
+execute as @a at @s[scores={MusicCooldown=0}] on vehicle if predicate johto:near_water on passengers run tag @s add SurfMusic
+execute as @a at @s[scores={MusicCooldown=0}] on vehicle if predicate johto:near_water on passengers run scoreboard players set @s MusicCooldown 168
+
+
 #GymVictory tag
 playsound gymvictory record @s[x=-1222,y=0,z=500,dx=470,dy=240,dz=342,scores={MusicCooldown=0},tag=GymVictory] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=-1222,y=0,z=500,dx=470,dy=240,dz=342,scores={MusicCooldown=0},tag=GymVictory] MusicCooldown 110

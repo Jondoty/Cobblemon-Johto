@@ -11,6 +11,9 @@ tag @s remove InDialogue
 #Resets PokemonMusicTalk
 tag @s remove PokemonMusicTalk
 
+#If Surf Music is on when player relogs
+tag @s remove SurfMusic
+
 
 #Resets Town Display title cooldowns
 scoreboard players set @s TownDisplay 0
