@@ -71,7 +71,11 @@ execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air r
 execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run fill 882 65 78 882 65 77 minecraft:lime_carpet
 execute if entity @a[x=886,y=64,z=77,distance=..50] run setblock 885 64 78 air
 
-
+execute if entity @a[x=482,y=64,z=-267,distance=..50] unless block 482 64 -267 air run kill @e[x=482,y=64,z=-267,dy=3,type=interaction]
+execute if entity @a[x=482,y=64,z=-267,distance=..50] run setblock 482 64 -267 air
+execute if entity @a[x=482,y=64,z=-267,distance=..50] unless entity @e[x=482,y=64,z=-267,dy=3,type=cobblemon:npc] run npcspawnat 482 64 -267 route35_randy
+execute if entity @a[x=482,y=64,z=-267,distance=..50] unless entity @e[x=482,y=64,z=-267,dy=3,type=interaction] positioned 482 64 -267 run function johto:spawn/npcboxes
+execute if entity @a[x=-130,y=64,z=-105,distance=..50] unless entity @e[x=-130,y=64,z=-105,dy=3,type=interaction] positioned -130 64 -105 run function johto:spawn/npcboxes
 
 
 

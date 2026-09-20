@@ -41,6 +41,48 @@ execute as @s[x=423,y=64,z=-426,distance=..6,tag=!Dialogue23] run opendialogue b
 execute as @s[x=423,y=64,z=-426,distance=..6,tag=Dialogue23] run opendialogue goldenrod_blacksmith_interaction @s
 
 
+#Route 35, Randy's Spearow sidequest
+execute as @s[x=482,y=64,z=-267,distance=..4,tag=!Dialogue146] run opendialogue route35_randy_initial @s
+execute as @s[x=482,y=64,z=-267,distance=..4,tag=Dialogue146,tag=!Dialogue147] run opendialogue route35_randy_reminder @s
+execute as @s[x=482,y=64,z=-267,distance=..4,tag=Dialogue146,tag=Dialogue147,tag=!Dialogue148] run opendialogue route35_randy_delivered @s
+execute as @s[x=482,y=64,z=-267,distance=..4,tag=Dialogue146,tag=Dialogue147,tag=Dialogue148] run opendialogue route35_randy_done @s
+
+#Route 31 hiker, looking for a Spearow
+execute as @s[x=-130,y=64,z=-105,distance=..4] run scoreboard players set @s Temp 0
+execute as @s[x=-130,y=64,z=-105,distance=..4] run scoreboard players set @s PokeHave 0
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s remove KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 1 spearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 2 spearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 3 spearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 4 spearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 5 spearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 6 spearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 1 fearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 2 fearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 3 fearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 4 fearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 5 fearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+execute as @s[x=-130,y=64,z=-105,distance=..4] store result score @s PokeHave run testpartyslot @s 6 fearow pokeball=cherish_ball
+execute as @s[x=-130,y=64,z=-105,distance=..4] run tag @s[scores={PokeHave=1..}] add KenyaHave
+
+execute as @s[x=-130,y=64,z=-105,distance=..4,tag=!Dialogue146,tag=!Dialogue147] run opendialogue route31_hiker_interaction @s
+execute as @s[x=-130,y=64,z=-105,distance=..4,tag=Dialogue146,tag=!Dialogue147,tag=!KenyaHave] run opendialogue route31_hiker_interaction @s
+execute as @s[x=-130,y=64,z=-105,distance=..4,tag=Dialogue146,tag=!Dialogue147,tag=KenyaHave] run opendialogue route31_hiker_spearow @s
+execute as @s[x=-130,y=64,z=-105,distance=..4,tag=Dialogue146,tag=Dialogue147] run opendialogue route31_hiker_done @s
+
+
 #Copycat
 #Needs to have fixed the Power Plant before starting the doll quest
 execute as @s[x=-2722,y=69,z=372,distance=..6,tag=!Dialogue133] run opendialogue copycat_generic_pre @s

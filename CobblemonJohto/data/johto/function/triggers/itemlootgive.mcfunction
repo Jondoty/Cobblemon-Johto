@@ -522,12 +522,6 @@ execute as @s[x=487,y=64,z=-143,distance=..4,tag=!ItemLoot86] run tellraw @s {"t
 execute as @s[x=487,y=64,z=-143,distance=..4,tag=!ItemLoot86] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
 execute as @s[x=487,y=64,z=-143,distance=..4,tag=!ItemLoot86] run tag @s add ItemLoot86
 
-execute as @s[x=482,y=64,z=-267,distance=..4,tag=ItemLoot87] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
-execute as @s[x=482,y=64,z=-267,distance=..4,tag=!ItemLoot87] run give @s cobblemon:hp_up
-execute as @s[x=482,y=64,z=-267,distance=..4,tag=!ItemLoot87] run tellraw @s {"text":"You found an HP Up!","italic":true,"color":"gray"}
-execute as @s[x=482,y=64,z=-267,distance=..4,tag=!ItemLoot87] run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1
-execute as @s[x=482,y=64,z=-267,distance=..4,tag=!ItemLoot87] run tag @s add ItemLoot87
-
 execute as @s[x=511,y=64,z=-16,distance=..4,tag=ItemLoot88] run tellraw @s {"text":"You've already claimed this loot!","italic":true,"color":"gray"}
 execute as @s[x=511,y=64,z=-16,distance=..4,tag=!ItemLoot88] run give @s cobblemon:quick_claw
 execute as @s[x=511,y=64,z=-16,distance=..4,tag=!ItemLoot88] run tellraw @s {"text":"You found a Quick Claw!","italic":true,"color":"gray"}

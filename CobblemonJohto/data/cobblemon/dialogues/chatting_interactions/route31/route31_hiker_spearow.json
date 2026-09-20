@@ -1,0 +1,338 @@
+{
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add InDialogue');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s Temp 0');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s PokeHave 0');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 1 spearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 1');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 2 spearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 2');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 3 spearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 3');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 4 spearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 4');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 5 spearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 5');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 6 spearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 6');",
+
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 1 fearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 1');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 2 fearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 2');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 3 fearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 3');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 4 fearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 4');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 5 fearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 5');",
+        "q.run_command('execute as ' + q.player.username + ' run execute as @s store result score @s PokeHave run testpartyslot @s 6 fearow pokeball=cherish_ball');",
+        "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @s[scores={PokeHave=1..}] Temp 6');"
+    ],
+    "escapeAction": [],
+    "speakers": {
+        "npc": {
+          "name": "Hermann",
+          "face": {
+            "type": "artificial",
+            "modelType": "npc",
+            "identifier": "cobblemon:hiker",
+            "isLeftSide": true
+          }
+        },
+        "player": {
+            "face": "q.player.face(true);",
+            "name": {
+                "type": "expression",
+                "expression": "q.player.username"
+            }
+        }
+      },
+      "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                ".... Hnuurg? Huh? "
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "Oh, hey! I got an email! "
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' if entity @s[scores={Temp=1}] run takepokemon @s 1');",
+                            "q.run_command('execute as ' + q.player.username + ' if entity @s[scores={Temp=2}] run takepokemon @s 2');",
+                            "q.run_command('execute as ' + q.player.username + ' if entity @s[scores={Temp=3}] run takepokemon @s 3');",
+                            "q.run_command('execute as ' + q.player.username + ' if entity @s[scores={Temp=4}] run takepokemon @s 4');",
+                            "q.run_command('execute as ' + q.player.username + ' if entity @s[scores={Temp=5}] run takepokemon @s 5');",
+                            "q.run_command('execute as ' + q.player.username + ' if entity @s[scores={Temp=6}] run takepokemon @s 6');",
+                            "q.dialogue.set_page('page3');"]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "player",
+            "lines": [
+                "{Player} handed over the Pokémon holding the Mail."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page4');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "npc",
+            "lines": [
+                "Let's see..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page5');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "“Thank you for your Mail. It was such an exciting adventure.“"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page6');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page6",
+            "speaker": "npc",
+            "lines": [
+                "“I did not like Zubat, though...“"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page7');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page7",
+            "speaker": "npc",
+            "lines": [
+                "That's what it says."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page8');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page8",
+            "speaker": "npc",
+            "lines": [
+                "I went to a dark cave the other day with a friend. That cave leads to another route."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page9');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page9",
+            "speaker": "npc",
+            "lines": [
+                "By the way, I must thank you for being so kind."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page10');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page10",
+            "speaker": "npc",
+            "lines": [
+                "I'd like to do something good in return."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run givetm rest @s');",
+                            "q.run_command('execute as ' + q.player.username + ' run playsound minecraft:entity.experience_orb.pickup ambient @s ~ ~ ~ 1 1 1');",
+                            "q.dialogue.set_page('page11');"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page11",
+            "speaker": "npc",
+            "lines": [
+                "That TM is..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page12');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page12",
+            "speaker": "npc",
+            "lines": [
+                "...Zzz... ..."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page13');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page13",
+            "speaker": "npc",
+            "lines": [
+                "...Umm... Rest!"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page14');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page14",
+            "speaker": "npc",
+            "lines": [
+                "The phrase “recover fast” became shortened to “Rest,” you see?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page15');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page15",
+            "speaker": "npc",
+            "lines": [
+                "This is a move to sleep and recover HP."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('tag ' + q.player.username + ' add Dialogue147');",
+                            "q.run_command('tag ' + q.player.username + ' remove InDialogue');",
+                            "q.dialogue.close();"
+                            ]
+                    }
+                ]
+            }
+        }
+        ]
+    }
