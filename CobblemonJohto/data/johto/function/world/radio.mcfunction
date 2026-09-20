@@ -298,8 +298,8 @@ scoreboard players set @s[x=-676,y=0,z=-369,dx=146,dy=240,dz=493,scores={MusicCo
 
 
 #Route 40
-playsound surfing record @s[x=870,y=0,z=-280,dx=281,dy=240,dz=182,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=870,y=0,z=-280,dx=281,dy=240,dz=182,scores={MusicCooldown=0}] MusicCooldown 168
+playsound route32 record @s[x=870,y=0,z=-280,dx=281,dy=240,dz=182,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=870,y=0,z=-280,dx=281,dy=240,dz=182,scores={MusicCooldown=0}] MusicCooldown 117
 
 
 #Dragons Den
@@ -323,8 +323,8 @@ scoreboard players set @s[x=1120,y=0,z=120,dx=245,dy=240,dz=280,scores={MusicCoo
 
 
 #Route 41
-playsound surfing record @s[x=870,y=0,z=-525,dx=281,dy=240,dz=44,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=870,y=0,z=-525,dx=281,dy=240,dz=44,scores={MusicCooldown=0}] MusicCooldown 168
+playsound route32 record @s[x=870,y=0,z=-525,dx=281,dy=240,dz=44,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=870,y=0,z=-525,dx=281,dy=240,dz=44,scores={MusicCooldown=0}] MusicCooldown 117
 
 
 #Spawn Lobby
@@ -393,8 +393,8 @@ scoreboard players set @s[x=-3088,y=0,z=80,dx=139,dy=100,dz=136,scores={MusicCoo
 
 
 #Whirl Islands Exterior
-playsound surfing record @s[x=870,y=0,z=-480,dx=281,dy=240,dz=199,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=870,y=0,z=-480,dx=281,dy=240,dz=199,scores={MusicCooldown=0}] MusicCooldown 168
+playsound route32 record @s[x=870,y=0,z=-480,dx=281,dy=240,dz=199,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=870,y=0,z=-480,dx=281,dy=240,dz=199,scores={MusicCooldown=0}] MusicCooldown 117
 
 
 #Cerulean Cave
@@ -440,8 +440,8 @@ scoreboard players set @s[x=-2513,y=0,z=-642,dx=225,dy=240,dz=187,scores={MusicC
 
 
 #Cinnabar Island surround area
-playsound surfing record @s[x=-1765,y=0,z=-969,dx=145,dy=240,dz=144,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1765,y=0,z=-969,dx=145,dy=240,dz=144,scores={MusicCooldown=0}] MusicCooldown 168
+playsound ceruleancity record @s[x=-1765,y=0,z=-969,dx=145,dy=240,dz=144,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1765,y=0,z=-969,dx=145,dy=240,dz=144,scores={MusicCooldown=0}] MusicCooldown 202
 
 
 #Viridian City
@@ -628,18 +628,18 @@ scoreboard players set @s[x=-3354,y=0,z=-395,dx=92,dy=240,dz=684,scores={MusicCo
 
 
 #Route 21
-playsound surfing record @s[x=-1765,y=0,z=-824,dx=145,dy=240,dz=419,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1765,y=0,z=-824,dx=145,dy=240,dz=419,scores={MusicCooldown=0}] MusicCooldown 168
+playsound route3 record @s[x=-1765,y=0,z=-824,dx=145,dy=240,dz=419,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1765,y=0,z=-824,dx=145,dy=240,dz=419,scores={MusicCooldown=0}] MusicCooldown 82
 
 
 #Route 20
-playsound surfing record @s[x=-2479,y=60,z=-969,dx=713,dy=180,dz=138,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2479,y=60,z=-969,dx=713,dy=180,dz=138,scores={MusicCooldown=0}] MusicCooldown 168
+playsound route3 record @s[x=-2479,y=60,z=-969,dx=713,dy=180,dz=138,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2479,y=60,z=-969,dx=713,dy=180,dz=138,scores={MusicCooldown=0}] MusicCooldown 82
 
 
 #Route 19
-playsound surfing record @s[x=-2513,y=0,z=-975,dx=225,dy=240,dz=332,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2513,y=0,z=-975,dx=225,dy=240,dz=332,scores={MusicCooldown=0}] MusicCooldown 168
+playsound route3 record @s[x=-2513,y=0,z=-975,dx=225,dy=240,dz=332,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2513,y=0,z=-975,dx=225,dy=240,dz=332,scores={MusicCooldown=0}] MusicCooldown 82
 
 
 #Pokemon Mansion
