@@ -189,6 +189,9 @@ execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:6b,co
 execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{Slot:7b,components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] run function johto:world/radiostations
 
 
+#If player has radio on, but no station is actively playing, run the regular world music
+execute as @a[tag=!RadioOff,scores={MusicCooldown=0},nbt={Inventory:[{components:{"minecraft:custom_name":'{"extra":[{"color":"aqua","italic":false,"text":"Radio"}],"text":""}'}}]}] run function johto:world/radio
+
 
 #Removes a MusicCooldown score each refresh if present
 scoreboard players remove @a[scores={MusicCooldown=1..}] MusicCooldown 1
