@@ -95,7 +95,7 @@ execute as @a unless items entity @s weapon.mainhand minecraft:filled_map[minecr
 
 
 #MusicTitles function, tracks player around map checking for new areas or music
-execute as @a[scores={TalkTime=0}] run function johto:world/musictitles
+execute as @a run function johto:world/musictitles
 
 
 #Runs relog function if player is found with relog score

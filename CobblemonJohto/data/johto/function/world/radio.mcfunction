@@ -728,8 +728,8 @@ scoreboard players set @s[x=-42,y=0,z=-161,dx=141,dy=256,dz=261,scores={MusicCoo
 
 
 #Goldenrod City
-playsound goldenrodcity record @s[x=349,y=0,z=-461,dx=239,dy=240,dz=194,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=349,y=0,z=-461,dx=239,dy=240,dz=194,scores={MusicCooldown=0}] MusicCooldown 138
+playsound goldenrodcity record @s[x=349,y=0,z=-461,dx=239,dy=240,dz=193,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=349,y=0,z=-461,dx=239,dy=240,dz=193,scores={MusicCooldown=0}] MusicCooldown 138
 
 
 #Route 31
@@ -741,6 +741,9 @@ scoreboard players set @s[x=-290,y=0,z=-161,dx=247,dy=240,dz=75,scores={MusicCoo
 playsound route32 record @s[x=411,y=0,z=-715,dx=104,dy=240,dz=253,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 scoreboard players set @s[x=411,y=0,z=-715,dx=104,dy=240,dz=253,scores={MusicCooldown=0}] MusicCooldown 117
 
+playsound route32 record @s[x=447,y=61,z=-777,dx=76,dy=240,dz=63,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=447,y=61,z=-777,dx=76,dy=240,dz=63,scores={MusicCooldown=0}] MusicCooldown 117
+
 
 #Route 30
 playsound route30 record @s[x=-290,y=0,z=-460,dx=176,dy=240,dz=298,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
@@ -748,8 +751,8 @@ scoreboard players set @s[x=-290,y=0,z=-460,dx=176,dy=240,dz=298,scores={MusicCo
 
 
 #Ilex Forest
-playsound unioncave record @s[x=513,y=0,z=-793,dx=187,dy=240,dz=228,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=513,y=0,z=-793,dx=187,dy=240,dz=228,scores={MusicCooldown=0}] MusicCooldown 174
+playsound unioncave record @s[x=525,y=0,z=-793,dx=187,dy=240,dz=228,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=525,y=0,z=-793,dx=187,dy=240,dz=228,scores={MusicCooldown=0}] MusicCooldown 174
 
 
 #Cherrygrove City

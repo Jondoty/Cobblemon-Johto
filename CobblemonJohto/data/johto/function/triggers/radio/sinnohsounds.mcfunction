@@ -80,7 +80,7 @@ tellraw @s[x=44,y=63,z=4,dx=31,dy=90,dz=31,scores={DialogueTrigger=157,TalkTime=
 tellraw @s[x=463,y=0,z=-67,dx=175,dy=240,dz=203,scores={DialogueTrigger=157,TalkTime=19}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=499,y=0,z=166,dx=111,dy=240,dz=139,scores={DialogueTrigger=157,TalkTime=19}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=50,y=61,z=-793,dx=234,dy=240,dz=121,scores={DialogueTrigger=157,TalkTime=19}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
-tellraw @s[x=513,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=157,TalkTime=19}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
+tellraw @s[x=525,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=157,TalkTime=19}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=611,y=0,z=166,dx=86,dy=240,dz=139,scores={DialogueTrigger=157,TalkTime=19}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=639,y=0,z=41,dx=236,dy=240,dz=87,scores={DialogueTrigger=157,TalkTime=19}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=698,y=0,z=129,dx=177,dy=240,dz=77,scores={DialogueTrigger=157,TalkTime=19}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
@@ -207,8 +207,8 @@ execute store success score @s Temp at @s[x=44,y=63,z=4,dx=31,dy=90,dz=31,scores
 execute store success score @s Temp at @s[x=463,y=0,z=-67,dx=175,dy=240,dz=203,scores={DialogueTrigger=157,TalkTime=36}] run pokespawn Shinx level=10
 execute store success score @s Temp at @s[x=499,y=0,z=166,dx=111,dy=240,dz=139,scores={DialogueTrigger=157,TalkTime=36}] run pokespawn Shinx level=10
 execute store success score @s Temp at @s[x=50,y=61,z=-793,dx=234,dy=240,dz=121,scores={DialogueTrigger=157,TalkTime=36}] run pokespawn Shinx level=10
-execute store success score @s Temp at @s[x=513,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=157,TalkTime=36,rng=0..1}] run pokespawn Budew level=10
-execute store success score @s Temp at @s[x=513,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=157,TalkTime=36,rng=2..3}] run pokespawn Carnivine level=10
+execute store success score @s Temp at @s[x=525,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=157,TalkTime=36,rng=0..1}] run pokespawn Budew level=10
+execute store success score @s Temp at @s[x=525,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=157,TalkTime=36,rng=2..3}] run pokespawn Carnivine level=10
 execute store success score @s Temp at @s[x=611,y=0,z=166,dx=86,dy=240,dz=139,scores={DialogueTrigger=157,TalkTime=36}] run pokespawn Shinx level=10
 execute store success score @s Temp at @s[x=639,y=0,z=41,dx=236,dy=240,dz=87,scores={DialogueTrigger=157,TalkTime=36}] run pokespawn Shinx level=10
 execute store success score @s Temp at @s[x=698,y=0,z=129,dx=177,dy=240,dz=77,scores={DialogueTrigger=157,TalkTime=36}] run pokespawn Shinx level=10

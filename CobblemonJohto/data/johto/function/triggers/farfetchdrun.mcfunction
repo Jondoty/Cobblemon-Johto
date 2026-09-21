@@ -15,7 +15,7 @@ execute if entity @e[x=-792,y=65,z=-284,dy=3,type=armor_stand,scores={Farfetchd=
 execute if entity @e[x=-792,y=65,z=-284,dy=3,type=armor_stand,scores={Farfetchd=1}] as @e[x=593,y=63,z=-718,dx=2,dy=2,dz=2,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:farfetchd"}}] at @s run tp @s ~0.25 ~ ~ -90 ~
 execute if entity @e[x=-792,y=65,z=-284,dy=3,type=armor_stand,scores={Farfetchd=1}] run tp @e[x=617,y=64,z=-719,distance=..3,type=cobblemon:pokemon,nbt={Pokemon:{Species:"cobblemon:farfetchd"}}] 622.5 64 -713.5 180 ~
 
-execute if entity @e[x=-792,y=65,z=-284,dy=3,type=armor_stand,scores={Farfetchd=1}] if entity @e[x=622.5,y=64,z=-713.5,distance=0] run scoreboard players set @a[x=513,y=0,z=-793,dx=187,dy=240,dz=228,scores={Farfetchd=0}] Farfetchd 1
+execute if entity @e[x=-792,y=65,z=-284,dy=3,type=armor_stand,scores={Farfetchd=1}] if entity @e[x=622.5,y=64,z=-713.5,distance=0] run scoreboard players set @a[x=525,y=0,z=-793,dx=187,dy=240,dz=228,scores={Farfetchd=0}] Farfetchd 1
 execute if entity @e[x=-792,y=65,z=-284,dy=3,type=armor_stand,scores={Farfetchd=1}] if entity @e[x=622.5,y=64,z=-713.5,distance=0] run scoreboard players set @e[x=-792,y=65,z=-284,dy=3,type=armor_stand,scores={Farfetchd=1..}] Farfetchd 0
 
 

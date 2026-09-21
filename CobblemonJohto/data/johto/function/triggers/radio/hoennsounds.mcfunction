@@ -26,7 +26,7 @@ tellraw @s[x=-307,y=0,z=-94,dx=94,dy=240,dz=223,scores={DialogueTrigger=156,Talk
 tellraw @s[x=-439,y=0,z=-190,dx=131,dy=240,dz=319,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=-3088,y=0,z=80,dx=139,dy=100,dz=136,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=-875,y=0,z=302,dx=280,dy=60,dz=173,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
-tellraw @s[x=513,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
+tellraw @s[x=525,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=-2279,y=18,z=761,dx=113,dy=37,dz=89,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=-83,y=0,z=220,dx=318,dy=240,dz=180,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=-1043,y=60,z=102,dx=135,dy=100,dz=270,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
@@ -123,8 +123,8 @@ execute store success score @s Temp at @s[x=-3088,y=0,z=80,dx=139,dy=100,dz=136,
 execute store success score @s Temp at @s[x=-3088,y=0,z=80,dx=139,dy=100,dz=136,scores={DialogueTrigger=156,TalkTime=43,rng=2..3}] run pokespawn Makuhita level=10
 execute store success score @s Temp at @s[x=-875,y=0,z=302,dx=280,dy=60,dz=173,scores={DialogueTrigger=156,TalkTime=43,rng=0..1}] run pokespawn Absol level=10
 execute store success score @s Temp at @s[x=-875,y=0,z=302,dx=280,dy=60,dz=173,scores={DialogueTrigger=156,TalkTime=43,rng=2..3}] run pokespawn Makuhita level=10
-execute store success score @s Temp at @s[x=513,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=156,TalkTime=43,rng=0..1}] run pokespawn Numel level=10
-execute store success score @s Temp at @s[x=513,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=156,TalkTime=43,rng=2..3}] run pokespawn Spoink level=10
+execute store success score @s Temp at @s[x=525,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=156,TalkTime=43,rng=0..1}] run pokespawn Numel level=10
+execute store success score @s Temp at @s[x=525,y=0,z=-793,dx=187,dy=240,dz=228,scores={DialogueTrigger=156,TalkTime=43,rng=2..3}] run pokespawn Spoink level=10
 execute store success score @s Temp at @s[x=-2279,y=18,z=761,dx=113,dy=37,dz=89,scores={DialogueTrigger=156,TalkTime=43,rng=0..1}] run pokespawn Absol level=10
 execute store success score @s Temp at @s[x=-2279,y=18,z=761,dx=113,dy=37,dz=89,scores={DialogueTrigger=156,TalkTime=43,rng=2..3}] run pokespawn Makuhita level=10
 execute store success score @s Temp at @s[x=-83,y=0,z=220,dx=318,dy=240,dz=180,scores={DialogueTrigger=156,TalkTime=43,rng=0..1}] run pokespawn Absol level=10
