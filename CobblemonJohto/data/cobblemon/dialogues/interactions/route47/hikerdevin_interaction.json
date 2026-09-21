@@ -22,7 +22,7 @@
             "id": "greeting",
             "speaker": "npc",
             "lines": [
-                "...You are a better Trainer than me, in both skill and kindness. In accordance with League rules, I confer upon you this Badge."
+                "Longing for others is...what it is... But battles are battles, so let's go!"
             ],
             "input": {
                 "type": "option",
