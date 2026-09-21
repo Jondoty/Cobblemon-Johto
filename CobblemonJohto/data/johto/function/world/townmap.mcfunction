@@ -528,8 +528,8 @@ scoreboard players set @s[x=-1074,y=60,z=638,dx=48,dy=50,dz=79] TownMap 74
 title @s[x=-1074,y=60,z=638,dx=48,dy=50,dz=79] actionbar {"text":"Vermillion City Gym"}
 
 scoreboard players set @s[x=-1122,y=60,z=637,dx=47,dy=50,dz=81] TownMap 90
-title @s[x=-1122,y=60,z=637,dx=47,dy=50,dz=81] actionbar {"text":"Celadon City Gym"}'
-'
+title @s[x=-1122,y=60,z=637,dx=47,dy=50,dz=81] actionbar {"text":"Celadon City Gym"}
+
 scoreboard players set @s[x=-1171,y=60,z=637,dx=48,dy=50,dz=80] TownMap 120
 title @s[x=-1171,y=60,z=637,dx=48,dy=50,dz=80] actionbar {"text":"Fuchsia City Gym"}
 

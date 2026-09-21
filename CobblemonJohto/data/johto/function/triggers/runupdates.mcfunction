@@ -70,6 +70,8 @@ execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air r
 execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run fill 887 65 78 887 65 77 minecraft:lime_carpet
 execute if entity @a[x=886,y=64,z=77,distance=..50] unless block 885 64 78 air run fill 882 65 78 882 65 77 minecraft:lime_carpet
 execute if entity @a[x=886,y=64,z=77,distance=..50] run setblock 885 64 78 air
+execute if entity @a[x=-719,y=69,z=-489,distance=..50] if block -719 69 -489 air run fill -719 69 -489 -719 69 -486 cobblemon:disc_shelf[facing=west]
+execute if entity @a[x=-719,y=69,z=-489,distance=..50] if block -719 70 -488 air run fill -719 70 -488 -719 70 -487 cobblemon:disc_shelf[facing=west]
 
 execute if entity @a[x=482,y=64,z=-267,distance=..50] unless block 482 64 -267 air run kill @e[x=482,y=64,z=-267,dy=3,type=interaction]
 execute if entity @a[x=482,y=64,z=-267,distance=..50] run setblock 482 64 -267 air
