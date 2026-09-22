@@ -777,10 +777,10 @@ execute as @s[x=-2884,y=0,z=-200,dx=273,dy=240,dz=239,tag=!Indoors] unless score
 execute as @s[x=-2884,y=0,z=-200,dx=273,dy=240,dz=239,tag=!Indoors] unless score @s MusicTitles matches 96 run scoreboard players set @s MusicTitles 96
 
 #Cinnabar Island
-execute as @s[x=-1746,y=63,z=-913,dx=88,dy=20,dz=83] unless score @s MusicTitles matches 202 run title @s title {"text":"Cinnabar Island","color":"dark_red"}
-execute as @s[x=-1746,y=63,z=-913,dx=88,dy=20,dz=83] unless score @s MusicTitles matches 202 run title @s subtitle {"text":"The Ravaged Town of the Past","italic":true}
-execute as @s[x=-1746,y=63,z=-913,dx=88,dy=20,dz=83] unless score @s MusicTitles matches 202 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
-execute as @s[x=-1746,y=63,z=-913,dx=88,dy=20,dz=83] unless score @s MusicTitles matches 202 run scoreboard players set @s MusicTitles 202
+execute as @s[x=-1746,y=63,z=-913,dx=88,dy=20,dz=83,tag=!Indoors] unless score @s MusicTitles matches 202 run title @s title {"text":"Cinnabar Island","color":"dark_red"}
+execute as @s[x=-1746,y=63,z=-913,dx=88,dy=20,dz=83,tag=!Indoors] unless score @s MusicTitles matches 202 run title @s subtitle {"text":"The Ravaged Town of the Past","italic":true}
+execute as @s[x=-1746,y=63,z=-913,dx=88,dy=20,dz=83,tag=!Indoors] unless score @s MusicTitles matches 202 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
+execute as @s[x=-1746,y=63,z=-913,dx=88,dy=20,dz=83,tag=!Indoors] unless score @s MusicTitles matches 202 run scoreboard players set @s MusicTitles 202
 
 
 

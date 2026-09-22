@@ -95,6 +95,7 @@ scoreboard players set @a[scores={MusicCooldown=0,DialogueTrigger=6..7}] MusicCo
 
 
 #Pokemon Centers
+#/summon minecraft:armor_stand ~ ~ ~ {Invisible:true,Invulnerable:true,PersistenceRequired:true,NoBasePlate:true,CustomName:'{"text":"PokeCenter"}',DisabledSlots:4144959}
 execute at @e[type=armor_stand,name=PokeCenter] run playsound pokemoncenter record @a[dx=17,dy=15,dz=14,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
 execute at @e[type=armor_stand,name=PokeCenter] run scoreboard players set @a[dx=17,dy=15,dz=14,scores={MusicCooldown=0}] MusicCooldown 93
 
