@@ -65,13 +65,22 @@
             "lines": [
                 "Be careful! But since you seem to wish it, I'll show you the full extent of a Team Rocket Executive's wrath!"
             ],
-            "escapeAction": "0",
-            "input": [
-                "q.run_command('scoreboard players set @s BattleStart 11');",
-                "q.run_command('execute as ' + q.player.username + ' run function johto:tools/forceclick');",
-                "q.dialogue.close();",
-                "v.battle = q.npc.start_battle(q.player);"
-            ]
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Close",
+                        "value": "close",
+                        "action": [
+                            "q.run_command('scoreboard players set ' + q.player.username + ' BattleStart 11');",
+                            "q.run_command('execute as ' + q.player.username + ' run function johto:tools/forceclick');",
+                            "q.dialogue.close();",
+                            "v.battle = q.npc.start_battle(q.player);"
+                        ]
+                    }
+                ]
+            }
         }
     ]
 }

@@ -1,6 +1,6 @@
 {  
     "hitbox": "player",
-    "resourceIdentifier": "cobblemon:rocketgrunt",
+    "resourceIdentifier": "cobblemon:proton",
     "autoHealParty": true,
     "isMovable": false,
     "isLeashable": false,
