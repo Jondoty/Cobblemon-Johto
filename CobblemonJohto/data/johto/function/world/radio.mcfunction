@@ -128,8 +128,8 @@ scoreboard players set @s[x=-987,y=0,z=-492,dx=125,dy=100,dz=75,scores={MusicCoo
 #------------Areas within areas------------
 
 #Goldenrod Radio Tower normal
-playsound goldenrodcity record @s[x=495,y=30,z=-275,dx=38,dy=22,dz=21,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=495,y=30,z=-275,dx=38,dy=22,dz=21,scores={MusicCooldown=0}] MusicCooldown 138
+playsound goldenrodcity record @s[x=495,y=30,z=-275,dx=38,dy=29,dz=21,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=495,y=30,z=-275,dx=38,dy=29,dz=21,scores={MusicCooldown=0}] MusicCooldown 138
 
 
 #Goldenrod Radio Tower Rocket Takeover area
@@ -137,9 +137,14 @@ playsound rockettakeover record @s[x=495,y=31,z=-249,dx=37,dy=29,dz=21,scores={M
 scoreboard players set @s[x=495,y=31,z=-249,dx=37,dy=29,dz=21,scores={MusicCooldown=0}] MusicCooldown 122
 
 
-#Safari Zone
-playsound safari record @s[x=1403,y=0,z=-95,dx=379,dy=240,dz=201,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=1403,y=0,z=-95,dx=379,dy=240,dz=201,scores={MusicCooldown=0}] MusicCooldown 138
+#Safari Zone Interior
+playsound safarizone record @s[x=1403,y=0,z=-95,dx=379,dy=240,dz=201,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1403,y=0,z=-95,dx=379,dy=240,dz=201,scores={MusicCooldown=0}] MusicCooldown 185
+
+
+#Safari Zone Gate
+playsound safari record @s[x=1499,y=64,z=-209,dx=169,dy=256,dz=112,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=1499,y=64,z=-209,dx=169,dy=256,dz=112,scores={MusicCooldown=0}] MusicCooldown 138
 
 
 #Goldenrod Underground
@@ -244,8 +249,8 @@ scoreboard players set @s[x=698,y=0,z=129,dx=177,dy=240,dz=77,scores={MusicCoold
 
 
 #Route 39
-playsound route38 record @s[x=639,y=0,z=41,dx=236,dy=240,dz=87,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=639,y=0,z=41,dx=236,dy=240,dz=87,scores={MusicCooldown=0}] MusicCooldown 106
+playsound route38 record @s[x=639,y=0,z=41,dx=220,dy=240,dz=87,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=639,y=0,z=41,dx=220,dy=240,dz=87,scores={MusicCooldown=0}] MusicCooldown 106
 
 
 #Mt. Mortar
@@ -336,8 +341,8 @@ scoreboard players set @s[x=-978,y=64,z=-375,dx=20,dy=20,dz=20,scores={MusicCool
 #---------------------------General Music---------------------------
 
 #Mt. Silver Cave
-playsound victoryroad record @s[x=-1043,y=60,z=102,dx=135,dy=100,dz=270,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1043,y=60,z=102,dx=135,dy=100,dz=270,scores={MusicCooldown=0}] MusicCooldown 61
+playsound olivinelighthouse record @s[x=-1043,y=60,z=102,dx=135,dy=100,dz=270,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1043,y=60,z=102,dx=135,dy=100,dz=270,scores={MusicCooldown=0}] MusicCooldown 91
 
 
 #Mt. Silver Summit before Arceus
@@ -421,8 +426,8 @@ scoreboard players set @s[x=229,y=0,z=-729,dx=92,dy=58,dz=76,scores={MusicCooldo
 
 
 #Route 28 (Mt. Silver base)
-playsound route27 record @s[x=-1207,y=0,z=-17,dx=292,dy=240,dz=111,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-1207,y=0,z=-17,dx=292,dy=240,dz=111,scores={MusicCooldown=0}] MusicCooldown 151
+playsound elitefour record @s[x=-1207,y=0,z=-17,dx=292,dy=240,dz=111,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-1207,y=0,z=-17,dx=292,dy=240,dz=111,scores={MusicCooldown=0}] MusicCooldown 88
 
 
 #Elite Four Lance's Room

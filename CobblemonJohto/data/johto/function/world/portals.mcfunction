@@ -77,8 +77,8 @@ tp @a[x=1597,y=87,z=-426,dx=3,dy=3] -1173 64 -237
 #execute as @e[x=-801,y=64,z=-287,dy=3,type=armor_stand,scores={DialogueTrigger=0,TalkTime=0}] run execute as @a[x=-1174,y=64,z=-238,dx=2,dy=2] run function johto:tools/forceclick
 #execute as @e[x=-801,y=64,z=-287,dy=3,type=armor_stand,scores={DialogueTrigger=0,TalkTime=0}] run tp @a[x=-1174,y=64,z=-238,dx=2,dy=2] 1599 87 -427
 
-tp @a[x=-1174,y=64,z=-238,dx=2,dy=2] 1599 87 -427
 playsound door ambient @a[x=-1174,y=64,z=-238,dx=2,dy=2] ~ ~ ~ 100 1 1
+tp @a[x=-1174,y=64,z=-238,dx=2,dy=2] 1599 87 -427
 
 #Ruins of Alph Main Portal
 

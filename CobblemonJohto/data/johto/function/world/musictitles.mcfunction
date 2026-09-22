@@ -49,13 +49,13 @@ execute as @s[x=-987,y=0,z=-492,dx=125,dy=100,dz=75] unless score @s MusicTitles
 execute as @s[x=-987,y=0,z=-492,dx=125,dy=100,dz=75] unless score @s MusicTitles matches 205 run scoreboard players set @s MusicTitles 205
 execute as @s[x=-987,y=0,z=-492,dx=125,dy=100,dz=75] run tag @s add Indoors
 
-#Goldenrod Radio Tower 
-execute as @s[x=495,y=30,z=-275,dx=38,dy=22,dz=21] unless score @s MusicTitles matches 206 run title @s actionbar {"text":"Goldenrod Radio Tower"}
-execute as @s[x=495,y=30,z=-275,dx=38,dy=22,dz=21] unless score @s MusicTitles matches 206 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
-execute as @s[x=495,y=30,z=-275,dx=38,dy=22,dz=21] unless score @s MusicTitles matches 206 run scoreboard players set @s MusicTitles 206
-execute as @s[x=495,y=30,z=-275,dx=38,dy=22,dz=21] run tag @s add Indoors
+#Goldenrod Radio Tower (normal)
+execute as @s[x=495,y=30,z=-275,dx=38,dy=29,dz=21] unless score @s MusicTitles matches 206 run title @s actionbar {"text":"Goldenrod Radio Tower"}
+execute as @s[x=495,y=30,z=-275,dx=38,dy=29,dz=21] unless score @s MusicTitles matches 206 unless entity @s[scores={RadioSelect=3..9}] unless entity @s[scores={MusicTitles=18}] run function johto:tools/forceclick
+execute as @s[x=495,y=30,z=-275,dx=38,dy=29,dz=21] unless score @s MusicTitles matches 206 run scoreboard players set @s MusicTitles 206
+execute as @s[x=495,y=30,z=-275,dx=38,dy=29,dz=21] run tag @s add Indoors
 
-#Goldenrod Radio Tower too
+#Goldenrod Radio Tower Rockets
 execute as @s[x=495,y=31,z=-249,dx=37,dy=29,dz=21] unless score @s MusicTitles matches 207 run title @s actionbar {"text":"Goldenrod Radio Tower"}
 execute as @s[x=495,y=31,z=-249,dx=37,dy=29,dz=21] unless score @s MusicTitles matches 207 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
 execute as @s[x=495,y=31,z=-249,dx=37,dy=29,dz=21] unless score @s MusicTitles matches 207 run scoreboard players set @s MusicTitles 207
@@ -86,7 +86,7 @@ execute as @s[x=332,y=63,z=218,dx=22,dy=15,dz=16] unless score @s MusicTitles ma
 execute as @s[x=332,y=63,z=218,dx=22,dy=15,dz=16] run tag @s add Indoors
 
 #Olivine Lighthouse
-execute as @s[x=684,y=64,z=-59,dx=43,dy=150,dz=36] unless score @s MusicTitles matches 212 run title @s actionbar {"text":"Olivine City Lighthouse"}
+execute as @s[x=684,y=64,z=-59,dx=43,dy=150,dz=36] unless score @s MusicTitles matches 212 run title @s actionbar {"text":"Olivine Lighthouse"}
 execute as @s[x=684,y=64,z=-59,dx=43,dy=150,dz=36] unless score @s MusicTitles matches 212 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
 execute as @s[x=684,y=64,z=-59,dx=43,dy=150,dz=36] unless score @s MusicTitles matches 212 run scoreboard players set @s MusicTitles 212
 execute as @s[x=684,y=64,z=-59,dx=43,dy=150,dz=36] run tag @s add Indoors
@@ -98,7 +98,7 @@ execute as @s[x=489,y=64,z=-389,dx=31,dy=10,dz=19] unless score @s MusicTitles m
 execute as @s[x=489,y=64,z=-389,dx=31,dy=10,dz=19] run tag @s add Indoors
 
 #Bellsprout Tower
-execute as @s[x=44,y=63,z=4,dx=31,dy=90,dz=31] unless score @s MusicTitles matches 214 run title @s actionbar {"text":"Game Corner"}
+execute as @s[x=44,y=63,z=4,dx=31,dy=90,dz=31] unless score @s MusicTitles matches 214 run title @s actionbar {"text":"Sprout Tower"}
 execute as @s[x=44,y=63,z=4,dx=31,dy=90,dz=31] unless score @s MusicTitles matches 214 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
 execute as @s[x=44,y=63,z=4,dx=31,dy=90,dz=31] unless score @s MusicTitles matches 214 run scoreboard players set @s MusicTitles 214
 execute as @s[x=44,y=63,z=4,dx=31,dy=90,dz=31] run tag @s add Indoors
@@ -275,9 +275,9 @@ execute as @s[x=837,y=0,z=-97,dx=147,dy=240,dz=81,tag=!Indoors] unless score @s 
 execute as @s[x=837,y=0,z=-97,dx=147,dy=240,dz=81,tag=!Indoors] unless score @s MusicTitles matches 78 run scoreboard players set @s MusicTitles 78
 
 #Route 39
-execute as @s[x=639,y=0,z=41,dx=236,dy=240,dz=87,tag=!Indoors] unless score @s MusicTitles matches 77 run title @s actionbar {"text":"Route 39"}
-execute as @s[x=639,y=0,z=41,dx=236,dy=240,dz=87,tag=!Indoors] unless score @s MusicTitles matches 77 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
-execute as @s[x=639,y=0,z=41,dx=236,dy=240,dz=87,tag=!Indoors] unless score @s MusicTitles matches 77 run scoreboard players set @s MusicTitles 77
+execute as @s[x=639,y=0,z=41,dx=220,dy=240,dz=87,tag=!Indoors] unless score @s MusicTitles matches 77 run title @s actionbar {"text":"Route 39"}
+execute as @s[x=639,y=0,z=41,dx=220,dy=240,dz=87,tag=!Indoors] unless score @s MusicTitles matches 77 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
+execute as @s[x=639,y=0,z=41,dx=220,dy=240,dz=87,tag=!Indoors] unless score @s MusicTitles matches 77 run scoreboard players set @s MusicTitles 77
 
 execute as @s[x=698,y=0,z=129,dx=177,dy=240,dz=77,tag=!Indoors] unless score @s MusicTitles matches 77 run title @s actionbar {"text":"Route 39"}
 execute as @s[x=698,y=0,z=129,dx=177,dy=240,dz=77,tag=!Indoors] unless score @s MusicTitles matches 77 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
@@ -375,7 +375,7 @@ execute as @s[x=-434,y=0,z=-598,dx=51,dy=240,dz=134,tag=!Indoors] unless score @
 
 #Route 28
 execute as @s[x=-1207,y=0,z=-17,dx=292,dy=240,dz=111,tag=!Indoors] unless score @s MusicTitles matches 66 run title @s actionbar {"text":"Route 28"}
-execute as @s[x=-1207,y=0,z=-17,dx=292,dy=240,dz=111,tag=!Indoors] unless score @s MusicTitles matches 66 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
+execute as @s[x=-1207,y=0,z=-17,dx=292,dy=240,dz=111,tag=!Indoors] unless score @s MusicTitles matches 66 unless entity @s[scores={RadioSelect=3..9}] unless entity @s[scores={MusicTitles=22}] run function johto:tools/forceclick
 execute as @s[x=-1207,y=0,z=-17,dx=292,dy=240,dz=111,tag=!Indoors] unless score @s MusicTitles matches 66 run scoreboard players set @s MusicTitles 66
 
 #Route 27
@@ -570,8 +570,8 @@ execute as @s[x=-978,y=64,z=-375,dx=20,dy=20,dz=20,tag=!Indoors] unless score @s
 execute as @s[x=-978,y=64,z=-375,dx=20,dy=20,dz=20,tag=!Indoors] unless score @s MusicTitles matches 25 run scoreboard players set @s MusicTitles 25
 
 #Indigo Plateau
-execute as @s[x=-1343,y=64,z=15,dx=99,dy=100,dz=338,tag=!Indoors] unless score @s MusicTitles matches 22 run title @s actionbar {"text":"Indigo Plateau"}
-execute as @s[x=-1343,y=64,z=15,dx=99,dy=100,dz=338,tag=!Indoors] unless score @s MusicTitles matches 22 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
+execute as @s[x=-1343,y=64,z=15,dx=99,dy=100,dz=338,tag=!Indoors] unless score @s MusicTitles matches 22 run title @s actionbar {"text":"Pokemon League"}
+execute as @s[x=-1343,y=64,z=15,dx=99,dy=100,dz=338,tag=!Indoors] unless score @s MusicTitles matches 22 unless entity @s[scores={RadioSelect=3..9}] unless entity @s[scores={MusicTitles=14}] unless entity @s[scores={MusicTitles=66}] run function johto:tools/forceclick
 execute as @s[x=-1343,y=64,z=15,dx=99,dy=100,dz=338,tag=!Indoors] unless score @s MusicTitles matches 22 run scoreboard players set @s MusicTitles 22
 
 #Ilex Forest
@@ -605,15 +605,15 @@ execute as @s[x=1169,y=252,z=619,distance=..40,tag=!Indoors] unless score @s Mus
 
 #Elite Four
 execute as @s[x=-1366,y=63,z=372,dx=110,dy=240,dz=302,tag=!Indoors] unless score @s MusicTitles matches 14 run title @s actionbar {"text":"Elite Four"}
-execute as @s[x=-1366,y=63,z=372,dx=110,dy=240,dz=302,tag=!Indoors] unless score @s MusicTitles matches 14 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
+execute as @s[x=-1366,y=63,z=372,dx=110,dy=240,dz=302,tag=!Indoors] unless score @s MusicTitles matches 14 unless entity @s[scores={RadioSelect=3..9}] unless entity @s[scores={MusicTitles=22}] run function johto:tools/forceclick
 execute as @s[x=-1366,y=63,z=372,dx=110,dy=240,dz=302,tag=!Indoors] unless score @s MusicTitles matches 14 run scoreboard players set @s MusicTitles 14
 
 execute as @s[x=-1366,y=63,z=676,dx=110,dy=240,dz=74,tag=!Indoors] unless score @s MusicTitles matches 14 run title @s actionbar {"text":"Elite Four"}
-execute as @s[x=-1366,y=63,z=676,dx=110,dy=240,dz=74,tag=!Indoors] unless score @s MusicTitles matches 14 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
+execute as @s[x=-1366,y=63,z=676,dx=110,dy=240,dz=74,tag=!Indoors] unless score @s MusicTitles matches 14 unless entity @s[scores={RadioSelect=3..9}] unless entity @s[scores={MusicTitles=22}] run function johto:tools/forceclick
 execute as @s[x=-1366,y=63,z=676,dx=110,dy=240,dz=74,tag=!Indoors] unless score @s MusicTitles matches 14 run scoreboard players set @s MusicTitles 14
 
 #Dragons Den
-execute as @s[x=-744,y=69,z=507,dx=162,dy=70,dz=147,tag=!Indoors] unless score @s MusicTitles matches 12 run title @s actionbar {"text":"Dragons Den"}
+execute as @s[x=-744,y=69,z=507,dx=162,dy=70,dz=147,tag=!Indoors] unless score @s MusicTitles matches 12 run title @s actionbar {"text":"Dragon's Den"}
 execute as @s[x=-744,y=69,z=507,dx=162,dy=70,dz=147,tag=!Indoors] unless score @s MusicTitles matches 12 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
 execute as @s[x=-744,y=69,z=507,dx=162,dy=70,dz=147,tag=!Indoors] unless score @s MusicTitles matches 12 run scoreboard players set @s MusicTitles 12
 
@@ -679,7 +679,7 @@ execute as @s[x=409,y=63,z=-740,dx=23,dy=7,dz=14,tag=!Indoors] unless score @s M
 #Goldenrod City
 execute as @s[x=349,y=0,z=-461,dx=239,dy=240,dz=193,tag=!Indoors] unless score @s MusicTitles matches 18 run title @s title {"text":"Goldenrod City","color":"yellow"}
 execute as @s[x=349,y=0,z=-461,dx=239,dy=240,dz=193,tag=!Indoors] unless score @s MusicTitles matches 18 run title @s subtitle {"text":"A Happening Big City","italic":true}
-execute as @s[x=349,y=0,z=-461,dx=239,dy=240,dz=193,tag=!Indoors] unless score @s MusicTitles matches 18 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
+execute as @s[x=349,y=0,z=-461,dx=239,dy=240,dz=193,tag=!Indoors] unless score @s MusicTitles matches 18 unless entity @s[scores={RadioSelect=3..9}] unless entity @s[scores={MusicTitles=206}] run function johto:tools/forceclick
 execute as @s[x=349,y=0,z=-461,dx=239,dy=240,dz=193,tag=!Indoors] unless score @s MusicTitles matches 18 run scoreboard players set @s MusicTitles 18
 
 #Ecruteak City
@@ -719,7 +719,7 @@ execute as @s[x=-775,y=59,z=125,dx=202,dy=240,dz=206,tag=!Indoors] unless score 
 #Indigo Plateau
 execute as @s[x=-1343,y=64,z=15,dx=99,dy=100,dz=338,tag=!Indoors] unless score @s MusicTitles matches 22 run title @s title {"text":"Indigo Plateau","color":"white"}
 execute as @s[x=-1343,y=64,z=15,dx=99,dy=100,dz=338,tag=!Indoors] unless score @s MusicTitles matches 22 run title @s subtitle {"text":"The Ultimate Goal of Trainers!","italic":true}
-execute as @s[x=-1343,y=64,z=15,dx=99,dy=100,dz=338,tag=!Indoors] unless score @s MusicTitles matches 22 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
+execute as @s[x=-1343,y=64,z=15,dx=99,dy=100,dz=338,tag=!Indoors] unless score @s MusicTitles matches 22 unless entity @s[scores={RadioSelect=3..9}] unless entity @s[scores={MusicTitles=14}] run function johto:tools/forceclick
 execute as @s[x=-1343,y=64,z=15,dx=99,dy=100,dz=338,tag=!Indoors] unless score @s MusicTitles matches 22 run scoreboard players set @s MusicTitles 22
 
 #Pallet Town

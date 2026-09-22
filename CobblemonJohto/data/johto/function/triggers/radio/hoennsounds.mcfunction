@@ -73,7 +73,7 @@ tellraw @s[x=319,y=0,z=37,dx=82,dy=240,dz=126,scores={DialogueTrigger=156,TalkTi
 tellraw @s[x=499,y=0,z=166,dx=111,dy=240,dz=139,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=611,y=0,z=166,dx=86,dy=240,dz=139,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=698,y=0,z=207,dx=177,dy=240,dz=98,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
-tellraw @s[x=639,y=0,z=41,dx=236,dy=240,dz=87,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
+tellraw @s[x=639,y=0,z=41,dx=220,dy=240,dz=87,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=698,y=0,z=129,dx=177,dy=240,dz=77,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=-2654,y=0,z=675,dx=403,dy=240,dz=96,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
 tellraw @s[x=-96,y=63,z=120,dx=329,dy=239,dz=98,scores={DialogueTrigger=156,TalkTime=25}] {"text":"Pokémon are listening to your music...","italic":true,"color":"gray"}
@@ -221,8 +221,8 @@ execute store success score @s Temp at @s[x=611,y=0,z=166,dx=86,dy=240,dz=139,sc
 execute store success score @s Temp at @s[x=611,y=0,z=166,dx=86,dy=240,dz=139,scores={DialogueTrigger=156,TalkTime=43,rng=2..3}] run pokespawn Plusle level=10
 execute store success score @s Temp at @s[x=698,y=0,z=207,dx=177,dy=240,dz=98,scores={DialogueTrigger=156,TalkTime=43,rng=0..1}] run pokespawn Minun level=10
 execute store success score @s Temp at @s[x=698,y=0,z=207,dx=177,dy=240,dz=98,scores={DialogueTrigger=156,TalkTime=43,rng=2..3}] run pokespawn Plusle level=10
-execute store success score @s Temp at @s[x=639,y=0,z=41,dx=236,dy=240,dz=87,scores={DialogueTrigger=156,TalkTime=43,rng=0..1}] run pokespawn Minun level=10
-execute store success score @s Temp at @s[x=639,y=0,z=41,dx=236,dy=240,dz=87,scores={DialogueTrigger=156,TalkTime=43,rng=2..3}] run pokespawn Plusle level=10
+execute store success score @s Temp at @s[x=639,y=0,z=41,dx=220,dy=240,dz=87,scores={DialogueTrigger=156,TalkTime=43,rng=0..1}] run pokespawn Minun level=10
+execute store success score @s Temp at @s[x=639,y=0,z=41,dx=220,dy=240,dz=87,scores={DialogueTrigger=156,TalkTime=43,rng=2..3}] run pokespawn Plusle level=10
 execute store success score @s Temp at @s[x=698,y=0,z=129,dx=177,dy=240,dz=77,scores={DialogueTrigger=156,TalkTime=43,rng=0..1}] run pokespawn Minun level=10
 execute store success score @s Temp at @s[x=698,y=0,z=129,dx=177,dy=240,dz=77,scores={DialogueTrigger=156,TalkTime=43,rng=2..3}] run pokespawn Plusle level=10
 execute store success score @s Temp at @s[x=-2654,y=0,z=675,dx=403,dy=240,dz=96,scores={DialogueTrigger=156,TalkTime=43,rng=0..1}] run pokespawn Minun level=10

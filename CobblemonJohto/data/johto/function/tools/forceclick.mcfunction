@@ -13,7 +13,7 @@ tag @s[tag=Cycling] add Skip
 
 
 #Grass-legendary specific encounters
-tag @s remove GrassCooldown
+execute as @s unless entity @s[scores={BattleStart=1..}] unless entity @s[scores={BattleEnd=1..}] run tag @s remove GrassCooldown
 
 
 

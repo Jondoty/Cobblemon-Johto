@@ -147,8 +147,8 @@ title @s[x=837,y=0,z=-97,dx=147,dy=240,dz=81] actionbar {"text":"Route 40"}
 scoreboard players set @s[x=639,y=0,z=-239,dx=197,dy=240,dz=279] TownMap 47
 title @s[x=639,y=0,z=-239,dx=197,dy=240,dz=279] actionbar {"text":"Olivine City"}
 
-scoreboard players set @s[x=639,y=0,z=41,dx=236,dy=240,dz=87] TownMap 48
-title @s[x=639,y=0,z=41,dx=236,dy=240,dz=87] actionbar {"text":"Route 39"}
+scoreboard players set @s[x=639,y=0,z=41,dx=220,dy=240,dz=87] TownMap 48
+title @s[x=639,y=0,z=41,dx=220,dy=240,dz=87] actionbar {"text":"Route 39"}
 
 scoreboard players set @s[x=698,y=0,z=129,dx=177,dy=240,dz=77] TownMap 49
 title @s[x=698,y=0,z=129,dx=177,dy=240,dz=77] actionbar {"text":"Route 39"}
