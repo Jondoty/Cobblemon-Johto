@@ -48,6 +48,8 @@ execute if entity @a[x=-1549,y=48,z=-861,distance=..75] if block -1549 48 -861 a
 execute if entity @a[x=-1524,y=54,z=-873,distance=..75] if block -1524 54 -873 air positioned -1524 54 -873 run function johto:spawn/tmloot
 execute if entity @a[x=-1509,y=36,z=-838,distance=..75] if block -1509 36 -838 air positioned -1509 36 -838 run function johto:spawn/tmloot
 execute if entity @a[x=-2703,y=64,z=92,distance=..75] if block -2703 64 92 air positioned -2703 64 92 run function johto:spawn/tmloot
+execute if entity @a[x=-3260,y=49,z=582,distance=..75] if block -3260 49 582 air positioned -3260 49 582 run function johto:spawn/tmloot
+execute if entity @a[x=192,y=64,z=-537,distance=..75] if block 192 64 -537 short_grass positioned 192 64 -537 run function johto:spawn/tmloot
 
 
 #New entities
