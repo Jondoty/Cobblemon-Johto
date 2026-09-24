@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 3.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:deep_sea_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -898, "maxX": -747, "minZ": -560, "maxZ": -483,
                 "minLureLevel": 3,
@@ -26,6 +32,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 3.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:deep_sea_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 870, "maxX": 1144, "minZ": -532, "maxZ": -227,
                 "minLureLevel": 3,
@@ -41,6 +53,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 3.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:deep_sea_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 1320, "maxX": 1695, "minZ": -521, "maxZ": -218,
                 "minLureLevel": 3,
@@ -56,6 +74,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 3.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:deep_sea_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -1248, "maxX": -899, "minZ": -570, "maxZ": -497,
                 "minLureLevel": 3,
@@ -71,6 +95,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:deep_sea_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -1309, "maxX": -1249, "minZ": -570, "maxZ": -458,
                 "minLureLevel": 3,
@@ -86,6 +116,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 3.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:deep_sea_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -2932, "maxX": -2647, "minZ": -226, "maxZ": 68,
                 "minLureLevel": 3,
@@ -101,6 +137,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 3.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:deep_sea_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -2229, "maxX": -1951, "minZ": -609, "maxZ": 301,
                 "minLureLevel": 3,
@@ -116,6 +158,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 3.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:deep_sea_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -2479, "maxX": -1620, "minZ": -969, "maxZ": -832,
                 "minLureLevel": 3,
@@ -131,6 +179,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 3.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:deep_sea_scale",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328,
                 "minLureLevel": 3,

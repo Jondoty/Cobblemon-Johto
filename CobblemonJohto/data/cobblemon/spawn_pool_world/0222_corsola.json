@@ -11,6 +11,12 @@
         "bucket": "common",
         "level": "20",
         "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": -191, "maxX": -79, "minZ": -589, "maxZ": -485,
@@ -26,6 +32,12 @@
         "bucket": "common",
         "level": "40",
         "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": -191, "maxX": -79, "minZ": -589, "maxZ": -485,
@@ -42,6 +54,12 @@
         "bucket": "common",
         "level": "20",
         "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": 79 , "maxX": 226, "maxY":19, "minZ": -880, "maxZ": -580,
@@ -57,6 +75,12 @@
         "bucket": "common",
         "level": "40",
         "weight": 30.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": 79 , "maxX": 226, "maxY":19, "minZ": -880, "maxZ": -580,
@@ -73,6 +97,12 @@
         "bucket": "common",
         "level": "20",
         "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": 417, "maxX": 514, "minZ": -727, "maxZ": -510,
@@ -88,6 +118,12 @@
         "bucket": "common",
         "level": "40",
         "weight": 30.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": 417, "maxX": 514, "minZ": -727, "maxZ": -510,
@@ -104,6 +140,12 @@
         "bucket": "common",
         "level": "20",
         "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": 638, "maxX": 870, "minZ": -206, "maxZ": 11,
@@ -119,6 +161,12 @@
         "bucket": "common",
         "level": "40",
         "weight": 30.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": 638, "maxX": 870, "minZ": -206, "maxZ": 11,
@@ -135,6 +183,12 @@
         "bucket": "common",
         "level": "20",
         "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": 870, "maxX": 982, "minZ": -226, "maxZ": -48,
@@ -150,6 +204,12 @@
         "bucket": "common",
         "level": "40",
         "weight": 30.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": 870, "maxX": 982, "minZ": -226, "maxZ": -48,
@@ -166,6 +226,12 @@
         "bucket": "common",
         "level": "20",
         "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": 1145, "maxX": 1273, "minZ": -508, "maxZ": -286,
@@ -181,6 +247,12 @@
         "bucket": "common",
         "level": "40",
         "weight": 30.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": 1145, "maxX": 1273, "minZ": -508, "maxZ": -286,
@@ -197,6 +269,12 @@
         "bucket": "common",
         "level": "20",
         "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": -2479, "maxX": -2308, "minZ": -831, "maxZ": -651,
@@ -212,6 +290,12 @@
         "bucket": "common",
         "level": "40",
         "weight": 30.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:hard_stone",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "timeRange": "dawn,dusk,day",
             "minX": -2479, "maxX": -2308, "minZ": -831, "maxZ": -651,

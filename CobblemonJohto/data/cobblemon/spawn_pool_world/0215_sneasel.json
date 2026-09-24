@@ -11,6 +11,16 @@
             "bucket": "common",
             "level": "39-43",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:quick_claw",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:grip_claw",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [

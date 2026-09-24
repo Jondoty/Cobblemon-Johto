@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "20",
             "weight": 5.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 103, "maxX": 183, "minZ": -509, "maxZ": -390,
                 "minLureLevel": 2,
@@ -25,6 +31,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 103, "maxX": 183, "minZ": -509, "maxZ": -390,
                 "minLureLevel": 3,
@@ -40,6 +52,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 3.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -3354, "maxX": -2950, "minZ": -622, "maxZ": 281,
                 "minLureLevel": 3,
@@ -58,6 +76,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 10000,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 107, "maxX": 177, "minZ": -506, "maxZ": -387,
                 "biomes": [

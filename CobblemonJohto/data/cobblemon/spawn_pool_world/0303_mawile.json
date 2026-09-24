@@ -14,6 +14,12 @@
         "bucket": "common",
         "level": "13-15",
         "weight": 10000.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:occa_berry",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "minX": -2957, "maxX": -2902, "minZ": 748, "maxZ": 773,
             "biomes": [

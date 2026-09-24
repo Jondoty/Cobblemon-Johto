@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "23-27",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:passho_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
             "bucket": "common",
             "level": "41-45",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:passho_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -1014, "maxX": -941, "maxY": 98, "minZ": 101, "maxZ": 232
@@ -41,6 +53,12 @@
             "bucket": "common",
             "level": "45-48",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:passho_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -1039, "maxX": -932, "maxY": 98, "minZ": 233, "maxZ": 364
