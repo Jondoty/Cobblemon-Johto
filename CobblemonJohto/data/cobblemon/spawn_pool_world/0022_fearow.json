@@ -11,6 +11,12 @@
           "bucket": "common",
           "level": "31-35",
           "weight": 4,
+          "heldItems": [
+              {
+                  "item": "cobblemon:sharp_beak",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
           "bucket": "common",
           "level": "21-24",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:sharp_beak",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -45,6 +57,12 @@
           "bucket": "common",
           "level": "3-7",
           "weight": 5,
+          "heldItems": [
+              {
+                  "item": "cobblemon:sharp_beak",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -62,6 +80,12 @@
           "bucket": "common",
           "level": "13-15",
           "weight": 5,
+          "heldItems": [
+              {
+                  "item": "cobblemon:sharp_beak",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -80,6 +104,12 @@
           "bucket": "common",
           "level": "15-18",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:sharp_beak",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -98,6 +128,12 @@
           "bucket": "common",
           "level": "26-30",
           "weight": 40,
+          "heldItems": [
+              {
+                  "item": "cobblemon:sharp_beak",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -116,6 +152,12 @@
           "bucket": "common",
           "level": "27-32",
           "weight": 40,
+          "heldItems": [
+              {
+                  "item": "cobblemon:sharp_beak",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -134,6 +176,12 @@
           "bucket": "common",
           "level": "27-30",
           "weight": 40,
+          "heldItems": [
+              {
+                  "item": "cobblemon:sharp_beak",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -155,6 +203,12 @@
         "bucket": "common",
         "level": "10-20",
         "weight": 10.0,
+          "heldItems": [
+              {
+                  "item": "cobblemon:sharp_beak",
+                  "percentage": 5.0
+              }
+          ],
         "condition": {
             "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
             "biomes": [

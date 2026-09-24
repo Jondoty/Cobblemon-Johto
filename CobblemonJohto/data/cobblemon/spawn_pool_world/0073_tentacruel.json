@@ -14,6 +14,12 @@
             "bucket": "common",
             "level": "1-3",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -898, "maxX": -747, "minZ": -560, "maxZ": -483
             }
@@ -29,6 +35,12 @@
             "bucket": "common",
             "level": "3-5",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -191, "maxX": -79, "minZ": -589, "maxZ": -485
             }
@@ -45,6 +57,12 @@
             "bucket": "common",
             "level": "4-6",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 106, "maxX": 203, "minZ": -548, "maxZ": -232
             }
@@ -61,6 +79,12 @@
             "bucket": "common",
             "level": "10-25",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 79, "maxX": 225, "minY": 0, "maxY": 25, "minZ": -880, "maxZ": -585
             }
@@ -77,6 +101,12 @@
             "bucket": "common",
             "level": "10-13",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": 417, "maxX": 514, "minZ": -727, "maxZ": -510
@@ -94,6 +124,12 @@
             "bucket": "common",
             "level": "13-17",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": 638, "maxX": 870, "minZ": -206, "maxZ": 11
@@ -111,6 +147,12 @@
             "bucket": "common",
             "level": "10-25",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": 870, "maxX": 982, "minZ": -226, "maxZ": -48
@@ -128,6 +170,12 @@
             "bucket": "common",
             "level": "15-25",
             "weight": 30.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": 870, "maxX": 1144, "minZ": -532, "maxZ": -227
@@ -145,6 +193,12 @@
             "bucket": "common",
             "level": "15-25",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 1104, "maxX": 1376, "minY": 80, "maxY": 100, "minZ": 95, "maxZ": 309
@@ -161,6 +215,12 @@
             "bucket": "common",
             "level": "15-25",
             "weight": 30.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 1219, "maxX": 1270, "minY": 25, "maxY": 39, "minZ": 164, "maxZ": 197
@@ -178,6 +238,12 @@
             "bucket": "common",
             "level": "15-25",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": 1145, "maxX": 1273, "minZ": -508, "maxZ": -286
@@ -195,6 +261,12 @@
             "bucket": "common",
             "level": "15-20",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": -1248, "maxX": -899, "minZ": -570, "maxZ": -497
@@ -212,6 +284,12 @@
             "bucket": "common",
             "level": "25-30",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": -1309, "maxX": -1249, "minZ": -570, "maxZ": -130
@@ -229,6 +307,12 @@
             "bucket": "common",
             "level": "30-35",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328
@@ -246,6 +330,12 @@
             "bucket": "common",
             "level": "30-35",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": -2932, "maxX": -2647, "minZ": -226, "maxZ": 68
@@ -263,6 +353,12 @@
             "bucket": "common",
             "level": "25-25",
             "weight": 70.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": -3352, "maxX": -3248, "minZ": -262, "maxZ": 272
@@ -280,6 +376,12 @@
             "bucket": "common",
             "level": "10-20",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": -2229, "maxX": -1951, "minZ": -609, "maxZ": 301
@@ -297,6 +399,12 @@
             "bucket": "common",
             "level": "30-35",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": -2479, "maxX": -2308, "minZ": -831, "maxZ": -651
@@ -314,6 +422,12 @@
             "bucket": "common",
             "level": "30-35",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": -2479, "maxX": -1620, "minY": 59, "minZ": -969, "maxZ": -832
@@ -331,6 +445,12 @@
             "bucket": "common",
             "level": "30-35",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "minX": -2479, "maxX": -1620, "minZ": -969, "maxZ": -832
@@ -345,6 +465,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 7.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -898, "maxX": -747, "minZ": -560, "maxZ": -483,
                 "minLureLevel": 3,
@@ -360,6 +486,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 7.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 870, "maxX": 1144, "minZ": -532, "maxZ": -227,
                 "minLureLevel": 3,
@@ -375,6 +507,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 20.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -1309, "maxX": -1249, "minZ": -570, "maxZ": -458,
                 "minLureLevel": 3,
@@ -390,6 +528,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 20.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -2932, "maxX": -2647, "minZ": -226, "maxZ": 68,
                 "minLureLevel": 3,
@@ -405,6 +549,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 7.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -2479, "maxX": -1620, "minZ": -969, "maxZ": -832,
                 "minLureLevel": 3,
@@ -420,6 +570,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 7.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": -1767, "maxX": -1620, "minZ": -831, "maxZ": -328,
                 "minLureLevel": 3,
@@ -435,6 +591,12 @@
             "bucket": "common",
             "level": "40",
             "weight": 7.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 528, "maxX": 975, "minZ": 320, "maxZ": 799,
                 "minLureLevel": 3,

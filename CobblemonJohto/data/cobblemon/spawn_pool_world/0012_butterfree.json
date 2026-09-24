@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "3-7",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:silver_powder",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
             "bucket": "common",
             "level": "3-7",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:silver_powder",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -46,6 +58,12 @@
             "bucket": "common",
             "level": "3-7",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:silver_powder",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "neededNearbyBlocks": [

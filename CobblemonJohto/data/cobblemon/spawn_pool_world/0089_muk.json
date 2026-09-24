@@ -11,6 +11,12 @@
           "bucket": "common",
           "level": "26-30",
           "weight": 5,
+          "heldItems": [
+              {
+                  "item": "cobblemon:black_sludge",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
           "bucket": "common",
           "level": "26-30",
           "weight": 15,
+          "heldItems": [
+              {
+                  "item": "cobblemon:black_sludge",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -46,6 +58,12 @@
           "bucket": "common",
           "level": "27-32",
           "weight": 5,
+          "heldItems": [
+              {
+                  "item": "cobblemon:black_sludge",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -63,6 +81,12 @@
           "bucket": "common",
           "level": "27-32",
           "weight": 15,
+          "heldItems": [
+              {
+                  "item": "cobblemon:black_sludge",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -81,6 +105,12 @@
           "bucket": "common",
           "level": "27-30",
           "weight": 5,
+          "heldItems": [
+              {
+                  "item": "cobblemon:black_sludge",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -101,6 +131,12 @@
           "bucket": "common",
           "level": "15-20",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:black_sludge",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333
@@ -115,6 +151,12 @@
           "bucket": "common",
           "level": "39-44",
           "weight": 40,
+          "heldItems": [
+              {
+                  "item": "cobblemon:black_sludge",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": false,
               "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826
@@ -128,6 +170,12 @@
           "bucket": "common",
           "level": "39-44",
           "weight": 30,
+          "heldItems": [
+              {
+                  "item": "cobblemon:black_sludge",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": false,
               "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826
@@ -145,6 +193,12 @@
         "bucket": "common",
         "level": "10-20",
         "weight": 10.0,
+          "heldItems": [
+              {
+                  "item": "cobblemon:black_sludge",
+                  "percentage": 5.0
+              }
+          ],
         "condition": {
             "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
             "biomes": [
@@ -161,6 +215,12 @@
             "bucket": "common",
             "level": "10-40",
             "weight": 90.0,
+          "heldItems": [
+              {
+                  "item": "cobblemon:black_sludge",
+                  "percentage": 5.0
+              }
+          ],
             "condition": {
                 "minX": -2372, "maxX": -2339, "minZ": 314, "maxZ": 333,
                 "minLureLevel": 1,

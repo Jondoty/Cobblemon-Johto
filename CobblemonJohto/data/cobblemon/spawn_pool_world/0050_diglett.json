@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "21-24",
             "weight": 4,
+            "heldItems": [
+                {
+                    "item": "cobblemon:soft_sand",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
             "bucket": "common",
             "level": "13-29",
             "weight": 90,
+            "heldItems": [
+                {
+                    "item": "cobblemon:soft_sand",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -3091, "maxX": -2945, "minY": 39, "maxY": 57, "minZ": 72, "maxZ": 222
@@ -45,6 +57,12 @@
             "bucket": "common",
             "level": "10-20",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:soft_sand",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
                 "biomes": [

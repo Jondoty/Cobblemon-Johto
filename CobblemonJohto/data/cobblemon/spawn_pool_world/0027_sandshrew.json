@@ -11,6 +11,12 @@
           "bucket": "common",
           "level": "4-7",
           "weight": 30,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": false,
               "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
@@ -24,6 +30,12 @@
           "bucket": "common",
           "level": "6-9",
           "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:quick_claw",
+                    "percentage": 5.0
+                }
+            ],
           "condition": {
               "canSeeSky": false,
               "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
@@ -38,6 +50,12 @@
           "bucket": "common",
           "level": "6-12",
           "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:quick_claw",
+                    "percentage": 5.0
+                }
+            ],
           "condition": {
               "canSeeSky": false,
               "minX": -2261, "maxX": -2159, "minZ": 769, "maxZ": 853
@@ -55,6 +73,12 @@
         "bucket": "common",
         "level": "10-20",
         "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:quick_claw",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
             "biomes": [

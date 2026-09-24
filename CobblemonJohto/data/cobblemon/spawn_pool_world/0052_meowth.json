@@ -11,6 +11,12 @@
           "bucket": "common",
           "level": "13-16",
           "weight": 30,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
           "bucket": "common",
           "level": "13-16",
           "weight": 40,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -46,6 +58,12 @@
           "bucket": "common",
           "level": "13-16",
           "weight": 30,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -63,6 +81,12 @@
           "bucket": "common",
           "level": "13-16",
           "weight": 40,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -81,6 +105,12 @@
           "bucket": "common",
           "level": "12-15",
           "weight": 20,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -98,6 +128,12 @@
           "bucket": "common",
           "level": "12-15",
           "weight": 30,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -116,6 +152,12 @@
           "bucket": "common",
           "level": "15-19",
           "weight": 30,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -133,6 +175,12 @@
           "bucket": "common",
           "level": "12-14",
           "weight": 20,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -150,6 +198,12 @@
           "bucket": "common",
           "level": "12-14",
           "weight": 30,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -168,6 +222,12 @@
           "bucket": "common",
           "level": "15-19",
           "weight": 30,
+          "heldItems": [
+              {
+                  "item": "cobblemon:quick_claw",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [

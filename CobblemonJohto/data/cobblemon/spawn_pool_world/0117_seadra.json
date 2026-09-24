@@ -14,6 +14,12 @@
           "bucket": "common",
           "level": "15-25",
           "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
           "condition": {
               "canSeeSky": false,
               "minX": 1219, "maxX": 1270, "minY": 25, "maxY": 39, "minZ": 164, "maxZ": 197
@@ -28,6 +34,12 @@
         "bucket": "common",
         "level": "40",
         "weight": 3.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:dragon_scale",
+                    "percentage": 5.0
+                }
+            ],
         "condition": {
             "minX": 1104, "maxX": 1376, "minZ": 95, "maxZ": 309,
             "minLureLevel": 3,

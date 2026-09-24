@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "13-16",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:medicinal_leek",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -29,6 +35,12 @@
             "bucket": "common",
             "level": "13-16",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:medicinal_leek",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -47,6 +59,12 @@
             "bucket": "common",
             "level": "31-35",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:medicinal_leek",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -65,6 +83,12 @@
             "bucket": "common",
             "level": "21-24",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:medicinal_leek",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -86,6 +110,12 @@
             "bucket": "common",
             "level": "10-20",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:medicinal_leek",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
                 "biomes": [

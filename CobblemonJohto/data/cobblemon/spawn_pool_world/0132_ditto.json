@@ -11,6 +11,16 @@
             "bucket": "common",
             "level": "10-13",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -30,6 +40,16 @@
             "bucket": "common",
             "level": "12-14",
             "weight": 4,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -49,6 +69,16 @@
             "bucket": "common",
             "level": "31-35",
             "weight": 41,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -68,6 +98,16 @@
             "bucket": "common",
             "level": "38-40",
             "weight": 11,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "dawn,dusk,day",
@@ -87,6 +127,16 @@
             "bucket": "common",
             "level": "38-40",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
@@ -107,6 +157,16 @@
             "bucket": "common",
             "level": "40-42",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -2667, "maxX": -2535, "minY": 72, "maxY": 87, "minZ": 822, "maxZ": 897
@@ -121,6 +181,16 @@
             "bucket": "common",
             "level": "45-47",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -2667, "maxX": -2535, "minY": 47, "maxY": 61, "minZ": 822, "maxZ": 897
@@ -135,6 +205,16 @@
             "bucket": "common",
             "level": "39-44",
             "weight": 1,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826
@@ -148,6 +228,16 @@
             "bucket": "common",
             "level": "39-44",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826
@@ -165,6 +255,16 @@
             "bucket": "common",
             "level": "10-20",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
                 "biomes": [
@@ -184,6 +284,16 @@
                 "bucket": "common",
                 "level": "34",
                 "weight": 10000.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:metal_powder",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:quick_powder",
+                    "percentage": 50.0
+                }
+            ],
                 "condition": {
                     "minX": 1412, "maxX": 1432, "minZ": -369, "maxZ": -356,
                     "biomes": [

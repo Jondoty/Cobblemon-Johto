@@ -11,6 +11,12 @@
           "bucket": "common",
           "level": "14-16",
           "weight": 30,
+          "heldItems": [
+              {
+                  "item": "cobblemon:payapa_berry",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
           "bucket": "common",
           "level": "13-15",
           "weight": 30,
+          "heldItems": [
+              {
+                  "item": "cobblemon:payapa_berry",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [

@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "22-24",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:aspear_berry",
+                    "percentage": 100.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "dawn,dusk,night",
@@ -25,6 +31,12 @@
             "bucket": "common",
             "level": "22-24",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:aspear_berry",
+                    "percentage": 100.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "day",
@@ -40,6 +52,12 @@
             "bucket": "common",
             "level": "34-40",
             "weight": 12,
+            "heldItems": [
+                {
+                    "item": "cobblemon:aspear_berry",
+                    "percentage": 100.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 24, "minZ": -889, "maxZ": -825

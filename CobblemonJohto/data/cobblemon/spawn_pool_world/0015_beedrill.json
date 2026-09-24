@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "3-7",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:poison_barb",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"

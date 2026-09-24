@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "8-12",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:shed_shell",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -29,6 +35,12 @@
             "bucket": "common",
             "level": "8-14",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:shed_shell",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [

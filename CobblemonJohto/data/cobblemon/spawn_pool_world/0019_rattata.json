@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "2-4",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -31,6 +37,12 @@
             "bucket": "common",
             "level": "2-4",
             "weight": 15,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -52,6 +64,12 @@
             "bucket": "common",
             "level": "3-4",
             "weight": 40,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -70,6 +88,12 @@
             "bucket": "common",
             "level": "3-5",
             "weight": 40,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -88,6 +112,12 @@
             "bucket": "common",
             "level": "5-6",
             "weight": 100,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "dawn,dusk,day",
@@ -102,6 +132,12 @@
             "bucket": "common",
             "level": "5-6",
             "weight": 15,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
@@ -117,6 +153,12 @@
             "bucket": "common",
             "level": "4-6",
             "weight": 35,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -134,6 +176,12 @@
             "bucket": "common",
             "level": "4-6",
             "weight": 40,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -152,6 +200,12 @@
             "bucket": "common",
             "level": "4-7",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 79, "maxX": 225, "minY": 40, "maxY": 55, "minZ": -880, "maxZ": -585
@@ -165,6 +219,12 @@
             "bucket": "common",
             "level": "6-9",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 79, "maxX": 225, "minY": 26, "maxY": 39, "minZ": -880, "maxZ": -585
@@ -178,6 +238,12 @@
             "bucket": "common",
             "level": "20-23",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": 79, "maxX": 225, "minY": 10, "maxY": 25, "minZ": -880, "maxZ": -585
@@ -192,6 +258,12 @@
             "bucket": "common",
             "level": "6-8",
             "weight": 40,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -209,6 +281,12 @@
             "bucket": "common",
             "level": "6-8",
             "weight": 45,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -227,6 +305,12 @@
             "bucket": "common",
             "level": "10-13",
             "weight": 35,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -244,6 +328,12 @@
             "bucket": "common",
             "level": "20-24",
             "weight": 100,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "dawn,dusk,day",
@@ -258,6 +348,12 @@
             "bucket": "common",
             "level": "20-24",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "timeRange": "night",
@@ -273,6 +369,12 @@
             "bucket": "common",
             "level": "13-16",
             "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -290,6 +392,12 @@
             "bucket": "common",
             "level": "13-16",
             "weight": 40,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -308,6 +416,12 @@
             "bucket": "common",
             "level": "13-16",
             "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -325,6 +439,12 @@
             "bucket": "common",
             "level": "13-16",
             "weight": 40,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -343,6 +463,12 @@
             "bucket": "common",
             "level": "14-16",
             "weight": 14,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -22, "maxX": 206, "minY": 42, "maxY": 66, "minZ": 217, "maxZ": 301
@@ -356,6 +482,12 @@
             "bucket": "common",
             "level": "14-16",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -22, "maxX": 206, "minY": 42, "maxY": 66, "minZ": 302, "maxZ": 493
@@ -369,6 +501,12 @@
             "bucket": "common",
             "level": "15-17",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -22, "maxX": 206, "minY": 27, "maxY": 42, "minZ": 217, "maxZ": 404
@@ -383,6 +521,12 @@
             "bucket": "common",
             "level": "2-4",
             "weight": 25,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -400,6 +544,12 @@
             "bucket": "common",
             "level": "2-4",
             "weight": 55,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -418,6 +568,12 @@
             "bucket": "common",
             "level": "22-23",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -521, "maxX": -409, "minZ": -468, "maxZ": -319
@@ -432,6 +588,12 @@
             "bucket": "common",
             "level": "2-6",
             "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -449,6 +611,12 @@
             "bucket": "common",
             "level": "2-6",
             "weight": 55,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -467,6 +635,12 @@
             "bucket": "common",
             "level": "3-7",
             "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -484,6 +658,12 @@
             "bucket": "common",
             "level": "3-7",
             "weight": 95,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -502,6 +682,12 @@
             "bucket": "common",
             "level": "5-10",
             "weight": 35,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -519,6 +705,12 @@
             "bucket": "common",
             "level": "5-10",
             "weight": 60,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -537,6 +729,12 @@
             "bucket": "common",
             "level": "5-10",
             "weight": 35,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -554,6 +752,12 @@
             "bucket": "common",
             "level": "5-10",
             "weight": 60,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -572,6 +776,12 @@
             "bucket": "common",
             "level": "13-15",
             "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -589,6 +799,12 @@
             "bucket": "common",
             "level": "13-15",
             "weight": 70,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -607,6 +823,12 @@
             "bucket": "common",
             "level": "14-16",
             "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -624,6 +846,12 @@
             "bucket": "common",
             "level": "15-19",
             "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -641,6 +869,12 @@
             "bucket": "common",
             "level": "39-44",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -1583, "maxX": -1468, "minY": 42, "maxY": 59, "minZ": -895, "maxZ": -826
@@ -654,6 +888,12 @@
             "bucket": "common",
             "level": "39-44",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -1583, "maxX": -1468, "minY": 0, "maxY": 41, "minZ": -895, "maxZ": -826
@@ -671,6 +911,12 @@
             "bucket": "common",
             "level": "10-20",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:chilan_berry",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
                 "biomes": [

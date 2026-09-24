@@ -14,6 +14,12 @@
           "bucket": "common",
           "level": "30-40",
           "weight": 10,
+        "heldItems": [
+            {
+                "item": "cobblemon:kings_rock",
+                "percentage": 5.0
+            }
+        ],
           "condition": {
               "minX": -2128, "maxX": -2022, "minY": 0, "maxY": 32, "minZ": -889, "maxZ": -825
           }
@@ -30,6 +36,12 @@
         "bucket": "common",
         "level": "10-20",
         "weight": 10.0,
+        "heldItems": [
+            {
+                "item": "cobblemon:kings_rock",
+                "percentage": 5.0
+            }
+        ],
         "condition": {
             "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
             "biomes": [

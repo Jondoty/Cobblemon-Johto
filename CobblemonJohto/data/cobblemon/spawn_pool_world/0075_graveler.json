@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "23-25",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:everstone",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -437, "maxX": -280, "minZ": -10, "maxZ": 128
@@ -25,6 +31,12 @@
             "bucket": "common",
             "level": "28-30",
             "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:everstone",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -22, "maxX": 206, "minY": 69, "maxY": 82, "minZ": 217, "maxZ": 565
@@ -39,6 +51,12 @@
             "bucket": "common",
             "level": "23-27",
             "weight": 40,
+            "heldItems": [
+                {
+                    "item": "cobblemon:everstone",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -56,6 +74,12 @@
             "bucket": "common",
             "level": "41-45",
             "weight": 20,
+            "heldItems": [
+                {
+                    "item": "cobblemon:everstone",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -1014, "maxX": -941, "maxY": 98, "minZ": 101, "maxZ": 232
@@ -70,6 +94,12 @@
             "bucket": "common",
             "level": "32-36",
             "weight": 30,
+            "heldItems": [
+                {
+                    "item": "cobblemon:everstone",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -1534, "maxX": -1320, "minY": 1, "maxY": 55, "minZ": 366, "maxZ": 546
@@ -87,6 +117,12 @@
             "bucket": "common",
             "level": "10-20",
             "weight": 10.0,
+            "heldItems": [
+                {
+                    "item": "cobblemon:everstone",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
                 "biomes": [

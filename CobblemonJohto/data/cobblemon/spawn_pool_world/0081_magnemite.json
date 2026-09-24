@@ -11,6 +11,12 @@
           "bucket": "common",
           "level": "13-16",
           "weight": 20,
+          "heldItems": [
+              {
+                  "item": "cobblemon:metal_coat",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
           "bucket": "common",
           "level": "13-16",
           "weight": 20,
+          "heldItems": [
+              {
+                  "item": "cobblemon:metal_coat",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -45,6 +57,12 @@
           "bucket": "common",
           "level": "12-14",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:metal_coat",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "neededNearbyBlocks": [
                   "minecraft:short_grass"
@@ -61,6 +79,12 @@
           "bucket": "common",
           "level": "14-16",
           "weight": 20,
+          "heldItems": [
+              {
+                  "item": "cobblemon:metal_coat",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "neededNearbyBlocks": [
                   "minecraft:short_grass"
@@ -80,6 +104,12 @@
         "bucket": "common",
         "level": "10-20",
         "weight": 10.0,
+          "heldItems": [
+              {
+                  "item": "cobblemon:metal_coat",
+                  "percentage": 5.0
+              }
+          ],
         "condition": {
             "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
             "biomes": [

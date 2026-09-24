@@ -11,6 +11,12 @@
           "bucket": "common",
           "level": "10-13",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:twisted_spoon",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
           "bucket": "common",
           "level": "12-14",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:twisted_spoon",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -45,6 +57,12 @@
           "bucket": "common",
           "level": "12-15",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:twisted_spoon",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -62,6 +80,12 @@
           "bucket": "common",
           "level": "8-12",
           "weight": 20,
+          "heldItems": [
+              {
+                  "item": "cobblemon:twisted_spoon",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -79,6 +103,12 @@
           "bucket": "common",
           "level": "8-14",
           "weight": 9,
+          "heldItems": [
+              {
+                  "item": "cobblemon:twisted_spoon",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "neededNearbyBlocks": [
                   "minecraft:short_grass"
@@ -95,6 +125,12 @@
           "bucket": "common",
           "level": "15-19",
           "weight": 20,
+          "heldItems": [
+              {
+                  "item": "cobblemon:twisted_spoon",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "neededNearbyBlocks": [
                   "minecraft:short_grass"
@@ -111,6 +147,12 @@
           "bucket": "common",
           "level": "12-14",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:twisted_spoon",
+                  "percentage": 5.0
+              }
+          ],
           "condition": {
               "neededNearbyBlocks": [
                   "minecraft:short_grass"
@@ -130,6 +172,12 @@
         "bucket": "common",
         "level": "10-20",
         "weight": 10.0,
+          "heldItems": [
+              {
+                  "item": "cobblemon:twisted_spoon",
+                  "percentage": 5.0
+              }
+          ],
         "condition": {
             "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
             "biomes": [

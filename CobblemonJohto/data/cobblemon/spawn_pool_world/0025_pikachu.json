@@ -11,6 +11,16 @@
             "bucket": "common",
             "level": "3-7",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:light_ball",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:oran_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -29,6 +39,16 @@
             "bucket": "common",
             "level": "3-7",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:light_ball",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:oran_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "canSeeSky": true,
                 "neededNearbyBlocks": [
@@ -47,6 +67,16 @@
             "bucket": "common",
             "level": "3-7",
             "weight": 6,
+            "heldItems": [
+                {
+                    "item": "cobblemon:light_ball",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:oran_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"
@@ -63,6 +93,16 @@
             "bucket": "common",
             "level": "3-7",
             "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:light_ball",
+                    "percentage": 5.0
+                },
+                {
+                    "item": "cobblemon:oran_berry",
+                    "percentage": 50.0
+                }
+            ],
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:short_grass"

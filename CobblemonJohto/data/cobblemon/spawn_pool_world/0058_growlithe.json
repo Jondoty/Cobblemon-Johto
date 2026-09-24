@@ -11,6 +11,12 @@
           "bucket": "common",
           "level": "12-15",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:rawst_berry",
+                  "percentage": 100.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -28,6 +34,12 @@
           "bucket": "common",
           "level": "12-15",
           "weight": 15,
+          "heldItems": [
+              {
+                  "item": "cobblemon:rawst_berry",
+                  "percentage": 100.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -46,6 +58,12 @@
           "bucket": "common",
           "level": "12-15",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:rawst_berry",
+                  "percentage": 100.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -63,6 +81,12 @@
           "bucket": "common",
           "level": "12-15",
           "weight": 15,
+          "heldItems": [
+              {
+                  "item": "cobblemon:rawst_berry",
+                  "percentage": 100.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -81,6 +105,12 @@
           "bucket": "common",
           "level": "21-24",
           "weight": 9,
+          "heldItems": [
+              {
+                  "item": "cobblemon:rawst_berry",
+                  "percentage": 100.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -98,6 +128,12 @@
           "bucket": "common",
           "level": "21-24",
           "weight": 20,
+          "heldItems": [
+              {
+                  "item": "cobblemon:rawst_berry",
+                  "percentage": 100.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -116,6 +152,12 @@
           "bucket": "common",
           "level": "15-19",
           "weight": 10,
+          "heldItems": [
+              {
+                  "item": "cobblemon:rawst_berry",
+                  "percentage": 100.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -133,6 +175,12 @@
           "bucket": "common",
           "level": "15-19",
           "weight": 5,
+          "heldItems": [
+              {
+                  "item": "cobblemon:rawst_berry",
+                  "percentage": 100.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -151,6 +199,12 @@
           "bucket": "common",
           "level": "15-19",
           "weight": 20,
+          "heldItems": [
+              {
+                  "item": "cobblemon:rawst_berry",
+                  "percentage": 100.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [

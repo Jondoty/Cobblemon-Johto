@@ -11,6 +11,12 @@
           "bucket": "common",
           "level": "50",
           "weight": 5,
+            "heldItems": [
+                {
+                    "item": "cobblemon:leftovers",
+                    "percentage": 100.0
+                }
+            ],
           "condition": {
             "canSeeSky": true,
             "neededNearbyBlocks": [

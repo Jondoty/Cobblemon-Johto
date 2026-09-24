@@ -11,6 +11,16 @@
           "bucket": "common",
           "level": "22-25",
           "weight": 1,
+          "heldItems": [
+              {
+                  "item": "cobblemon:lucky_egg",
+                  "percentage": 5.0
+              },
+              {
+                  "item": "cobblemon:oval_stone",
+                  "percentage": 50.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -28,6 +38,16 @@
           "bucket": "common",
           "level": "23-26",
           "weight": 1,
+          "heldItems": [
+              {
+                  "item": "cobblemon:lucky_egg",
+                  "percentage": 5.0
+              },
+              {
+                  "item": "cobblemon:oval_stone",
+                  "percentage": 50.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -45,6 +65,16 @@
           "bucket": "common",
           "level": "23-26",
           "weight": 1,
+          "heldItems": [
+              {
+                  "item": "cobblemon:lucky_egg",
+                  "percentage": 5.0
+              },
+              {
+                  "item": "cobblemon:oval_stone",
+                  "percentage": 50.0
+              }
+          ],
           "condition": {
               "canSeeSky": true,
               "neededNearbyBlocks": [
@@ -65,6 +95,16 @@
         "bucket": "common",
         "level": "10-20",
         "weight": 10.0,
+          "heldItems": [
+              {
+                  "item": "cobblemon:lucky_egg",
+                  "percentage": 5.0
+              },
+              {
+                  "item": "cobblemon:oval_stone",
+                  "percentage": 50.0
+              }
+          ],
         "condition": {
             "minX": 1406, "maxX": 1777, "minZ": -90, "maxZ": 101,
             "biomes": [
@@ -84,6 +124,16 @@
         "bucket": "common",
         "level": "23",
         "weight": 10000.0,
+          "heldItems": [
+              {
+                  "item": "cobblemon:lucky_egg",
+                  "percentage": 5.0
+              },
+              {
+                  "item": "cobblemon:oval_stone",
+                  "percentage": 50.0
+              }
+          ],
         "condition": {
             "minX": -3277, "maxX": -3229, "minZ": -341, "maxZ": -325,
             "biomes": [

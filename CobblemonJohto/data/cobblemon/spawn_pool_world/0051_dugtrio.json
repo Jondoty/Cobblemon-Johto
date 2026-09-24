@@ -11,6 +11,12 @@
             "bucket": "common",
             "level": "13-29",
             "weight": 10,
+            "heldItems": [
+                {
+                    "item": "cobblemon:soft_sand",
+                    "percentage": 5.0
+                }
+            ],
             "condition": {
                 "canSeeSky": false,
                 "minX": -3091, "maxX": -2945, "minY": 39, "maxY": 57, "minZ": 72, "maxZ": 222
