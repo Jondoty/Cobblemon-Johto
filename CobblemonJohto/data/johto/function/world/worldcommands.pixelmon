@@ -648,12 +648,6 @@ clear @a[x=496,y=48,z=-274,dx=11,dy=5,dz=7,tag=!BuenasPasswordCD,tag=BuenasPassw
 
 
 
-#Lucky Number Show
-execute as @a[x=506,y=31,z=-272,distance=..3,tag=!LuckyNumberCD,scores={TalkTime=0,Cooldown=0}] run tellraw @s {"text":"<DJ Reed> Hi, are you here for the Lucky Number Show? Want me to check the ID numbers of your Pokémon?"}
-execute as @a[x=506,y=31,z=-272,distance=..3,tag=!LuckyNumberCD,scores={TalkTime=0,Cooldown=0}] run scoreboard players enable @s TriggerCommand
-execute as @a[x=506,y=31,z=-272,distance=..3,tag=!LuckyNumberCD,scores={TalkTime=0,Cooldown=0}] run tellraw @s ["",{"text":"["},{"text":"Yes","color":"green","clickEvent":{"action":"run_command","value":"/trigger TriggerCommand set 76"}},{"text":"]"}]
-execute as @a[x=506,y=31,z=-272,distance=..3,tag=!LuckyNumberCD,scores={TalkTime=0,Cooldown=0}] run scoreboard players set @s Cooldown 120
-
 
 
 #---------------------

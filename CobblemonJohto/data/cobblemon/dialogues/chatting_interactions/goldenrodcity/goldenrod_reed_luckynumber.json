@@ -1,0 +1,129 @@
+{   
+    "speakers": {
+        "npc": {
+          "name": "DJ Reed",
+          "face": {
+            "type": "artificial",
+            "modelType": "npc",
+            "identifier": "cobblemon:schoolboy",
+            "isLeftSide": true
+          }
+        }
+      },
+    "pages": [
+        {
+            "id": "greeting",
+            "speaker": "npc",
+            "lines": [
+                "Are you here from the Lucky Numbers show?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page2');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page2",
+            "speaker": "npc",
+            "lines": [
+                "Want me to check the ID numbers of your Pokémon?"
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page3');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page3",
+            "speaker": "npc",
+            "lines": [
+                "If you get lucky, you win a prize."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Check Number",
+                        "value": "checknumber",
+                        "action": [
+                            "q.dialogue.set_page('page4');"
+                            ]
+                    },
+                    {
+                        "text": "No Thanks",
+                        "value": "nothanks",
+                        "action": [
+                            "q.dialogue.close();"
+                            ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page4",
+            "speaker": "npc",
+            "lines": [
+                "I need to run a check on this number to see if it matches any of your Pokémon's ID numbers."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": "q.dialogue.set_page('page5');"
+                    }
+                ]
+            }
+        },
+        {
+            "id": "page5",
+            "speaker": "npc",
+            "lines": [
+                "Please wait."
+            ],
+            "input": {
+                "type": "option",
+                "vertical": false,
+                "options": [
+                    {
+                        "text": "Next",
+                        "value": "next",
+                        "action": [
+                            "q.run_command('execute as ' + q.player.username + ' run scoreboard players set @e[x=-867,y=69,z=-207,dy=4,dz=2,type=minecraft:armor_stand] rng 0');",
+                            "q.run_command('execute as ' + q.player.username + ' run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 1');",
+                            "q.run_command('execute as ' + q.player.username + ' run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 2');",
+                            "q.run_command('execute as ' + q.player.username + ' run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 4');",
+                            "q.run_command('execute as ' + q.player.username + ' run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 8');",
+                            "q.run_command('execute as ' + q.player.username + ' run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 16');",
+                            "q.run_command('execute as ' + q.player.username + ' run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 32');",
+                            "q.run_command('execute as ' + q.player.username + ' run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 64');",
+                            "q.run_command('execute as ' + q.player.username + ' run scoreboard players operation @s rng = @e[x=-867,y=69,z=-205,dy=3,type=armor_stand] rng');",
+                            "q.run_command('execute as ' + q.player.username + ' run opendialogue djreed_noreward @s[scores={rng=0..63}]');",
+                            "q.run_command('execute as ' + q.player.username + ' run opendialogue djreed_ppup @s[scores={rng=65..108}]');",
+                            "q.run_command('execute as ' + q.player.username + ' run opendialogue djreed_xpshare @s[scores={rng=111..127}]');",
+                            "q.run_command('execute as ' + q.player.username + ' run opendialogue djreed_masterball @s[scores={rng=64}]');",
+                            "q.run_command('execute as ' + q.player.username + ' run opendialogue djreed_masterball @s[scores={rng=109..110}]');"
+                            ]
+                    }
+                ]
+            }
+        }
+        ]
+    }

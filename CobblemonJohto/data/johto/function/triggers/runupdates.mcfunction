@@ -83,6 +83,7 @@ execute if entity @a[x=482,y=64,z=-267,distance=..50] run setblock 482 64 -267 a
 execute if entity @a[x=482,y=64,z=-267,distance=..50] unless entity @e[x=482,y=64,z=-267,dy=3,type=cobblemon:npc] run npcspawnat 482 64 -267 route35_randy
 execute if entity @a[x=482,y=64,z=-267,distance=..50] unless entity @e[x=482,y=64,z=-267,dy=3,type=interaction] positioned 482 64 -267 run function johto:spawn/npcboxes
 execute if entity @a[x=-130,y=64,z=-105,distance=..50] unless entity @e[x=-130,y=64,z=-105,dy=3,type=interaction] positioned -130 64 -105 run function johto:spawn/npcboxes
+execute if entity @a[x=506,y=31,z=-272,distance=..50] unless entity @e[x=506,y=31,z=-272,dy=3,type=interaction] positioned 506 31 -272 run function johto:spawn/npcboxes
 
 #armor stands
 execute if entity @a[x=-264,y=64,z=-487,distance=..50] unless entity @e[x=-264,y=64,z=-487,dy=3,type=armor_stand] run summon minecraft:armor_stand -264 64 -487 {Invisible:true,Invulnerable:true,PersistenceRequired:true,NoBasePlate:true,CustomName:'{"text":"PokeCenter"}',DisabledSlots:4144959}

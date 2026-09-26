@@ -13,18 +13,6 @@ execute as @s[scores={DialogueTrigger=26,TalkTime=25}] run scoreboard players se
 tag @s[scores={DialogueTrigger=26,TalkTime=25..}] add Dialogue26
 
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#https://youtu.be/HQEaaIuyKAM?t=7812
-#Goldenrod City Radio Tower Lucky Number Show
-#Resets when player leaves the building
-#execute as @s[x=506,y=31,z=-272,distance=..10,tag=LuckyNumberTalk] run scoreboard players set @s DialogueTrigger 25
-
-tellraw @s[scores={DialogueTrigger=25,TalkTime=1}] {"text":"<DJ Reed> Hi, are you here for the Lucky Number Show? Want me to check the ID numbers of your Pokémon?"}
-tellraw @s[scores={DialogueTrigger=25,TalkTime=11}] {"text":"<DJ Reed> If you get lucky, you win a prize."}
-tellraw @s[scores={DialogueTrigger=25,TalkTime=18}] {"text":"<DJ Reed> Throw out a Pokémon, and let see if you have a match."}
-
-tag @s[scores={DialogueTrigger=25,TalkTime=18..}] add Dialogue25
-
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Legendary Dog statues
@@ -783,57 +771,6 @@ execute as @s[scores={DialogueTrigger=176,TalkTime=88}] run particle cloud -1046
 
 tag @s[scores={DialogueTrigger=176,TalkTime=88..}] add Dialogue176
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Lucky Number Show Roll
-#execute as @s[score_TriggerCommand_min=76,score_TriggerCommand=76] run scoreboard players set @s DialogueTrigger 185
-
-tellraw @s[scores={DialogueTrigger=185,TalkTime=1}] {"text":"<DJ Reed> I need to run a check on this number to see if it matches any of your Pokémon's ID numbers. Please wait."}
-
-#Rolls for an ID
-execute as @s[scores={DialogueTrigger=185,TalkTime=12}] run scoreboard players set @e[x=-867,y=69,z=-207,dy=4,dz=2,type=minecraft:armor_stand] rng 0
-execute as @s[scores={DialogueTrigger=185,TalkTime=12}] run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 1
-execute as @s[scores={DialogueTrigger=185,TalkTime=12}] run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 2
-execute as @s[scores={DialogueTrigger=185,TalkTime=12}] run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 4
-execute as @s[scores={DialogueTrigger=185,TalkTime=12}] run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 8
-execute as @s[scores={DialogueTrigger=185,TalkTime=12}] run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 16
-execute as @s[scores={DialogueTrigger=185,TalkTime=12}] run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 32
-execute as @s[scores={DialogueTrigger=185,TalkTime=12}] run scoreboard players add @e[sort=random,limit=1,x=-867,y=69,z=-207,dy=4,dz=2] rng 64
-
-execute as @s[scores={DialogueTrigger=185,TalkTime=12}] run scoreboard players operation @s rng = @e[x=-867,y=69,z=-205,dy=3,type=armor_stand] rng
-
-
-#Rolls for a random number (X/127):
-#~50% nothing (0-63)
-#~35% PP Up (65-108)
-#~12.7% Exp Share (111-127)
-#~2.3% Master Ball (64, 109-110)
-
-#Nothing
-tellraw @s[scores={DialogueTrigger=185,TalkTime=14,rng=0..63}] {"text":"<DJ Reed> Nope, none of your ID numbers match. Try again tomorrow!"}
-
-execute as @s[scores={DialogueTrigger=185,TalkTime=14,rng=64..127}] run playsound pixelmon:pixelmon.block.pokelootobtained ambient @s ~ ~ ~ 1 1 1
-
-#PP Up
-tellraw @s[scores={DialogueTrigger=185,TalkTime=14,rng=65..108}] {"text":"<DJ Reed> Ooh, you've matched the last two numbers. You've won third prize, a PP Up."}
-execute as @s[scores={DialogueTrigger=185,TalkTime=14,rng=65..108}] run give @s pixelmon:pp_up{display:{Lore:["A medicine that slightly raises","the maximum PP of a single selected","move that has been learned","by a Pokémon."]}}
-
-#XP Share
-tellraw @s[scores={DialogueTrigger=185,TalkTime=14,rng=111..127}] {"text":"<DJ Reed> Hey! You've matched the last three numbers! You've won second prize, an Exp.Share!"}
-execute as @s[scores={DialogueTrigger=185,TalkTime=14,rng=111..127}] run give @s pixelmon:exp_share{display:{Lore:["An item to be held by a Pokémon.","The holder gets a share of","Exp. points without having to battle."]}}
-
-#Master Ball
-tellraw @s[scores={DialogueTrigger=185,TalkTime=14,rng=64}] {"text":"<DJ Reed> Wow! You have a perfect match of all five numbers! We have a grand prize winner! You have won a Master Ball!"}
-execute as @s[scores={DialogueTrigger=185,TalkTime=14,rng=64}] run give @s pixelmon:master_ball
-execute as @s[scores={DialogueTrigger=185,TalkTime=14,rng=64}] run playsound minecraft:entity.firework_rocket.twinkle ambient @s ~ ~ ~ 1 1 1
-
-tellraw @s[scores={DialogueTrigger=185,TalkTime=14,rng=109..110}] {"text":"<DJ Reed> Wow! You have a perfect match of all five numbers! We have a grand prize winner! You have won a Master Ball!"}
-execute as @s[scores={DialogueTrigger=185,TalkTime=14,rng=109..110}] run give @s pixelmon:master_ball
-execute as @s[scores={DialogueTrigger=185,TalkTime=14,rng=109..110}] run playsound minecraft:entity.firework_rocket.twinkle ambient @s ~ ~ ~ 1 1 1
-
-execute as @s[scores={DialogueTrigger=185,TalkTime=14}] run tag @s add LuckyNumberCD
-tellraw @s[scores={DialogueTrigger=185,TalkTime=24}] {"text":"<DJ Reed> Tune in again tomorrow and see me for another chance at a prize!"}
-
-tag @s[scores={DialogueTrigger=185,TalkTime=24..}] add Dialogue185
 
 
 #----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

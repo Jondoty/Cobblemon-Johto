@@ -1,0 +1,54 @@
+{    
+    "initializationAction": [
+        "q.run_command('tag ' + q.player.username + ' add LuckyNumberCD');"
+    ],
+  "speakers": {
+    "npc": {
+      "name": "DJ Reed",
+      "face": {
+        "type": "artificial",
+        "modelType": "npc",
+        "identifier": "cobblemon:schoolboy",
+        "isLeftSide": true
+      }
+    }
+  },
+  "pages": [
+    {
+      "id": "greeting",
+      "speaker": "npc",
+      "lines": [
+        "Nope, none of your ID numbers match."
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Next",
+            "value": "next",
+            "action": "q.dialogue.set_page('page2');"
+          }
+        ]
+      }
+    },
+    {
+      "id": "page2",
+      "speaker": "npc",
+      "lines": [
+        "Try again tomorrow!"
+      ],
+      "input": {
+        "type": "option",
+        "vertical": false,
+        "options": [
+          {
+            "text": "Close",
+            "value": "close",
+            "action": "q.dialogue.close();"
+          }
+        ]
+      }
+    }
+  ]
+}

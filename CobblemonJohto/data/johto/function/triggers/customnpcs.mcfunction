@@ -36,6 +36,16 @@ execute as @s[x=623,y=64,z=-714,distance=..4,tag=Bugsy,scores={Farfetchd=1}] run
 execute as @s[x=514,y=31,z=-272,distance=..4,tag=!RadioCard] run opendialogue radiotower_quiz_interaction @s
 execute as @s[x=514,y=31,z=-272,distance=..4,tag=RadioCard] run opendialogue radiotower_quiz_completed @s
 
+#Radio Tower Lucky Number Show
+#Rolls for a random number (X/127):
+#~50% nothing (0-63)
+#~35% PP Up (65-108)
+#~12.7% Exp Share (111-127)
+#~2.3% Master Ball (64, 109-110)
+execute as @s[x=506,y=31,z=-272,distance=..4] run opendialogue goldenrod_reed_interaction @s
+execute as @s[x=506,y=31,z=-272,distance=..4,tag=LuckyNumberTalk,tag=!LuckyNumberCD] run opendialogue goldenrod_reed_luckynumber @s
+
+
 #Goldenrod Bicycle Man
 execute as @s[x=423,y=64,z=-426,distance=..6,tag=!Dialogue23] run opendialogue bicycle_gift @s
 execute as @s[x=423,y=64,z=-426,distance=..6,tag=Dialogue23] run opendialogue goldenrod_blacksmith_interaction @s
