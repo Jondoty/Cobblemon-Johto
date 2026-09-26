@@ -4,7 +4,6 @@
     "§lTrader Mondo"
   ],
   "presets": [
-    "trainer_basics"
   ],
   "interaction": {
     "type": "dialogue",

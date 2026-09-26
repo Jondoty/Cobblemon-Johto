@@ -12,7 +12,6 @@
     "names": ["???"],
     "hitbox": "player",
     "resourceIdentifier": "cobblemon:silver",
-    "presets": ["cobblemon:trainer_basics"],
     "speakers": {
         "npc": {
             "name": {

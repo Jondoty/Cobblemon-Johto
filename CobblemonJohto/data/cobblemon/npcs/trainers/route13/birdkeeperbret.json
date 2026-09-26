@@ -9,9 +9,9 @@
     "canDespawn": false,
     "interaction": {
         "type": "dialogue",
-        "dialogue": "cobblemon:birdkeeperbert_interaction"
+        "dialogue": "cobblemon:birdkeeperbret_interaction"
     },
-        "name": "Bert",
+        "name": "Bret",
         "party": {
         "type": "simple",
         "pokemon": [
@@ -39,7 +39,7 @@
             "displayName": "npc.variable.on_player_wins.name",
             "description": "npc.variable.on_player_wins.desc",
             "type": "TEXT",
-            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue birdkeeperbert_end @s');"
+            "defaultValue": "q.run_command('execute as ' + q.player.username + ' run opendialogue birdkeeperbret_end @s');"
           }
     ],
     "ai": [

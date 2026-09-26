@@ -4,7 +4,6 @@
     "§lTrader Lorenzo"
   ],
   "presets": [
-    "trainer_basics"
   ],
   "interaction": {
     "type": "dialogue",

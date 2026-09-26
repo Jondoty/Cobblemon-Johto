@@ -4,7 +4,6 @@
     "§lTrader Ayana"
   ],
   "presets": [
-    "trainer_basics"
   ],
   "interaction": {
     "type": "dialogue",

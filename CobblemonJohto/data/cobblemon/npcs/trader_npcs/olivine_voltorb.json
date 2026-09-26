@@ -4,7 +4,6 @@
     "§lTrader Richard"
   ],
   "presets": [
-    "trainer_basics"
   ],
   "interaction": {
     "type": "dialogue",

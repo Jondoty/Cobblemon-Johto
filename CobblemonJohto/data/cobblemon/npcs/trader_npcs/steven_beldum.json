@@ -4,7 +4,6 @@
     "Steven"
   ],
   "presets": [
-    "trainer_basics"
   ],
   "interaction": {
     "type": "dialogue",

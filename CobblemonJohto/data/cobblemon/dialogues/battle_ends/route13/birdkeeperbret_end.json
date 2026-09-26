@@ -7,7 +7,7 @@
         ],
   "speakers": {
     "npc": {
-      "name": "Bert",
+      "name": "Bret",
       "face": {
         "type": "artificial",
         "modelType": "npc",
