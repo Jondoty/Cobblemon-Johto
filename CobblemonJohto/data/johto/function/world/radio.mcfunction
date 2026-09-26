@@ -162,6 +162,10 @@ playsound ceruleancity record @s[x=-3131,y=35,z=561,dx=42,dy=20,dz=36,scores={Mu
 scoreboard players set @s[x=-3131,y=35,z=561,dx=42,dy=20,dz=36,scores={MusicCooldown=0}] MusicCooldown 202
 
 
+#Underground Path (under Saffron)
+playsound rocktunnel record @s[x=-2792,y=57,z=177,dx=7,dy=5,dz=312,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2792,y=57,z=177,dx=7,dy=5,dz=312,scores={MusicCooldown=0}] MusicCooldown 70
+
 
 #Professor Elm's Lab
 playsound elmlab record @s[x=-693,y=63,z=-490,dx=19,dy=5,dz=19,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
@@ -404,8 +408,8 @@ scoreboard players set @s[x=870,y=0,z=-480,dx=281,dy=240,dz=199,scores={MusicCoo
 
 
 #Cerulean Cave
-playsound rocketkanto record @s[x=-2659,y=0,z=828,dx=124,dy=240,dz=68,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2659,y=0,z=828,dx=124,dy=240,dz=68,scores={MusicCooldown=0}] MusicCooldown 212
+playsound rocktunnel record @s[x=-2659,y=0,z=828,dx=124,dy=240,dz=68,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2659,y=0,z=828,dx=124,dy=240,dz=68,scores={MusicCooldown=0}] MusicCooldown 70
 
 
 #Route 27
@@ -599,13 +603,13 @@ playsound ceruleancity record @s[x=-1785,y=0,z=553,dx=261,dy=240,dz=208,scores={
 scoreboard players set @s[x=-1785,y=0,z=553,dx=261,dy=240,dz=208,scores={MusicCooldown=0}] MusicCooldown 202
 
 #Mt. Moon
-playsound mtmoon record @s[x=-2279,y=18,z=761,dx=113,dy=37,dz=89,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2279,y=18,z=761,dx=113,dy=37,dz=89,scores={MusicCooldown=0}] MusicCooldown 63
+playsound rocktunnel record @s[x=-2279,y=18,z=761,dx=113,dy=37,dz=89,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2279,y=18,z=761,dx=113,dy=37,dz=89,scores={MusicCooldown=0}] MusicCooldown 70
 
 
 #Mt. Moon Square
-playsound mtmoon record @s[x=-2471,y=59,z=825,dx=174,dy=16,dz=92,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
-scoreboard players set @s[x=-2471,y=59,z=825,dx=174,dy=16,dz=92,scores={MusicCooldown=0}] MusicCooldown 63
+playsound rocktunnel record @s[x=-2471,y=59,z=825,dx=174,dy=16,dz=92,scores={MusicCooldown=0}] ~ ~ ~ 1 1 1
+scoreboard players set @s[x=-2471,y=59,z=825,dx=174,dy=16,dz=92,scores={MusicCooldown=0}] MusicCooldown 70
 
 
 #Route 25

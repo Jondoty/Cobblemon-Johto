@@ -121,6 +121,12 @@ execute as @s[x=-1707,y=0,z=284,dx=143,dy=256,dz=164] unless score @s MusicTitle
 execute as @s[x=-1707,y=0,z=284,dx=143,dy=256,dz=164] unless score @s MusicTitles matches 218 run scoreboard players set @s MusicTitles 218
 execute as @s[x=-1707,y=0,z=284,dx=143,dy=256,dz=164] run tag @s add Indoors
 
+#Viridian Forest
+execute as @s[x=-2792,y=57,z=177,dx=7,dy=5,dz=312] unless score @s MusicTitles matches 219 run title @s actionbar {"text":"Underground Path"}
+execute as @s[x=-2792,y=57,z=177,dx=7,dy=5,dz=312] unless score @s MusicTitles matches 219 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
+execute as @s[x=-2792,y=57,z=177,dx=7,dy=5,dz=312] unless score @s MusicTitles matches 219 run scoreboard players set @s MusicTitles 219
+execute as @s[x=-2792,y=57,z=177,dx=7,dy=5,dz=312] run tag @s add Indoors
+
 #Dark Cave
 execute as @s[x=-307,y=0,z=-94,dx=94,dy=240,dz=223] unless score @s MusicTitles matches 10 run title @s actionbar {"text":"Dark Cave"}
 execute as @s[x=-307,y=0,z=-94,dx=94,dy=240,dz=223] unless score @s MusicTitles matches 10 unless entity @s[scores={RadioSelect=3..9}] run function johto:tools/forceclick
