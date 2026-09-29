@@ -22,7 +22,7 @@
       "displayName": "Trade Offer Pokemon for MoLang",
       "description": "Trade Offer Pokemon along with any properties (All lowercase)",
       "type": "TEXT",
-      "defaultValue": "magneton level=30 held_item=cobblemon:metal_coat nickname=Maggie"
+      "defaultValue": "magneton level=30 held_item=cobblemon:metal_coat nickname=Maggie originaltrainertype=npc originaltrainer=\"Lorenzo\""
     },
     {
       "variableName": "trade_requested_display",

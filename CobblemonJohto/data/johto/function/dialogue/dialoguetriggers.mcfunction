@@ -30,10 +30,10 @@ execute as @s[x=-255,y=63,z=-198,dx=20,dy=5,dz=8,tag=!Dialogue5] run opendialogu
 
 #Dialogue 6 & 7, Silver Cherrygrove battle
 #execute as @a[x=-300,y=64,z=-509,distance=0..5,tag=Dialogue5,tag=!Dialogue6] run opendialogue cherrygrove_silver_interaction @s
-execute as @s[x=-279,y=64,z=-509,distance=0..10,tag=!Dialogue7,scores={StarterPick=1..}] unless entity @e[x=-300,y=64,z=-509,dy=3,type=cobblemon:npc] run particle cloud -300 64 -509 1 1 1 1 50
-execute as @s[x=-279,y=64,z=-509,distance=0..10,tag=!Dialogue7,scores={StarterPick=1}] unless entity @e[x=-300,y=64,z=-509,dy=3,type=cobblemon:npc] run npcspawnat -300 64 -509 cherrygrove_silver1 1
-execute as @s[x=-279,y=64,z=-509,distance=0..10,tag=!Dialogue7,scores={StarterPick=2}] unless entity @e[x=-300,y=64,z=-509,dy=3,type=cobblemon:npc] run npcspawnat -300 64 -509 cherrygrove_silver2 1
-execute as @s[x=-279,y=64,z=-509,distance=0..10,tag=!Dialogue7,scores={StarterPick=3}] unless entity @e[x=-300,y=64,z=-509,dy=3,type=cobblemon:npc] run npcspawnat -300 64 -509 cherrygrove_silver3 1
+execute as @s[x=-279,y=64,z=-509,distance=0..10,tag=Dialogue5,tag=!Dialogue7,scores={StarterPick=1..}] unless entity @e[x=-300,y=64,z=-509,dy=3,type=cobblemon:npc] run particle cloud -300 64 -509 1 1 1 1 50
+execute as @s[x=-279,y=64,z=-509,distance=0..10,tag=Dialogue5,tag=!Dialogue7,scores={StarterPick=1}] unless entity @e[x=-300,y=64,z=-509,dy=3,type=cobblemon:npc] run npcspawnat -300 64 -509 cherrygrove_silver1 1
+execute as @s[x=-279,y=64,z=-509,distance=0..10,tag=Dialogue5,tag=!Dialogue7,scores={StarterPick=2}] unless entity @e[x=-300,y=64,z=-509,dy=3,type=cobblemon:npc] run npcspawnat -300 64 -509 cherrygrove_silver2 1
+execute as @s[x=-279,y=64,z=-509,distance=0..10,tag=Dialogue5,tag=!Dialogue7,scores={StarterPick=3}] unless entity @e[x=-300,y=64,z=-509,dy=3,type=cobblemon:npc] run npcspawnat -300 64 -509 cherrygrove_silver3 1
 
 #If player has null StarterPick score and around Silver, assigns something to them as a fallback.
 execute as @s[x=-279,y=64,z=-509,distance=..15,tag=!Dialogue7] unless entity @s[scores={StarterPick=1..}] run scoreboard players set @s StarterPick 1

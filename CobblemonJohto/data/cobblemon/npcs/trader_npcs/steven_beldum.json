@@ -22,7 +22,7 @@
       "displayName": "Trade Offer Pokemon for MoLang",
       "description": "Trade Offer Pokemon along with any properties (All lowercase)",
       "type": "TEXT",
-      "defaultValue": "beldum level=20"
+      "defaultValue": "beldum level=20 originaltrainertype=npc originaltrainer=\"Steven\""
     },
     {
       "variableName": "trade_requested_display",

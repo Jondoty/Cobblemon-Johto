@@ -96,7 +96,10 @@
             "id": "page3",
             "speaker": "player",
             "lines": [
-                "{Player} handed over the Pokémon holding the Mail."
+                {
+                    "type": "expression",
+                    "expression": "'' + q.player.username + ' handed over the Pokémon holding the Mail.';"
+                }
             ],
             "input": {
                 "type": "option",

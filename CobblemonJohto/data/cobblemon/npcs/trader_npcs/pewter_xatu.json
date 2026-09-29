@@ -22,7 +22,7 @@
       "displayName": "Trade Offer Pokemon for MoLang",
       "description": "Trade Offer Pokemon along with any properties (All lowercase)",
       "type": "TEXT",
-      "defaultValue": "xatu level=25 held_item=cobblemon:wacan_berry nickname=Paul"
+      "defaultValue": "xatu level=25 held_item=cobblemon:wacan_berry nickname=Paul originaltrainertype=npc originaltrainer=\"Mondo\""
     },
     {
       "variableName": "trade_requested_display",

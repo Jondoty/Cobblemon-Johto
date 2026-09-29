@@ -22,7 +22,7 @@
       "displayName": "Trade Offer Pokemon for MoLang",
       "description": "Trade Offer Pokemon along with any properties (All lowercase)",
       "type": "TEXT",
-      "defaultValue": "dodrio level=20 held_item=cobblemon:smoke_ball nickname=Doris"
+      "defaultValue": "dodrio level=20 held_item=cobblemon:smoke_ball nickname=Doris originaltrainertype=npc originaltrainer=\"Ayana\""
     },
     {
       "variableName": "trade_requested_display",

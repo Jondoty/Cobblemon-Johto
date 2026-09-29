@@ -22,8 +22,8 @@ execute as @s[x=371,y=64,z=-698,distance=..5,nbt={Inventory:[{id:"cobblemon:pink
 execute as @s[x=371,y=64,z=-698,distance=..5,nbt={Inventory:[{id:"cobblemon:blue_apricorn"}]}] run tag @s add Apricorns
 execute as @s[x=371,y=64,z=-698,distance=..5,nbt={Inventory:[{id:"cobblemon:yellow_apricorn"}]}] run tag @s add Apricorns
 
-execute as @s[x=371,y=64,z=-698,distance=..5,tag=!Apricorns] run opendialogue azalea_kurt_interaction @s
-execute as @s[x=371,y=64,z=-698,distance=..5,tag=Apricorns] run opendialogue azalea_kurt_crafting @s
+execute as @s[x=371,y=64,z=-698,distance=..5,tag=Dialogue16,tag=!Apricorns] run opendialogue azalea_kurt_interaction @s
+execute as @s[x=371,y=64,z=-698,distance=..5,tag=Dialogue16,tag=Apricorns] run opendialogue azalea_kurt_crafting @s
 execute as @s[x=371,y=64,z=-698,distance=..5,tag=Apricorns] run tag @s remove Apricorns
 
 

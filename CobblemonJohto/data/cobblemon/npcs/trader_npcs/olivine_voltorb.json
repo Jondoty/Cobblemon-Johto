@@ -22,7 +22,7 @@
       "displayName": "Trade Offer Pokemon for MoLang",
       "description": "Trade Offer Pokemon along with any properties (All lowercase)",
       "type": "TEXT",
-      "defaultValue": "voltorb level=15 held_item=cobblemon:cheri_berry nickname=Billy"
+      "defaultValue": "voltorb level=15 held_item=cobblemon:cheri_berry nickname=Billy originaltrainertype=npc originaltrainer=\"Richard\""
     },
     {
       "variableName": "trade_requested_display",

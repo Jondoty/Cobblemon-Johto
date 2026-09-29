@@ -1,8 +1,10 @@
 {
     "initializationAction": [
         "q.run_command('tag ' + q.player.username + ' add InDialogue');",
+        "q.run_command('tellraw ' + q.player.username + ' {\"text\":\"You got $480 for winning!\",\"italic\":true,\"color\":\"gray\"}');",
+        "q.run_command('scoreboard players add ' + q.player.username + ' Money 480');",
         "q.run_command('scoreboard players set ' + q.player.username + ' BattleEnd 2');",
-    "q.run_command('execute as ' + q.player.username + ' run function johto:tools/forceclick');"
+        "q.run_command('execute as ' + q.player.username + ' run function johto:tools/forceclick');"
     ],
     "escapeAction": [],
     "speakers": {
